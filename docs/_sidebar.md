@@ -3,6 +3,9 @@
 - [Home]()
 - [Diretrizes](Diretrizes/Diretrizes.md)
 
+- **Planejamento**
+	- [Cronograma](Planejamento/cronograma.md)
+
 - **Base**
 	- [1. Desenho de Software (Base)](Base/1.Base.md)
 		- [1.1. Módulo Projeto Não Orientado a Abordagens Específicas](Base/1.1.AbordagemNaoEspecifica.md)
