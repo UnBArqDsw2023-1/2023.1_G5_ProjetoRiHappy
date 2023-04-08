@@ -1,43 +1,48 @@
-# RepositorioTemplate
-Esse repositório é para ser utilizado pelos grupos como um template inicial.
-As seções do Template NÃO DEVEM SER OMITIDAS, sendo TODAS RELEVANTES.
-Demais diretrizes constam no Moodle.
+# Grupo 5
 
-**!! Atenção: Renomeie o seu repositório para (Ano.Semestre)_(Grupo)_(NomeDoProjeto)*. !!** 
-
-**!! *Não coloque os nomes dos alunos no título do repositório*. !!**
-
-**!! *Exemplo de título correto: 2023.1_G1_ProjetoPandora*. !!** 
- 
- (Apague esses comentários)
-
-# Nome do Projeto
+# Projeto RiHappy
 
 **Código da Disciplina**: FGA0208<br>
-**Número do Grupo**: XX<br>
+**Número do Grupo**: 05<br>
 
 ## Alunos
+
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 19/0026588 | Davi Lima da Silva |	                        
+| 19/0127767 | Davi Silva Matias |	                        
+| 19/0088168 | Guilherme Aguera de La Fuente Vilela | 	    
+| 21/2008197 | João Pedro Alves Machado |	                
+| 20/2029012 | Josue Teixeira Santana |	                    
+| 20/2016767 | Lucas Felipe Soares |	                        
+| 19/0112123 | Lucas Gabriel Sousa Camargo Paiva |	        
+| 21/2005426 | Lucas Gomes Caldas |	                        
+| 20/0023411 | Luiza Esteves dos Santos |	                
+| 20/2016945 | Maria Eduarda dos Santos Abritta Ferreira |
+| 20/0042327 | Nicolas Chagas Souza |
 
-## Sobre 
+## Sobre
+
 Contextualize, usando referências, links, e outros materiais como fontes.
 
 ## Screenshots Primeira Entrega <<FOCO: DSW(Base)>>
+
 Adicione 2 ou mais screenshots em termos de artefatos da Primeira Entrega.
 
 ## Screenshots Segunda Entrega <<FOCO: DSW(Modelagem)>>
+
 Adicione 2 ou mais screenshots em termos de artefatos da Segunda Entrega.
 
 ## Screenshots Terceira Entrega <<FOCO: DSW(Padrões de Projeto)>>
+
 Adicione 2 ou mais screenshots em termos de artefatos da Terceira Entrega.
 
 ## Screenshots Quarta Entrega (FINAL) <<FOCOS: Arquitetura & Reutilização de Software & PROJETO FINAL>>
+
 Adicione 2 ou mais screenshots em termos de artefatos da Quarta Entrega.
 
-## Descritivo dos Principais Aspectos Técnicos 
+## Descritivo dos Principais Aspectos Técnicos
+
 **Principal(is) Metodologia(s) Adotada(s)**: xxxxxx<br>
 **Principais Linguagens Utilizadas e/ou Pretendidas**: xxxxxx<br>
 **Principais Tecnologias Utilizadas e/ou Pretendidas**: xxxxxx<br>
@@ -48,8 +53,10 @@ Adicione 2 ou mais screenshots em termos de artefatos da Quarta Entrega.
 ( ) SIM
 
 ( ) NÃO
+( ) NÃO
 
 Se SIM, insira um manual (ou um script) para auxiliar ainda mais os interessados na execução.
 
-## Informações Complementares 
+## Informações Complementares
+
 Quaisquer outras informações adicionais podem ser descritas nessa seção.
