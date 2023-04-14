@@ -9,17 +9,17 @@
 
 |Matrícula | Aluno |
 | -- | -- |
-| 19/0026588 | Davi Lima da Silva |	                        
-| 19/0127767 | Davi Silva Matias |	                        
-| 19/0088168 | Guilherme Aguera de La Fuente Vilela | 	    
-| 21/2008197 | João Pedro Alves Machado |	                
-| 20/2029012 | Josue Teixeira Santana |	                    
-| 20/2016767 | Lucas Felipe Soares |	                        
-| 19/0112123 | Lucas Gabriel Sousa Camargo Paiva |	        
-| 21/2005426 | Lucas Gomes Caldas |	                        
-| 20/0023411 | Luiza Esteves dos Santos |	                
-| 20/2016945 | Maria Eduarda dos Santos Abritta Ferreira |
-| 20/0042327 | Nicolas Chagas Souza |
+| 190026588 | Davi Lima da Silva |	                        
+| 190127767 | Davi Silva Matias |	                        
+| 190088168 | Guilherme Aguera de La Fuente Vilela | 	    
+| 212008197 | João Pedro Alves Machado |	                
+| 202029012 | Josue Teixeira Santana |	                    
+| 202016767 | Lucas Felipe Soares |	                        
+| 190112123 | Lucas Gabriel Sousa Camargo Paiva |	        
+| 212005426 | Lucas Gomes Caldas |	                        
+| 200023411 | Luiza Esteves dos Santos |	                
+| 202016945 | Maria Eduarda dos Santos Abritta Ferreira |
+| 200042327 | Nicolas Chagas Souza |
 
 ## Sobre
 
@@ -53,7 +53,7 @@ Adicione 2 ou mais screenshots em termos de artefatos da Quarta Entrega.
 ( ) SIM
 
 ( ) NÃO
-( ) NÃO
+
 
 Se SIM, insira um manual (ou um script) para auxiliar ainda mais os interessados na execução.
 
