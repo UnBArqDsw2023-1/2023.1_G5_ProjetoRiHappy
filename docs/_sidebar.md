@@ -9,7 +9,7 @@
 - **Base**
 	- [1. Desenho de Software (Base)](1.Base/1.Base.md)
 		- [1.1. Módulo Projeto Não Orientado a Abordagens Específicas](1.Base/1.1.AbordagemNaoEspecifica.md)
-			- [1.1.2. Rich Picture](1.Base/1.1.1.RichPicture.md)
+			- [1.1.2. Rich Picture](1.Base/1.1.2.RichPicture.md)
 		- [1.2. Módulo Processos/Metodologias/Abordagens](1.Base/1.2.ProcessosMetodologiasAbordagens.md)
 		- [1.3. Participações - Base](1.Base/1.3.ParticipacoesBase.md)
 
