@@ -13,10 +13,9 @@
 
 As entregas deverão ser em arquivo único (ZIP) com, no mínimo:
 
-- documento em pdf com a identificação do grupo, nome do projeto e detalhamento dos membros da equipe do projeto;
-- link para o repositório do projeto, orientando-se pelo Repositório Template (vide nossa Organização no GitHub),
-  com pleno acesso sobre os conteúdos, wiki, código e participações dos membros, e
-- breve relato sobre as participações/contribuições de cada membro à entrega. TODOS DEVEM PARTICIPAR, MOSTRANDO SEUS
+- Documento em pdf com a identificação do grupo, nome do projeto e detalhamento dos membros da equipe do projeto;
+- Link para o repositório do projeto, orientando-se pelo Repositório Template (vide nossa Organização no GitHub), com pleno acesso sobre os conteúdos, wiki, código e participações dos membros;
+- Breve relato sobre as participações/contribuições de cada membro à entrega. TODOS DEVEM PARTICIPAR, MOSTRANDO SEUS
   PONTOS DE VISTA E COMO COLABORARAM NESSA ETAPA DO PROJETO.
 
 ## 1ª Entrega - Base
@@ -73,4 +72,4 @@ As entregas deverão ser em arquivo único (ZIP) com, no mínimo:
 | [4.2.ReutilizacaoDeSoftware](../4.ArquiteturaReutilizacao/4.2.ReutilizacaoDeSoftware.md)             | 02/07/2023          | 03/07/2023          |           |             |
 | [4.3.ParticipacoesArqReutilizacao](../4.ArquiteturaReutilizacao/4.3.ParticipacoesArqReutilizacao.md) | 02/07/2023          | 03/07/2023          |           |             |
 | Entrega da Etapa                                                                                     | 02/07/2023          | 03/07/2023          |           |             |
-|                                                                                                      | 02/07/2023          | 03/07/2023          |           |             |
+|                                                                           
