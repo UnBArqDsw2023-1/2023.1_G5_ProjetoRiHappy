@@ -6,6 +6,9 @@
 - **Planejamento**
 	- [Cronograma](Planejamento/Cronograma.md)
 
+- **Atas**
+	- [26/04/2023](Atas/ata_26_04_2023.md)
+
 - **Base**
 	- **1. Desenho de Software (Base)**
 		- [1.1. Módulo Projeto Não Orientado a Abordagens Específicas](1.Base/1.1.AbordagemNaoEspecifica.md)
