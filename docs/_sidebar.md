@@ -6,8 +6,11 @@
 - **Planejamento**
 	- [Cronograma](Planejamento/Cronograma.md)
 
+- **Atas**
+	- [26/04/2023](Atas/ata_26_04_2023.md)
+
 - **Base**
-	- [1. Desenho de Software (Base)](1.Base/1.Base.md)
+	- **1. Desenho de Software (Base)**
 		- [1.1. Módulo Projeto Não Orientado a Abordagens Específicas](1.Base/1.1.AbordagemNaoEspecifica.md)
 			- [1.1.1. Diagrama de Causa-Efeito](1.Base/1.1.1.CausaEfeito.md)
 			- [1.1.2. Rich Picture](1.Base/1.1.2.RichPicture.md)
@@ -15,6 +18,7 @@
 		- 1.2.Processos/Metodologias/Abordagens:
 			- [1.2.1 Metodologias Adotadas](/1.Base/1.2.1.MetodologiasAdotadas.md)
 			- [1.2.2 Modelagem BPMN](/1.Base/1.2.2.ModelagemBPMN.md)
+			- [1.2.3 Ferramentas utilizadas](/1.Base/1.2.3.FerramentasUtilizadas.md)
 		- [1.3. Participações - Base](1.Base/1.3.ParticipacoesBase.md)
 
 [//]: # (@TODO: Descomentar à medida que as entregas forem acontecendo)
