@@ -8,7 +8,7 @@ representados na Tabela 1, objetivos da reunião e definição de tarefas.
 ## Dados da reunião
 
 - Data: [DATA]
-- Local: Online - Google Meets
+- Local: Online - Discord
 
 | Membro                                    | Presente? |
 |-------------------------------------------|-----------|
