@@ -1,0 +1,12 @@
+.sidebar {
+  width: 23vw;
+}
+
+details {
+  padding-left: 4px;
+}
+
+summary {
+  font-weight: bold;
+  padding-left: 4px;
+}
