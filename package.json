@@ -1,5 +1,5 @@
 {
-  "name": "documentacao",
+  "name": "2023.1_g5_projetorihappy",
   "version": "1.0.0",
   "description": "Repositório que deve ser utilizado como template inicial pelos grupos da matéria de Arquitetura e Desenho de Software.",
   "main": "index.js",
@@ -8,11 +8,22 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "npx docsify serve ./docs"
+    "start": "npx docsify serve ./docs"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UnBArqDsw2023-1/2023.1_G5_ProjetoRiHappy.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UnBArqDsw2023-1/2023.1_G5_ProjetoRiHappy/issues"
+  },
+  "homepage": "https://github.com/UnBArqDsw2023-1/2023.1_G5_ProjetoRiHappy#readme",
   "dependencies": {
-    "docsify": "^4.13.0"
+    "docsify-cli": "4.4.0",
+    "docsify": "4.13.0"
+
   }
 }
