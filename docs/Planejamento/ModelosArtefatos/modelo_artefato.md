@@ -12,11 +12,13 @@
 <p> Tabela 1: Descrição (Fonte: autor, 2023).</p>
 </div>
 
+## Metodologia
+
 ## Desenvolvimento (trocar o nome de acordo com as seções do artefato)
 
-## Bibliografia
+## Referêncoias
 
-[1] 
+[1]
 
 [2]
 
