@@ -1,6 +1,5 @@
 .sidebar {
   padding-left: 0.5vw;
-  /* width: 25vw; */
 }
 
 summary {
@@ -18,4 +17,19 @@ summary {
   padding: 0;
   margin: 1px;
   color: #c45510;
+}
+
+th,
+td {
+  text-align: left;
+}
+
+tr th:last-child {
+  width: 1%;
+  white-space: nowrap;
+}
+
+tr td:last-child {
+  width: 1%;
+  white-space: nowrap;
 }
