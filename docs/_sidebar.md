@@ -27,7 +27,9 @@
     - [2.1. Módulo Projeto Orientado a Abordagens Tradicionais](2.Modelagem/2.1.ModelagemTradicional.md)
       - [2.1.1. Notação UML – Diagramas Estáticos](2.Modelagem/2.1.1.UMLEstaticos.md)
       - [2.1.2. Notação UML – Diagramas Dinâmicos](2.Modelagem/2.1.2.UMLDinamicos.md)
-    - [2.2. Participações - Modelagem](2.Modelagem/2.2.ParticipacoesModelagem.md)
+    - [2.3 Participações - Modelagem]()
+      - [2.3.1. Diagrama de Classes](2.Modelagem/2.3.%20Estatica/2.3.1.DiagramaDeClasses.md)
+      - [2.3.2. Diagrama de Pacotes](2.Modelagem/2.3.%20Estatica/2.3.2.DiagramaDePacotes.md)
 
 <!-- @TODO: Descomentar à medida que as entregas forem acontecendo -->
 <!-- - **Padrões de Projeto** -->
