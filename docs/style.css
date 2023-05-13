@@ -1,12 +1,21 @@
 .sidebar {
-  width: 23vw;
-}
-
-details {
-  padding-left: 4px;
+  padding-left: 0.5vw;
+  /* width: 25vw; */
 }
 
 summary {
   font-weight: bold;
-  padding-left: 4px;
+  padding-left: 1vw;
+  list-style-type: "+";
+}
+
+.activated-menu {
+  background-color: antiquewhite;
+}
+
+.sidebar-title {
+  font-size: medium;
+  padding: 0;
+  margin: 1px;
+  color: #c45510;
 }

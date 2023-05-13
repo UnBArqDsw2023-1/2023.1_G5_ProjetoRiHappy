@@ -3,7 +3,7 @@
 <!-- - [Home](/README.md) -->
 
 <details>
-  <summary> Planejamento </summary>
+  <summary class="sidebar-title"> Planejamento </summary>
 
 - [Diretrizes do Projeto](/Diretrizes/Diretrizes.md)
 - [Cronograma](/Planejamento/Cronograma.md)
@@ -17,23 +17,27 @@
 </details>
 </details>
 
+<details open>
+<summary class="sidebar-title"> Desenho de Software </summary>
+
 <details>
-<summary> 1. Desenho de Software (Base) </summary>
+
+<summary> Base </summary>
 
 - [1.1. Módulo Projeto Não Orientado a Abordagens Específicas](/1.Base/1.1.AbordagemNaoEspecifica.md)
-  - [1.1.1. Diagrama de Causa-Efeito](/1.Base/1.1.1.CausaEfeito.md)
-  - [1.1.2. Rich Picture](/1.Base/1.1.2.RichPicture.md)
-  - [1.1.3. Plano de Risco, Custo e Tempo](/1.Base/1.1.3.PlanoCustoRiscoTempo.md)
+  - [Diagrama de Causa-Efeito](/1.Base/1.1.1.CausaEfeito.md)
+  - [Rich Picture](/1.Base/1.1.2.RichPicture.md)
+  - [Plano de Risco, Custo e Tempo](/1.Base/1.1.3.PlanoCustoRiscoTempo.md)
 - 1.2 Processos/Metodologias/Abordagens
-  - [1.2.1. Metodologias Adotadas](/1.Base/1.2.1.MetodologiasAdotadas.md)
-  - [1.2.2. Modelagem BPMN](/1.Base/1.2.2.ModelagemBPMN.md)
-  - [1.2.3. Ferramentas utilizadas](/1.Base/1.2.3.FerramentasUtilizadas.md)
+  - [Metodologias Adotadas](/1.Base/1.2.1.MetodologiasAdotadas.md)
+  - [Modelagem BPMN](/1.Base/1.2.2.ModelagemBPMN.md)
+  - [Ferramentas utilizadas](/1.Base/1.2.3.FerramentasUtilizadas.md)
 - [1.3 Participações - Base](/1.Base/1.3.ParticipacoesBase.md)
 
 </details>
 
-<details>
-<summary> 2. Desenho de Software (Modelagem) </summary>
+<details open>
+<summary class="activated-menu"> Modelagem </summary>
 
 - [2.1. Modelagem Tradicional](/2.Modelagem/2.1.ModelagemTradicional.md)
   - [2.1.1. Diagramas (UML) Estáticos](/2.Modelagem/2.1.1.UMLEstaticos.md)
@@ -45,7 +49,7 @@
 - [2.2. Participações - Modelagem](/2.Modelagem/2.2.ParticipacoesModelagem.md)
 
 </details>
-
+</details>
 <!-- @TODO: Descomentar à medida que as entregas forem acontecendo -->
 <!-- - Padrões de Projeto -->
  <!-- - [3. Desenho de Software - Padrões de Projeto]- 3.PadroesDeProjeto/3.PadroesDeProjeto.md -->
