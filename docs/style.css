@@ -1,12 +1,35 @@
 .sidebar {
-  width: 23vw;
-}
-
-details {
-  padding-left: 4px;
+  padding-left: 0.5vw;
 }
 
 summary {
   font-weight: bold;
-  padding-left: 4px;
+  padding-left: 1vw;
+  list-style-type: "+";
+}
+
+.activated-menu {
+  background-color: antiquewhite;
+}
+
+.sidebar-title {
+  font-size: medium;
+  padding: 0;
+  margin: 1px;
+  color: #c45510;
+}
+
+th,
+td {
+  text-align: left;
+}
+
+tr th:last-child {
+  width: 1%;
+  white-space: nowrap;
+}
+
+tr td:last-child {
+  width: 1%;
+  white-space: nowrap;
 }
