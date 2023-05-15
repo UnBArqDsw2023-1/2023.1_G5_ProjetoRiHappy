@@ -24,12 +24,14 @@ td {
   text-align: left;
 }
 
-tr th:last-child {
-  width: 1%;
+tr th {
   white-space: nowrap;
 }
 
-tr td:last-child {
-  width: 1%;
-  white-space: nowrap;
+img {
+  text-align: center;
+}
+
+p {
+  text-align: justify;
 }
