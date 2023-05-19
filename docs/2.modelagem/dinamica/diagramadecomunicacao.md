@@ -8,10 +8,10 @@ O Diagrama de Comunicação, também conhecido como Diagrama de Colaboração, e
 
 Para esboçar o diagrama, os membros Guilherme Vilela, Lucas Gabriel e Lucas Gomes se reuniram e utilizaram como ferramenta o [Lucid Chart](https://www.lucidchart.com/pages/pt) e foram evoluindo ao longo da sprint. Além disso, foram utilizadas as informações contidas nos seguintes artefatos para melhor elaboração da solução:
 
--   [RichPicture](../../1.Base/1.1.2.RichPicture.md)
--   [Diagrama Causa-Efeito](../../1.Base/1.1.1.CausaEfeito.md)
--   [Diagrama de Classes](../2.3.Estatica/2.3.1.DiagramaDeClasses.md)
--   [Diagrama de Atividades](2.4.1.DiagramaDeAtividades.md)
+- [RichPicture](../../1.base/nao-especificos/richpicture.md)
+- [Diagrama Causa-Efeito](../../1.base/nao-especificos/causaefeito.md)
+- [Diagrama de Classes](../estatica/diagramadeclasses.md)
+- [Diagrama de Atividades](./diagramadeatividades.md)
 
 ## Diagrama de Comunicação
 
@@ -21,7 +21,7 @@ Inicialmente, foi construída uma versão feita focando em criar um fluxo ideal 
 
 <div style="text-align: center">
 
-![Diagrama geral](../assets/diagComunicacao1.png)
+![Diagrama geral](./assets/diagComunicacao1.png)
 </div>
 
 <figcaption style="text-align: center">
@@ -35,15 +35,13 @@ Posteriormente, foi realizado um processo de melhora do diagrama incial para uma
 
 <div style="text-align: center">
 
-![Diagrama geral](../assets/DiagramaDeComunicacao.png)
+![Diagrama geral](./assets/DiagramaDeComunicacao.png)
 </div>
 
 <figcaption style="text-align: center">
     <b>Figura 2: Versão final Diagrama de comunicação geral da avaliação de produtos da RiHappy</b>
     <br/><small>Autor: Elaboração Própria (Guilherme Vilela, Lucas Gabriel e Lucas Gomes)</small>
 </figcaption>
-
-
 
 > **Observação**: <code>Não foram adicionados os parâmetros das funções com objetivo de tornar mais clara a leitura da sequência de atividades.</code>
 
@@ -67,6 +65,3 @@ Ante o exposto, é possível observar que o Diagrama de Comunicação representa
 | `2.4`  | 14/05/2023 | Ajuste em todas seções do documento e adição da conclusão | Lucas Gabriel | Nicolas Chagas |
 | `2.5`  | 14/05/2023 | Adição da versão final do Diagrama de Comunicação         | Lucas Gabriel | Nicolas Chagas |
 | `2.6`  | 17/05/2023 | Correção da versão final do Diagrama de Comunicação       | Lucas Gabriel | Nicolas Chagas |
-
-
-
