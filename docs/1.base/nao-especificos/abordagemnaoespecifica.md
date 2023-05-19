@@ -5,15 +5,15 @@
 O presente artefato visa documentar a etapa inicial do projeto, durante a qual
 o [Grupo 5](../README.md#alunos) elaborou alguns artefatos com o principal objetivo de conhecer o domínio do problema
 proposto e as principais dificuldades que serão enfrentadas durante o desenvolvimento, elementos essenciais para a
-elaboração de um [cronograma](../Planejamento/Cronograma.md) e definição de
-uma [metodologia de trabalho](./1.2.ProcessosMetodologiasAbordagens.md). Para auxiliar na elaboração dos artefatos, o
+elaboração de um [cronograma](../../0.planejamento/cronograma.md) e definição de
+uma [metodologia de trabalho](../processos/metodologiasadotadas.md). Para auxiliar na elaboração dos artefatos, o
 grupo realizou uma sessão adaptada de [*design sprint*](#design-sprint), durante a
 qual foram definidas os entregáveis da primeira etapa do projeto e a metodologia utilizada.
 
 ## Design Sprint
 
 Ao iniciar um projeto, é necessário responder algumas perguntas críticas relacionadas à área de negócios. Com o intuito
-de tornar esse processo de decisões mais colaborativo e ágil, a _Google Ventures_ desenvolveu o [_Design
+de tornar esse processo de decisões mais colaborativo e ágil, a *Google Ventures* desenvolveu o [_Design
 Sprint_](#design-sprint), que se baseia em cinco dias de trabalho com temáticas específicas, a saber:
 
 - Primeiro dia: definição de um objetivo a longo prazo e de uma meta a ser solucionada em uma semana de trabalho.
@@ -26,15 +26,15 @@ Sprint_](#design-sprint), que se baseia em cinco dias de trabalho com temáticas
 
 ## Metodologia
 
-Observe que a execução da _design sprint_ parte da seguinte premissa:
+Observe que a execução da *design sprint* parte da seguinte premissa:
 
-> Antes de iniciar a [_design_] _sprint_, você precisará ter o desafio certo e o time certo. Você também vai precisar de
-> tempo e espaço para conduzir sua _sprint_. (Tradução da fonte: [1])
+> Antes de iniciar a [*design*] *sprint*, você precisará ter o desafio certo e o time certo. Você também vai precisar de
+> tempo e espaço para conduzir sua *sprint*. (Tradução da fonte: [1])
 
 Portanto, a primeira reunião realizada pela equipe teve como principal objetivo a distribuição de atividades entre os
-membros para prepará-los para a _design sprint_. Para a compreensão das atividades necessárias, a equipe fez a leitura
-das [Diretrizes do Projeto](../Diretrizes/Diretrizes.md#diretrizes-gerais) e discutiu brevemente as etapas da [_design
-sprint_](#design-sprint). Após as discussões, sugiu a necessidade de conhecer o domínio do problema e o desafio a ser
+membros para prepará-los para a *design sprint*. Para a compreensão das atividades necessárias, a equipe fez a leitura
+das [Diretrizes do Projeto](../../0.planejamento/diretrizes.md#diretrizes-gerais) e discutiu brevemente as etapas da [*design
+sprint*](#design-sprint). Após as discussões, surgiu a necessidade de conhecer o domínio do problema e o desafio a ser
 solucionado durante o projeto, destacando-se três principais frentes para obtenção desse conhecimento:
 
 - Visualização geral do escopo do projeto;
@@ -51,7 +51,7 @@ reunião de equipe:
   desenvolvimento.
 
 Na reunião seguinte todos os membros já haviam estudado o problema ao menos por um ponto de vista, e então, com a equipe
-preparada, foi realizada a _design sprint_. Em decorrência dos conflitos de horários e da natureza do projeto, o grupo
+preparada, foi realizada a *design sprint*. Em decorrência dos conflitos de horários e da natureza do projeto, o grupo
 optou por destinar 10 minutos para cada atividade da design sprint.
 
 ### Escolha dos artefatos
@@ -105,7 +105,7 @@ gerenciados adequadamente. Alguns dos principais benefícios de se utilizar esse
 
 #### Modelagem BPMN
 
-A modelagem BPMN (_Business Process Model and Notation_) é uma técnica utilizada para representar visualmente processos
+A modelagem BPMN (*Business Process Model and Notation*) é uma técnica utilizada para representar visualmente processos
 de
 negócios complexos em diagramas que são fáceis de entender e comunicar, por isso o grupo escolheu esse artefato. Existem
 vários benefícios em utilizar a modelagem BPMN em um projeto, entre eles:
@@ -128,7 +128,7 @@ Com as elaborações dos modelos acima, podemos ter uma melhor visualização ac
 construído, bem qual suas devidas causas, soluções e como será modelado a produção de todo o projeto. Com essa
 visualização do escopo do projeto todo será muito mais fácil prevê eventuais problemas e planejar um cronograma
 de execução muito mais preciso eficiente para o nosso escopo. Nos deixando cada vez mais preparados e maduros para dar
-continuidade na construção de nossa _design sprint_.
+continuidade na construção de nossa *design sprint*.
 
 ## Referências
 

@@ -5,14 +5,15 @@
 <details>
   <summary class="sidebar-title"> Planejamento </summary>
 
-- [Diretrizes do Projeto](/Diretrizes/Diretrizes.md)
-- [Cronograma](/Planejamento/Cronograma.md)
+- [Diretrizes do Projeto](/0.planejamento/diretrizes.md)
+- [Cronograma](/0.planejamento/cronograma.md)
 
 <details>
 <summary> Atas</summary>
 
-- [Ata de 26/04/2023](/Atas/ata_26_04_2023.md)
-- [Ata de 03/05/2023](/Atas/ata_03_05_2023.md)
+- [Ata de 26/04/2023](/0.planejamento/atas/ata_26_04_2023.md)
+- [Ata de 03/05/2023](/0.planejamento/atas/ata_03_05_2023.md)
+- [Ata de 18/05/2023](/0.planejamento/atas/ata_18_05_2023.md)
 
 </details>
 </details>
@@ -24,42 +25,43 @@
 
 <summary> Base </summary>
 
-- [1.1. Módulo Projeto Não Orientado a Abordagens Específicas](/1.Base/1.1.AbordagemNaoEspecifica.md)
-  - [Diagrama de Causa-Efeito](/1.Base/1.1.1.CausaEfeito.md)
-  - [Rich Picture](/1.Base/1.1.2.RichPicture.md)
-  - [Plano de Risco, Custo e Tempo](/1.Base/1.1.3.PlanoCustoRiscoTempo.md)
-- 1.2 Processos/Metodologias/Abordagens
-  - [Metodologias Adotadas](/1.Base/1.2.1.MetodologiasAdotadas.md)
-  - [Modelagem BPMN](/1.Base/1.2.2.ModelagemBPMN.md)
-  - [Ferramentas utilizadas](/1.Base/1.2.3.FerramentasUtilizadas.md)
-- [1.3 Participações - Base](/1.Base/1.3.ParticipacoesBase.md)
+- [**Módulo Não Orientado a Abordagens Específicas**](/1.base/nao-especificos/abordagemnaoespecifica.md)
+  - [Diagrama de Causa-Efeito](/1.base/nao-especificos/causaefeito.md)
+  - [Rich Picture](/1.base/nao-especificos/richpicture.md)
+  - [Plano de Risco, Custo e Tempo](/1.base/nao-especificos/planocustoriscotempo.md)
+- **Processos, Metodologias e Abordagens**
+  - [Metodologias Adotadas](/1.base/processos/metodologiasadotadas.md)
+  - [Modelagem BPMN](/1.base/processos/modelagembpmn.md)
+  - [Ferramentas utilizadas](/1.base/processos/ferramentasutilizadas.md)
+- [**Participações**](/1.base/participacoesbase.md)
 
 </details>
 
 <details open>
 <summary class="activated-menu"> Modelagem </summary>
 
-- [2.1. Modelagem Tradicional](/2.Modelagem/2.1.ModelagemTradicional.md)
-  - [2.1.1. Diagramas (UML) Estáticos](/2.Modelagem/2.1.1.UMLEstaticos.md)
-    - [Diagrama de Classes](/2.Modelagem/2.3.Estatica/2.3.1.DiagramaDeClasses.md)
-    - [Diagrama de Pacotes](/2.Modelagem/2.3.Estatica/2.3.2.DiagramaDePacotes.md)
-  - [2.1.2. Diagramas (UML) Dinâmicos](/2.Modelagem/2.1.2.UMLDinamicos)
-    - [Diagrama de Atividades](/2.Modelagem/2.4.Dinamica/2.4.1.DiagramaDeAtividades.md)
-    - [Diagrama de Comunicação](/2.Modelagem/2.4.Dinamica/2.4.2.DiagramaDeComunicacao.md)
-- [2.2. Participações - Modelagem](/2.Modelagem/2.2.ParticipacoesModelagem.md)
+- [**Modelagem Tradicional (UML)**](/2.modelagem/modelagemtradicional.md)
+  - [**Estáticos**](/2.modelagem/umlestaticos.md)
+    - [Diagrama de Classes](/2.modelagem/estatica/diagramadeclasses.md)
+    - [Diagrama de Pacotes](/2.modelagem/estatica/diagramadepacotes.md)
+  - [**Dinâmicos**](/2.modelagem/umldinamicos)
+    - [Diagrama de Atividades](/2.modelagem/dinamica/diagramadeatividades.md)
+    - [Diagrama de Comunicação](/2.modelagem/dinamica/diagramadecomunicacao.md)
+- [Participações](/2.modelagem/participacoesmodelagem.md)
 
 </details>
 </details>
 <!-- @TODO: Descomentar à medida que as entregas forem acontecendo -->
+
 <!-- - Padrões de Projeto -->
- <!-- - [3. Desenho de Software - Padrões de Projeto]- 3.PadroesDeProjeto/3.PadroesDeProjeto.md -->
-  <!-- - [3.1. Módulo Padrões de Projeto GRASPs]- 3.PadroesDeProjeto/3.1.GRASPs.md -->
-  <!-- - [3.2. Módulo Padrões de Projeto GoFs]- 3.PadroesDeProjeto/3.2.GoFs.md -->
-  <!-- - [3.3. Módulo Padrões de Projeto Extras]- 3.PadroesDeProjeto/3.3.PadroesExtra.md -->
-  <!-- - [3.4. Participações - Padrões de Projeto]- 3.PadroesDeProjeto/3.4.ParticipacoesPadroes.md -->
+ <!-- - [3. Desenho de Software - Padrões de Projeto]- 3.padroesdeprojeto/3.padroesdeprojeto.md -->
+  <!-- - [3.1. Módulo Padrões de Projeto GRASPs]- 3.padroesdeprojeto/3.1.grasps.md -->
+  <!-- - [3.2. Módulo Padrões de Projeto GoFs]- 3.padroesdeprojeto/3.2.gofs.md -->
+  <!-- - [3.3. Módulo Padrões de Projeto Extras]- 3.padroesdeprojeto/3.3.padroesextra.md -->
+  <!-- - [3.4. Participações - Padrões de Projeto]- 3.padroesdeprojeto/3.4.participacoespadroes.md -->
 
 <!-- - Arquitetura de Software & Reutilização -->
- <!-- - [4. Desenho de Software - Arquitetura & Reutilização de Software]- 4.ArquiteturaReutilizacao/4.ArquiteturaReutilizacao.md -->
-  <!-- - [4.1. Módulo Estilos e Padrões Arquiteturais]- 4.ArquiteturaReutilizacao/4.1.PadroesArquiteturais.md -->
-  <!-- - [4.2. Módulo Reutilização de Software]- 4.ArquiteturaReutilizacao/4.2.ReutilizacaoDeSoftware.md -->
-  <!-- - [4.3. Participações - Arquitetura & Reutilização de Software]- 4.ArquiteturaReutilizacao/4.3.ParticipacoesArqReutilizacao.md -->
+ <!-- - [4. Desenho de Software - Arquitetura & Reutilização de Software]- 4.arquiteturareutilizacao/4.arquiteturareutilizacao.md -->
+  <!-- - [4.1. Módulo Estilos e Padrões Arquiteturais]- 4.arquiteturareutilizacao/4.1.padroesarquiteturais.md -->
+  <!-- - [4.2. Módulo Reutilização de Software]- 4.arquiteturareutilizacao/4.2.reutilizacaodesoftware.md -->
+  <!-- - [4.3. Participações - Arquitetura & Reutilização de Software]- 4.arquiteturareutilizacao/4.3.participacoesarqreutilizacao.md -->
