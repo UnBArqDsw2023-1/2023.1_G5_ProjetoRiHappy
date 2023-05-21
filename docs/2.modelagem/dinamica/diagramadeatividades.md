@@ -13,7 +13,7 @@ Dentre os elementos presentes em um diagrama de atividades [1], o grupo utilizou
 - **Partição**
   Uma partição agrupa atividades com alguma característica em comum[1], no caso do diagramas elaborados as partições agrupam atividades de acordo com os seus **atores**.
 
-  A notação utilizada  para representar uma partição (Figura 1) assemelha-se à notação de piscina, do diagrama [BPMN](../../1.Base/1.2.2.ModelagemBPMN.md).
+  A notação utilizada  para representar uma partição (Figura 1) assemelha-se à notação de piscina, do diagrama [BPMN](../../1.base/processos/modelagembpmn.md).
 
   <center>
 
@@ -92,11 +92,11 @@ Para a elaboração do diagrama, a equipe de trabalho, composta pelos estudantes
 2. Após os estudos, cada membro elaborou um esboço do diagrama, e registrou suas conclusões e/ou esboço na [issue do GitHub (#38)](https://github.com/UnBArqDsw2023-1/2023.1_G5_ProjetoRiHappy/issues/38).
 3. Após a elaboração dos esboços, os três estudantes se reuniram durante o período da aula de dúvidas para sintetizar os elementos presentes nos esboços em uma versão final do diagrama.
 
-As [ferramentas](../../1.Base/1.2.3.FerramentasUtilizadas.md) utilizadas para a elaboração dos diagramas foram o [LucidChart](https://www.lucidchart.com/) e o [brModelo](http://www.sis4.com/brModelo/).
+As [ferramentas](../../1.base/processos/ferramentasutilizadas.md) utilizadas para a elaboração dos diagramas foram o [LucidChart](https://www.lucidchart.com/) e o [brModelo](http://www.sis4.com/brModelo/).
 
 ## Elaboração do Diagrama
 
-Na primeira etapa do projeto, foi realizada uma [análise do problema](../../1.Base/1.1.AbordagemNaoEspecifica.md), durante a qual foi possível elencar alguns elementos que devem estar presentes no fluxo de avaliação de produtos, por meio da produção e análise dos artefatos [RichPicture](../../1.Base/1.1.2.RichPicture.md) e [Diagrama Causa-Efeito](../../1.Base/1.1.1.CausaEfeito.md).
+Na primeira etapa do projeto, foi realizada uma [análise do problema](../../1.base/nao-especificos/abordagemnaoespecifica.md), durante a qual foi possível elencar alguns elementos que devem estar presentes no fluxo de avaliação de produtos, por meio da produção e análise dos artefatos [RichPicture](../../1.base/nao-especificos/richpicture.md) e [Diagrama Causa-Efeito](../../1.base/nao-especificos/causaefeito.md).
 
 De acordo com as conclusões provenientes do Diagrama Causa-Efeito [5], a aplicação deve:
 
@@ -219,8 +219,8 @@ O diagrama de atividades é uma excelente maneira de representar o fluxo de aval
 [2] SERRANO, M. Modelagem UML Dinâmica, slides disponíveis na plataforma Aprender3. <br/>
 [3] Diagrama de atividades, artigo disponível no [link](https://www.ibm.com/docs/pt-br/rational-soft-arch/9.7.0?topic=diagrams-activity). Acesso em 13/05/2023; <br/>
 [4] Ferramenta LucidChart, disponível no [link](https://www.lucidchart.com/pages/). Acesso em 12/05/2023 <br/>
-[5] Diagrama Causa-Efeito, artefato elaborado por Grupo 5, disponível no [link](../../1.Base/1.1.1.CausaEfeito.md) Acesso em 12/05/2023. <br/>
-[6] RichPicture, artefato elaborado por Grupo 5, disponível no [link](../../1.Base/1.1.2.RichPicture.md). Acesso em 12/05/2023. <br/>
+[5] Diagrama Causa-Efeito, artefato elaborado por Grupo 5, disponível no [link](../../1.base/1.1.1.CausaEfeito.md) Acesso em 12/05/2023. <br/>
+[6] RichPicture, artefato elaborado por Grupo 5, disponível no [link](../../1.base/1.1.2.RichPicture.md). Acesso em 12/05/2023. <br/>
 [7] O que é diagrama de atividades UML?, disponível no [link](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-atividades-uml). Acesso em 12/05/2023.<br/>
 [8] Ferramenta brModelo, disponível no [link](http://www.sis4.com/brModelo/). Acesso em 13/05/2023.
 
