@@ -1,0 +1,50 @@
+# Ata da reunião - 24/05/2023
+
+## Introdução
+
+O presente documento é um registro da reunião ocorrida no dia 24/05/2023, no qual constam os membros presentes, representados na Tabela 1, objetivos da reunião e definição de tarefas.
+
+## Dados da reunião
+
+|                                                                 Alunos presentes                                                                 |    Data    | Horário de início e fim |  Local  |
+| :----------------------------------------------------------------------------------------------------------------------------------------------: | :--------: | :---------------------: | :-----: |
+| Davi Lima, Guilherme Vilela, João Pedro, Josué Teixeira, Lucas Felipe, Lucas Gabriel, Lucas Gomes, Luíza Esteves, Maria Abritta e Nicolas Chagas | 26/04/2023 |     21:00 às 22:07      | Discord |
+
+<div style="text-align: center">
+<p> Tabela 1: Dados da reunião (Fonte: autoria própria, 2023). </p>
+</div>
+
+## Objetivos da reunião
+
+- Apresentar um exemplo do semestre anterior: https://unbarqdsw2022-2.github.io/2022.2-CopoCheio/#/PadroesDeProjeto/3.2.1.GoFsCriacionais?id=singleton 
+- Definir se faremos um repositório separado apenas para código
+- Definir se vamos utilizar front
+- Verificar como estão os estudos sobre os padrões de projeto
+- Decidir um grupo de padrões dentre os quais vamos decidir quais usar 
+- Decidir dois grupos de trabalho: GOFs e GRASPs (como vamos separar o trabalho? metade GOFs e metade GRAPs ou misturar os padrões?)
+- Definir datas de entrega mínima 
+- Definir os revisores 
+- Sortear próximas reuniões (definir escolhas)
+- Por em pauta o trello, se estamos usando, se vai manter
+
+## Atribuição de tarefas
+
+
+
+### Tarefas principais
+
+
+
+### Tarefas secundárias
+
+
+
+### Definição dos responsáveis pelas reuniões das próximas semanas
+
+
+
+## Histórico de Versão
+
+| Versão |    Data    |      Descrição       |   Autor(es)   | Revisor(es) |
+| :----: | :--------: | :------------------: | :-----------: | :---------: |
+| `1.0`  | 26/04/2023 | Criação do Documento | Lucas Gabriel |  Davi Lima  |
