@@ -20,21 +20,21 @@ Lucas analisou o diagrama e fez algumas alterações, sugerindo que a multiplici
 
 Maria concordou com a alteração da multiplicidade, mas discordou da inclusão do controle de estoque, propondo a mudança do nome para "monitoramento de produto" para focar na verificação de "produto-avaliação".
 
----
+<hr>
 
-![Multiplicidade](./../assets/d_01.png)
+![Multiplicidade](./assets/d_01.png)
 
----
+<hr>
 
 Também foram utilizados post-its durante o design do diagrama. Ao adicionar post-its ao diagrama de classes, os desenvolvedores podem fornecer descrições adicionais sobre cada classe, esclarecer as relações entre elas e identificar áreas que precisam de mais atenção durante o processo de desenvolvimento. Essa ferramenta ajuda a garantir que o diagrama de classes seja facilmente compreensível para todos os membros da equipe, independentemente de seu nível de experiência em programação ou conhecimento sobre diagrama de classes.
 
 No geral, os post-its são uma ferramenta simples e eficaz para ajudar a melhorar a clareza e a compreensão de diagramas de classes, tornando o processo de desenvolvimento de software mais eficiente e eficaz. A imagem abaixo apresenta como essa ferramenta foi utilizada dentro do diagrama.
 
----
+<hr>
 
-![Post-its](./../assets/d_02.png)
+![Post-its](./assets/d_02.png)
 
----
+<hr>
 
 Por último, foi feito um questionamento pelo Josué, com relação ao relacionamento entre as classes "Plataforma" e "Produto". Essas discussões pode ajudar a esclarecer e melhorar a representação do diagrama de classes. A distinção entre a relação de composição e a relação associativa pode ter um impacto significativo na forma como o sistema é modelado e implementado.
 
@@ -42,11 +42,11 @@ No caso específico mencionado, a alteração proposta de mudar a relação entr
 
 Ao utilizar a relação associativa, cada produto pode ser associado a uma única plataforma, e a plataforma pode oferecer vários produtos para venda. Essa abordagem pode ajudar a simplificar a modelagem e a implementação do sistema, garantindo que cada entidade seja representada de forma clara e precisa. Os integrantes concordaram com essa mudança e ela foi modificada no diagrama.
 
----
+<hr>
 
-![ClassesERelacionamentos](../assets/d_03.png)
+![ClassesERelacionamentos](./assets/d_03.png)
 
----
+<hr>
 
 No geral, o processo de criação do diagrama de classes foi altamente colaborativo e a equipe trabalhou de forma diligente para garantir que o diagrama fosse preciso e atendesse às necessidades do sistema. Esperamos que este diagrama de classes ajude a fornecer uma base sólida para o desenvolvimento futuro.
 
@@ -54,7 +54,7 @@ No geral, o processo de criação do diagrama de classes foi altamente colaborat
 
 Nessa parte, serão explicados os relacionamentos criados dentro do nosso Diagrama de Clasees. Serão explorados casos específicos dessas relações para cada classe, com exemplos de uso de multiplicidade em cada caso. Assim, logo abaixo apresentamos nosso diagrama final:
 
-![Diagrama de Classes final](../assets/d_04.png)
+![Diagrama de Classes final](./assets/d_04.png)
 
 ### Agregação entre "Produto" e "Avaliações"
 
