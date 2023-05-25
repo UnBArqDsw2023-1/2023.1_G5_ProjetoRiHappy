@@ -61,7 +61,7 @@ elaboração do mesmo. Essas ferramentas serão melhor detalhadas no documento a
 
     Foi utilizado no projeto para a confecção do [Rich picture](/docs/1.Base/1.1.2.RichPicture.md).
 
-- <img style="width:2vw; padding-right:5px" src="http://www.sis4.com/brModelo/favicon.ico" style="padding-right:5px"> [brModelo](http://www.sis4.com/brModelo/)
+- <img style="width:2vw; padding-right:5px" src="http://www.sis4.com/brModelo/favicon.ico"/>[brModelo](http://www.sis4.com/brModelo/)
 
     O [brModelo](http://www.sis4.com/brModelo/) é uma ferramenta de diagramação originalmente utilizada para modelagem de banco de dados, mas também fornece recursos para elaboração de alguns diagramas UML, como o diagrama de atividades.
 
