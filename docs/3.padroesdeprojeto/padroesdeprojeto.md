@@ -19,7 +19,7 @@ Na [reunião do dia 24/05](../0.planejamento/atas/ata_24_05_2023.md) cada membro
 Figuras 1 e 2. Definição dos grupos de trabalho.
 </center>
 
-Após a finalização da enquete, também por meio do telegram, a separação dos grupos de trabalho foi feita por meio de escolha individual, o que gerou os resultados da Figura 3.
+Após a finalização da enquete, também por meio do [telegram](../1.base/processos/ferramentasutilizadas.md), a separação dos grupos de trabalho foi feita por meio de escolha individual, o que gerou os resultados da Figura 3.
 
 <center>
 
