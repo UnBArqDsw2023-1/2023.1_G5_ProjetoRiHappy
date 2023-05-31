@@ -23,9 +23,7 @@ O grupo escolheu dois padrões de projeto como exemplos para esboçar uma soluç
 
 ### GoF - Proxy
 
-O Proxy, trata-se de um padrão de projeto estrutural que permite a utilização de um substituto ou um espaço destinado para um outro objeto. Em outras palavras, esse padrão controla o acesso ao objeto original permitindo que se faça alterações antes mesmo de se modificar o objeto original.O funcionamento básico do Proxy envolve a implementação de uma interface comum tanto pelo objeto proxy quanto pelo objeto real, mantendo uma referência ao objeto real e, quando recebe uma solicitação do cliente, pode executar determinadas ações antes ou depois de repassar a solicitação ao objeto real.
-
-No geral, o Proxy do GoF oferece uma camada intermediária entre o cliente e o objeto real, permitindo que o proxy controle o acesso, adicione funcionalidades extras e gerencie a comunicação com o objeto real. Essa abstração ajuda a melhorar a modularidade, o desempenho, a segurança e a transparência do sistema.
+O Proxy é um padrão de projeto estrutural que permite a utilização de um substituto, ou um espaço destinado, para um outro objeto. Em outras palavras, esse padrão controla o acesso ao objeto original permitindo que se faça alterações antes mesmo de se modificar o objeto original. O funcionamento básico do Proxy envolve a implementação de uma interface comum tanto pelo objeto proxy quanto pelo objeto real, mantendo uma referência ao objeto real e, quando recebe uma solicitação do cliente, pode executar determinadas ações antes ou depois de repassar a solicitação ao objeto real. Essa abstração ajuda a melhorar a modularidade, o desempenho, a segurança e a transparência do sistema.
 
 ### Grasp - <modelo>
 
