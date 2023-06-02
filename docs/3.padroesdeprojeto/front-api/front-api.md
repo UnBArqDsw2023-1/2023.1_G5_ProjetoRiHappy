@@ -165,27 +165,24 @@ public class ExibicaoAvaliacoes implements Observador {
 Neste código, temos a classe _‘Main’_ que representa o ponto de entrada do programa. Ela cria uma instância do _‘FiltroObservavel’_ e do ‘ExibicaoAvaliacoes’, em seguida adiciona o observador (_‘exibicaoAvaliacoes’_) ao filtro (_‘filtro’_). Por fim, é realizada a filtragem com o tipo de filtro desejado, o que aciona a notificação para o observador e a lógica de atualização é executada no método _‘atualizar()’_ da classe _‘ExibicaoAvaliacoes’_.
 Vamos passar explicando o nosso ponto de vista ao criar esse pseudocódigo:
 
-> > > > > > > front
-
 1. A classe _‘Main’_ é o ponto de entrada do programa. Ela cria uma instância do _‘FiltroObservavel’_ e do _‘ExibicaoAvaliacoes’_. <br>
-2. Em seguida, o observador (‘exibicaoAvaliacoes’) é adicionado ao filtro (‘filtro’) usando o método ‘adicionarObservador()’.
-   Por fim, é realizada a filtragem com o tipo de filtro desejado chamando o método ‘realizarFiltragem("avaliacoes_positivas")’ no objeto ‘filtro’. Isso aciona a notificação para os observadores registrados no filtro.
-   A classe ‘FiltroObservavel’ implementa a lógica relacionada ao filtro. Ela possui uma lista de observadores (‘observadores’) e os métodos ‘adicionarObservador()’, ‘removerObservador()’ e ‘notificarObservadores()’ para gerenciar os observadores.
-   O método ‘realizarFiltragem()’ contém a lógica de filtragem das avaliações/feedbacks com base no tipo de filtro selecionado. Após a filtragem, ele chama o método ‘notificarObservadores()’ para notificar todos os observadores registrados no filtro.
-   A classe ‘ExibicaoAvaliacoes’ implementa a interface ‘Observador’. Ela possui o método ‘atualizar()’, que representa a lógica de atualização da exibição das avaliações/feedbacks após receber a notificação. Nesse método, você pode adicionar a lógica específica para atualizar a exibição das avaliações positivas.
-
-## Discussões
-
-## Desenvolvimento
-
-## Pseudocódigo
+2. Em seguida, o observador (_‘exibicaoAvaliacoes’_) é adicionado ao filtro (_‘filtro’_) usando o método _‘adicionarObservador()’_. <br>
+3. Por fim, é realizada a filtragem com o tipo de filtro desejado chamando o método _‘realizarFiltragem("avaliacoes_positivas")’_ no objeto _‘filtro’_. Isso aciona a notificação para os observadores registrados no filtro. <bt>
+4. A classe _‘FiltroObservavel’_ implementa a lógica relacionada ao filtro. Ela possui uma lista de observadores (_‘observadores’_) e os métodos _‘adicionarObservador()’_, _‘removerObservador()’_ e _‘notificarObservadores()’_ para gerenciar os observadores. <br>
+5. O método _‘realizarFiltragem()’_ contém a lógica de filtragem das avaliações/feedbacks com base no tipo de filtro selecionado. Após a filtragem, ele chama o método _‘notificarObservadores()’_ para notificar todos os observadores registrados no filtro. <br>
+6. A classe _‘ExibicaoAvaliacoes’_ implementa a interface ‘Observador’. Ela possui o método _‘atualizar()’_, que representa a lógica de atualização da exibição das avaliações/feedbacks após receber a notificação. Nesse método, você pode adicionar a lógica específica para atualizar a exibição das avaliações positivas.
 
 ## Referências
 
 [1] Arquitetura e Desenho de software - Aula Gofs criacionais - Profa. Milene <br/>
+[2] https://www.dio.me/articles/sw-design-pattern-observer-observador
+[3] https://www.macoratti.net/13/03/net_obs1.htm
+[4] https://edisciplinas.usp.br/pluginfile.php/2284032/mod_resource/content/1/
+[5] Aula15_SingletonIteratorStateObserverComposite.pdf
 
 ## Histórico de Versão
 
-| Versão | Data       | Descrição                   | Autor(es)      | Revisor(es) |
-| ------ | ---------- | --------------------------- | -------------- | ----------- |
-| `1.0`  | 01/06/2023 | Esboço inicial do documento | Josué Teixeira |             |
+| Versão | Data       | Descrição                          | Autor(es)      | Revisor(es)   |
+| ------ | ---------- | ---------------------------------- | -------------- | ------------- |
+| `1.0`  | 01/06/2023 | Esboço inicial do documento        | Josué Teixeira | Maria Abritta |
+| `2.0`  | 01/06/2023 | Criação e Finalização do documento | Maria Abritta  | Nicolas       |
