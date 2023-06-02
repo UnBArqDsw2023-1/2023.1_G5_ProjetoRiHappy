@@ -16,7 +16,7 @@
 
 ## Desenvolvimento (trocar o nome de acordo com as seções do artefato)
 
-## Referêncoias
+## Referências
 
 [1]
 
