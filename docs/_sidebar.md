@@ -14,6 +14,8 @@
 - [Ata de 26/04/2023](/0.planejamento/atas/ata_26_04_2023.md)
 - [Ata de 03/05/2023](/0.planejamento/atas/ata_03_05_2023.md)
 - [Ata de 18/05/2023](/0.planejamento/atas/ata_18_05_2023.md)
+- [Ata de 24/05/2023](/0.planejamento/atas/ata_24_05_2023.md)
+- [Ata de 31/05/2023](/0.planejamento/atas/ata_31_05_2023.md)
 
 </details>
 </details>
@@ -55,7 +57,8 @@
 <summary class="activated-menu"> Padrões de Projeto </summary>
 
 - [Padrões de Projeto](/3.padroesdeprojeto/padroesdeprojeto.md)
-  - [Backend-Persistência](/3.padroesdeprojeto/back-bd/back-bd.md)
+  - [Backend-Persistência - GoF](/3.padroesdeprojeto/back/gof.md)
+  - [Backend-Persistência - GRASPs](/3.padroesdeprojeto/back/grasp.md)
   - [Frontend-Backend](/3.padroesdeprojeto/front-api/front-api.md)
 - [Participações](/3.padroesdeprojeto/participacoespadroes.md)
 
