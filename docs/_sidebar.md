@@ -15,6 +15,7 @@
 - [Ata de 03/05/2023](/0.planejamento/atas/ata_03_05_2023.md)
 - [Ata de 18/05/2023](/0.planejamento/atas/ata_18_05_2023.md)
 - [Ata de 24/05/2023](/0.planejamento/atas/ata_24_05_2023.md)
+- [Ata de 31/05/2023](/0.planejamento/atas/ata_31_05_2023.md)
 
 </details>
 </details>
