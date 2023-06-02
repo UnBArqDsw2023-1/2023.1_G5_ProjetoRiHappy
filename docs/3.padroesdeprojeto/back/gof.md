@@ -4,7 +4,7 @@
 
 ## Introdução
 
-Padrões de projeto são soluções para problemas comuns encontrados  no desenvolvimento ou manutenção de software. Tais padrões seguem paradigmas de programação específicos, principalmente a orientação a objetos. Podemos classificá-los em duas categorias principais: **GOFS**, que abordam essas soluções de uma forma precisa e pontual, e **GRASPS**, que fazem uma abordagem mais abstrata e generalista. 
+Padrões de projeto são soluções para problemas comuns encontrados  no desenvolvimento ou manutenção de software. Tais padrões seguem paradigmas de programação específicos, principalmente a orientação a objetos. Podemos classificá-los em duas categorias principais: **GOFS**, que abordam essas soluções de uma forma precisa e pontual, e **GRASPS**, que fazem uma abordagem mais abstrata e generalista.
 
 Nesse artefato, veremos como foram aplicados padrões de projeto GRASPs e GOFs na modelagem da comunicação do backend com a camada de persistência da aplicação, em específico no fluxo de avaliação de produtos e de visualização de avaliações realizado no site [RiHappy](https://rihappy.com.br), que é o foco do projeto.
 
@@ -17,7 +17,6 @@ O grupo escolheu dois padrões de projeto como exemplos para esboçar uma soluç
 ## Discussões
 
 <!-- Acredito que seja um tópico interessante para colocarmos prints das comunicações dentro das issues e post its e etc  -->
-
 
 ## Desenvolvimento (trocar o nome de acordo com as seções do artefato)
 
