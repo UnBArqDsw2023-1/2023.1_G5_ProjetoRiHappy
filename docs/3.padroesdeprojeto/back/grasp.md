@@ -16,7 +16,7 @@
 
 ## Desenvolvimento (trocar o nome de acordo com as seções do artefato)
 
-## Referêncoias
+## Referências
 
 [1]
 
@@ -26,4 +26,4 @@
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 |--------|------|-----------|-----------|-------------|
-| `1.0`  | 26/05/2023     | Criação do documento com estrutura padrão.          | Nicolas   | Lucas Felipe            |
+| `1.0`  |      |           |           |             |
