@@ -8,15 +8,30 @@ Nesse artefato, veremos como foram aplicados padrões de projeto GRASPs e GOFs n
 
 ## Metodologia
 
-Para a realização da modelagem, os membros Lucas Felipe, Lucas Gomes, Lucas Gabriel, Luiza e Nicolas se reuniram e fizeram correções e modificações no [Diagrama de Classes](https://encr.pw/DiagramaDeClasse), visto que haviam modificações a serem feitas para uma melhor modelagem dos padrões de projeto escolhidos. O grupo também optou por registrar as discussões e comunicação por meio da [issue do GitHub (#56)](https://github.com/UnBArqDsw2023-1/2023.1_G5_ProjetoRiHappy/issues/56).
+Para a realização da modelagem, os membros Lucas Felipe, Lucas Gomes, Lucas Gabriel, Luíza e Nicolas se reuniram e fizeram correções e modificações no [Diagrama de Classes](https://encr.pw/DiagramaDeClasse), visto que haviam modificações a serem feitas para uma melhor modelagem dos padrões de projeto escolhidos. O grupo também optou por registrar as discussões e comunicação por meio da [issue do GitHub (#56)](https://github.com/UnBArqDsw2023-1/2023.1_G5_ProjetoRiHappy/issues/56).
 
 O grupo escolheu dois padrões de projeto como exemplos para esboçar uma solução viável. O primeiro padrão, baseado nos princípios do GoF, é o Proxy. Optou-se pelo uso do Proxy devido à sua capacidade de otimização, como a implementação de um cache de objetos, além de permitir que o local do objeto real permaneça transparente para o cliente. Dessa forma, o cliente não precisa ter conhecimento se o objeto está local ou remoto, caracterizando esse tipo de proxy como um Proxy Remoto. Considerando o contexto atual de avaliações no site da RiHappy, faz sentido adotar o padrão Proxy para criar uma autenticação de usuário, armazenando seus dados em cache e evitando a necessidade de fazer requisições frequentes ao banco de dados. Além disso, evita-se que usuários não autenticados ou que não tenham comprado o produto consigam fazer a avaliação do produto.
 
 ## Discussões
 
-<!-- Acredito que seja um tópico interessante para colocarmos prints das comunicações dentro das issues e post its e etc  -->
+Durante os estudos dos padrões de projeto, optamos por manter nossa comunicação através das [issues](https://github.com/UnBArqDsw2023-1/2023.1_G5_ProjetoRiHappy/issues/56), para garantir que tudo ficasse documentado e de fácil acesso à toda equipe. Assim, inicialmente colocamos os pontos principais estudados de cada padrão, como pode ser visto na Figura 1 abaixo:
 
-## Desenvolvimento (trocar o nome de acordo com as seções do artefato)
+ <div style="text-align: center">
+
+  ![comunicacao](../assets/padroesdeprojeto/padroes.png)
+  
+  Figura 1. Definição de padrões pela equipe (Fonte: Repositório da equipe).
+  </div>
+
+Após identificarmos padrões GOF que fizeram sentido com o escopo do nosso projeto, fizemos as devidas sugestões e alterações no diagrama de classes, de forma a detalhar melhor e desenvolvê-lo com base no que foi apresentado dos padrões. A Figura 2 mostra um pouco da discussão da equipe:
+
+ <div style="text-align: center">
+
+  ![comunicacao](../assets/padroesdeprojeto/padroes2.png)
+  
+  Figura 2. Definições no diagrama de classes (Fonte: Repositório da equipe).
+  </div>
+
 
 ### GoF - Proxy
 
@@ -53,3 +68,4 @@ O Proxy é um padrão de projeto estrutural que permite a utilização de um sub
 | `1.0`  | 26/05/2023     | Criação do documento com estrutura padrão.          | Nicolas   | Lucas Felipe            |
 | `1.1`  | 29/05/2023     | Criação da base do artefato com os padrões escolhidos        | Lucas Felipe e Lucas Gomes   | Nicolas            |
 | `1.2`  | 30/05/2023     | Adicionando Padrão Proxy       | Lucas Felipe e Lucas Gomes   | Nicolas            |
+| `1.3`  | 02/06/2023     | Adicionando comunicações da equipe       | Luíza Esteves e Lucas Gomes   |             |
