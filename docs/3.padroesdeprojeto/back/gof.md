@@ -2,15 +2,21 @@
 
 ## Introdução
 
-Padrões de projeto são soluções para problemas comuns encontrados  no desenvolvimento ou manutenção de software. Tais padrões seguem paradigmas de programação específicos, principalmente a orientação a objetos. Podemos classificá-los em duas categorias principais: **GOFS**, que abordam essas soluções de uma forma precisa e pontual, e **GRASPS**, que fazem uma abordagem mais abstrata e generalista.
+Padrões de projeto são soluções para problemas comuns encontrados  no desenvolvimento ou manutenção de software. Tais padrões seguem paradigmas de programação específicos, principalmente a orientação a objetos. Entre os padrões mais conhecidos e amplamente utilizados estão os Padrões de Projeto GOF (Gang of Four), que foram apresentados no livro "Design Patterns: Elements of Reusable Object-Oriented Software" por Erich Gamma, Richard Helm, Ralph Johnson e John Vlissides.
 
-Nesse artefato, veremos como foram aplicados padrões de projeto GRASPs e GOFs na modelagem da comunicação do backend com a camada de persistência da aplicação, em específico no fluxo de avaliação de produtos e de visualização de avaliações realizado no site [RiHappy](https://rihappy.com.br), que é o foco do projeto.
+Nesse artefato, veremos como foram aplicado GOFs na modelagem da comunicação do backend com a camada de persistência da aplicação, em específico no fluxo de avaliação de produtos e de visualização de avaliações realizado no site [RiHappy](https://rihappy.com.br), que é o foco do projeto.
 
 ## Metodologia
 
 Para a realização da modelagem, os membros Lucas Felipe, Lucas Gomes, Lucas Gabriel, Luíza e Nicolas se reuniram e fizeram correções e modificações no [Diagrama de Classes](https://encr.pw/DiagramaDeClasse), visto que haviam modificações a serem feitas para uma melhor modelagem dos padrões de projeto escolhidos. O grupo também optou por registrar as discussões e comunicação por meio da [issue do GitHub (#56)](https://github.com/UnBArqDsw2023-1/2023.1_G5_ProjetoRiHappy/issues/56).
 
-O grupo escolheu dois padrões de projeto como exemplos para esboçar uma solução viável. O primeiro padrão, baseado nos princípios do GoF, é o Proxy. Optou-se pelo uso do Proxy devido à sua capacidade de otimização, como a implementação de um cache de objetos, além de permitir que o local do objeto real permaneça transparente para o cliente. Dessa forma, o cliente não precisa ter conhecimento se o objeto está local ou remoto, caracterizando esse tipo de proxy como um Proxy Remoto. Considerando o contexto atual de avaliações no site da RiHappy, faz sentido adotar o padrão Proxy para criar uma autenticação de usuário, armazenando seus dados em cache e evitando a necessidade de fazer requisições frequentes ao banco de dados. Além disso, evita-se que usuários não autenticados ou que não tenham comprado o produto consigam fazer a avaliação do produto.
+O grupo, após um período de análise, optou por seguir com o primeiro padrão GOF, o "**Proxy**". Optou-se pelo uso do Proxy" devido à sua capacidade de otimização, como a implementação de um cache de objetos, além de permitir que o local do objeto real permaneça transparente para o cliente. Dessa forma, o cliente não precisa ter conhecimento se o objeto está local ou remoto, caracterizando esse tipo de proxy como um Proxy Remoto. Considerando o contexto atual de avaliações no site da RiHappy, faz sentido adotar o padrão Proxy para criar uma autenticação de usuário, armazenando seus dados em cache e evitando a necessidade de fazer requisições frequentes ao banco de dados. Além disso, evita-se que usuários não autenticados ou que não tenham comprado o produto consigam fazer a avaliação do produto.
+
+Durante as modelagens do diagrama de classes, o grupo utilizou muito da essência de outro padrão GOF, o "**Singleton**". O objetivo do padrão Singleton é garantir que apenas uma única instância de uma determinada classe seja criada durante a execução de um programa. A utilidade desse padrão, é que conseguimos evitar a criação de múltiplas instâncias de uma classe e também economizamos recursos do sistema. 
+
+Outro padrão que também foi bastante revisado e utilizado durante as modelagens foi o padrão "**Abstract Factory**". O objetivo principal do padrão Abstract Factory é abstrair a criação de objetos, permitindo que o código do cliente fique desacoplado das classes concretas específicas que estão sendo criadas. Isso promove a modularidade, a flexibilidade e a extensibilidade do sistema, tornando mais fácil adicionar novas variantes de produtos sem modificar o código existente.
+
+
 
 ## Discussões
 
@@ -23,7 +29,7 @@ Durante os estudos dos padrões de projeto, optamos por manter nossa comunicaç�
   Figura 1. Definição de padrões pela equipe (Fonte: Repositório da equipe).
   </div>
 
-Após identificarmos padrões GOF que fizeram sentido com o escopo do nosso projeto, fizemos as devidas sugestões e alterações no diagrama de classes, de forma a detalhar melhor e desenvolvê-lo com base no que foi apresentado dos padrões. A Figura 2 mostra um pouco da discussão da equipe:
+Após identificarmos padrões GOF que fizeram sentido com o escopo do nosso projeto, fizemos as devidas sugestões e alterações em conjunto com os feedbacks da professora em nossa última entrega, no diagrama de classes, de forma a detalhar melhor e desenvolvê-lo com base no que foi apresentado dos padrões. A Figura 2 mostra um pouco da discussão da equipe:
 
  <div style="text-align: center">
 
