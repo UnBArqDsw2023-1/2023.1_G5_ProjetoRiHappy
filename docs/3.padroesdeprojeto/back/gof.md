@@ -12,11 +12,9 @@ Para a realização da modelagem, os membros Lucas Felipe, Lucas Gomes, Lucas Ga
 
 O grupo, após um período de análise, optou por seguir com o primeiro padrão GOF, o "**Proxy**". Optou-se pelo uso do Proxy" devido à sua capacidade de otimização, como a implementação de um cache de objetos, além de permitir que o local do objeto real permaneça transparente para o cliente. Dessa forma, o cliente não precisa ter conhecimento se o objeto está local ou remoto, caracterizando esse tipo de proxy como um Proxy Remoto. Considerando o contexto atual de avaliações no site da RiHappy, faz sentido adotar o padrão Proxy para criar uma autenticação de usuário, armazenando seus dados em cache e evitando a necessidade de fazer requisições frequentes ao banco de dados. Além disso, evita-se que usuários não autenticados ou que não tenham comprado o produto consigam fazer a avaliação do produto.
 
-Durante as modelagens do diagrama de classes, o grupo utilizou muito da essência de outro padrão GOF, o "**Singleton**". O objetivo do padrão Singleton é garantir que apenas uma única instância de uma determinada classe seja criada durante a execução de um programa. A utilidade desse padrão, é que conseguimos evitar a criação de múltiplas instâncias de uma classe e também economizamos recursos do sistema. 
+Durante as modelagens do diagrama de classes, o grupo utilizou muito da essência de outro padrão GOF, o "**Singleton**". O objetivo do padrão Singleton é garantir que apenas uma única instância de uma determinada classe seja criada durante a execução de um programa. A utilidade desse padrão, é que conseguimos evitar a criação de múltiplas instâncias de uma classe e também economizamos recursos do sistema.
 
 Outro padrão que também foi bastante revisado e utilizado durante as modelagens foi o padrão "**Abstract Factory**". O objetivo principal do padrão Abstract Factory é abstrair a criação de objetos, permitindo que o código do cliente fique desacoplado das classes concretas específicas que estão sendo criadas. Isso promove a modularidade, a flexibilidade e a extensibilidade do sistema, tornando mais fácil adicionar novas variantes de produtos sem modificar o código existente.
-
-
 
 ## Discussões
 
@@ -38,7 +36,6 @@ Após identificarmos padrões GOF que fizeram sentido com o escopo do nosso proj
   Figura 2. Definições no diagrama de classes (Fonte: Repositório da equipe).
   </div>
 
-
 ### GoF - Proxy
 
 #### Intenção
@@ -58,6 +55,8 @@ O Proxy é um padrão de projeto estrutural que permite a utilização de um sub
 #### Consequências
 
 #### Implementação
+
+[](pseudoCodigoProxy.java ':include :type=code')
 
 #### Código
 
