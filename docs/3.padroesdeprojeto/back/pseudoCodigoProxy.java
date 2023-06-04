@@ -5,9 +5,10 @@ interface Usuario {
 
 // Enum que representa os tipos de acesso
 enum TipoAcesso {
-    LOGADO,
-    AVALIACAO,
-    COMPRA
+    ADMIN,
+    VENDEDOR,
+    COMPRA,
+    VISITANTE,
 }
 
 // Implementação concreta do usuário
@@ -16,7 +17,7 @@ class UsuarioImplementado implements Usuario {
     private String cpf;
     private String email;
     private String endereco;
-    private TipoAcesso tipoAcesso;
+    private TipoAcesso tipoAcesso; 
 
     public UsuarioImplementado(String nome, String cpf, String email, String endereco, TipoAcesso tipoAcesso) {
         this.nome = nome;
@@ -46,7 +47,7 @@ class UsuarioImplementado implements Usuario {
         return tipoAcesso;
     }
 
-    @Override
+    @Override //A ideia é subescrever o metodo getUsuario() com esse usuario de fato
     public Usuario getUsuario() {
         return this;
     }
@@ -115,15 +116,15 @@ class AvaliacaoService extends BaseService {
 
     @Override
     public void executar() {
-        System.out.println("Executando AvaliacaoService...");
+        System.out.println("Executando uma avaliação");
         criarAvaliacao();
     }
 }
 
 // Exemplo de uso
-public class Main {
+public class main {
     public static void main(String[] args) {
-        Usuario usuario = new UsuarioProxy("Fulano", "123456789", "fulano@example.com", "Rua A, 123", TipoAcesso.ADMIN);
+        Usuario usuario = new UsuarioProxy("Fulano", "12345678901", "fulano@example.com", "Rua A, 123", TipoAcesso.ADMIN);
 
         BaseService service = new AvaliacaoService(usuario);
         service.executar();

@@ -74,4 +74,5 @@ O Proxy é um padrão de projeto estrutural que permite a utilização de um sub
 | `1.0`  | 26/05/2023     | Criação do documento com estrutura padrão.          | Nicolas   | Lucas Felipe            |
 | `1.1`  | 29/05/2023     | Criação da base do artefato com os padrões escolhidos        | Lucas Felipe e Lucas Gomes   | Nicolas            |
 | `1.2`  | 30/05/2023     | Adicionando Padrão Proxy       | Lucas Felipe e Lucas Gomes   | Nicolas            |
-| `1.3`  | 02/06/2023     | Adicionando comunicações da equipe       | Luíza Esteves e Lucas Gomes   |             |
+| `1.3`  | 02/06/2023     | Adicionando comunicações da equipe       | Luíza Esteves e Lucas Gomes   | Lucas Felipe    |
+| `1.4`  | 04/06/2023     | Adapta estrutura dos textos para receber apenas os padrões GOF       | Lucas Felipe   |     |
