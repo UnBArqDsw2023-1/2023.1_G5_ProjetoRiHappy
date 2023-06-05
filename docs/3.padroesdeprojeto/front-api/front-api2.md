@@ -151,8 +151,43 @@ Vamos passar explicando o nosso ponto de vista ao criar esse pseudocódigo: <br>
 
 No pseudocódigo criado pela equipe, foi criada uma estrutura básica de classes para ilustrar a implementação do padrão GRASP: Controlador no contexto do site da Ri Happy.
 
-1. Classes de serviço (ProdutoService, CompraService, AvaliacaoService):
+1. **Classes de serviço (ProdutoService, CompraService, AvaliacaoService)**:
+   - Essas classes representam os serviços relacionados a entidades específicas do sistema (produtos, compras, avaliações).
+   - Cada classe de serviço herda da classe BaseService, que contém métodos comuns para lidar com entidades.
+   - Cada classe de serviço implementa métodos específicos para listar, criar, deletar e atualizar entidades relacionadas.
 
-- Essas classes representam os serviços relacionados a entidades específicas do sistema (produtos, compras, avaliações).
-  Cada classe de serviço herda da classe BaseService, que contém métodos comuns para lidar com entidades.
-  Cada classe de serviço implementa métodos específicos para listar, criar, deletar e atualizar entidades relacionadas.
+<br>
+
+2. **Classe BaseController**:
+   - Essa classe serve como uma classe base para os controladores de entidades.
+   - Ela possui uma referência a um serviço específico (BaseService) que será utilizado para manipular os dados do sistema.
+   - A classe BaseController implementa métodos genéricos para listar, criar, deletar e atualizar entidades.
+
+<br>
+
+3. **Classes de Controlador (ProdutoController, CompraController, AvaliacaoController)**:
+   - Essas classes são responsáveis por receber as solicitações do frontend (API) e coordenar as ações e eventos relacionados às entidades correspondentes (produtos, compras, avaliações).
+   - Cada classe de controlador herda da classe BaseController, aproveitando os métodos genéricos implementados e estabelecendo a associação com um serviço específico (ProdutoService, CompraService, AvaliacaoService).
+   - Os controladores podem chamar os métodos apropriados do serviço relacionado para manipular os dados do sistema.
+
+## A relação com o site da Ri Happy:
+
+- O site da Ri Happy provavelmente terá entidades principais, como produtos, compras e avaliações.
+- Os controladores do site seriam responsáveis por receber as solicitações do frontend, interpretar as ações do usuário e coordenar as operações relacionadas às entidades (listar, criar, deletar, atualizar).
+- Os controladores poderiam interagir com os serviços correspondentes (ProdutoService, CompraService, AvaliacaoService) para realizar as operações necessárias nos dados do sistema.
+- Por exemplo, o controlador de produtos poderia chamar métodos do ProdutoService para listar os produtos, criar um novo produto, atualizar as informações de um produto existente ou deletar um produto.
+- Essa estrutura de classes permite uma separação clara de responsabilidades, facilitando a manutenção, extensibilidade e reutilização de código no contexto do site da Ri Happy.
+
+## Referências
+
+[1] https://web.tecgraf.puc-rio.br/~ismael/Cursos/Cidade_FPSW/aulas/Modulo1_Intro_Grasp_GoF/Grasp/PadroesGRASP.pdf <br>
+[2] https://medium.com/@leandrovboas/padr%C3%B5es-grasp-padr%C3%B5es-de-atribuir-responsabilidades-1ae4351eb204 <br>
+[3] https://www.youtube.com/watch?v=ubYSGJPDWVQ <br>
+[4] http://www.ic.uff.br/~leomurta/courses/2009.1/es1/aula12.pdf <br>
+
+## Histórico de Versão
+
+| Versão | Data       | Descrição                          | Autor(es)     | Revisor(es)    |
+| ------ | ---------- | ---------------------------------- | ------------- | -------------- |
+| `1.0`  | 02/06/2023 | Esboço inicial do documento        | Maria Abritta | Josué Teixeira |
+| `2.0`  | 05/06/2023 | Criação e Finalização do documento | Maria Abritta | Nicolas        |

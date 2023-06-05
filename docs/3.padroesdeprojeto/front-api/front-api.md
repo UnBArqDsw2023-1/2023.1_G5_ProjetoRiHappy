@@ -175,9 +175,9 @@ Vamos passar explicando o nosso ponto de vista ao criar esse pseudocódigo:
 ## Referências
 
 [1] Arquitetura e Desenho de software - Aula Gofs criacionais - Profa. Milene <br/>
-[2] https://www.dio.me/articles/sw-design-pattern-observer-observador
-[3] https://www.macoratti.net/13/03/net_obs1.htm
-[4] https://edisciplinas.usp.br/pluginfile.php/2284032/mod_resource/content/1/
+[2] https://www.dio.me/articles/sw-design-pattern-observer-observador <br/>
+[3] https://www.macoratti.net/13/03/net_obs1.htm <br/>
+[4] https://edisciplinas.usp.br/pluginfile.php/2284032/mod_resource/content/1/ <br/>
 [5] Aula15_SingletonIteratorStateObserverComposite.pdf
 
 ## Histórico de Versão
