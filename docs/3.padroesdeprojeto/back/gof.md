@@ -35,17 +35,17 @@ Após identificarmos padrões GOF que fizeram sentido com o escopo do nosso proj
 
 #### Introdução
 
-<!-- @TODO: inserir aqui uma junção dessas partes de baixo, uma explicação sobre o padrão mesmo. -->
+O Proxy é um padrão de projeto estrutural que permite a utilização de um substituto, ou um espaço destinado, para um outro objeto. Em outras palavras, esse padrão controla o acesso ao objeto original permitindo que se faça alterações antes mesmo de se modificar o objeto original. O funcionamento básico do Proxy envolve a implementação de uma interface comum tanto pelo objeto proxy quanto pelo objeto real, mantendo uma referência ao objeto real e, quando recebe uma solicitação do cliente, pode executar determinadas ações antes ou depois de repassar a solicitação ao objeto real. Essa abstração ajuda a melhorar a modularidade, o desempenho, a segurança e a transparência do sistema.
+
+Como a abstração do padrão Proxy permite que os usuários consigam fazer solicitações sem trazer quaisquer modificações no objeto original. Com isso, ganhamos um grande aspecto de segurança vista que temos uma garantia que com esse controle de acesso, usuários específicos vão poder fazer requisições especificas dentro do sistema e com isso não afetar como um todo em aspectos de desempenho e qualidade. Além mais, todas essas camadas permitem que o usuário possa a vir interagir com outras classes que não sejam a original sem sentir necessariamente uma diferença em sua utilização.
 
 #### Intenção
 
-<!-- @TODO:  você pode passar essa parte para a introdução? A intenção é mais sucinta, algo como: intenção = acessar os atributos de uma classe sem expor sua implementação completa -->
-O Proxy é um padrão de projeto estrutural que permite a utilização de um substituto, ou um espaço destinado, para um outro objeto. Em outras palavras, esse padrão controla o acesso ao objeto original permitindo que se faça alterações antes mesmo de se modificar o objeto original. O funcionamento básico do Proxy envolve a implementação de uma interface comum tanto pelo objeto proxy quanto pelo objeto real, mantendo uma referência ao objeto real e, quando recebe uma solicitação do cliente, pode executar determinadas ações antes ou depois de repassar a solicitação ao objeto real. Essa abstração ajuda a melhorar a modularidade, o desempenho, a segurança e a transparência do sistema.
+A principal intenção do padrão Proxy, é o acesso a aos atributos de uma classe sem expor sua implementação completa. Ou seja, conseguimos fazer uma requisição ou uma modificação sem afetar diretamente a classe original.
 
 #### Motivação
 
-<!-- @TODO: essa parte aqui também é mais sucinta, essa parte aqui pode ir pra introdução. Seria algo como: Controlar o acesso aos dados pessoais do usuário na hora de realizar uma avaliação -->
-Como a abstração do padrão Proxy permite que os usuários consigam fazer solicitações sem trazer quaisquer modificações no objeto original. Com isso, ganhamos um grande aspecto de segurança vista que temos uma garantia que com esse controle de acesso, usuários específicos vão poder fazer requisições especificas dentro do sistema e com isso não afetar como um todo em aspectos de desempenho e qualidade. Além mais, todas essas camadas permitem que o usuário possa a vir interagir com outras classes que não sejam a original sem sentir necessariamente uma diferença em sua utilização.
+A principal motivação do padrão Proxy, é o controle do acesso do usuário responsável pelo processo do fluxo de avaliação. Tal garantia de controle de acesso, é uma estratégia para trazer relevância e confiabilidade na etapa de avaliação. A depender do tipo de acesso do usuário, não temos de extrair todos os dados para uma autenticação dele nessa etapa
 
 #### Aplicação
 
