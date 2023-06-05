@@ -8,7 +8,7 @@ enum TipoAcesso {
     ADMIN,
     VENDEDOR,
     COMPRA,
-    VISITANTE,
+    VISITANTE
 }
 
 // Implementação concreta do usuário
