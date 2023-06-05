@@ -44,7 +44,12 @@ O Proxy é um padrão de projeto estrutural que permite a utilização de um sub
 
 #### Motivação
 
+Como a abstração do padrão Proxy permite que os usuários consigam fazer solicitações sem trazer quaisquer modificações no objeto original. Com isso, ganhamos um grande aspecto de segurança vista que temos uma garantia que com esse controle de acesso, usuários específicos vão poder fazer requisições especificas dentro do sistema e com isso não afetar como um todo em aspectos de desempenho e qualidade. Além mais, todas essas camadas permitem que o usuário possa a vir interagir com outras classes que não sejam a original sem sentir necessáriamente uma diferença em sua utilização.
+
+
 #### Aplicação
+
+A principal aplicação do padrão dentro do fluxo do projeto, vai se dar no processo de criação de uma avaliação para um determinado produto. Dentro deste contexto, é necessário que o usuário faça uma verificação de login para que a plataforma tenha uma garantia de quem é a pessoa por trás da avaliação e se ela de fato fez a compra deste produto, para trazer uma maior relêvancia para a avaliação. Nesse fluxo, a depender do tipo de acesso que o usuário venha a ter não necessariamente ele precisa operar com a instância original.
 
 #### Estrutura
 
