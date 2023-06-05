@@ -57,9 +57,10 @@
 <summary class="activated-menu"> Padrões de Projeto </summary>
 
 - [Padrões de Projeto](/3.padroesdeprojeto/padroesdeprojeto.md)
-  - [Backend-Persistência - GoF](/3.padroesdeprojeto/back/gof.md)
-  - [Backend-Persistência - GRASPs](/3.padroesdeprojeto/back/grasp.md)
-  - [Frontend-Backend](/3.padroesdeprojeto/front-api/front-api.md)
+  - [Back-end-Persistência - GoF](/3.padroesdeprojeto/back/gof.md)
+  - [Back-end-Persistência - GRASPs](/3.padroesdeprojeto/back/grasp.md)
+  - [Front-end - GOF](/3.padroesdeprojeto/front-api/front-api.md)
+  - [Front-end - GRASP](/3.padroesdeprojeto/front-api/front-api2.md)
 - [Participações](/3.padroesdeprojeto/participacoespadroes.md)
 
 </details>
