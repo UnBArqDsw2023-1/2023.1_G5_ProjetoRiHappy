@@ -1,0 +1,158 @@
+# Padrões de Design: Controller no Desenvolvimento Front-End do Site da Ri Happy
+
+## Introdução
+
+A comunicação entre o frontend e o backend é um aspecto crucial no desenvolvimento de aplicações web. É necessário estabelecer uma interação eficiente e estruturada entre essas duas partes, a fim de criar sistemas robustos e de fácil manutenção. Nesse contexto, os padrões de projeto GRASP (General Responsibility Assignment Software Patterns) e GOF (Gang of Four) desempenham um papel fundamental, fornecendo diretrizes e soluções consolidadas para lidar com os desafios da comunicação frontend-backend.
+Neste documento, exploraremos a importância dos padrões de projeto GRASP e GOF na comunicação do frontend com o backend. Veremos como esses padrões podem ser aplicados para a definição de responsabilidades claras e coesas em cada componente e para promover a reutilização de código e a manutenibilidade do sistema dad [RiHappy](https://www.rihappy.com.br/) como um todo.
+
+O padrão Controlador é aplicado no contexto da arquitetura de software para separar a lógica de negócio das interfaces de usuário e dos modelos de dados. No desenvolvimento de sistemas web, o padrão Controlador desempenha um papel fundamental na implementação da camada de controle, responsável por receber as requisições do usuário, processá-las e coordenar as ações necessárias para atender a essas requisições. O Controlador age como o ponto central de entrada para o sistema, recebendo as requisições, interpretando-as e tomando decisões com base nas informações recebidas
+
+No contexto do site da Ri Happy, o padrão Controlador poderia ser aplicado para gerenciar as interações dos usuários com a interface, como a submissão de formulários, a navegação entre páginas e a execução de ações específicas. O Controlador seria responsável por receber as requisições do usuário, validar os dados, executar as ações necessárias e atualizar os modelos de dados correspondentes. Dessa forma, a separação clara das responsabilidades entre as camadas de controle, interface e modelo facilita a manutenção e evolução do sistema, além de promover a reutilização de código.
+
+## Metodologia Padrão GRASP: Controlador (Controller)
+
+O padrão GRASP Controlador é um padrão de design que define a responsabilidade de gerenciar e coordenar as ações e eventos do sistema. Ele está fortemente relacionado ao conceito de controlador no padrão MVC. O Controlador é responsável por receber as solicitações do usuário, coordenar as operações do sistema e decidir qual ação tomar com base nessas solicitações. A partir do padrão GOF MVC, a implementação do padrão GRASP Controlador pode ser realizada da seguinte maneira: <br>
+
+1. O Controlador recebe as solicitações do frontend (API) e interpreta as ações do usuário. <br>
+2. Com base nas solicitações recebidas, o Controlador pode chamar os métodos apropriados do modelo (ou serviços relacionados ao modelo) para manipular os dados do sistema. <br>
+3. O Controlador também é responsável por atualizar a visão correspondente à solicitação recebida. Ele pode consultar o modelo para obter os dados necessários e passá-los para a visão para que sejam exibidos corretamente. <br>
+4. O Controlador pode executar validações de entrada, aplicar regras de negócios e garantir que as operações sejam executadas corretamente e dentro das restrições definidas. <br>
+5. O Controlador pode coordenar ações entre diferentes objetos ou componentes do sistema, garantindo que a lógica de negócios seja executada corretamente. <br>
+
+## O Controlador recebe as solicitações do frontend (API) e interpreta as ações do usuário.
+
+Podemos inferir a presença do padrão GRASP: Controlador (Controller). O Controlador é responsável por receber as solicitações do frontend (no caso do site, as interações do usuário) e interpretar as ações realizadas por ele.
+No contexto do site da Ri Happy, o Controlador receberia as solicitações do frontend, como cliques em botões, preenchimento de formulários e outras interações do usuário. Ele seria responsável por interpretar essas ações e determinar como lidar com elas.
+Por exemplo, quando um usuário adiciona um produto ao carrinho de compras no site da Ri Happy, o Controlador seria acionado para processar essa ação. Ele interpretaria a solicitação de adição do produto ao carrinho e tomaria as medidas necessárias, como verificar a disponibilidade do produto, calcular o preço total e atualizar o carrinho.
+Além disso, o Controlador também pode ser responsável por coordenar a interação entre o frontend e outras camadas do sistema, como a camada de persistência de dados (banco de dados) ou a camada de serviços externos (por exemplo, processamento de pagamentos). Ele seria o intermediário entre o frontend e essas camadas, garantindo a correta execução das ações solicitadas pelo usuário.
+Em suma, o padrão GRASP: Controlador (Controller) é aplicável ao site da Ri Happy, pois o Controlador recebe as solicitações do frontend (interações do usuário) e interpreta as ações realizadas por ele, coordenando a interação entre o frontend e outras camadas do sistema.
+Pseudocódigo para ilustrar a estrutura dos controladores e suas operações genéricas
+
+```java
+import java.util.ArrayList;
+
+class BaseService {
+    ArrayList<BaseEntidade> listar(BaseEntidade filtro) {
+        // Lógica para listar entidades base
+        return null;
+    }
+    void criar(Object dados) {
+        // Lógica para criar entidade base
+    }
+    void deletar(Integer id) {
+        // Lógica para deletar entidade base
+    }
+    void atualizar(Object dados) {
+        // Lógica para atualizar entidade base
+    }
+}
+
+class ProdutoService extends BaseService {
+    ArrayList<Produto> listar(Produto filtro) {
+        // Lógica para listar produtos
+        return null;
+    }
+    void criar(Object dados) {
+        // Lógica para criar produto
+    }
+    void deletar(Integer id) {
+        // Lógica para deletar produto
+    }
+    void atualizar(Object dados) {
+        // Lógica para atualizar produto
+    }
+}
+
+class CompraService extends BaseService {
+    ArrayList<Compra> listar(Compra filtro) {
+        // Lógica para listar compras
+        return null;
+    }
+    void criar(Object dados) {
+        // Lógica para criar compra
+    }
+    void deletar(Integer id) {
+        // Lógica para deletar compra
+    }
+    void atualizar(Object dados) {
+        // Lógica para atualizar compra
+    }
+}
+
+class AvaliacaoService extends BaseService {
+    ArrayList<Avaliacao> listar(Avaliacao filtro) {
+        // Lógica para listar avaliações
+        return null;
+    }
+    void criar(Object dados) {
+        // Lógica para criar avaliação
+    }
+    void deletar(Integer id) {
+        // Lógica para deletar avaliação
+    }
+    void atualizar(Object dados) {
+        // Lógica para atualizar avaliação
+    }
+}
+
+class BaseController {
+    BaseService serviço;
+    BaseController(BaseService serviço) {
+        this.serviço = serviço;
+    }
+    ArrayList<BaseEntidade> listar(BaseEntidade filtro) {
+        return serviço.listar(filtro);
+    }
+    void criar(Object dados) {
+        serviço.criar(dados);
+    }
+    void deletar(Integer id) {
+        serviço.deletar(id);
+    }
+    void atualizar(Object dados) {
+        serviço.atualizar(dados);
+    }
+}
+
+class ProdutoController extends BaseController {
+    ProdutoService produtoServiço;
+    ProdutoController(ProdutoService produtoServiço) {
+        super(produtoServiço);
+        this.produtoServiço = produtoServiço;
+    }
+}
+
+class CompraController extends BaseController {
+    CompraService compraServiço;
+    CompraController(CompraService compraServiço) {
+        super(compraServiço);
+        this.compraServiço = compraServiço;
+    }
+}
+
+class AvaliacaoController extends BaseController {
+    AvaliacaoService avaliacaoServiço;
+    AvaliacaoController(AvaliacaoService avaliacaoServiço) {
+        super(avaliacaoServiço);
+        this.avaliacaoServiço = avaliacaoServiço;
+    }
+}
+```
+
+Vamos passar explicando o nosso ponto de vista ao criar esse pseudocódigo: <br>
+
+1. A classe _‘BaseService’_ é uma classe base que contém métodos comuns para lidar com entidades. Ela possui os métodos _‘listar’_, _‘criar’_, _‘deletar’_ e _‘atualizar’_, que serão implementados nas classes derivadas. <br>
+2. A classe _‘ProdutoService’_ é uma subclasse de _‘BaseService’_ e adiciona métodos específicos para lidar com produtos. Ela implementa os métodos _‘listar’_, _‘criar’_, _‘deletar’_ e _‘atualizar’_ de acordo com a lógica específica para produtos. <br>
+3. As classes _‘CompraService’_ e _‘AvaliacaoService’_ são semelhantes à _‘ProdutoService’_ e também derivam de _‘BaseService’_, adicionando métodos específicos para lidar com compras e avaliações, respectivamente. <br>
+4. A classe _‘BaseController’_ é uma classe base para os controladores das entidades. Ela possui uma referência para um serviço específico (_‘BaseService’_) e implementa métodos comuns para lidar com as operações de listar, criar, deletar e atualizar. <br>
+5. As classes _‘ProdutoController’_, _‘CompraController’_ e _‘AvaliacaoController’_ são subclasses de _‘BaseController’_ e adicionam funcionalidades específicas para cada tipo de entidade. <br>
+
+## O Controlador poder chamar os métodos apropriados do modelo (ou serviços relacionados ao modelo) para manipular os dados do sistema
+
+No pseudocódigo criado pela equipe, foi criada uma estrutura básica de classes para ilustrar a implementação do padrão GRASP: Controlador no contexto do site da Ri Happy.
+
+1. Classes de serviço (ProdutoService, CompraService, AvaliacaoService):
+
+- Essas classes representam os serviços relacionados a entidades específicas do sistema (produtos, compras, avaliações).
+  Cada classe de serviço herda da classe BaseService, que contém métodos comuns para lidar com entidades.
+  Cada classe de serviço implementa métodos específicos para listar, criar, deletar e atualizar entidades relacionadas.

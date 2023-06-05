@@ -3,11 +3,11 @@
 ## Introdução
 
 A comunicação entre o frontend e o backend é um aspecto crucial no desenvolvimento de aplicações web. É necessário estabelecer uma interação eficiente e estruturada entre essas duas partes, a fim de criar sistemas robustos e de fácil manutenção. Nesse contexto, os padrões de projeto GRASP (General Responsibility Assignment Software Patterns) e GOF (Gang of Four) desempenham um papel fundamental, fornecendo diretrizes e soluções consolidadas para lidar com os desafios da comunicação frontend-backend.
-
 Neste documento, exploraremos a importância dos padrões de projeto GRASP e GOF na comunicação do frontend com o backend. Veremos como esses padrões podem ser aplicados para a definição de responsabilidades claras e coesas em cada componente e para promover a reutilização de código e a manutenibilidade do sistema dad [RiHappy](https://www.rihappy.com.br/) como um todo.
+
 Este documento apresenta dois padrões de design amplamente utilizados no desenvolvimento de software: o padrão GOF - Observer (Observador). O padrão Observer é aplicado quando há uma relação de dependência um-para-muitos entre objetos, permitindo que os objetos dependentes sejam notificados e atualizados automaticamente quando ocorrerem mudanças de estado. No contexto do front-end do site da Ri Happy, o padrão Observer pode ser aplicado para manter a consistência entre os componentes da interface, como menus, formulários e botões, garantindo que eles sejam atualizados automaticamente quando houver mudanças de estado. A aplicação desse padrão de design contribui para a manutenção da separação de responsabilidades entre os componentes, facilitando a expansão e a manutenção do front-end do sistema.
 
-## MetodologiaPadrão GOF: Observer (Observador)
+## Metodologia Padrão GOF: Observer (Observador)
 
 O padrão Observer é utilizado quando existe uma relação de dependência um-para-muitos entre objetos, de forma que quando um objeto muda de estado, todos os objetos dependentes são notificados e atualizados automaticamente. Ele é frequentemente usado em sistemas de interfaces gráficas para manter a consistência entre os elementos visuais e os dados subjacentes.
 
