@@ -2,6 +2,11 @@
 
 ## Introdução
 
+Padrões de projeto são soluções para problemas comuns encontrados no desenvolvimento ou manutenção de software. Tais padrões seguem paradigmas de programação específicos, principalmente a orientação a objetos. Entre os padrões mais conhecidos e amplamente utilizados estão os Padrões de Projeto GOF (Gang of Four), que foram apresentados no livro "Design Patterns: Elements of Reusable Object-Oriented Software" por Erich Gamma, Richard Helm, Ralph Johnson e John Vlissides.
+
+O presente artefato, visa documentar como foram aplicado Grasp na modelagem da comunicação do backend com a camada de persistência da aplicação, em específico no fluxo de avaliação de produtos e de visualização de avaliações realizado no site RiHappy, que é o foco do projeto.
+
+
 ### GRASPs (General responsibility assignment software patterns):
 
 - Criador
@@ -16,11 +21,11 @@
 
 **Padrões de projeto**: são princípios e soluções utilizadas durante a criação de um software, codificados em formato estruturado, descrevendo o problema e a solução adotada [1].
 
-**GRASPs** são padrões de projeto para se obter a melhor atribuição de responsabilidades em um projeto de software, analisando o desenho do software e identidades envolvidas a fim de mitigar problemas como por exemplo os relacionados a coesão, acoplamento e instanciação de classes. Buscando, assim, uma alta coesão (o que facilita o reaproveitamento de código, pois uma mesma classe pode ser reutilizada em diferentes contextos) e baixo acoplamento (o que facilita a manutenção do software, pois objetiva que a alteração em uma classe não cause grande impacto no projeto como um todo) [1]. Além disso, podem ser realizadas questões como: "Quais classes têm as responsabilidades de criar uma instância ?", nem sempre é a própria classe, pois é necessário considerada a semântica envolvida na relação dos objetos (relações de todo e parte levam a necessidades diferentes de projeto, podendo ser necessário utilizar composições ou agregações) [1].
+**GRASPs**: são padrões de projeto para se obter a melhor atribuição de responsabilidades em um projeto de software, analisando o desenho do software e identidades envolvidas a fim de mitigar problemas como por exemplo os relacionados a coesão, acoplamento e instanciação de classes. Buscando, assim, uma alta coesão (o que facilita o reaproveitamento de código, pois uma mesma classe pode ser reutilizada em diferentes contextos) e baixo acoplamento (o que facilita a manutenção do software, pois objetiva que a alteração em uma classe não cause grande impacto no projeto como um todo) [1]. Além disso, podem ser realizadas questões como: "Quais classes têm as responsabilidades de criar uma instância ?", nem sempre é a própria classe, pois é necessário considerada a semântica envolvida na relação dos objetos (relações de todo e parte levam a necessidades diferentes de projeto, podendo ser necessário utilizar composições ou agregações) [1].
 
 ## Metodologia
 
-Foram a analisados os padrões GRASPs e indicados os padrões de projeto que mais se adequam para realização do projeto.
+Para a realização da modelagem, os membros Lucas Felipe, Lucas Gomes, Lucas Gabriel, Luíza e Nicolas se reuniram e optaram por fazer primeiramente a modalgem dos padrões [GOFS](/2023.1_G5_ProjetoRiHappy/docs/3.padroesdeprojeto/back/gof.md), por serem muito mais objetivas nas resoluções dos principais problemas envolvidos no escopo do projeto. Posteriormente, por conta da maior abstração e simplificação à outra classe de padrão, foram selecionados quais padrões GRASPS serão utilizados pela equipe.
 
 ## Desenvolvimento
 
@@ -78,8 +83,16 @@ Protege o objeto de variações utilizando de uma interface estável ou indireç
 
 [2] SERRANO, M. AULA - GRASP – PARTE II.
 
+[3] IEEE. SWEBOK-Guide to the Software Engineering Body of
+Knowledge, 2004. Acesso em 29/05/2023.
+
+[4] SOMMERVILLE, Ian. Engenharia de Software. 8a. edição.
+Pearson, 2007. Acesso em 29/05/2023.
+
+
 ## Histórico de Versão
 
 | Versão | Data       | Descrição                                                   | Autor(es)     | Revisor(es) |
 | ------ | ---------- | ----------------------------------------------------------- | ------------- | ----------- |
 | `1.0`  | 05/06/2023 | Análise inicial dos padrões GRASPs adequados para o projeto | Lucas Gabriel |             |
+| `1.1`  | 05/06/2023 | Revisão da base criada e complementação com ligações envolvendo padrões GOF | Lucas Felipe |             |
