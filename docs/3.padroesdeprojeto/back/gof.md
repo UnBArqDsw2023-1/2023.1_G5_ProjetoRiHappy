@@ -20,21 +20,15 @@ Outro padrão que também foi bastante revisado e utilizado durante as modelagen
 
 Durante os estudos dos padrões de projeto, optamos por manter nossa comunicação através das [issues](https://github.com/UnBArqDsw2023-1/2023.1_G5_ProjetoRiHappy/issues/56), para garantir que tudo ficasse documentado e de fácil acesso à toda equipe. Assim, inicialmente colocamos os pontos principais estudados de cada padrão, como pode ser visto na Figura 1 abaixo:
 
- <div style="text-align: center">
-
   ![comunicacao](../assets/padroesdeprojeto/padroes.png)
   
-  Figura 1. Definição de padrões pela equipe (Fonte: Repositório da equipe).
-  </div>
+<p class="legenda">  Figura 1. Definição de padrões pela equipe (Fonte: Repositório da equipe). </p>
 
 Após identificarmos padrões GOF que fizeram sentido com o escopo do nosso projeto, fizemos as devidas sugestões e alterações em conjunto com os feedbacks da professora em nossa última entrega, no diagrama de classes, de forma a detalhar melhor e desenvolvê-lo com base no que foi apresentado dos padrões. A Figura 2 mostra um pouco da discussão da equipe:
 
- <div style="text-align: center">
-
   ![comunicacao](../assets/padroesdeprojeto/padroes2.png)
   
-  Figura 2. Definições no diagrama de classes (Fonte: Repositório da equipe).
-  </div>
+<p class="legenda"> Figura 2. Definições no diagrama de classes (Fonte: Repositório da equipe). </p>
 
 ### GoF - Proxy
 
@@ -46,14 +40,21 @@ O Proxy é um padrão de projeto estrutural que permite a utilização de um sub
 
 Como a abstração do padrão Proxy permite que os usuários consigam fazer solicitações sem trazer quaisquer modificações no objeto original. Com isso, ganhamos um grande aspecto de segurança vista que temos uma garantia que com esse controle de acesso, usuários específicos vão poder fazer requisições especificas dentro do sistema e com isso não afetar como um todo em aspectos de desempenho e qualidade. Além mais, todas essas camadas permitem que o usuário possa a vir interagir com outras classes que não sejam a original sem sentir necessáriamente uma diferença em sua utilização.
 
-
 #### Aplicação
 
 A principal aplicação do padrão dentro do fluxo do projeto, vai se dar no processo de criação de uma avaliação para um determinado produto. Dentro deste contexto, é necessário que o usuário faça uma verificação de login para que a plataforma tenha uma garantia de quem é a pessoa por trás da avaliação e se ela de fato fez a compra deste produto, para trazer uma maior relêvancia para a avaliação. Nesse fluxo, a depender do tipo de acesso que o usuário venha a ter não necessariamente ele precisa operar com a instância original.
 
-#### Estrutura
+#### Estrutura e Participantes
 
-#### Participantes
+<details>
+<summary> Versão 1 </summary>
+
+![](./assets/gof/4804.png)
+<p class="legenda">Figura 3. Primeira versão, em baixa fidelidade, da modelagem do padrão proxy. (Fonte: Elaborado pelo Nicolas)</p>
+</details>
+
+![](assets/usuario-proxy.png)
+<p class="legenda">Figura 4. Modelagem do padrão proxy no contexto do projeto, versão 2. (Fonte: Elaborado pelo Nicolas) </p>
 
 #### Colaborações
 
@@ -62,6 +63,7 @@ A principal aplicação do padrão dentro do fluxo do projeto, vai se dar no pro
 #### Implementação
 
 [](pseudoCodigoProxy.java ':include :type=code')
+<p class="legenda">Trecho de Código 1: Implementação do Proxy em Java.</p>
 
 #### Código
 
@@ -75,8 +77,9 @@ A principal aplicação do padrão dentro do fluxo do projeto, vai se dar no pro
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 |--------|------|-----------|-----------|-------------|
-| `1.0`  | 26/05/2023     | Criação do documento com estrutura padrão.          | Nicolas   | Lucas Felipe            |
-| `1.1`  | 29/05/2023     | Criação da base do artefato com os padrões escolhidos        | Lucas Felipe e Lucas Gomes   | Nicolas            |
-| `1.2`  | 30/05/2023     | Adicionando Padrão Proxy       | Lucas Felipe e Lucas Gomes   | Nicolas            |
-| `1.3`  | 02/06/2023     | Adicionando comunicações da equipe       | Luíza Esteves e Lucas Gomes   | Lucas Felipe    |
-| `1.4`  | 04/06/2023     | Adapta estrutura dos textos para receber apenas os padrões GOF       | Lucas Felipe   |     |
+| `1.0`  | 26/05/2023 | Criação do documento com estrutura padrão.          | Nicolas   | Lucas Felipe            |
+| `1.1`  | 29/05/2023 | Criação da base do artefato com os padrões escolhidos        | Lucas Felipe e Lucas Gomes   | Nicolas            |
+| `1.2`  | 30/05/2023 | Adicionando Padrão Proxy       | Lucas Felipe e Lucas Gomes   | Nicolas            |
+| `1.3`  | 02/06/2023 | Adicionando comunicações da equipe       | Luíza Esteves e Lucas Gomes   | Lucas Felipe    |
+| `1.4`  | 04/06/2023 | Adapta estrutura dos textos para receber apenas os padrões GOF       | Lucas Felipe   |     |
+| `1.5`  | 05/06/2023 | Inserção da modelagem UML do proxy. | Nicolas |
