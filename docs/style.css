@@ -2,9 +2,18 @@
   padding-left: 0.5vw;
 }
 
+
+.legenda {
+  font-weight: bold;
+  color: #c45510 !important;
+  text-align: center;
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
 summary {
   font-weight: bold;
-  padding-left: 1vw;
+  padding-left: 2vw;
   list-style-type: "+";
 }
 
@@ -30,9 +39,18 @@ tr th {
 
 img {
   text-align: center;
+
 }
+
 
 p {
   text-align: justify;
+  color: rgb(7, 22, 36);
 }
 
+h1 *,
+h2 *,
+h3 *,
+h4 * {
+  color: #2c6379 !important;
+}
