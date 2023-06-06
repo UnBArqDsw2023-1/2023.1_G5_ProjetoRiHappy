@@ -51,7 +51,9 @@ A principal motivação do padrão Proxy, é o controle do acesso do usuário re
 
 A principal aplicação do padrão dentro do fluxo do projeto, vai se dar no processo de criação de uma avaliação para um determinado produto. Dentro deste contexto, é necessário que o usuário faça uma verificação de login para que a plataforma tenha uma garantia de quem é a pessoa por trás da avaliação e se ela de fato fez a compra deste produto, para trazer uma maior relevância para a avaliação. Nesse fluxo, a depender do tipo de acesso que o usuário venha a ter não necessariamente ele precisa operar com a instância original.
 
-#### Estrutura e Participantes
+#### Estrutura
+
+A modelagem do padrão de projeto Proxy no projeto foi realizada em duas versões, representadas nas Figuras 3 e 4, e é composta por uma interface, duas classes e um enum. A interface enum define os tipos de acesso utilizados na checagem de acesso, definida no proxy.
 
 <details>
 <summary> Versão 1 </summary>
@@ -63,6 +65,12 @@ A principal aplicação do padrão dentro do fluxo do projeto, vai se dar no pro
 ![](assets/usuario-proxy.png)
 <p class="legenda">Figura 4. Modelagem do padrão proxy no contexto do projeto, versão 2. (Fonte: Elaborado pelo Nicolas) </p>
 
+##### Participantes
+
+- **Subject**: A interface *Usuario* é comum ao Proxy (UsuarioProxy) e classe real (UsuarioReal).
+- **Proxy**: A classe de proxy (UsuarioProxy) mantém uma referência ao objeto real (usuario: UsuarioReal), implementa a interface Usuario e controla o acesso ao objeto real, por meio do método `checarAcesso():void`. Nesse caso, um **proxy de proteção** foi implementado, pois o método checa a autorização de acesso aos atributos do UsuarioReal.
+- **RealSubject**: O objeto real, representado pelo proxy, é o UsuarioReal.
+
 #### Implementação
 
 [](trechoCodigoProxy.java ':include :type=code')
@@ -70,13 +78,13 @@ A principal aplicação do padrão dentro do fluxo do projeto, vai se dar no pro
 
 O trecho de código acima mostra a implementação do padrão Proxy em Java, em que cada parte tem um objetivo:
 
-* a interface nomeada "Usuário" faz as definições dos métodos que representam um usuário. 
-* o enum "TipoAcesso" faz a definição dos tipos possíveis de acesso de um usuário
-* a classe "UsuarioImplementado" utiliza a interface "Usuario"
-* a classe "UsuarioProxy" é uma classe proxy que usa a interface "Usuario", fazendo referência ao objeto "UsuarioImplementado" e passando chamada dos métodos para esse objeto.
-* a "BaseService" é uma classe abstrata que possui um construtor que recebe o objeto "Usuario" e o método abstrato "executar()", que é implementado nas subclasses.
-* a "AvaliacaoService" é uma implementação da "BaseService", já especificando o serviço de avaliação e herdando o objeto usuário. Nela é verificado se o usuário pode ter acesso de avaliação para assim poder criá-la ou enviar uma mensagem de que não é possível.
-* na main são criados três usuários, com tipos de avaliações diferentes para que seja possível observar os diferentes comportamentos do sistema
+- a interface nomeada "Usuário" faz as definições dos métodos que representam um usuário.
+- o enum "TipoAcesso" faz a definição dos tipos possíveis de acesso de um usuário
+- a classe "UsuarioImplementado" utiliza a interface "Usuario"
+- a classe "UsuarioProxy" é uma classe proxy que usa a interface "Usuario", fazendo referência ao objeto "UsuarioImplementado" e passando chamada dos métodos para esse objeto.
+- a "BaseService" é uma classe abstrata que possui um construtor que recebe o objeto "Usuario" e o método abstrato "executar()", que é implementado nas subclasses.
+- a "AvaliacaoService" é uma implementação da "BaseService", já especificando o serviço de avaliação e herdando o objeto usuário. Nela é verificado se o usuário pode ter acesso de avaliação para assim poder criá-la ou enviar uma mensagem de que não é possível.
+- na main são criados três usuários, com tipos de avaliações diferentes para que seja possível observar os diferentes comportamentos do sistema
 
 ## Conclusão
 
@@ -100,3 +108,4 @@ Ao implementar o padrão de projeto Proxy, conseguimos identificar na prática c
 | `1.4`  | 04/06/2023 | Adapta estrutura dos textos para receber apenas os padrões GOF       | Lucas Felipe   | Nicolas     |
 | `1.5`  | 05/06/2023 | Inserção da modelagem UML do proxy. | Nicolas | Luíza |
 | `1.6`  | 06/06/2023 | Adicionando explicações e conclusão | Luíza | |
+| `1.7` | 06/06/2023 | Finalizando a seção de modelagem e participantes | Nicolas |
