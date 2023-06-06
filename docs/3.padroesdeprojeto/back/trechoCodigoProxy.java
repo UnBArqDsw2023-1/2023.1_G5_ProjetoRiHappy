@@ -1,14 +1,18 @@
 // Interface que representa o usuário
 interface Usuario {
-    public Usuario getUsuario();
+    Usuario getUsuario();
+    String getNome();
+    String getCpf();
+    String getEmail();
+    String getEndereco();
+    TipoAcesso getTipoAcesso();
+    Boolean checarAcesso();
 }
-
 // Enum que representa os tipos de acesso
 enum TipoAcesso {
-    ADMIN,
-    VENDEDOR,
-    COMPRA,
-    VISITANTE
+    LOGADO,
+    AVALIACAO,
+    COMPRA
 }
 
 // Implementação concreta do usuário
@@ -17,7 +21,7 @@ class UsuarioImplementado implements Usuario {
     private String cpf;
     private String email;
     private String endereco;
-    private TipoAcesso tipoAcesso; 
+    private TipoAcesso tipoAcesso;
 
     public UsuarioImplementado(String nome, String cpf, String email, String endereco, TipoAcesso tipoAcesso) {
         this.nome = nome;
@@ -47,6 +51,15 @@ class UsuarioImplementado implements Usuario {
         return tipoAcesso;
     }
 
+    public Boolean checarAcesso() {
+        if (tipoAcesso == TipoAcesso.AVALIACAO) {
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
+
     @Override //A ideia é subescrever o metodo getUsuario() com esse usuario de fato
     public Usuario getUsuario() {
         return this;
@@ -66,29 +79,33 @@ class UsuarioProxy implements Usuario {
         return usuario.getUsuario();
     }
 
-    @Override
     public String getNome() {
         return usuario.getNome();
     }
 
-    @Override
     public String getCpf() {
         return usuario.getCpf();
     }
 
-    @Override
     public String getEmail() {
         return usuario.getEmail();
     }
 
-    @Override
     public String getEndereco() {
         return usuario.getEndereco();
     }
 
-    @Override
     public TipoAcesso getTipoAcesso() {
-        return tipoAcesso;
+        return usuario.getTipoAcesso();
+    }
+
+    public Boolean checarAcesso() {
+        if (usuario.getTipoAcesso() == TipoAcesso.AVALIACAO) {
+            return true;
+        }
+        else {
+            return false;
+        }
     }
 }
 
@@ -116,17 +133,39 @@ class AvaliacaoService extends BaseService {
 
     @Override
     public void executar() {
-        System.out.println("Executando uma avaliação");
-        criarAvaliacao();
+        System.out.println("Checando validade para uma avaliação...");
+        Boolean acesso = usuario.checarAcesso();
+
+        if (acesso) {
+            criarAvaliacao();
+        } else {
+            System.out.println(usuario.getUsuario().getNome() + "com acesso " + usuario.getUsuario().getTipoAcesso() + " deve ter comprado o pedido para fazer uma avaliação");
+        }
     }
 }
 
 // Exemplo de uso
-public class main {
+public class Main {
     public static void main(String[] args) {
-        Usuario usuario = new UsuarioProxy("Fulano", "12345678901", "fulano@example.com", "Rua A, 123", TipoAcesso.ADMIN);
+        // Usuário 1
+        Usuario usuario1 = new UsuarioProxy("Fulano", "12345678901", "fulano@example.com", "Rua A, 123", TipoAcesso.AVALIACAO);
 
-        BaseService service = new AvaliacaoService(usuario);
-        service.executar();
+        BaseService service1 = new AvaliacaoService(usuario1);
+        service1.executar();
+        System.out.println();
+
+        // Usuário 2
+        Usuario usuario2 = new UsuarioProxy("Ciclano", "1234554321", "ciclano@example.com", "Rua B, 123", TipoAcesso.LOGADO);
+
+        BaseService service2 = new AvaliacaoService(usuario2);
+        service2.executar();
+        System.out.println();
+
+        // Usuário 3
+        Usuario usuario3 = new UsuarioProxy("Deltrano", "987456321", "deltrano@example.com", "Rua C, 123", TipoAcesso.COMPRA);
+
+        BaseService service3 = new AvaliacaoService(usuario3);
+        service3.executar();
+        System.out.println();
     }
 }

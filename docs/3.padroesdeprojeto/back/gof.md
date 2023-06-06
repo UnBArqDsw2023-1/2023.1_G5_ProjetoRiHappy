@@ -65,7 +65,7 @@ A principal aplicação do padrão dentro do fluxo do projeto, vai se dar no pro
 
 #### Implementação
 
-[](pseudoCodigoProxy.java ':include :type=code')
+[](trechoCodigoProxy.java ':include :type=code')
 <p class="legenda">Trecho de Código 1: Implementação do Proxy em Java.</p>
 
 ## Referências
