@@ -14,20 +14,17 @@ O grupo, após um período de análise, optou por seguir com o primeiro padrão 
 
 Durante as modelagens do diagrama de classes, o grupo utilizou o padrão GOF "**Singleton**". O objetivo do padrão Singleton é garantir que apenas uma instância de uma determinada classe seja criada durante a execução de um programa. A utilidade desse padrão, é que evitar a criação de múltiplas instâncias de uma classe e também economizamos recursos do sistema. O padrão foi aplicado na criação de sessões com o banco de dados, visando otimizar o tempo de conexão e garantir, via aplicação, a integridade do acesso ao banco de dados.
 
-<!-- Comentei essa parte porque ainda não usamos o Abstract Factory, pelo que conversamos com a professora. -->
-<!-- Outro padrão que também foi bastante revisado e utilizado durante as modelagens foi o padrão "**Abstract Factory**". O objetivo principal do padrão Abstract Factory é abstrair a criação de objetos, permitindo que o código do cliente fique desacoplado das classes concretas específicas que estão sendo criadas. Isso promove a modularidade, a flexibilidade e a extensibilidade do sistema, tornando mais fácil adicionar novas variantes de produtos sem modificar o código existente. -->
-
 ## Discussões
 
 Durante os estudos dos padrões de projeto, optamos por manter nossa comunicação através das [issues](https://github.com/UnBArqDsw2023-1/2023.1_G5_ProjetoRiHappy/issues/56), para garantir que tudo ficasse documentado e de fácil acesso à toda equipe. Assim, inicialmente colocamos os pontos principais estudados de cada padrão, como pode ser visto na Figura 1 abaixo:
 
-![comunicacao](assets/padroes.png)
+![](assets/padroes.png)
   
 <p class="legenda">  Figura 1. Definição de padrões pela equipe (Fonte: Repositório da equipe). </p>
 
 Após identificarmos padrões GOF que fizeram sentido com o escopo do nosso projeto, fizemos as devidas sugestões e alterações em conjunto com os feedbacks da professora em nossa última entrega, no diagrama de classes, de forma a detalhar melhor e desenvolvê-lo com base no que foi apresentado dos padrões. A Figura 2 mostra um pouco da discussão da equipe:
 
-![comunicacao](assets/padroes2.png)
+![](assets/padroes2.png)
   
 <p class="legenda"> Figura 2. Definições no diagrama de classes (Fonte: Repositório da equipe). </p>
 
@@ -94,8 +91,8 @@ Ao implementar o padrão de projeto Proxy, conseguimos identificar na prática c
 
 [1] Padrão Proxy, página web disponível no [link](https://refactoring.guru/pt-br/design-patterns/proxy). Acesso em 29/05/2023. <br>
 [2] Padrão Proxy, página web disponível no [link](https://diogomoreira.gitbook.io/padroes-de-projeto/padrao-proxy). Acesso em 29/05/2023 <br>
-[3] Arquitetura e Desenho de software - Aula Gofs criacionais - Profa. Milene <br/>
-[4] @TODO: inserir o livro aqui  
+[3] Arquitetura e Desenho de software - Aula Gofs criacionais - Prof. Milene <br/>
+[4] Design Patterns: elements of reusable object-oriented software. E. GAMMA et al.
 
 ## Histórico de Versão
 
