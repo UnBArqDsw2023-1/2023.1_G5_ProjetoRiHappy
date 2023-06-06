@@ -68,6 +68,20 @@ A principal aplicação do padrão dentro do fluxo do projeto, vai se dar no pro
 [](trechoCodigoProxy.java ':include :type=code')
 <p class="legenda">Trecho de Código 1: Implementação do Proxy em Java.</p>
 
+O trecho de código acima mostra a implementação do padrão Proxy em Java, em que cada parte tem um objetivo:
+
+* a interface nomeada "Usuário" faz as definições dos métodos que representam um usuário. 
+* o enum "TipoAcesso" faz a definição dos tipos possíveis de acesso de um usuário
+* a classe "UsuarioImplementado" utiliza a interface "Usuario"
+* a classe "UsuarioProxy" é uma classe proxy que usa a interface "Usuario", fazendo referência ao objeto "UsuarioImplementado" e passando chamada dos métodos para esse objeto.
+* a "BaseService" é uma classe abstrata que possui um construtor que recebe o objeto "Usuario" e o método abstrato "executar()", que é implementado nas subclasses.
+* a "AvaliacaoService" é uma implementação da "BaseService", já especificando o serviço de avaliação e herdando o objeto usuário. Nela é verificado se o usuário pode ter acesso de avaliação para assim poder criá-la ou enviar uma mensagem de que não é possível.
+* na main são criados três usuários, com tipos de avaliações diferentes para que seja possível observar os diferentes comportamentos do sistema
+
+## Conclusão
+
+Ao implementar o padrão de projeto Proxy, conseguimos identificar na prática como o sistema consegue ser otimizado sem que o cliente tenha necessidade de saber da localização do objeto. Dentro das modelagens, também conseguimos fazer evoluções de versões anteriores usando do Singleton, trazendo um diagrama mais robusto que consequentemente traz uma melhoria na implementação do sistema.
+
 ## Referências
 
 [1] Padrão Proxy, página web disponível no [link](https://refactoring.guru/pt-br/design-patterns/proxy). Acesso em 29/05/2023. <br>
@@ -84,4 +98,5 @@ A principal aplicação do padrão dentro do fluxo do projeto, vai se dar no pro
 | `1.2`  | 30/05/2023 | Adicionando Padrão Proxy       | Lucas Felipe e Lucas Gomes   | Nicolas            |
 | `1.3`  | 02/06/2023 | Adicionando comunicações da equipe       | Luíza Esteves e Lucas Gomes   | Lucas Felipe    |
 | `1.4`  | 04/06/2023 | Adapta estrutura dos textos para receber apenas os padrões GOF       | Lucas Felipe   | Nicolas     |
-| `1.5`  | 05/06/2023 | Inserção da modelagem UML do proxy. | Nicolas |
+| `1.5`  | 05/06/2023 | Inserção da modelagem UML do proxy. | Nicolas | Luíza |
+| `1.6`  | 06/06/2023 | Adicionando explicações e conclusão | Luíza | |
