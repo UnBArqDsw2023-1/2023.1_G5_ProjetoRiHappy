@@ -152,7 +152,7 @@ Pearson, 2007. Acesso em 29/05/2023.
 
 | Versão | Data       | Descrição                                                                     | Autor(es)     | Revisor(es) |
 | ------ | ---------- | ----------------------------------------------------------------------------- | ------------- | ----------- |
-| `1.0`  | 05/06/2023 | Análise inicial dos padrões GRASP adequados para o projeto                    | Lucas Gabriel |             |
-| `1.1`  | 05/06/2023 | Revisão da base criada e complementação com ligações envolvendo padrões GOF   | Lucas Felipe  |             |
-| `2.0`  | 07/06/2023 | Refatoração das seções de introdução, metodologia, discussão e análise incial | Lucas Gabriel |             |
-| `2.1`  | 07/06/2023 | Adição da seções de Padrões GRASP utilizados                                  | Lucas Gabriel |             |
+| `1.0`  | 05/06/2023 | Análise inicial dos padrões GRASP adequados para o projeto                    | Lucas Gabriel |   Davi Matias          |
+| `1.1`  | 05/06/2023 | Revisão da base criada e complementação com ligações envolvendo padrões GOF   | Lucas Felipe  |   Davi Matias          |
+| `2.0`  | 07/06/2023 | Refatoração das seções de introdução, metodologia, discussão e análise incial | Lucas Gabriel |   Davi Matias          |
+| `2.1`  | 07/06/2023 | Adição da seções de Padrões GRASP utilizados                                  | Lucas Gabriel |   Davi Matias          |
