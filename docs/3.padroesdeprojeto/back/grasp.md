@@ -118,14 +118,14 @@ O padrão de projeto GRASP Polimorfismo foi utilizado para encapsular variaçõe
 
 
 ![Figura 7](../assets/padroesdeprojeto/padraoGRASP3.png)
-<p class="legenda">   Figura 7. Representação das heranças da superclasse Listagem (Fonte: Elaborado por Nicolas Chagas) </p>
+<p class="legenda">   Figura 7. Representação das heranças da superclasse Listagem (Fonte: Diagrama de Classes do projeto). </p>
 
 - **Variações Protegidas**
 
 O padrão de projeto GRASP Variações Protegidas foi utilizado com intuito de garantir a integridade do processo de avaliação dos produtos, permitindo que apenas um usuário autenticado que realmente comprou a mercadoria em questão possa enviar para a camada de persistência sua avaliação, registrando as informações no objeto original. Apesar disso, enquanto o usuário não estiver de fato autenticado o mesmo poderá realizar a avaliação do produto validando-se de um objeto local que posteriormente será enviado para camada de persistência caso sua autenticação se confirme, conforme pode ser observado na Figura 8 abaixo. Diante disso, esse padrão de projeto se enquadra na ideia do padrão de projeto Proxy, o qual faz parte dos GoF e está descrito de forma detalhada no [documento do mesmo](/2023.1_G5_ProjetoRiHappy/docs/3.padroesdeprojeto/back/gof.md#Proxy).  
 
 ![Figura 8](assets/usuario-proxy.png)
-<p class="legenda">   Figura 8. Modelagem do padrão proxy no contexto do projeto, versão 2 (Fonte: Elaborado por Nicolas Chagas) </p>
+<p class="legenda">   Figura 8. Modelagem do padrão proxy no contexto do projeto, versão 2 (Fonte: Elaborado por Nicolas Chagas). </p>
 
 ## Conclusão
 
