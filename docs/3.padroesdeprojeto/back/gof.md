@@ -73,7 +73,7 @@ A modelagem do padrão de projeto Proxy no projeto foi realizada em duas versõe
 [](trechoCodigoProxy.java ':include :type=code')
 <p class="legenda">Trecho de Código 1: Implementação do Proxy em Java.</p>
 
-O trecho de código acima mostra a implementação do padrão Proxy em Java, em que cada parte tem um objetivo:
+O trecho de [código](./trechoCodigoProxy.java) acima mostra a implementação do padrão Proxy em Java, em que cada parte tem um objetivo:
 
 - a interface nomeada "Usuário" faz as definições dos métodos que representam um usuário.
 - o enum "TipoAcesso" faz a definição dos tipos possíveis de acesso de um usuário
