@@ -83,6 +83,20 @@ O trecho de [código](./trechoCodigoProxy.java) acima mostra a implementação d
 - a "AvaliacaoService" é uma implementação da "BaseService", já especificando o serviço de avaliação e herdando o objeto usuário. Nela é verificado se o usuário pode ter acesso de avaliação para assim poder criá-la ou enviar uma mensagem de que não é possível.
 - na main são criados três usuários, com tipos de avaliações diferentes para que seja possível observar os diferentes comportamentos do sistema
 
+### Como rodar o a implementação
+
+Se você não tiver o Java 11 ou uma versão mais recente instalada, recomendo utilizar um compilador online para executar o trecho de código.
+
+- Acesse no [Compilador Online - Java](https://www.onlinegdb.com/online_java_compiler)
+- Adicione o [código](./trechoCodigoProxy.java) na `Main.java`
+- Pressione `F9` ou clique em `Run`
+
+Caso você tenha o ambiente de trabalho necessário na sua máquina para rodar o Java, basta criar um novo projeto na sua IDE favorita, adicionar o projeto e rodar.
+
+Espera-se que a saída exibida após a execução do código seja essa:
+
+![](./assets/saida_esperada_proxy.png)
+
 ## Conclusão
 
 Ao implementar o padrão de projeto Proxy, conseguimos identificar na prática como o sistema consegue ser otimizado sem que o cliente tenha necessidade de saber da localização do objeto. Dentro das modelagens, também conseguimos fazer evoluções de versões anteriores usando do Singleton, trazendo um diagrama mais robusto que consequentemente traz uma melhoria na implementação do sistema.
@@ -104,5 +118,6 @@ Ao implementar o padrão de projeto Proxy, conseguimos identificar na prática c
 | `1.3`  | 02/06/2023 | Adicionando comunicações da equipe       | Luíza Esteves e Lucas Gomes   | Lucas Felipe    |
 | `1.4`  | 04/06/2023 | Adapta estrutura dos textos para receber apenas os padrões GOF       | Lucas Felipe   | Nicolas     |
 | `1.5`  | 05/06/2023 | Inserção da modelagem UML do proxy. | Nicolas | Luíza |
-| `1.6`  | 06/06/2023 | Adicionando explicações e conclusão | Luíza | |
-| `1.7` | 06/06/2023 | Finalizando a seção de modelagem e participantes | Nicolas |
+| `1.6`  | 06/06/2023 | Adicionando explicações e conclusão | Luíza | Lucas Gomes |
+| `1.7`  | 06/06/2023 | Finalizando a seção de modelagem e participantes | Nicolas | Lucas Gomes |
+| `1.8`  | 09/06/2023 | Adicionando guia para rodar o codigo do Proxy | Lucas Gomes | Lucas Felipe
