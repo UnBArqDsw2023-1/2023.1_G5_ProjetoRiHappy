@@ -2,11 +2,6 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
-import AvaliacaoService.BaseController;
-import AvaliacaoService.ProdutoService;
-
-
-
 
 class Avaliacoes{
 	String nome;
