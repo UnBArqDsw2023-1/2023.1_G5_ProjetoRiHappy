@@ -2,6 +2,10 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
+import AvaliacaoService.BaseController;
+import AvaliacaoService.ProdutoService;
+
+
 
 
 class Avaliacoes{
@@ -320,9 +324,10 @@ class AvaliacaoService extends BaseService<Avaliacoes> {
 }
 
 class ProdutoService extends BaseService<Produto> {
-        ArrayList<Produto> listaProdutos = new ArrayList<>();
 
-    ArrayList<Produto> listar(Produto filtro) {
+    ArrayList<Produto> listaProdutos = new ArrayList<>();
+
+    ArrayList<Produto> listar() {
         System.out.println("listando produtos listados");
         System.out.println(listaProdutos.toString());
         return listaProdutos;
@@ -341,7 +346,7 @@ class ProdutoService extends BaseService<Produto> {
         listaProdutos.remove(id);
     }
 
-    void atualizar(Produto produto, Integer id) {
+    void atualizar(Integer id, Produto produto) {
         // Lógica para atualizar produto
             if(listaProdutos.size()>0){
             Produto produtoExistente = listaProdutos.get(id);
@@ -364,7 +369,7 @@ class CompraService extends BaseService<Compra> {
     ArrayList<Compra> listaCompras = new ArrayList<>();
 
 
-    ArrayList<Compra> listar(Compra filtro) {
+    ArrayList<Compra> listar() {
         // Lógica para listar compra
         System.out.println("listando compras listadas");
         System.out.println(listaCompras.toString());
@@ -381,7 +386,7 @@ class CompraService extends BaseService<Compra> {
     void deletar(Integer id) {
         // Lógica para deletar compra
         System.out.println("deletando Compra");
-        listaAvaliacoes.remove(id);        
+        listaCompras.remove(id);        
     }
 
     void atualizar(Compra compra, Integer id) {
@@ -427,21 +432,41 @@ class BaseController<T> {
 }
 
 class CompraController extends BaseController<Compra> {
-    CompraService compraService;
+    
 
-    CompraController(CompraService compraService) {
-        super(compraService);
-        this.compraService = compraService;
+    CompraController(BaseService<Compra> service) {
+        super(service);
+        //TODO Auto-generated constructor stub
     }
 
-    // Métodos específicos do CompraController
-    // ...
+    CompraService compraService;
+ 
+
+    ArrayList<Compra> listarCompras() {
+        return compraService.listar(null);
+    }
+
+    // Método para criar uma nova avaliação
+    void criarCompra(Compra compra) {
+        compraService.criar(compra);
+    }
+
+    // Método para deletar uma avaliação pelo ID
+    void deletarCompra(Integer id) {
+        compraService.deletar(id);
+    }
+
+    // Método para atualizar uma avaliação pelo ID
+    void atualizarCCompra(Compra compra, Integer id) {
+        compraService.atualizar(compra, id);
+    }
+    
+}
 }
 
-class AvaliacaoController extends BaseController<AvaliacaoService> {
-
+class AvaliacaoController extends BaseController<Avaliacoes> {
     
-    AvaliacaoController(BaseService<AvaliacaoService> service) {
+    AvaliacaoController(BaseService<Avaliacoes> service) {
         super(service);
         //TODO Auto-generated constructor stub
     }
@@ -471,11 +496,33 @@ class AvaliacaoController extends BaseController<AvaliacaoService> {
 }
 
 class ProdutoController extends BaseController<Produto> {
-    ProdutoService produtoService;
+    
+    ProdutoController(BaseService<ProdutoService> service) {
+        super(service);
+        //TODO Auto-generated constructor stub
+    }
 
-    ProdutoController(ProdutoService produtoService) {
-        super(produtoService);
-        this.produtoService = produtoService;
+
+    ProdutoService produtoService;
+ 
+
+    ArrayList<Produto> listarProdutos() {
+        return produtoService.listar();
+    }
+
+    // Método para criar uma nova avaliação
+    void criarProduto(Produto produto) {
+        produtoService.criar(produto);
+    }
+
+    // Método para deletar uma avaliação pelo ID
+    void deletarProduto(Integer id) {
+        produtoService.deletar(id);
+    }
+
+    // Método para atualizar uma avaliação pelo ID
+    void atualizarProduto(Integer id, Produto produto) {
+        produtoService.atualizar(id, produto);
     }
     
 }
@@ -487,7 +534,7 @@ public class MainController {
         AvaliacaoService avaliacaoService = new AvaliacaoService();
 
         // Criação do controlador de avaliação
-        AvaliacaoController avaliacaoController = new Avaliacao
+        AvaliacaoController avaliacaoController = new AvaliacaoController(avaliacaoService);
 
         // Exemplos de uso
         Avaliacoes avaliacao1 = new Avaliacoes("Usuário1", "Ótimo produto!", 5, LocalDate.now(), 10);
@@ -523,4 +570,3 @@ public class MainController {
         }
     }
 }
-
