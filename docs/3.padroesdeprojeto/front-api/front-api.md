@@ -393,8 +393,8 @@ public class Main {
 
 ## Histórico de Versão
 
-| Versão | Data       | Descrição                                     | Autor(es)      | Revisor(es)   |
-| ------ | ---------- | --------------------------------------------- | -------------- | ------------- |
-| `1.0`  | 01/06/2023 | Esboço inicial do documento                   | Josué Teixeira | Maria Abritta |
-| `2.0`  | 01/06/2023 | Criação e Finalização do documento            | Maria Abritta  | Nicolas       |
-| `3.0`  | 11/06/2023 | adição do código de implentação pelo terminal | Davi Lima      | Nicolas       |
+| Versão | Data       | Descrição                                     | Autor(es)             | Revisor(es)   |
+| ------ | ---------- | --------------------------------------------- | --------------------- | ------------- |
+| `1.0`  | 01/06/2023 | Esboço inicial do documento                   | Josué Teixeira        | Maria Abritta |
+| `2.0`  | 01/06/2023 | Criação e Finalização do documento            | Maria Abritta         | Nicolas       |
+| `3.0`  | 11/06/2023 | adição do código de implentação pelo terminal | Davi Lima e Guilherme | Nicolas       |
