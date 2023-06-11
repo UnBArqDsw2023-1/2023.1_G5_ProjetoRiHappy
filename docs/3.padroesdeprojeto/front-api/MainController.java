@@ -2,7 +2,6 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
-import AvaliacaoService.AvaliacaoController;
 
 
 class Avaliacoes{
@@ -321,21 +320,42 @@ class AvaliacaoService extends BaseService<Avaliacoes> {
 }
 
 class ProdutoService extends BaseService<Produto> {
+        ArrayList<Produto> listaProdutos = new ArrayList<>();
+
     ArrayList<Produto> listar(Produto filtro) {
-        // Lógica para listar produtos
-        return null;
+        System.out.println("listando produtos listados");
+        System.out.println(listaProdutos.toString());
+        return listaProdutos;
     }
 
     void criar(Produto produto) {
         // Lógica para criar produto
+        System.out.println("criando produto");
+        listaProdutos.add(produto);
+        System.out.println(produto.toString());
     }
 
     void deletar(Integer id) {
         // Lógica para deletar produto
+        System.out.println("deletando produto");
+        listaProdutos.remove(id);
     }
 
-    void atualizar(Produto produto) {
+    void atualizar(Produto produto, Integer id) {
         // Lógica para atualizar produto
+            if(listaProdutos.size()>0){
+            Produto produtoExistente = listaProdutos.get(id);
+            produtoExistente.setAvalicaoes(produto.getAvalicaoes());
+            produtoExistente.setDescricao(produto.getDescricao());
+            produtoExistente.setNome(produto.getNome());
+            produtoExistente.setPreco(produto.getPreco());
+
+            System.out.println("produto atualizado com sucesso");
+            
+        }
+        else{
+            System.out.println("Indice invalido");
+        }
     }
 }
 
@@ -358,7 +378,8 @@ class CompraService extends BaseService<Compra> {
     }
 }
 class BaseController<T> {
-    BaseService<T> service;
+
+    private BaseService<T> service;
 
     BaseController(BaseService<T> service) {
         this.service = service;
@@ -395,9 +416,7 @@ class CompraController extends BaseController<Compra> {
 
 class AvaliacaoController extends BaseController<AvaliacaoService> {
 
-
-
-
+    
     AvaliacaoController(BaseService<AvaliacaoService> service) {
         super(service);
         //TODO Auto-generated constructor stub
@@ -444,7 +463,7 @@ public class MainController {
         AvaliacaoService avaliacaoService = new AvaliacaoService();
 
         // Criação do controlador de avaliação
-        AvaliacaoController avaliacaoController = new AvaliacaoController(avaliacaoService);
+        AvaliacaoController avaliacaoController = new Avaliacao
 
         // Exemplos de uso
         Avaliacoes avaliacao1 = new Avaliacoes("Usuário1", "Ótimo produto!", 5, LocalDate.now(), 10);
