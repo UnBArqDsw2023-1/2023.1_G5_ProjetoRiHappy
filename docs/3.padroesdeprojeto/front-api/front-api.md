@@ -222,9 +222,8 @@ class Avaliacoes{
     }
 }
 
-class OrdenaAvaliacoes{
+class OrdenarLista{
 	
-	List<Avaliacoes> avaliacoes = null;
 	
     public static void ordenarListaPorAvaliacaoPositiva(List<Avaliacoes> lista) {
         Collections.sort(lista, new Comparator<Avaliacoes>() {
@@ -248,7 +247,7 @@ class OrdenaAvaliacoes{
 		Collections.sort(lista, new Comparator<Avaliacoes>() {
             @Override
             public int compare(Avaliacoes vetor1, Avaliacoes vetor2) {
-                return vetor1.getData().compareTo(vetor2.getData());
+                return vetor2.getData().compareTo(vetor1.getData());
             }        
         });
 		
@@ -266,7 +265,7 @@ class OrdenaAvaliacoes{
 
 class FiltroObservavel {
 	//CLASSE CRIADA APENAS PARA EXEMPLO
-	ListaOrdenada ordena =  new OrdenaAvaliacoes();
+	OrdenarLista ordena =  new OrdenarLista();
     
 	private List<Observador> observadores = new ArrayList<>();
     
@@ -321,15 +320,15 @@ class ExibicaoAvaliacoes implements Observador {
 
         // Lógica de atualização da exibição das avaliações/feedbacks após receber a notificação
     	for(int i = 0; i < lista_avaliacoes.size(); i++) {
-    		System.out.print("Nome:" + lista_avaliacoes.get(i).getNome());
+    		System.out.print("Nome: " + lista_avaliacoes.get(i).getNome());
     		System.out.print(" | ");
-    		System.out.print("Descricao:" + lista_avaliacoes.get(i).getDescricao());
+    		System.out.print("Descricao: " + lista_avaliacoes.get(i).getDescricao());
     		System.out.print(" | ");
-    		System.out.print("Avaliacao:" + lista_avaliacoes.get(i).getAvaliacao());
+    		System.out.print("Avaliacao: " + lista_avaliacoes.get(i).getAvaliacao());
     		System.out.print(" | ");
-    		System.out.print("Data:" + lista_avaliacoes.get(i).getData());
+    		System.out.print("Data: " + lista_avaliacoes.get(i).getData());
     		System.out.print(" | ");
-    		System.out.print("Quantidade de likes:" + lista_avaliacoes.get(i).getQuantidadeLikes());
+    		System.out.print("Quantidade de likes: " + lista_avaliacoes.get(i).getQuantidadeLikes());
     		System.out.print(" | ");
     		System.out.println();
     		
@@ -339,17 +338,15 @@ class ExibicaoAvaliacoes implements Observador {
 
 public class Main {
 	public static void main(String[] args) {
-    	
-    	ListaOrdenada LN =  new ListaOrdenada();
-    	
+		
         FiltroObservavel filtro = new FiltroObservavel();
         List<Avaliacoes> lista_avaliacoes = new ArrayList();
         
-        lista_avaliacoes.add(0, new Avaliacoes("David", "bom", 4, LocalDate.of(2023,5,15), 0));
-        lista_avaliacoes.add(1, new Avaliacoes("Lucio", "bom", 3, LocalDate.of(2023,2,15), 2));
-        lista_avaliacoes.add(2, new Avaliacoes("Breno", "bom", 3, LocalDate.of(2023,3,15), 1));
-        lista_avaliacoes.add(3, new Avaliacoes("Karl", "ruim", 1, LocalDate.of(2023,4,15), 0));
-        lista_avaliacoes.add(4, new Avaliacoes("Lucas", "bom", 5, LocalDate.of(2023,1,15), 9));
+        lista_avaliacoes.add(0, new Avaliacoes("David", "Otimo produto", 4, LocalDate.of(2023,5,15), 0));
+        lista_avaliacoes.add(1, new Avaliacoes("Lucio", "Produto medio", 3, LocalDate.of(2023,2,15), 2));
+        lista_avaliacoes.add(2, new Avaliacoes("Breno", "Muito pratico", 3, LocalDate.of(2023,3,15), 1));
+        lista_avaliacoes.add(3, new Avaliacoes("Karla", "Muito pessimo", 1, LocalDate.of(2023,4,15), 0));
+        lista_avaliacoes.add(4, new Avaliacoes("Lucas", "Bem excelente", 5, LocalDate.of(2023,1,15), 9));
         
         ExibicaoAvaliacoes exibicaoAvaliacoes = new ExibicaoAvaliacoes();
         
@@ -380,7 +377,7 @@ public class Main {
 
 <center>
 
-  ![](https://github.com/UnBArqDsw2023-1/2023.1_G5_ProjetoRiHappy/assets/79341819/60364f63-0bb6-4a8d-b27f-16dd19deedf5)
+  ![](https://github.com/UnBArqDsw2023-1/2023.1_G5_ProjetoRiHappy/assets/79341819/13b136e2-e953-43a9-87b2-e4bb3e9ee2b3)
   
 </center>
 
