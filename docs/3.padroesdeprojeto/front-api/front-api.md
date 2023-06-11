@@ -172,6 +172,220 @@ Vamos passar explicando o nosso ponto de vista ao criar esse pseudocódigo:
 5. O método _‘realizarFiltragem()’_ contém a lógica de filtragem das avaliações/feedbacks com base no tipo de filtro selecionado. Após a filtragem, ele chama o método _‘notificarObservadores()’_ para notificar todos os observadores registrados no filtro. <br>
 6. A classe _‘ExibicaoAvaliacoes’_ implementa a interface ‘Observador’. Ela possui o método _‘atualizar()’_, que representa a lógica de atualização da exibição das avaliações/feedbacks após receber a notificação. Nesse método, você pode adicionar a lógica específica para atualizar a exibição das avaliações positivas.
 
+E por fim temos um exemplo de como seria a utilização do Observer em nosso projeto, por meio de demonstrações por linha de comando, onde para isto, além das classes e métodos criados anteriormente, foram criados classe auxiliares
+para simular como seria a interação e o comportamento entre as classes envolvidas no padrão Observer. <br>
+
+```java
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
+import java.time.*;
+
+interface Observador {
+	void atualizar(List<Avaliacoes> lista_avaliacoes);
+}
+
+class Avaliacoes{
+	String nome;
+	String descricao;
+	int avaliacao;
+	LocalDate data;
+	int quantidade_likes;
+	
+	public Avaliacoes(String nome, String descricao, int avaliacao, LocalDate data, int quantidade_likes) {
+        this.nome = nome;
+        this.descricao = descricao;
+        this.avaliacao = avaliacao;
+        this.data = data;
+        this.quantidade_likes = quantidade_likes;
+    }
+	
+	public String getNome() {
+        return nome;
+    }
+
+    public String getDescricao() {
+        return descricao;
+    }
+    
+    public int getAvaliacao() {
+        return avaliacao;
+    }
+    
+    public LocalDate getData() {
+        return data;
+    }
+
+    public int getQuantidadeLikes() {
+        return quantidade_likes;
+    }
+}
+
+class OrdenaAvaliacoes{
+	
+	List<Avaliacoes> avaliacoes = null;
+	
+    public static void ordenarListaPorAvaliacaoPositiva(List<Avaliacoes> lista) {
+        Collections.sort(lista, new Comparator<Avaliacoes>() {
+            @Override
+            public int compare(Avaliacoes vetor1, Avaliacoes vetor2) {
+                return Integer.compare(vetor2.getAvaliacao(), vetor1.getAvaliacao());
+            }        
+        });
+    }
+	    
+	public static void ordenarPorAvaliacaoNegativa(List<Avaliacoes> lista) {
+		Collections.sort(lista, new Comparator<Avaliacoes>() {
+            @Override
+            public int compare(Avaliacoes vetor1, Avaliacoes vetor2) {
+                return Integer.compare(vetor1.getAvaliacao(), vetor2.getAvaliacao());
+            }        
+        });
+    }
+    
+	public static void ordenarPorAvaliacaoRecente(List<Avaliacoes> lista) {
+		Collections.sort(lista, new Comparator<Avaliacoes>() {
+            @Override
+            public int compare(Avaliacoes vetor1, Avaliacoes vetor2) {
+                return vetor1.getData().compareTo(vetor2.getData());
+            }        
+        });
+		
+    }
+	
+	public static void ordenarPorAvaliacaoUtil(List<Avaliacoes> lista) {
+		Collections.sort(lista, new Comparator<Avaliacoes>() {
+            @Override
+            public int compare(Avaliacoes vetor1, Avaliacoes vetor2) {
+                return Integer.compare(vetor2.getQuantidadeLikes(), vetor1.getQuantidadeLikes());
+            }        
+        });
+    }
+}
+
+class FiltroObservavel {
+	//CLASSE CRIADA APENAS PARA EXEMPLO
+	ListaOrdenada ordena =  new OrdenaAvaliacoes();
+    
+	private List<Observador> observadores = new ArrayList<>();
+    
+    public void adicionarObservador(Observador observador) {
+        observadores.add(observador);
+    }
+
+    public void removerObservador(Observador observador) {
+        observadores.remove(observador);
+    }
+
+    public void notificarObservadores(List<Avaliacoes> avaliacoes) {
+		System.out.println("Notificando Observer...");
+
+        for (Observador observador : observadores) {
+            observador.atualizar(avaliacoes);
+        }
+    }
+
+    public void realizarFiltragem(String tipoFiltro, List<Avaliacoes> avaliacoes) {
+        // Lógica de filtragem das avaliações/feedbacks com base no tipo de filtro selecionado
+    	switch(tipoFiltro) {
+    		case "avaliacoes_positivas":
+    			System.out.println("Filtro por avaliacoes positivas selecionado");
+    			ordena.ordenarListaPorAvaliacaoPositiva(avaliacoes);
+    			break;
+    		case "avaliacoes_negativas":
+    			System.out.println("Filtro por avaliacoes negativas selecionado");
+    			ordena.ordenarPorAvaliacaoNegativa(avaliacoes);
+    			break;
+    		case "mais_recentes":
+    			System.out.println("Filtro por avaliacoes mais recentes selecionado");
+    			ordena.ordenarPorAvaliacaoRecente(avaliacoes);
+    			break;
+    		case "mais_uteis":
+    			System.out.println("Filtro por avaliacoes mais uteis selecionado");
+    			ordena.ordenarPorAvaliacaoUtil(avaliacoes);
+    			break;
+    		
+    	}
+        // Após a filtragem, notificar os observadores
+        notificarObservadores(avaliacoes);
+    }
+
+}
+
+class ExibicaoAvaliacoes implements Observador {
+    @Override
+    public void atualizar(List<Avaliacoes> lista_avaliacoes) {
+
+    	System.out.println("Tela apos alteracao do filtro:");
+
+        // Lógica de atualização da exibição das avaliações/feedbacks após receber a notificação
+    	for(int i = 0; i < lista_avaliacoes.size(); i++) {
+    		System.out.print("Nome:" + lista_avaliacoes.get(i).getNome());
+    		System.out.print(" | ");
+    		System.out.print("Descricao:" + lista_avaliacoes.get(i).getDescricao());
+    		System.out.print(" | ");
+    		System.out.print("Avaliacao:" + lista_avaliacoes.get(i).getAvaliacao());
+    		System.out.print(" | ");
+    		System.out.print("Data:" + lista_avaliacoes.get(i).getData());
+    		System.out.print(" | ");
+    		System.out.print("Quantidade de likes:" + lista_avaliacoes.get(i).getQuantidadeLikes());
+    		System.out.print(" | ");
+    		System.out.println();
+    		
+    	}
+    }
+}
+
+public class Main {
+	public static void main(String[] args) {
+    	
+    	ListaOrdenada LN =  new ListaOrdenada();
+    	
+        FiltroObservavel filtro = new FiltroObservavel();
+        List<Avaliacoes> lista_avaliacoes = new ArrayList();
+        
+        lista_avaliacoes.add(0, new Avaliacoes("David", "bom", 4, LocalDate.of(2023,5,15), 0));
+        lista_avaliacoes.add(1, new Avaliacoes("Lucio", "bom", 3, LocalDate.of(2023,2,15), 2));
+        lista_avaliacoes.add(2, new Avaliacoes("Breno", "bom", 3, LocalDate.of(2023,3,15), 1));
+        lista_avaliacoes.add(3, new Avaliacoes("Karl", "ruim", 1, LocalDate.of(2023,4,15), 0));
+        lista_avaliacoes.add(4, new Avaliacoes("Lucas", "bom", 5, LocalDate.of(2023,1,15), 9));
+        
+        ExibicaoAvaliacoes exibicaoAvaliacoes = new ExibicaoAvaliacoes();
+        
+        filtro.adicionarObservador(exibicaoAvaliacoes);
+        
+        // Realiza a filtragem com o tipo de filtro desejado
+        filtro.realizarFiltragem("avaliacoes_positivas", lista_avaliacoes);
+        System.out.println();
+        filtro.realizarFiltragem("avaliacoes_negativas", lista_avaliacoes);
+        System.out.println();
+        filtro.realizarFiltragem("mais_recentes", lista_avaliacoes);
+        System.out.println();
+        filtro.realizarFiltragem("mais_uteis", lista_avaliacoes);
+                
+    }
+}
+```
+1. A classe _‘Avaliacoes’_ é uma classe modelo que serve para criar instancias de avaliações de produtos do sistema. <br>
+2. A classe _‘OrdenaAvaliacoes’_ é uma classe que contém métodos que ao receber uma lista de avaliaçoes retorna uma lista ordenada com base no filtro selecionado, é uma classe auxiliar que simula a lógica utilizada para listar as avaliações com base no filtro. <br>
+3. A classe _‘Main’_ é o ponto de entrada do programa. Ela cria uma instância do _‘FiltroObservavel’_ e uma lista de _'avaliações'_ vazia que é preenchida com instâncias de _'avaliações'_ logo em seguida. Após isto é criado uma instância de com avaliado _‘ExibicaoAvaliacoes’_. <br>
+4. Em seguida, o observador (_‘exibicaoAvaliacoes’_) é adicionado ao filtro (_‘filtro’_) usando o método _‘adicionarObservador()’_. <br>
+5. Por fim, é realizada a filtragem com o tipo de filtro desejado chamando quatro vezes o método _‘realizarFiltragem()’_ no objeto _‘filtro’_, passando como parâmetro os quatro tipos de filtros possiveis. Isso aciona a notificação para os observadores registrados no filtro. <bt>
+6. A classe _‘FiltroObservavel’_ implementa a lógica relacionada ao filtro. Ela possui uma lista de observadores (_‘observadores’_) e os métodos _‘adicionarObservador()’_, _‘removerObservador()’_ e _‘notificarObservadores()’_ para gerenciar os observadores. <br>
+7. O método _‘realizarFiltragem()’_ recebe o filtro selecionado como parâmetro e uma lista com as avaliações do produto, ele contém a lógica de filtragem das avaliações/feedbacks com base no tipo de filtro selecionado. Após a filtragem, ele chama o método _‘notificarObservadores()’_ para notificar todos os observadores registrados no filtro. <br>
+8. A classe _‘ExibicaoAvaliacoes’_ implementa a interface ‘Observador’. Ela possui o método _‘atualizar()’_, que recebe a lista de avaliações e representa a lógica de atualização da exibição das avaliações/feedbacks após receber a notificação. É possivel conferir o funcionamento dela a partir da Figura 1.
+
+
+
+<center>
+
+  ![](https://github.com/UnBArqDsw2023-1/2023.1_G5_ProjetoRiHappy/assets/79341819/60364f63-0bb6-4a8d-b27f-16dd19deedf5)
+  
+</center>
+
+<b>Figura 1. Representação pelo terminal do padrão Observer.</b>
+   
 ## Referências
 
 [1] Arquitetura e Desenho de software - Aula Gofs criacionais - Profa. Milene <br/>
@@ -182,7 +396,8 @@ Vamos passar explicando o nosso ponto de vista ao criar esse pseudocódigo:
 
 ## Histórico de Versão
 
-| Versão | Data       | Descrição                          | Autor(es)      | Revisor(es)   |
-| ------ | ---------- | ---------------------------------- | -------------- | ------------- |
-| `1.0`  | 01/06/2023 | Esboço inicial do documento        | Josué Teixeira | Maria Abritta |
-| `2.0`  | 01/06/2023 | Criação e Finalização do documento | Maria Abritta  | Nicolas       |
+| Versão | Data       | Descrição                                     | Autor(es)      | Revisor(es)   |
+| ------ | ---------- | --------------------------------------------- | -------------- | ------------- |
+| `1.0`  | 01/06/2023 | Esboço inicial do documento                   | Josué Teixeira | Maria Abritta |
+| `2.0`  | 01/06/2023 | Criação e Finalização do documento            | Maria Abritta  | Nicolas       |
+| `3.0`  | 11/06/2023 | adição do código de implentação pelo terminal | Davi Lima      | Nicolas       |
