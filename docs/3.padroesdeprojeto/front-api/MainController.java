@@ -301,7 +301,7 @@ class AvaliacaoService extends BaseService<Avaliacoes> {
         System.out.println("deletando avaliação");
         listaAvaliacoes.remove(id);
     
-    }
+    }listarAvaliacoes
 
     void atualizar(Integer id, Avaliacoes avaliacao) {
         // Lógica para atualizar avaliacoes
@@ -318,24 +318,48 @@ class AvaliacaoService extends BaseService<Avaliacoes> {
         else{
             System.out.println("Indice invalido");
         }
-}
+    }
+}    
 
 class ProdutoService extends BaseService<Produto> {
-    ArrayList<Produto> listar(Produto filtro) {
+    ArrayList<Produto> listaProduto = new ArrayList<>();
+
+    ArrayList<Produto> listar(){
         // Lógica para listar produtos
-        return null;
+        System.out.println("Listando Produtos");
+        System.out.println(listaProduto.toString());
+        return listaProduto;
     }
 
     void criar(Produto produto) {
         // Lógica para criar produto
+        System.out.println("Criando produto");
+        listaProduto.add(produto);
+        System.out.println(produto.toString());
     }
 
     void deletar(Integer id) {
         // Lógica para deletar produto
-    }
+        System.out.println("deletando produto")
+        listaProduto.remove(id);
+        
+    }listarProdutos
 
-    void atualizar(Produto produto) {
+    void atualizar(Integer id, Produto produto) {
         // Lógica para atualizar produto
+        if(listaProduto.size()>0){
+            Produtos produtoExistente = listaProduto.get(id);
+            produtoExistente.setProdutos(produto.getProdutos());
+            produtoExistente.setNome(produto.getNome());
+            produtoExistente.setDescricao(produto.getDescricao());
+            produtoExistente.setPreco(produto.getPreco());
+            produtoExistente.setAvaliacoes(produto.getAvalicaoes());
+
+            System.out.println("Produto atualizado com sucesso");
+        }
+        else{
+            System.out.println("Índice inválido");
+        }
     }
 }
 
