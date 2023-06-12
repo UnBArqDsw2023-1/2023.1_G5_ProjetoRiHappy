@@ -22,25 +22,25 @@ Breve relato sobre as participações/contribuições de cada membro à entrega.
 
 ## Padrão GoF - Comunicação Back-End com a camada de persistência
 
-| Nome do Membro | Contribuição                                  | Estatística |
-| -------------- | --------------------------------------------- | ----------- |
-| Nicolas        |                                               |             |
-| Lucas Felipe   |                                               |             |
+| Nome do Membro | Contribuição                                                                                               | Estatística |
+| -------------- | ---------------------------------------------------------------------------------------------------------- | ----------- |
+| Nicolas        |                                                                                                            |             |
+| Lucas Felipe   |                                                                                                            |             |
 | Lucas Gomes    | Contribui de forma clara e eficiente no codigo Proxy, Introdução e Contextualização do padrao Proxy no doc |             |
-| Luiza          |                                               |             |
+| Luiza          |                                                                                                            |             |
 
 TODOS DEVEM PARTICIPAR, MOSTRANDO SEUS PONTOS DE VISTA E COMO COLABORARAM NESSA ETAPA DA ENTREGA.
 
 ## Padrão GoF - Comunicação Front-End com a Back-End
 
-| Nome do Membro | Contribuição                                  | Estatística |
-| -------------- | --------------------------------------------- | ----------- |
-| Josue          |                                               |             |
-| Davi Lima      |                                               |             |
-| Lucas Gabriel  | Contribui realizando uma revisão do documento |             |
-| Lucas Gomes    | Contribui realizando uma revisão do documento |             |
-| Guilherme      |                                               |             |
-| Maria Abritta  |                                               |             |
+| Nome do Membro | Contribuição                                                                                                              | Estatística |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| Josue          |                                                                                                                           |             |
+| Davi Lima      | Realizei a implementação da demonstração do funcionamento do padrão Observer apartir do pseudocódigo realizado pelo Josué |             |
+| Lucas Gabriel  | Contribui realizando uma revisão do documento                                                                             |             |
+| Lucas Gomes    | Contribui realizando uma revisão do documento                                                                             |             |
+| Guilherme      |                                                                                                                           |             |
+| Maria Abritta  |                                                                                                                           |             |
 
 
 ## Padrão Extra
