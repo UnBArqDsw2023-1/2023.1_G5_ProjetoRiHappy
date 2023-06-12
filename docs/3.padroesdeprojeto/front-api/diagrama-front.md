@@ -10,12 +10,14 @@ No projeto fornecido, a utilização do padrão Observer é justificada pelo obj
 
 O padrão Observer é adequado em nesse projeto devido a existência de objetos que precisam ser notificados e atualizados quando ocorrem alterações em outros objetos. Nesse contexto, o padrão Observer permite que os objetos "observadores" sejam registrados como ouvintes dos objetos "observáveis" e sejam notificados automaticamente quando ocorrerem mudanças relevantes nesses objetos.
 
-## Modelagem
+## 1. Modelagem
 ![view](./../assets/padroesdeprojeto/view.png)
-![controller](./../assets/padroesdeprojeto/controller.png)
-## 1. Observable e Observer
-O padrão Observer é baseado em duas principais entidades: o Observable (gerenciador de eventos) e o Observer (ouvinte de eventos).
+<p align="center">Imagem 1. Modelagem da view </p>
 
+![controller](./../assets/padroesdeprojeto/controller.png)
+<p align="center">Imagem 2. Modelagem da controller </p>
+
+O padrão Observer é baseado em duas principais entidades: o Observable (gerenciador de eventos) e o Observer (ouvinte de eventos).
 - O Observable é a entidade que emite os eventos e mantém uma lista de EventListeners registrados. Ele é responsável por notificar os EventListeners quando ocorre um evento relevante.
 - O Observer é a entidade que está interessada em ouvir e responder aos eventos emitidos pelo EventManager. Ele se registra no EventManager para receber as notificações de eventos e define a lógica de como lidar com esses eventos.
 
@@ -45,8 +47,8 @@ Através das interfaces `EventManager` e `EventListener`, é estabelecida uma re
 
 ## Histórico de Versão
 
-| Versão | Data | Descrição | Autor(es) | Revisor(es) |
-|--------|------|-----------|-----------|-------------|
-| `1.0`  | 05/06/2023     | Criação do documento | Josué Teixeira   |  |
-| `1.1`  | 08/06/2023     | Pequeno ajuste no texto | Josué Teixeira   |  |
-| `1.2`  | 12/06/2023     | adiciona imagem metodologia | Josué Teixeira   | Lucas Gabriel  |
+| Versão | Data       | Descrição                   | Autor(es)      | Revisor(es)   |
+| ------ | ---------- | --------------------------- | -------------- | ------------- |
+| `1.0`  | 05/06/2023 | Criação do documento        | Josué Teixeira |               |
+| `1.1`  | 08/06/2023 | Pequeno ajuste no texto     | Josué Teixeira |               |
+| `1.2`  | 12/06/2023 | adiciona imagem metodologia | Josué Teixeira | Lucas Gabriel |
