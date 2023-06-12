@@ -12,14 +12,12 @@ O padrão Observer é adequado em nesse projeto devido a existência de objetos 
 
 ## 1. Modelagem
 
-## Modelagem
 ![view](./../assets/padroesdeprojeto/view.png)
 <p align="center">Imagem 1. Modelagem da view </p>
 
 ![controller](./../assets/padroesdeprojeto/controller.png)
 <p align="center">Imagem 2. Modelagem da controller </p>
 
-## 1. Observable e Observer
 O padrão Observer é baseado em duas principais entidades: o Observable (gerenciador de eventos) e o Observer (ouvinte de eventos).
 - O Observable é a entidade que emite os eventos e mantém uma lista de EventListeners registrados. Ele é responsável por notificar os EventListeners quando ocorre um evento relevante.
 - O Observer é a entidade que está interessada em ouvir e responder aos eventos emitidos pelo EventManager. Ele se registra no EventManager para receber as notificações de eventos e define a lógica de como lidar com esses eventos.
@@ -48,10 +46,15 @@ No diagrama fornecido, a classe `Listagem` atua como um objeto emissor de evento
 
 Através das interfaces `EventManager` e `EventListener`, é estabelecida uma relação de dependência flexível e desacoplada entre essas classes, permitindo que o BaseService seja notificado e possa responder aos eventos emitidos pela Listagem de maneira adaptável e flexível.
 
+## Referências
+[1] Observer, página na web disponível no [link](https://refactoring.guru/design-patterns/observer). Acesso em 04/06/2023.
+
+[2] Diagrama de classes, página na web disponível no [link](https://lucid.app/lucidchart/4dd6a296-dbea-46b7-8bb7-b515fbc1fb05/edit?invitationId=inv_32177c76-50f9-40b1-95df-7711173e673f&page=HWEp-vi-RSFO#). Acesso em 03/06/2023. 
+
 ## Histórico de Versão
 
 | Versão | Data       | Descrição                   | Autor(es)      | Revisor(es)   |
 | ------ | ---------- | --------------------------- | -------------- | ------------- |
 | `1.0`  | 05/06/2023 | Criação do documento        | Josué Teixeira |               |
 | `1.1`  | 08/06/2023 | Pequeno ajuste no texto     | Josué Teixeira |               |
-| `1.2`  | 12/06/2023 | adiciona imagem metodologia | Josué Teixeira | Lucas Gabriel |
+| `1.2`  | 12/06/2023 | adiciona imagem metodologia. Ajuste nos textos | Josué Teixeira | Lucas Gabriel |
