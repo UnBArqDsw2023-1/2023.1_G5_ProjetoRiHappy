@@ -2,31 +2,59 @@
 
 Breve relato sobre as participações/contribuições de cada membro à entrega.
 
-## Padrão GRASP
+## Padrão GRASP - Comunicação Back-End com camada de persistência
 
-| Nome do Membro | Contribuição                                                 | Significância da Contribuição para o Projeto (Excelente/Boa/Regular/Ruim/Nula) |
+| Nome do Membro | Contribuição                                                 | Estatística |
 |----------------|--------------------------------------------------------------|--------------------------------------------------------------------------------|
-| Fulano         | 1. Colaborações Pontuais no GRASP Alta Coesão. 2. Leitura do |                                                                                |
+| Nicolas      | |                                                                                |
+| Lucas Felipe | |                                                                                |
+| Lucas Gabriel   | |                                                                                |
 
-Portal: https://www.techtarget.com/whatis/definition/GRASP-General-Responsibility-Assignment-Software-Patterns. 3.
-Repasse de conhecimento aos colegas de equipe via reunião no Discord. | Boa |
+
+## Padrão GRASP - Comunicação Front-End com Back-end
+
+| Nome do Membro | Contribuição                                                 | Estatística |
+|----------------|--------------------------------------------------------------|--------------------------------------------------------------------------------|
+| João Pedro    | |                                                                                |
+| Davi Silva | |                                                                                |
+|Maria Abritta   | |                                                                                |
+|   | |                                                                                |
+
+
+## Padrão GoF - Comunicação Back-End com a camada de persistência
+
+| Nome do Membro | Contribuição                                                 | Estatística |
+|----------------|--------------------------------------------------------------|--------------------------------------------------------------------------------|
+| Nicolas      | |                                                                                |
+| Lucas Felipe | |                                                                                |
+| Lucas Gabriel   | |                                                                                |
+| Lucas Gomes  | |                                                                                |
+| Luiza  | |                                                                                |
 
 TODOS DEVEM PARTICIPAR, MOSTRANDO SEUS PONTOS DE VISTA E COMO COLABORARAM NESSA ETAPA DA ENTREGA.
 
-## Padrão GoF
+## Padrão GoF - Comunicação Front-End com a Back-End
 
-| Nome do Membro                                            | Contribuição                                                                                                | Significância da Contribuição para o Projeto (Excelente/Boa/Regular/Ruim/Nula) |
-|-----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
-| Fulano                                                    | 1. Introdução do Padrão Strategy à Equipe, evidenciando um possível uso do mesmo no escopo da aplicação. 2. |                                                                                |
-| Leitura de materiais bibligráficos, tais como: FONTE_GOF. | Boa                                                                                                         |                                                                                |
+| Nome do Membro | Contribuição                                                 | Estatística |
+|----------------|--------------------------------------------------------------|--------------------------------------------------------------------------------|
+| Josue     | |                                                                                |
+| Davi Lima| |                                                                                |
+| Guilherme   | |                                                                                |
+| Maria Abritta  | |                                                                                |
 
-TODOS DEVEM PARTICIPAR, MOSTRANDO SEUS PONTOS DE VISTA E COMO COLABORARAM NESSA ETAPA DA ENTREGA.
 
 ## Padrão Extra
 
-| Nome do Membro                                                                         | Contribuição                                                                                            | Significância da Contribuição para o Projeto (Excelente/Boa/Regular/Ruim/Nula) |
+| Nome do Membro                                                                         | Contribuição                                                                                            | Estatística|
 |----------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
-| Fulano                                                                                 | 1. Auxílio na modelagem e na implementação do padrão Injeção de Dependência. 2. Realização de Dojô para |                                                                                |
-| alinhamento da equipe quanto às tecnologias utilizadas para a implementação do padrão. | Excelente                                                                                               |                                                                                |
+| Lucas Gabriel                                                                                |  |                                                                                |
+|                                                                                               |                                                                                |
 
-TODOS DEVEM PARTICIPAR, MOSTRANDO SEUS PONTOS DE VISTA E COMO COLABORARAM NESSA ETAPA DA ENTREGA.
+
+
+
+## Histórico de Versão
+
+| Versão | Data       | Descrição                                            | Autor(es)      | Revisor(es)   |
+| ------ | ---------- | ---------------------------------------------------- | -------------- | ------------- |
+| `1.0`  | 12/06/2023 | Criação da estruturação de participações da 3° etapa | Lucas Felipe   | Nicolas |
