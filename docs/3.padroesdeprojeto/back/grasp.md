@@ -22,9 +22,9 @@ São padrões de projeto para se obter a melhor atribuição de responsabilidade
 
 ## Metodologia
 
-Para a realização da modelagem, os membros Lucas Felipe, Lucas Gomes, Lucas Gabriel, Luíza e Nicolas se reuniram e optaram por fazer primeiramente a modelagem dos padrões [GoF](/docs/3.padroesdeprojeto/back/gof.md), por serem muito mais objetivas e concretos nas resoluções dos principais problemas envolvidos no escopo do projeto. Posteriormente, por conta da maior abstração e simplificação a da outra classe de padrões, foram selecionados quais padrões GRASP serão utilizados pela equipe.
+Para a realização da modelagem, os membros Lucas Felipe, Lucas Gomes, Lucas Gabriel, Luíza e Nicolas se reuniram e optaram por fazer primeiramente a modelagem dos padrões [GoF](./gof.md), por serem muito mais objetivas e concretos nas resoluções dos principais problemas envolvidos no escopo do projeto. Posteriormente, por conta da maior abstração e simplificação a da outra classe de padrões, foram selecionados quais padrões GRASP serão utilizados pela equipe.
 
-A partir disso e das correções efetuadas no documento do [Diagrama de Classes](../../2.modelagem/estatica/diagramadeclasses.md), gerando a [Versão 2 do diagrama](../../2.modelagem/estatica/diagramadeclasses.md#versão-2), visto que haviam modificações a serem feitas para uma melhor modelagem dos padrões de projeto foram selecionados os padrões [GoF](/docs/3.padroesdeprojeto/back/gof.md) e realizado uma análise inicial dos padrões GoF que mais se adequariam ao projeto. Para a seguir definir os padrões GRASP que seriam utilizados de fato.
+A partir disso e das correções efetuadas no documento do [Diagrama de Classes](../../2.modelagem/estatica/diagramadeclasses.md), gerando a [Versão 2 do diagrama](../../2.modelagem/estatica/diagramadeclasses.md#versão-2), visto que haviam modificações a serem feitas para uma melhor modelagem dos padrões de projeto foram selecionados os padrões [GoF](./gof.md) e realizado uma análise inicial dos padrões GoF que mais se adequariam ao projeto. Para a seguir definir os padrões GRASP que seriam utilizados de fato.
 
 ### Discussões
 
@@ -94,7 +94,7 @@ Protege o objeto de variações utilizando de uma interface estável. É bastant
 
 ### Padrões GRASP utilizados
 
-Diante da análise inicial a equipe optou por uma seleção inicial dos padrões de projeto GoF devido a esses serem mais concretos e facilitarem o entendimento devido a isso, inicialmente foi escolhido o padrão de projeto Proxy e posteriormente a complementação com a adição do padrão de projeto Singleton, como documentado no artefato [GoF](/docs/3.padroesdeprojeto/back/gof.md). Após tal processo, foram definidos os padrões GRASP a serem utilizados, sendo esses: 
+Diante da análise inicial a equipe optou por uma seleção inicial dos padrões de projeto GoF devido a esses serem mais concretos e facilitarem o entendimento devido a isso, inicialmente foi escolhido o padrão de projeto Proxy e posteriormente a complementação com a adição do padrão de projeto Singleton, como documentado no artefato [GoF](./gof.md). Após tal processo, foram definidos os padrões GRASP a serem utilizados, sendo esses: 
 
 - **Alta Coesão**
 
@@ -118,7 +118,7 @@ O padrão de projeto GRASP Polimorfismo foi utilizado para encapsular variaçõe
 
 - **Variações Protegidas**
 
-O padrão de projeto GRASP Variações Protegidas foi utilizado com intuito de garantir a integridade do processo de avaliação dos produtos, permitindo que apenas um usuário autenticado que realmente comprou a mercadoria em questão possa enviar para a camada de persistência sua avaliação, registrando as informações no objeto original. Apesar disso, enquanto o usuário não estiver de fato autenticado o mesmo poderá realizar a avaliação do produto validando-se de um objeto local que posteriormente será enviado para camada de persistência caso sua autenticação se confirme, conforme pode ser observado na Figura 7 abaixo. Diante disso, esse padrão de projeto se enquadra na ideia do padrão de projeto Proxy, o qual faz parte dos GoF e está descrito de forma detalhada em conjunto com sua **implementação** no [documento do mesmo](/docs/3.padroesdeprojeto/back/gof.md#implementação).  
+O padrão de projeto GRASP Variações Protegidas foi utilizado com intuito de garantir a integridade do processo de avaliação dos produtos, permitindo que apenas um usuário autenticado que realmente comprou a mercadoria em questão possa enviar para a camada de persistência sua avaliação, registrando as informações no objeto original. Apesar disso, enquanto o usuário não estiver de fato autenticado o mesmo poderá realizar a avaliação do produto validando-se de um objeto local que posteriormente será enviado para camada de persistência caso sua autenticação se confirme, conforme pode ser observado na Figura 7 abaixo. Diante disso, esse padrão de projeto se enquadra na ideia do padrão de projeto Proxy, o qual faz parte dos GoF e está descrito de forma detalhada em conjunto com sua **implementação** no [documento do mesmo](./gof.md#implementação).  
 
 ![Figura 7](assets/usuario-proxy.png)
 <p class="legenda">   Figura 7. Modelagem do padrão proxy no contexto do projeto, versão 2 (Fonte: Elaborado por Nicolas Chagas). </p>
