@@ -43,14 +43,12 @@ Diante disso, a incorporação do SOLID ao projeto pode ser visualizada por sua 
 
 A implementação pode ser observada no trecho de código a seguir em Java, demonstrando a implementação da herança para permitir a utilização de uma classe de acordo com o tipo de lista utilizada (ListagemCompra, ListagemProduto, ListagemAvaliacao)
 
-#### Implementação
-
 [](trechoCodigoSOLID.java ':include :type=code')
 <p class="legenda">Trecho de Código 1: Implementação do SOLID  em Java.</p>
 
 O trecho de [código](./trechoCodigoSOLID.java) acima mostra a implementação do Princípio da responsabilidade única do SOLID em Java:
 
-A saída esperada para execução do código é essa:
+Essa é a saída esperada para execução do código:
 
 ![](./assets/saida_esperada_SOLID.png)
 
@@ -75,9 +73,9 @@ Dentro desse contexto é possível observar a importância do princípio de Sing
 ## Histórico de Versão
 
 
-| Versão | Data       | Descrição            | Autor(es)     | Revisor(es) |
-| ------ | ---------- | -------------------- | ------------- | ----------- |
-| `1.0`  | 12/06/2023 | Criação do documento | Lucas Gabriel |             |
+| Versão | Data       | Descrição                       | Autor(es)     | Revisor(es) |
+| ------ | ---------- | ------------------------------- | ------------- | ----------- |
+| `1.0`  | 12/06/2023 | Adição da documentação do SOLID | Lucas Gabriel |             |
 
 
 
