@@ -10,7 +10,6 @@ A partir do estudo e modelagem dos padrões [GoF](../back/gof.md) e [GRASP](../b
 
 ## SOLID
 
-
 O SOLID é uma acrônimo para as a representação dos 5 princípios da Programação Orientada a Objetos, são esses:
 
 
@@ -37,7 +36,7 @@ Diante disso, a incorporação do SOLID ao projeto pode ser visualizada por sua 
 ![Figura 1](../assets/padroesdeprojeto/padraoSOLID.png)
 <p class="legenda">   Figura 1. Representação das heranças da superclasse Listagem (Fonte: Diagrama de Classes do projeto). </p>
 
-
+<!-- 
 ### Implementação SOLID
 
 
@@ -50,7 +49,7 @@ O trecho de [código](./trechoCodigoSOLID.java) acima mostra a implementação d
 
 Essa é a saída esperada para execução do código:
 
-![](./assets/saida_esperada_SOLID.png)
+![](./assets/saida_esperada_SOLID.png) -->
 
 ## Conclusão
 
