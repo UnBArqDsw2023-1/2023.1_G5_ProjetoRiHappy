@@ -22,9 +22,9 @@ São padrões de projeto para se obter a melhor atribuição de responsabilidade
 
 ## Metodologia
 
-Para a realização da modelagem, os membros Lucas Felipe, Lucas Gomes, Lucas Gabriel, Luíza e Nicolas se reuniram e optaram por fazer primeiramente a modelagem dos padrões [GoF](/2023.1_G5_ProjetoRiHappy/docs/3.padroesdeprojeto/back/gof.md), por serem muito mais objetivas e concretos nas resoluções dos principais problemas envolvidos no escopo do projeto. Posteriormente, por conta da maior abstração e simplificação a da outra classe de padrões, foram selecionados quais padrões GRASP serão utilizados pela equipe.
+Para a realização da modelagem, os membros Lucas Felipe, Lucas Gomes, Lucas Gabriel, Luíza e Nicolas se reuniram e optaram por fazer primeiramente a modelagem dos padrões [GoF](./gof.md), por serem muito mais objetivas e concretos nas resoluções dos principais problemas envolvidos no escopo do projeto. Posteriormente, por conta da maior abstração e simplificação a da outra classe de padrões, foram selecionados quais padrões GRASP serão utilizados pela equipe.
 
-A partir disso e das correções efetuadas no documento do [Diagrama de Classes](../../2.modelagem/estatica/diagramadeclasses.md), gerando a [Versão 2 do diagrama](../../2.modelagem/estatica/diagramadeclasses.md#versão-2), visto que haviam modificações a serem feitas para uma melhor modelagem dos padrões de projeto foram selecionados os padrões [GoF](/2023.1_G5_ProjetoRiHappy/docs/3.padroesdeprojeto/back/gof.md) e realizado uma análise inicial dos padrões GoF que mais se adequariam ao projeto. Para a seguir definir os padrões GRASP que seriam utilizados de fato.
+A partir disso e das correções efetuadas no documento do [Diagrama de Classes](../../2.modelagem/estatica/diagramadeclasses.md), gerando a [Versão 2 do diagrama](../../2.modelagem/estatica/diagramadeclasses.md#versão-2), visto que haviam modificações a serem feitas para uma melhor modelagem dos padrões de projeto foram selecionados os padrões [GoF](./gof.md) e realizado uma análise inicial dos padrões GoF que mais se adequariam ao projeto. Para a seguir definir os padrões GRASP que seriam utilizados de fato.
 
 ### Discussões
 
@@ -94,11 +94,11 @@ Protege o objeto de variações utilizando de uma interface estável. É bastant
 
 ### Padrões GRASP utilizados
 
-Diante da análise inicial a equipe optou por uma seleção inicial dos padrões de projeto GoF devido a esses serem mais concretos e facilitarem o entendimento, inicialmente foi escolhido o padrão de projeto Proxy e posteriormente a complementação com a adição do padrão de projeto Singleton, como documentado no artefato [GoF](/2023.1_G5_ProjetoRiHappy/docs/3.padroesdeprojeto/back/gof.md). Após tal processo, foram definidos os padrões GRASP a serem utilizados, sendo esses: 
+Diante da análise inicial a equipe optou por uma seleção inicial dos padrões de projeto GoF devido a esses serem mais concretos e facilitarem o entendimento devido a isso, inicialmente foi escolhido o padrão de projeto Proxy e posteriormente a complementação com a adição do padrão de projeto Singleton, como documentado no artefato [GoF](./gof.md). Após tal processo, foram definidos os padrões GRASP a serem utilizados, sendo esses: 
 
 - **Alta Coesão**
 
-O padrão de projeto GRASP Alta Coesão foi utilizado para garantir que as classes da modelagem do software atendessem apenas a questões relacionadas ao seu escopo, facilitando a reutilização de código, a manutenção e a evolução do software como um todo. Tal fato pode ser constatado na Figura 5 a seguir, na qual é ilustrado um exemplo onde há uma relação de herança para garantir que cada uma das classes: ProdutoService, CompraService e AvaliacaoService lidam apenas com informações coerentes a sua semântica.
+O padrão de projeto GRASP Alta Coesão foi utilizado para garantir que as classes da modelagem do software atendessem apenas a questões relacionadas ao seu escopo, facilitando a reutilização de código, a manutenção e a evolução do software como um todo. Tal fato pode ser constatado na Figura 5 a seguir, na qual é ilustrado um exemplo onde há uma relação de herança para garantir que cada uma das classes: ProdutoService, CompraService e AvaliacaoService lidem apenas com informações coerentes a sua semântica.
 
 ![Figura 5](../assets/padroesdeprojeto/padraoGRASP1.png)
 
@@ -106,7 +106,7 @@ O padrão de projeto GRASP Alta Coesão foi utilizado para garantir que as class
 
 - **Controlador, Invenção Pura e Indireção**
 
-O padrão de projeto GRASP Controlador foi utilizado para realização da comunicação do domínio com o banco de dados. Para isso foi criada uma camada de comunicação abstrata Controller focada apenas na persistência dos dados do Back-end no Banco de Dados, como pode ser observado na Figura 6 abaixo. Essa escolha tem como intuito garantir a manutenção do menor acoplamento possível do Domínio com Banco de Dados e também da Alta Coesão do projeto, permitindo que as classes realizem apenas funções relacionadas ao seu escopo dentro da lógica de negócio. Tal decisão não só se estabelece como um único padrão GRASP visto que utiliza conceitos pertencentes a vários deles, dentre eles também estão correlacionados os padrões de Invenção Pura, devido ao fato de estar criando uma classe que não existe no domínio para encapsular funções específicas e também o padrão Indireção, pois cria classes intermediárias para realização da comunicação entre o Banco de Dados e diversas outras classes presentes no projeto.
+O padrão de projeto GRASP Controlador foi utilizado para realização da comunicação do domínio com o banco de dados. Para isso foi criada uma camada de comunicação abstrata chamada Controller focada apenas na persistência dos dados do Back-end no Banco de Dados, como pode ser observado na Figura 6 abaixo. Essa escolha tem como intuito garantir o menor acoplamento possível do Domínio com Banco de Dados e assim também contribuir para manutenção da Alta Coesão do projeto, permitindo que as classes realizem apenas funções relacionadas ao seu escopo dentro da lógica de negócio. Tal decisão não só se estabelece como um único padrão GRASP visto que utiliza conceitos pertencentes a vários deles, dentre eles também estão correlacionados os padrões de Invenção Pura, devido ao fato de estar criando uma classe que não existe no domínio para encapsular funções específicas e também o padrão Indireção, pois cria classes intermediárias para realização da comunicação entre o Banco de Dados e diversas outras classes presentes no projeto.
 
 ![Figura 6](../assets/padroesdeprojeto/padraoGRASP2.png)
 
@@ -114,18 +114,14 @@ O padrão de projeto GRASP Controlador foi utilizado para realização da comuni
 
 - **Polimorfismo**
 
-O padrão de projeto GRASP Polimorfismo foi utilizado para encapsular variações de comportamento com base no tipo, usando de métodos abstratos em níveis generalistas para que uma instância se comporte de acordo com suas especificidade, eliminando a necessidade da lógica condicional (if, else e switch) para especificação do comportamento, o que pode ser observado na Figura 6 acima pela utilização de métodos pertencentes a superclasse por parte das subclasses validando-se da sobrescrita dos métodos para atender um comportamento desejado adequado para uma determinada situação em questão, de forma análoga nota-se a utilização da herança para operações de CRUD a depender do tipo de Lista utilizada (ListagemCompra, ListagemProduto e ListagemAvaliacao) na Figura 7 abaixo.
-
-
-![Figura 7](../assets/padroesdeprojeto/padraoGRASP3.png)
-<p class="legenda">   Figura 7. Representação das heranças da superclasse Listagem (Fonte: Diagrama de Classes do projeto). </p>
+O padrão de projeto GRASP Polimorfismo foi utilizado para encapsular variações de comportamento com base no tipo, usando de métodos abstratos em níveis generalistas para que uma instância se comporte de acordo com suas especificidade, eliminando a necessidade da lógica condicional (if, else e switch) para especificação do comportamento, o que pode ser observado na Figura 6 acima pela utilização de métodos pertencentes a superclasse por parte das subclasses validando-se da sobrescrita dos métodos para atender um comportamento desejado adequado para uma determinada situação em questão.
 
 - **Variações Protegidas**
 
-O padrão de projeto GRASP Variações Protegidas foi utilizado com intuito de garantir a integridade do processo de avaliação dos produtos, permitindo que apenas um usuário autenticado que realmente comprou a mercadoria em questão possa enviar para a camada de persistência sua avaliação, registrando as informações no objeto original. Apesar disso, enquanto o usuário não estiver de fato autenticado o mesmo poderá realizar a avaliação do produto validando-se de um objeto local que posteriormente será enviado para camada de persistência caso sua autenticação se confirme, conforme pode ser observado na Figura 8 abaixo. Diante disso, esse padrão de projeto se enquadra na ideia do padrão de projeto Proxy, o qual faz parte dos GoF e está descrito de forma detalhada no [documento do mesmo](/2023.1_G5_ProjetoRiHappy/docs/3.padroesdeprojeto/back/gof.md#Proxy).  
+O padrão de projeto GRASP Variações Protegidas foi utilizado com intuito de garantir a integridade do processo de avaliação dos produtos, permitindo que apenas um usuário autenticado que realmente comprou a mercadoria em questão possa enviar para a camada de persistência sua avaliação, registrando as informações no objeto original. Apesar disso, enquanto o usuário não estiver de fato autenticado o mesmo poderá realizar a avaliação do produto validando-se de um objeto local que posteriormente será enviado para camada de persistência caso sua autenticação se confirme, conforme pode ser observado na Figura 7 abaixo. Diante disso, esse padrão de projeto se enquadra na ideia do padrão de projeto Proxy, o qual faz parte dos GoF e está descrito de forma detalhada em conjunto com sua **implementação** no [documento do mesmo](./gof.md#implementação).  
 
-![Figura 8](assets/usuario-proxy.png)
-<p class="legenda">   Figura 8. Modelagem do padrão proxy no contexto do projeto, versão 2 (Fonte: Elaborado por Nicolas Chagas). </p>
+![Figura 7](assets/usuario-proxy.png)
+<p class="legenda">   Figura 7. Modelagem do padrão proxy no contexto do projeto, versão 2 (Fonte: Elaborado por Nicolas Chagas). </p>
 
 ## Conclusão
 
@@ -152,7 +148,8 @@ Pearson, 2007. Acesso em 29/05/2023.
 
 | Versão | Data       | Descrição                                                                     | Autor(es)     | Revisor(es) |
 | ------ | ---------- | ----------------------------------------------------------------------------- | ------------- | ----------- |
-| `1.0`  | 05/06/2023 | Análise inicial dos padrões GRASP adequados para o projeto                    | Lucas Gabriel |   Davi Matias          |
-| `1.1`  | 05/06/2023 | Revisão da base criada e complementação com ligações envolvendo padrões GOF   | Lucas Felipe  |   Davi Matias          |
-| `2.0`  | 07/06/2023 | Refatoração das seções de introdução, metodologia, discussão e análise incial | Lucas Gabriel |   Davi Matias          |
-| `2.1`  | 07/06/2023 | Adição da seções de Padrões GRASP utilizados                                  | Lucas Gabriel |   Davi Matias          |
+| `1.0`  | 05/06/2023 | Análise inicial dos padrões GRASP adequados para o projeto                    | Lucas Gabriel | Davi Matias |
+| `1.1`  | 05/06/2023 | Revisão da base criada e complementação com ligações envolvendo padrões GOF   | Lucas Felipe  | Davi Matias |
+| `2.0`  | 07/06/2023 | Refatoração das seções de introdução, metodologia, discussão e análise incial | Lucas Gabriel | Davi Matias |
+| `2.1`  | 07/06/2023 | Adição da seções de Padrões GRASP utilizados                                  | Lucas Gabriel | Davi Matias |
+| `2.2`  | 11/06/2023 | Ajustes no documento como um todo                                             | Lucas Gabriel | Davi Matias |
