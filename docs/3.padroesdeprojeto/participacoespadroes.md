@@ -27,7 +27,7 @@ Breve relato sobre as participações/contribuições de cada membro à entrega.
 | -------------- | --------------------------------------------- | ----------- |
 | Nicolas        |                                               |             |
 | Lucas Felipe   |                                               |             |
-| Lucas Gomes    |                                               |             |
+| Lucas Gomes    | Contribui de forma clara e eficiente no codigo Proxy, Introdução e Contextualização do padrao Proxy no doc |             |
 | Luiza          |                                               |             |
 
 TODOS DEVEM PARTICIPAR, MOSTRANDO SEUS PONTOS DE VISTA E COMO COLABORARAM NESSA ETAPA DA ENTREGA.
@@ -39,6 +39,7 @@ TODOS DEVEM PARTICIPAR, MOSTRANDO SEUS PONTOS DE VISTA E COMO COLABORARAM NESSA 
 | Josue          |                                               |             |
 | Davi Lima      |                                               |             |
 | Lucas Gabriel  | Contribui realizando uma revisão do documento |             |
+| Lucas Gomes    | Contribui realizando uma revisão do documento |             |
 | Guilherme      |                                               |             |
 | Maria Abritta  |                                               |             |
 
@@ -54,7 +55,8 @@ TODOS DEVEM PARTICIPAR, MOSTRANDO SEUS PONTOS DE VISTA E COMO COLABORARAM NESSA 
 
 ## Histórico de Versão
 
-| Versão | Data       | Descrição                                            | Autor(es)     | Revisor(es) |
-| ------ | ---------- | ---------------------------------------------------- | ------------- | ----------- |
-| `1.0`  | 12/06/2023 | Criação da estruturação de participações da 3° etapa | Lucas Felipe  | Nicolas     |
-| `1.1`  | 12/06/2023 | Adição da contribuição do membro Lucas Gabriel       | Lucas Gabriel |             |
+| Versão | Data       | Descrição                                            | Autor(es)     | Revisor(es)   |
+| ------ | ---------- | ---------------------------------------------------- | ------------- | -----------   |
+| `1.0`  | 12/06/2023 | Criação da estruturação de participações da 3° etapa | Lucas Felipe  | Nicolas       |
+| `1.1`  | 12/06/2023 | Adição da contribuição do membro Lucas Gabriel       | Lucas Gabriel | Lucas Gomes   |
+| `1.2`  | 12/06/2023 | Adição da contribuição do membro Lucas Gomes         | Lucas Gomes   | Lucas Gabriel |
