@@ -49,3 +49,4 @@ Através das interfaces `EventManager` e `EventListener`, é estabelecida uma re
 |--------|------|-----------|-----------|-------------|
 | `1.0`  | 05/06/2023     | Criação do documento | Josué Teixeira   |  |
 | `1.1`  | 08/06/2023     | Pequeno ajuste no texto | Josué Teixeira   |  |
+| `1.2`  | 12/06/2023     | adiciona imagem metodologia | Josué Teixeira   | Lucas Gabriel  |
