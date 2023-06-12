@@ -45,9 +45,9 @@ TODOS DEVEM PARTICIPAR, MOSTRANDO SEUS PONTOS DE VISTA E COMO COLABORARAM NESSA 
 
 ## Padrão Extra
 
-| Nome do Membro | Contribuição                                                                                                                                                                                                                                                                 | Estatística |
-| -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
-| Lucas Gabriel  | Houve um equívoco da equipe como um todo com a palavra "Extra" entendendo que não havia necessidade desse documento na entrega mínima, mas quando descobri que esse fazia parte da entrega obrigatória fiz meu melhor para elaboração do trabalho dentro do prazo disponível |             |
+| Nome do Membro | Contribuição                                                                                                                                                                                                                                                                  | Estatística |
+| -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| Lucas Gabriel  | Houve um equívoco da equipe como um todo com a palavra "Extra" entendendo que não havia necessidade desse documento na entrega mínima, mas quando descobri que esse fazia parte da entrega obrigatória fiz meu melhor para elaboração do documento dentro do prazo disponível |             |
 
 
 
