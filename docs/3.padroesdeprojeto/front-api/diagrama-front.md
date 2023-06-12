@@ -1,9 +1,14 @@
-**Padrão Observer e sua Implementação no Diagrama**
+# Padrão Observer e sua Implementação no Diagrama
 
 ## Introdução
 O padrão de projeto Observer é utilizado quando há a necessidade de estabelecer uma relação de dependência entre objetos, de modo que quando um objeto emite um evento, todos os objetos interessados em ouvir esse evento são notificados e podem tomar ações correspondentes. O objetivo é promover o desacoplamento entre os objetos, permitindo que eles interajam de forma flexível e sem acoplamentos rígidos.
 
 No diagrama fornecido, a classe `Listagem` atua como um objeto que emite eventos, sendo representado pelo `EventManager`, e a classe `BaseService` atua como um objeto que ouve esses eventos, sendo representado pelo `EventListener` que são implementações genéricas do padrão Observer.
+
+## Motivação
+No projeto fornecido, a utilização do padrão Observer é justificada pelo objetivo de promover a comunicação e o gerenciamento de eventos entre objetos de forma desacoplada e flexível.
+
+O padrão Observer é adequado em nesse projeto devido a existência de objetos que precisam ser notificados e atualizados quando ocorrem alterações em outros objetos. Nesse contexto, o padrão Observer permite que os objetos "observadores" sejam registrados como ouvintes dos objetos "observáveis" e sejam notificados automaticamente quando ocorrerem mudanças relevantes nesses objetos.
 
 ## 1. Observable e Observer
 O padrão Observer é baseado em duas principais entidades: o Observable (gerenciador de eventos) e o Observer (ouvinte de eventos).
@@ -34,3 +39,10 @@ A classe `BaseService` é responsável por se registrar como EventListener na cl
 No diagrama fornecido, a classe `Listagem` atua como um objeto emissor de eventos, representado pelo EventManager, enquanto a classe `BaseService` atua como um objeto ouvinte de eventos, representado pelo EventListener.
 
 Através das interfaces `EventManager` e `EventListener`, é estabelecida uma relação de dependência flexível e desacoplada entre essas classes, permitindo que o BaseService seja notificado e possa responder aos eventos emitidos pela Listagem de maneira adaptável e flexível.
+
+## Histórico de Versão
+
+| Versão | Data | Descrição | Autor(es) | Revisor(es) |
+|--------|------|-----------|-----------|-------------|
+| `1.0`  | 05/06/2023     | Criação do documento | Josué Teixeira   |  |
+| `1.1`  | 08/06/2023     | Pequeno ajuste no texto | Josué Teixeira   |  |
