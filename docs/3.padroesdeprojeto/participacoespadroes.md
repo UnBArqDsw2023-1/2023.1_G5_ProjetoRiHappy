@@ -15,10 +15,9 @@ Breve relato sobre as participações/contribuições de cada membro à entrega.
 
 | Nome do Membro | Contribuição | Estatística |
 | -------------- | ------------ | ----------- |
-| João Pedro     |              |             |
+| João Pedro     | Implementei o padrao controller               |             |
 | Davi Silva     |              |             |
 | Maria Abritta  |              |             |
-|                |              |             |
 
 
 ## Padrão GoF - Comunicação Back-End com a camada de persistência
@@ -60,3 +59,4 @@ TODOS DEVEM PARTICIPAR, MOSTRANDO SEUS PONTOS DE VISTA E COMO COLABORARAM NESSA 
 | `1.0`  | 12/06/2023 | Criação da estruturação de participações da 3° etapa | Lucas Felipe  | Nicolas       |
 | `1.1`  | 12/06/2023 | Adição da contribuição do membro Lucas Gabriel       | Lucas Gabriel | Lucas Gomes   |
 | `1.2`  | 12/06/2023 | Adição da contribuição do membro Lucas Gomes         | Lucas Gomes   | Lucas Gabriel |
+| `1.3`  | 12/06/2023 | Adição da contribuição do membro João Pedro          | João Pedro    | Lucas Gomes   |
