@@ -59,6 +59,7 @@
 - [Padrões de Projeto](/3.padroesdeprojeto/padroesdeprojeto.md)
   - [Back-end-Persistência - GoF](/3.padroesdeprojeto/back/gof.md)
   - [Back-end-Persistência - GRASPs](/3.padroesdeprojeto/back/grasp.md)
+  - [Front-end modelagem](/3.padroesdeprojeto/front-api/diagrama-front.md)
   - [Front-end - GOF](/3.padroesdeprojeto/front-api/front-api.md)
   - [Front-end - GRASP](/3.padroesdeprojeto/front-api/front-api2.md)
 - [Participações](/3.padroesdeprojeto/participacoespadroes.md)

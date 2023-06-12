@@ -10,6 +10,9 @@ No projeto fornecido, a utilização do padrão Observer é justificada pelo obj
 
 O padrão Observer é adequado em nesse projeto devido a existência de objetos que precisam ser notificados e atualizados quando ocorrem alterações em outros objetos. Nesse contexto, o padrão Observer permite que os objetos "observadores" sejam registrados como ouvintes dos objetos "observáveis" e sejam notificados automaticamente quando ocorrerem mudanças relevantes nesses objetos.
 
+## Modelagem
+![view](./../assets/padroesdeprojeto/view.png)
+![controller](./../assets/padroesdeprojeto/controller.png)
 ## 1. Observable e Observer
 O padrão Observer é baseado em duas principais entidades: o Observable (gerenciador de eventos) e o Observer (ouvinte de eventos).
 
