@@ -62,6 +62,7 @@
   - [Front-end modelagem](/3.padroesdeprojeto/front-api/diagrama-front.md)
   - [Front-end - GOF](/3.padroesdeprojeto/front-api/front-api.md)
   - [Front-end - GRASP](/3.padroesdeprojeto/front-api/front-api2.md)
+  - [Emergente](/3.padroesdeprojeto/extras/padroesextra.md)
 - [Participações](/3.padroesdeprojeto/participacoespadroes.md)
 
 </details>

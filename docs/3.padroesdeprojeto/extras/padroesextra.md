@@ -1,11 +1,80 @@
-# 3.3. Módulo Padrões de Projeto Extras
+# Padrões de Projeto Emergentes
 
-**Foco_03:** Padrões de Projeto Extras (EMERGENTES).
+## Introdução
 
-Entrega Mínina: 1 Padrão Extra, com nível de modelagem e nível de implementação evidenciados.
+Padrões de projeto são soluções para problemas comuns encontrados no desenvolvimento ou manutenção de software, codificados em formato estruturado, descrevendo o problema e a solução adotada [1]. Tais padrões seguem paradigmas de programação específicos, principalmente a Orientação a Objetos. Sendo esses de extrema relevância para garantir que um produto de software seja robusto, flexível, manutenível e reutilizável facilitando assim a evolução do sistema ao longo do tempo.
 
-Apresentação (em sala) explicando o Padrão Extra, com: (i) rastro claro aos membros participantes (MOSTRAR QUADRO DE PARTICIPAÇÕES); (ii) justificativas & senso crítico sobre o padrão estudado; (iii) breve apresentação - em nível de modelagem & em nível de implementação - do padrão Extra no domínio da aplicação, e (iv) comentários gerais sobre o trabalho em equipe. Tempo da Apresentação: +/- 10min. Recomendação: Apresentar diretamente via Wiki ou GitPages do Projeto.
+## Metodologia
 
-A Wiki ou GitPages do Projeto deve conter um tópico dedicado ao Módulo Padrões de Projeto Extras, com 1 padrão Extra (modelagem & implementação), histórico de versões, referências, e demais detalhamentos gerados pela equipe nesse escopo.
+A partir do estudo e modelagem dos padrões [GoF](../back/gof.md) e [GRASP](../back/grasp.md), foi percebido a relevância da utilização de padrões de projetos para o desenvolvimento de um software manutenível e escalável e como tais características estão intimamente relacionadas com os princípios do paradigma de programação Orientado a Objetos descritos por Robert C. Martin no artigo "The Principles of OOD" [3]. A partir disso e das correções efetuadas no documento do [Diagrama de Classes](../../2.modelagem/estatica/diagramadeclasses.md), gerando a [Versão 2 do diagrama](../../2.modelagem/estatica/diagramadeclasses.md#versão-2) foi selecionado o SOLID como padrão de projeto emergente a ser utilizado no projeto de fluxo de avaliação de produtos e de visualização de avaliações do site [RiHappy](https://www.rihappy.com.br/), o qual permite a criação de códigos limpos, a diminuição do acoplamento, a maior coesão (separação de responsabilidades), maior facilidade na refatoração e estimula o reaproveitamento do código [2].
 
-Demais orientações disponíveis nas Diretrizes (vide Moodle).
+## SOLID
+
+O SOLID é uma acrônimo para as a representação dos 5 princípios da Programação Orientada a Objetos, são esses:
+
+
+- S — Single Responsibility Principle (Princípio da responsabilidade única)
+- O — Open-Closed Principle (Princípio Aberto-Fechado)
+- L — Liskov Substitution Principle (Princípio da substituição de Liskov)
+- I — Interface Segregation Principle (Princípio da Segregação da Interface)
+- D — Dependency Inversion Principle (Princípio da inversão da dependência)
+
+O Princípio da responsabilidade única define que uma classe deve ter apenas um motivo para mudar, ou seja, um classe deve ser especializada em um assunto e ter apenas uma responsabilidade dentro do software. Evitando que exista uma classe que seja responsável por executar diversas tarefas diferentes gerando falta de coesão, alto acoplamento, dificuldade de implementar testes automatizados, dificuldade de reaproveitar o código, assim dificultando alterações no sistema [2].
+
+O Princípio Aberto-Fechado define que objetos ou entidades devem estar abertas para extensão e fechadas para modificação, quando novos comportamentos ou recursos forem necessários de serem adicionados ao software deve-se estender ao invés de realizar alterações no software, evitando inclusão de bugs [2].
+
+O Princípio da substituição de Liskov define que uma classe derivada deve ser substituível por sua classe base [2].
+
+O Princípio da Segregação da Interface define que uma classe não deve implementar interfaces e métodos que não serão utilizados, optando pela criação de interfaces específicas, ao invés genéricas, evitando adição de métodos que não serão utilizados [2].
+
+O Princípio da inversão da dependência define que se deve depender de abstrações e não de implementações [2], pois módulos de alto nível não devem depender de módulos de baixo nível e ambos devem depender da abstração, sendo essas independente de detalhes, para isso os detalhes que devem depender de abstrações [3].
+
+### Modelagem SOLID
+
+Diante disso, a incorporação do SOLID ao projeto pode ser visualizada por sua representação no Princípio da Responsabilidade Única, o qual indica que uma classe deve ter apenas um motivo para mudar, ou seja, indica que uma classe deve ser especializada em apenas um assunto e possuir apenas uma responsabilidade [2]. Dentro desse contexto, foi implementado uma herança dentro da camada View como pode ser observado a seguir na Figura 1:
+
+![Figura 1](../assets/padroesdeprojeto/padraoSOLID.png)
+<p class="legenda">   Figura 1. Representação das heranças da superclasse Listagem (Fonte: Diagrama de Classes do projeto). </p>
+
+<!-- 
+### Implementação SOLID
+
+
+A implementação pode ser observada no trecho de código a seguir em Java, demonstrando a implementação da herança para permitir a utilização de uma classe de acordo com o tipo de lista utilizada (ListagemCompra, ListagemProduto, ListagemAvaliacao)
+
+[](trechoCodigoSOLID.java ':include :type=code')
+<p class="legenda">Trecho de Código 1: Implementação do SOLID  em Java.</p>
+
+O trecho de [código](./trechoCodigoSOLID.java) acima mostra a implementação do Princípio da responsabilidade única do SOLID em Java:
+
+Essa é a saída esperada para execução do código:
+
+![](./assets/saida_esperada_SOLID.png) -->
+
+## Conclusão
+
+Dentro desse contexto é possível observar a importância do princípio de Single Responsibility contribuindo para o baixo acoplamento, a alta coesão, a facilitação da utilização de testes automatizados e a reutilização de código. Obtendo-se então projeto manutenível e escalável. 
+
+
+## Referências
+
+
+[1] SERRANO, M. AULA - GRASP – PARTE I.
+
+
+[2] ROBERTO. O que é SOLID: O guia completo para você entender os 5 princípios da POO. Medium. Disponível em: <https://medium.com/desenvolvendo-com-paixao/o-que-%C3%A9-solid-o-guia-completo-para-voc%C3%AA-entender-os-5-princ%C3%ADpios-da-poo-2b937b3fc530>. Acesso em: 12 jun. 2023.
+
+
+[3] ArticleS.UncleBob.PrinciplesOfOod. Butunclebob.com. Disponível em: <http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod>. Acesso em: 12 jun. 2023.
+
+
+‌
+## Histórico de Versão
+
+
+| Versão | Data       | Descrição                       | Autor(es)     | Revisor(es) |
+| ------ | ---------- | ------------------------------- | ------------- | ----------- |
+| `1.0`  | 12/06/2023 | Adição da documentação do SOLID | Lucas Gabriel |             |
+
+
+
