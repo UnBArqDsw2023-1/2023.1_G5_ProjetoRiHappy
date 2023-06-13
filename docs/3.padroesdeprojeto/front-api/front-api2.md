@@ -672,4 +672,4 @@ No pseudocódigo criado pela equipe, foi criada uma estrutura básica de classes
 | ------ | ---------- | ---------------------------------- | ------------- | -------------- |
 | `1.0`  | 02/06/2023 | Esboço inicial do documento        | Maria Abritta | Josué Teixeira |
 | `1.1`  | 05/06/2023 | Criação e Finalização do documento | Maria Abritta | Nicolas        |
-| `1.2`  | 12/06/2023 | adicionado o tópico de metodologia | Josué Teixeira |    |
+| `1.2`  | 12/06/2023 | adicionado o tópico de metodologia | Josué Teixeira |  Nicolas   |
