@@ -19,6 +19,25 @@ O padrão GRASP Controlador é um padrão de design que define a responsabilidad
 4. O Controlador pode executar validações de entrada, aplicar regras de negócios e garantir que as operações sejam executadas corretamente e dentro das restrições definidas. <br>
 5. O Controlador pode coordenar ações entre diferentes objetos ou componentes do sistema, garantindo que a lógica de negócios seja executada corretamente. <br>
 
+## Modelagem
+
+![Controller_PadraoGrasp](../assets/padroesdeprojeto/controller.png)
+<p align="center">Imagem 1. Classe controller do diagrama de classes</p>
+
+O padrão Controller nesse diagrama está representado por quatro classes de serviço: BaseService, ProdutoService, CompraService e AvaliacaoService. Essas classes são responsáveis por fornecer os métodos necessários para realizar operações relacionadas a diferentes entidades (base, produto, compra e avaliação) no sistema.
+
+A classe BaseService é a classe base para os serviços específicos das outras entidades. Ela possui uma instância de ConexaoDB, responsável pela conexão com o banco de dados, e também uma instância de Usuario e EventoManager. A classe BaseService tem os seguintes métodos:
+
+listar(filtro: BaseEntidade): ArrayList<BaseEntidade>: retorna uma lista de entidades do tipo BaseEntidade com base em um filtro.
+criar(dados: Object): void: cria uma nova entidade com base nos dados fornecidos.
+deletar(id: Integer): void: exclui a entidade com o ID fornecido.
+atualizar(dados: Object): void: atualiza os dados de uma entidade existente.
+As outras classes (ProdutoService, CompraService e AvaliacaoService) herdam da classe BaseService e possuem os mesmos métodos, mas com implementações específicas para as entidades correspondentes.
+
+Todas as classes de serviço têm uma instância de ConexaoDB para acessar o banco de dados e uma instância de Usuario e EventoManager para lidar com informações do usuário e gerenciamento de eventos.
+
+O objetivo do padrão Controller é separar a lógica de negócio e o acesso aos dados em diferentes classes, permitindo uma melhor organização e modularidade do sistema. Cada classe de serviço é responsável por lidar com operações específicas de uma entidade e encapsular a lógica necessária para executá-las. A classe ConexaoDB fornece a funcionalidade de conexão com o banco de dados, enquanto a classe Usuario representa informações sobre o usuário e a classe EventoManager lida com o gerenciamento de eventos.
+
 ## O Controlador recebe as solicitações do frontend (API) e interpreta as ações do usuário.
 
 Podemos inferir a presença do padrão GRASP: Controlador (Controller). O Controlador é responsável por receber as solicitações do frontend (no caso do site, as interações do usuário) e interpretar as ações realizadas por ele.
@@ -652,4 +671,5 @@ No pseudocódigo criado pela equipe, foi criada uma estrutura básica de classes
 | Versão | Data       | Descrição                          | Autor(es)     | Revisor(es)    |
 | ------ | ---------- | ---------------------------------- | ------------- | -------------- |
 | `1.0`  | 02/06/2023 | Esboço inicial do documento        | Maria Abritta | Josué Teixeira |
-| `2.0`  | 05/06/2023 | Criação e Finalização do documento | Maria Abritta | Nicolas        |
+| `1.1`  | 05/06/2023 | Criação e Finalização do documento | Maria Abritta | Nicolas        |
+| `1.2`  | 12/06/2023 | adicionado o tópico de metodologia | Josué Teixeira |  Nicolas   |
