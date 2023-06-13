@@ -70,7 +70,7 @@ Atribui de forma coerente as responsabilidades das classes, utilizando de entida
 
 Objetiva diminuir o acoplamento entre as classes, diminuindo as relações de dependência e centralizando as atividades. O que é importante para melhorar o projeto como um todo e facilitar atividades de manutenção e evolução de software, logo se faz relevante para o projeto em questão.
 
-> **Observação**: <code>É necessário uma atenção na relação da Alta Coesão e do Baixo Acoplamento, pois **ao minimizar o acoplamento** diminuindo o número de objetos e adicionando as responsabilidades a esses **pode-se diminuir a coesão**. O contrário também é verdadeiro, pois ao se **aumentar a coesão** adicionando mais objetos (com responsabilidades focadas no seu escopo) pode-se **aumentar o acoplamento** [5]</code>
+> **Observação**: É necessário uma atenção na relação da Alta Coesão e do Baixo Acoplamento, pois **ao minimizar o acoplamento** diminuindo o número de objetos e adicionando as responsabilidades a esses **pode-se diminuir a coesão**. O contrário também é verdadeiro, pois ao se **aumentar a coesão** adicionando mais objetos (com responsabilidades focadas no seu escopo) pode-se **aumentar o acoplamento** [5].
 
 - **Controlador**
 
@@ -118,7 +118,7 @@ O padrão de projeto GRASP Polimorfismo foi utilizado para encapsular variaçõe
 
 - **Variações Protegidas**
 
-O padrão de projeto GRASP Variações Protegidas foi utilizado com intuito de garantir a integridade do processo de avaliação dos produtos, permitindo que apenas um usuário autenticado que realmente comprou a mercadoria em questão possa enviar para a camada de persistência sua avaliação, registrando as informações no objeto original. Apesar disso, enquanto o usuário não estiver de fato autenticado o mesmo poderá realizar a avaliação do produto validando-se de um objeto local que posteriormente será enviado para camada de persistência caso sua autenticação se confirme, conforme pode ser observado na Figura 7 abaixo. Diante disso, esse padrão de projeto se enquadra na ideia do padrão de projeto Proxy, o qual faz parte dos GoF e está descrito de forma detalhada em conjunto com sua **implementação** no [documento do mesmo](./gof.md#implementação).  
+O padrão de projeto GRASP Variações Protegidas foi utilizado com intuito de garantir a integridade do processo de avaliação dos produtos, permitindo que apenas um usuário autenticado que realmente comprou a mercadoria em questão possa enviar para a camada de persistência sua avaliação, registrando as informações no objeto original. Apesar disso, enquanto o usuário não estiver de fato autenticado o mesmo poderá realizar a avaliação do produto validando-se de um objeto local que posteriormente será enviado para camada de persistência caso sua autenticação se confirme, conforme pode ser observado na Figura 7 abaixo. Diante disso, esse padrão de projeto se enquadra na ideia do padrão de projeto Proxy que faz parte dos GoF, e está descrito de forma detalhada em conjunto com seu **código em Java e explicação em nível de implementação** [no documento do mesmo](./gof.md#proxy).
 
 ![Figura 7](assets/usuario-proxy.png)
 <p class="legenda">   Figura 7. Modelagem do padrão proxy no contexto do projeto, versão 2 (Fonte: Elaborado por Nicolas Chagas). </p>
@@ -140,9 +140,6 @@ Knowledge, 2004. Acesso em 29/05/2023.
 Pearson, 2007. Acesso em 29/05/2023.
 
 [5] BRAIDA, Filipe. Modelagem e Projeto de Software. Braida.com.br. Disponível em: <http://filipe.braida.com.br/pages/courses/modelagem/#grasp>. Acesso em: 7 jun. 2023.
-
-‌
-
 
 ## Histórico de Versão
 
