@@ -54,8 +54,8 @@
 
 </details>
 
-<details open>
-<summary class="activated-menu"> Padrões de Projeto </summary>
+<details>
+<summary> Padrões de Projeto </summary>
 
 - [Padrões de Projeto](/3.padroesdeprojeto/padroesdeprojeto.md)
   - [Back-end-Persistência - GoF](/3.padroesdeprojeto/back/gof.md)
@@ -68,11 +68,14 @@
 
 </details>
 
-</details>
-<!-- @TODO: Descomentar à medida que as entregas forem acontecendo -->
+<details open>
+<summary class="activated-menu"> Arquitetura & Reutilização de Software </summary>
 
-<!-- - Arquitetura de Software & Reutilização -->
- <!-- - [4. Desenho de Software - Arquitetura & Reutilização de Software](4.arquiteturareutilizacao/4.arquiteturareutilizacao.md) -->
-  <!-- - [4.1. Módulo Estilos e Padrões Arquiteturais](4.arquiteturareutilizacao/4.1.padroesarquiteturais.md) -->
-  <!-- - [4.2. Módulo Reutilização de Software](4.arquiteturareutilizacao/4.2.reutilizacaodesoftware.md) -->
-  <!-- - [4.3. Participações - Arquitetura & Reutilização de Software](4.arquiteturareutilizacao/4.3.participacoesarqreutilizacao.md) -->
+- [Arquitetura & Reutilização de Software](/4.arquiteturareutilizacao/arquiteturareutilizacao.md)
+- [Estilos e Padrões Arquiteturais](/4.arquiteturareutilizacao/padroes/padroesarquiteturais.md)
+- [Reutilização de Software](/4.arquiteturareutilizacao/reutilizacao/reutilizacaodesoftware.md)
+- [Participações](/4.arquiteturareutilizacao/participacoes.md)
+
+</details>
+
+</details>
