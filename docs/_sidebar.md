@@ -69,10 +69,9 @@
 </details>
 
 </details>
-<!-- @TODO: Descomentar à medida que as entregas forem acontecendo -->
 
-<!-- - Arquitetura de Software & Reutilização -->
- <!-- - [4. Desenho de Software - Arquitetura & Reutilização de Software](4.arquiteturareutilizacao/4.arquiteturareutilizacao.md) -->
-  <!-- - [4.1. Módulo Estilos e Padrões Arquiteturais](4.arquiteturareutilizacao/4.1.padroesarquiteturais.md) -->
-  <!-- - [4.2. Módulo Reutilização de Software](4.arquiteturareutilizacao/4.2.reutilizacaodesoftware.md) -->
-  <!-- - [4.3. Participações - Arquitetura & Reutilização de Software](4.arquiteturareutilizacao/4.3.participacoesarqreutilizacao.md) -->
+
+Arquitetura de Software & Reutilização 
+[4. Desenho de Software - Arquitetura & Reutilização de Software](4.arquiteturareutilizacao/4.arquiteturareutilizacao.md) 
+  [4.1. Módulo Estilos e Padrões Arquiteturais](4.arquiteturareutilizacao/4.1.padroesarquiteturais.md) 
+[4.2. Módulo Reutilização de Software](4.arquiteturareutilizacao/4.2.reutilizacaodesoftware.md)[4.3. Participações - Arquitetura & Reutilização de Software](4.arquiteturareutilizacao/4.3.participacoesarqreutilizacao.md)
