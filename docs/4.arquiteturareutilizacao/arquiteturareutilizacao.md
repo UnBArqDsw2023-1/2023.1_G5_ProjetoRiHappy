@@ -1,10 +1,8 @@
-# 4.2. Módulo Reutilização de Software
+# Arquitetura & Reutilização de Software
 
 ## Introdução
 
 ## Metodologia
-
-## Discussões
 
 ## Referências
 

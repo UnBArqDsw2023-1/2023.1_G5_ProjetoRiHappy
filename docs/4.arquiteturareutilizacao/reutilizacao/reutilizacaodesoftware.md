@@ -1,10 +1,8 @@
-# 4.1. Módulo Estilos e Padrões Arquiteturais
+# Reutilização de Software
 
 ## Introdução
 
 ## Metodologia
-
-## Discussões
 
 ## Referências
 
