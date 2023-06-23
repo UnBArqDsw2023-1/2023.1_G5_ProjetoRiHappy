@@ -73,8 +73,7 @@ A visão lógica, no contexto da arquitetura de software, corresponde a uma parc
 
 ## Diagrama de classes
 
-<div style="width: 960px; height: 720px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="1" style="width:960px; height:720px" src="https://lucid.app/documents/embedded/4dd6a296-dbea-46b7-8bb7-b515fbc1fb05" id="T8L9vwRvMBHK"></iframe>
-</div>
+![Diagrama de classes](img/Diagrama%20de%20classes%20RiHappy.jpeg)
 <p class="legenda">Diagrama de Classes (Fonte: elaborado por Josué, Luíza, Lucas Gomes, Lucas Felipe e Nicolas.)</p>
 
 [Link](https://lucid.app/lucidchart/4dd6a296-dbea-46b7-8bb7-b515fbc1fb05/edit?invitationId=inv_32177c76-50f9-40b1-95df-7711173e673f&page=HWEp-vi-RSFO#) do diagrama de classes
@@ -92,7 +91,16 @@ Basicamente quando visualizamos a modelagem  do **Diagrama de classes**, percebe
 
 ### Modelo
 
-As principais responsabilidades da camada model, representada no diagrama de classes, estão mais relacionadas com a forma que será implementada as regras de negócio dentro do sistema e como vamos tratar os dados em questão. Dentro do escopo do projeto atrelado a riHappy, tratamos as maneiras distintas que os usuários podem fazer sua etapa de avaliação. Nesse contexto, visualizamos como se organizam os pedidos, os produtos, os usuários, como se dão as avaliações dos mesmos e as mídias dentro  
+As principais responsabilidades da camada model, representada no diagrama de classes, estão mais relacionadas com a forma que será implementada as regras de negócio dentro do sistema e como vamos tratar os dados em questão. Dentro do escopo do projeto atrelado a riHappy, tratamos as maneiras distintas que os usuários podem fazer sua etapa de avaliação. Nesse contexto, visualizamos como se organizam os pedidos, os produtos, os usuários, como se dão as avaliações dos mesmos e as mídias que também podem estar inseridas neste contexto.
+
+### Visão
+
+As principal responsabilidade da camada de visão, é possibilitar uma interfâce para que o usuário possa interagir com o sistema. Com isso, adentramos em aspectos de estudos que envolvem a UX/UI. Então basicamente esse componente possibilita que o usuário possa de fato fazer sua avaliação dentro do contexto da riHappy.
+
+### Controlador
+
+A principal responsabilidade da camada de controlador, é possibilitar uma camada intermediária entre a camada de modelo e a camada de visão. Basicamente esse intermedio tem como função possibilitar a comunicação entre as duas camadas, ou seja, ela recebe recebe e trata os dados do usuário(envolvevendo um escopo mais relacionado com a camada de modelo) e devolve a visualiação desses dados para o usuário (o que ele consegue visualizar com a camada de de visão) 
+
 <!--Esta subseção descreve a decomposição geral do modelo de design em termos de sua hierarquia de pacotes e camadas.-->
 
 ### Pacotes de design arquitetonicamente significativos
