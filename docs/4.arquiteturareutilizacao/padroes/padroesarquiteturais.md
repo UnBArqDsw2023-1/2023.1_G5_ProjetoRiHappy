@@ -56,10 +56,11 @@ Esta seção descreve as partes significativas do ponto de vista arquitetônico 
 
 <div style="width: 960px; height: 720px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="1" style="width:960px; height:720px" src="https://lucid.app/documents/embedded/4dd6a296-dbea-46b7-8bb7-b515fbc1fb05" id="T8L9vwRvMBHK"></iframe></div>
 
+[Link](https://lucid.app/lucidchart/4dd6a296-dbea-46b7-8bb7-b515fbc1fb05/edit?invitationId=inv_32177c76-50f9-40b1-95df-7711173e673f&page=HWEp-vi-RSFO#) do diagrama de classes
 ## Diagrama de Pacotes
 
 ![Diagrama de pacotes](img/diagrama-de-pacotes.jpeg)
-
+[Link](https://lucid.app/lucidchart/9956a0a6-44c2-40f3-a6fe-50e6dd67fb24/edit?page=0_0&invitationId=inv_616ce34d-7d0d-427c-88fc-734e31dcaf7c#) do diagrama de pacotes
 ## 10.1 Visão Geral
 
 Esta subseção descreve a decomposição geral do modelo de design em termos de sua hierarquia de pacotes e camadas.
