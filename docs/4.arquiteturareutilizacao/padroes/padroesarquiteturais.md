@@ -14,9 +14,12 @@ h3:before{
     content:counter(section) "." counter(subsection) " ";
 }
 
-</style>
+.legenda:before{
+    counter-increment:figuras;
+    content:"Figura " counter(section) ". ";
+}
 
-# Estilos e Padrões Arquiteturais
+</style>
 
 ## Histórico de Versão
 
@@ -57,15 +60,17 @@ Esta seção descreve qual arquitetura de software é para o sistema atual e com
 
 Esta seção descreve os requisitos e objetivos de software que têm algum impacto significativo na arquitetura; por exemplo, segurança, proteção, privacidade, uso de um produto pronto para uso, portabilidade, distribuição e reutilização. Ele também captura as restrições especiais que podem ser aplicadas: estratégia de design e implementação, ferramentas de desenvolvimento, estrutura de equipe, cronograma, código legado e assim por diante.
 
-## Visão de caso de uso <!-- - Podemos por no projeto como bonus, mas não conta como entregavel -->
+<!-- ## Visão de caso de uso <!-- - Podemos por no projeto como bonus, mas não conta como entregavel -->
 
-Esta seção lista casos de uso ou cenários do modelo de casos de uso se eles representarem alguma funcionalidade central significativa do sistema final ou se tiverem uma grande cobertura arquitetônica - eles exercem muitos
+<!-- Esta seção lista casos de uso ou cenários do modelo de casos de uso se eles representarem alguma funcionalidade central significativa do sistema final ou se tiverem uma grande cobertura arquitetônica - eles exercem muitos --> -->
+<!--  -->
 
-### Realizações de Caso de Uso
-
-Esta seção ilustra como o software realmente funciona, fornecendo algumas realizações selecionadas de caso de uso (ou cenário) e explica como os vários elementos do modelo de design contribuem para sua funcionalidade.
-
+<!-- ### Realizações de Caso de Uso -->
+<!--  -->
+<!-- Esta seção ilustra como o software realmente funciona, fornecendo algumas realizações selecionadas de caso de uso (ou cenário) e explica como os vários elementos do modelo de design contribuem para sua funcionalidade. -->
+<!--  -->
 <!-- -Não necessariamente teremos de usar todas, apenas as que escolheremos, a ideia é adaptar as numerações de acordo-->
+
 ## Visão lógica
 
 Esta seção descreve as partes significativas do ponto de vista arquitetônico do modelo de design, como sua decomposição em subsistemas e pacotes. E para cada pacote significativo, sua decomposição em classes e utilitários de classe. Você deve introduzir classes arquitetonicamente significativas e descrever suas responsabilidades, bem como alguns relacionamentos, operações e atributos muito importantes.
@@ -81,27 +86,19 @@ Para cada classe significativa no pacote, inclua seu nome, breve descrição e, 
 
 ## Visão de processos
 
-Esta seção descreve a decomposição do sistema em processos leves (threads únicos de controle) e processos pesados ​​(agrupamentos de processos leves). Organize a seção por grupos de processos que se comunicam ou interagem. Descrever os principais modos de comunicação entre processos, como passagem de mensagens, interrupções e rendezvous.
+[Visão de processos](./processos.md ':include')
 
-## Visão de implantação
+## Visão de Implantação
 
-Esta seção descreve uma ou mais configurações de rede física (hardware) nas quais o software é implementado e executado. É uma visão do Modelo de Implantação. No mínimo para cada configuração deve indicar os nós físicos (computadores, CPUs) que executam o software e suas interconexões (barramento, LAN, ponto-a-ponto, etc.) Incluir também um mapeamento dos processos do Processo Visualize os nós físicos.
+[Visão de implantação](./implantacao.md ':include')
 
-## Visão de implementação
+## Visão de Implementação
 
-Esta seção descreve a estrutura geral do modelo de implementação, a decomposição do software em camadas e subsistemas no modelo de implementação e quaisquer componentes importantes para a arquitetura.
-
-### Visão Geral
-
-Esta subseção nomeia e define as várias camadas e seus conteúdos, as regras que regem a inclusão de uma determinada camada e os limites entre as camadas. Inclua um diagrama de componentes que mostre as relações entre as camadas.
-
-### Camadas
-
-Para cada camada, inclua uma subseção com seu nome, uma enumeração dos subsistemas localizados na camada e um diagrama de componentes.
+[Visão de Implementação](./implementacao.md ':include')
 
 ## Visão de dados
 
-A natureza dos dados armazenados e os relacionamentos entre as entidades identificadas justificam a utilização de um banco de dados relacional. Conforme decidido [durante a reunião de definição de tecnologias](0.planejamento/atas/ata_18_05_2023.md), a equipe optou por utilizar o SGBD PostgreSQL.
+[Visão de dados](./dados.md ':include')
 
 ## Tamanho e desempenho
 
