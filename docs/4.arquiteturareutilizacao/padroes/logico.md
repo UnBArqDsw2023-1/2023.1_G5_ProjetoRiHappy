@@ -36,13 +36,13 @@ As principais responsabilidades da camada model, representada no diagrama de cla
 
 #### Diagrama de pacotes
 
-A modelagem em cima do diagrama de pacotes, também temos uma representação muito forte do que nos diz respeito o padrão arquitetural MVC. Dentro dessa modelagem, temos uma separação mais evidente desses componentes e sobretudo como se da suas responsabilidades e também da comunicação entre as mesmas. De maneira geral, temos: o pacote de Front-End que é responsável pela interfaĉe com o usuário tal qual a camada de visão. O Back-End, representando a camada de controlador, é responsável por receber os dados que o usuário insere no Front-End, trata-los e enviar para o banco de dados. E por último, o banco de dados, que trás de fato como se da essas regras de negócio e armazenamento desses dados para procedimentos adequados, tal qual o camada de Modelo.
+A modelagem baseada em diagrama de pacote fornece uma representação extremamente sólida do padrão de arquitetura MVC. Nessa abordagem, temos uma separação bem clara dos componentes, destacando suas responsabilidades e a comunicação entre eles. Em geral, identificamos o pacote front-end, responsável por construir a interface do usuário, bem como a camada de visualização. O backend representa a camada controller e é responsável por receber os dados inseridos pelo usuário no frontend, processá-los e enviá-los ao banco de dados. Por fim, o banco de dados desempenha um papel vital, definindo regras de negócio e garantindo o armazenamento correto dos dados, consistente com a camada de modelo. Essa abordagem modular estruturada fornece um ambiente eficiente e organizado para desenvolvimento e manutenção do sistema.
 
 ### Pacotes de design arquitetonicamente significativos
 
 #### Modelo
 
-A camada de modelo, trás consigo a maneira que as regras de negócio são implementadas em nosso contexto. Basicamente vemos todas as classes que estão relacionadas em certo nível com o fluxo de avaliação de um produto. Um ponto interessante quanto essa camada é a possibilidade de já poder se abstrair em boa parte como as outras camadas irão atuar.
+A camada de modelo, trás consigo a maneira que as regras de negócio são implementadas em nosso contexto, fornecendo uma estrutura base para a aplicação. Basicamente vemos que todas as classes que estão relacionadas em certo nível com o fluxo de avaliação de um produto. Um ponto interessante quanto essa camada é a possibilidade de já poder se abstrair em boa parte como as outras camadas irão atuar.
 
 ![Representação da camada de modelo](img/model.jpg)
 
@@ -50,7 +50,7 @@ A camada de modelo, trás consigo a maneira que as regras de negócio são imple
 
 #### Visão
 
-A camada de visão, trás consigo a maneira que todos esses dados são apresentados para o usuário e possibilita que de acordo com eventos de interação do usuário mediante a esses dados tenhamos tratamentos adequados em outras camadas. Ademais, visualizamos quem em conjunto com essa camada temos aspectos que envolvem a camada de segurança no que diz repeito, o controle do tipo de usuário responsável por cada ação. Tal aspecto, nos da uma garantia de um determinado evento não possa comprometer de alguma forma com o sistema.
+A camada de visão traz consigo a maneira pela qual todos esses dados são apresentados ao usuário e possibilita que, de acordo com eventos de interação do usuário, tenhamos tratamentos adequados em outras camadas. Além disso, observamos que, em conjunto com essa camada, temos aspectos que envolvem a camada de segurança, no que diz respeito ao controle do tipo de usuário responsável por cada ação. Tal aspecto nos dá a garantia de que um determinado evento não possa comprometer o sistema de alguma forma.
 
 ![Representação da camada de visão](img/view.jpg)
 
@@ -58,7 +58,7 @@ A camada de visão, trás consigo a maneira que todos esses dados são apresenta
 
 #### Controlador
 
-Basicamente a camada de Controller em questão trás consigo aspectos envolvendo os serviços relacionados aos produtos presentes na plataforma, as avaliações dos mesmos e os dados relacionados a compra. Tudo isso sendo tratado e armazenado em um banco de dados.
+Basicamente a camada de Controller em questão trás consigo aspectos envolvendo os serviços relacionados aos produtos presentes na plataforma, as avaliações dos mesmos e os dados relacionados a compra. Tudo isso sendo tratado e armazenado em um banco de dados. Essa camada é responsável por se comunicar com a visão e enviar os dados da aplicação através dos serviços.
 
 ![Representação da camada de controller](img/controller.jpg)
 
@@ -66,4 +66,4 @@ Basicamente a camada de Controller em questão trás consigo aspectos envolvendo
 
 ### Outras modelagens em mais alto nível
 <!--Se quiser podemos fora os links colocar as imagens mas sem entrar muito em detalhes pq é mais um extra-->
-Além do diagrama de classes que está representando com uma maior riqueza de detalhamento e o diagrama de pacotes que reforça uma visão muito ampla para o padrão de arquiteura MVC. Também foram modelados em mais alto nível os diagramas de: [Atividades](https://unbarqdsw2023-1.github.io/2023.1_G5_ProjetoRiHappy/#/2.modelagem/dinamica/diagramadeatividades), que demonstra com certo nível de abstração como se da o fluxo de avaliação dentro do contexto do projeto e também o [diagrama de comunicação](https://unbarqdsw2023-1.github.io/2023.1_G5_ProjetoRiHappy/#/2.modelagem/dinamica/diagramadecomunicacao), que trás uma abstração de como se da a implementação deste fluxo via mensagens sequenciais.
+Além do diagrama de classes que está representado com uma maior riqueza de detalhamento e o diagrama de pacotes que reforça uma visão muito ampla para o padrão de arquiteura MVC. Também foram modelados em mais alto nível os diagramas de: [Atividades](https://unbarqdsw2023-1.github.io/2023.1_G5_ProjetoRiHappy/#/2.modelagem/dinamica/diagramadeatividades), que demonstra com certo nível de abstração como se da o fluxo de avaliação dentro do contexto do projeto e também o [diagrama de comunicação](https://unbarqdsw2023-1.github.io/2023.1_G5_ProjetoRiHappy/#/2.modelagem/dinamica/diagramadecomunicacao), que trás uma abstração de como se da a implementação deste fluxo via mensagens sequenciais.
