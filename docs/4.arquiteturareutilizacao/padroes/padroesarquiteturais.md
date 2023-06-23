@@ -27,7 +27,7 @@ h3:before{
 |--------|------------|--------------------------------------------|----------------------|-------------|
 | `1.0`  | 13/06/2023 | Criação do documento com estrutura padrão. | Lucas Felipe         | Nicolas     |
 | `1.1`  | 20/06/2023 | Padronização para o Template               | Lucas Felipe         | Nicolas     |
-| `2.0`  | 22/06/2023 | Modelagem da visão lógica                  | Lucas Felipe e Josué | ---         |
+| `2.0`  | 22/06/2023 | Modelagem da visão lógica                  | Lucas Felipe e Josué | Davi Lima       |
 
 ## Introdução
 
@@ -83,15 +83,6 @@ Esta seção descreve os requisitos e objetivos de software que têm algum impac
 ## Visão lógica
 
 [Visão lógica](./logico.md ':include')
-
-### Visão Geral
-
-Esta subseção descreve a decomposição geral do modelo de design em termos de sua hierarquia de pacotes e camadas.
-
-### Pacotes de design arquitetonicamente significativos
-
-Para cada pacote significativo, inclua uma subseção com seu nome, sua breve descrição e um diagrama com todas as classes e pacotes significativos contidos no pacote.
-Para cada classe significativa no pacote, inclua seu nome, breve descrição e, opcionalmente, uma descrição de algumas de suas principais responsabilidades, operações e atributos.
 
 ## Visão de processos
 
