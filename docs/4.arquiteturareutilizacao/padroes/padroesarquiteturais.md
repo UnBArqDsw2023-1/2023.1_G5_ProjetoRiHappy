@@ -72,6 +72,11 @@ A visão lógica, no contexto da arquitetura de software, corresponde a uma parc
 [Link](https://lucid.app/lucidchart/9956a0a6-44c2-40f3-a6fe-50e6dd67fb24/edit?page=0_0&invitationId=inv_616ce34d-7d0d-427c-88fc-734e31dcaf7c#) do diagrama de pacotes
 ## 10.1 Visão Geral
 
+Basicamente quando visualizamos a modelagem  do **Diagrama de classes**, percebemos como ele foi construído em cima do padrão arquitetural **MVC**. Basicamente esse padrão separa as responsabilidades em três grandes componentes principais, esses são, **Modelos, Visão e Controlador**. Trazendo um pouco mais a fundo essas divisões dentro do contexto do projeto.
+
+### Modelo
+
+As principais responsabilidades da camada model, representada no diagrama de classes, estão mais relacionadas com a forma que será implementada as regras de negócio dentro do sistema e como vamos tratar os dados em questão. Dentro do escopo do projeto atrelado a riHappy, tratamos as maneiras distintas que os usuários podem fazer sua etapa de avaliação. Nesse contexto, visualizamos como se organizam os pedidos, os produtos, os usuários, como se dão as avaliações dos mesmos e as mídias dentro  
 <!--Esta subseção descreve a decomposição geral do modelo de design em termos de sua hierarquia de pacotes e camadas.-->
 
 ## 10.2 Pacotes de design arquitetonicamente significativos
