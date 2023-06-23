@@ -1,8 +1,3 @@
-| Versão | Data       | Descrição                                  | Autor(es)            | Revisor(es) |
-|--------|------------|--------------------------------------------|----------------------|-------------|
-| `1.0`  | 13/06/2023 | Criação do documento com estrutura padrão. | Lucas Felipe         | Nicolas     |
-| `1.1`  | 20/06/2023 | Padronização para o Template               | Lucas Felipe         | Nicolas     |
-| `2.0`  | 22/06/2023 | Modelagem da visão lógica                  | Lucas Felipe e Josué | ---         |
 
 A visão lógica, no contexto da arquitetura de software, corresponde a uma parcela de conjunto que contempla: **Classes,
 Pacotes** e até mesmo os **Casos de uso**. Com as modelagem
@@ -55,15 +50,3 @@ A principal responsabilidade da camada de controlador, é possibilitar uma camad
 e a camada de visão. Basicamente esse intermedio tem como função possibilitar a comunicação entre as duas camadas, ou
 seja, ela recebe recebe e trata os dados do usuário(envolvevendo um escopo mais relacionado com a camada de modelo) e
 devolve a visualiação desses dados para o usuário (o que ele consegue visualizar com a camada de de visão)
-
-## Referências
-
-[1] O que é um diagrama UML ? Disponível em: [Link](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml).
-Acesso em: 22 Jun. 2023. <br/>
-[2] Unified Modeling Language (UML). Disponível em: [Link](http://www.deinf.ufma.br/~acmo/MOO_Intro.pdf) Acesso em: 22
-Jun.2023 </br>
-[3] Serrano, Milene. DSW-Modelagem - Agregacao Composicao. São Paulo: 25 jul, 2020. Disponível
-em: [Link](https://unbbr-my.sharepoint.com/personal/mileneserrano_unb_br/_layouts/15/stream.aspx?id=%2Fpersonal%2Fmileneserrano%5Funb%5Fbr%2FDocuments%2FArqDSW%20%2D%20V%C3%ADdeosOriginais%2F05e%20%2D%20VideoAula%20%2D%20DSW%2DModelagem%20%2D%20Agregacao%20Composicao%2Emp4&ga=1).
-Acesso em: 22 jun. 2023. </br>
-[4] Tudo sobre diagramas de pacotes UML, artigo disponível
-no [link](https://www.lucidchart.com/pages/pt/diagrama-de-pacotes-uml). Acesso em 22/06/2023.
