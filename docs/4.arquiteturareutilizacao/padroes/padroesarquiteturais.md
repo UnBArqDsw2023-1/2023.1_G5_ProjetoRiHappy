@@ -55,16 +55,20 @@
 
 # 10. Visão lógica
 
-A visão lógica, no contexto da arquitetura de software, corresponde a uma parcela de conjunto que contempla: **Classes, Pacotes** e até mesmo os **Casos de uso**.
+A visão lógica, no contexto da arquitetura de software, corresponde a uma parcela de conjunto que contempla: **Classes, Pacotes** e até mesmo os **Casos de uso**. Com as modelagem do [diagrama de classes](https://unbarqdsw2023-1.github.io/2023.1_G5_ProjetoRiHappy/#/2.modelagem/estatica/diagramadeclasses) e do [diagrama de pacotes](https://unbarqdsw2023-1.github.io/2023.1_G5_ProjetoRiHappy/#/2.modelagem/estatica/diagramadepacotes), é possível passar por grande parte das camadas arquiteturais implementadas até o presente momento com um maior nível de abstração e co-relação entre os mesmos. A seguir veremos como se deu essas visões com as ópticas de tais diagramas.
 
 ## Diagrama de classes 
 
-<div style="width: 960px; height: 720px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="1" style="width:960px; height:720px" src="https://lucid.app/documents/embedded/4dd6a296-dbea-46b7-8bb7-b515fbc1fb05" id="T8L9vwRvMBHK"></iframe></div>
+<div style="width: 960px; height: 720px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="1" style="width:960px; height:720px" src="https://lucid.app/documents/embedded/4dd6a296-dbea-46b7-8bb7-b515fbc1fb05" id="T8L9vwRvMBHK"></iframe>
+</div>
+<p class="legenda"> Figura 1: Diagrama de Classes (Fonte: elaborado por Josué, Luíza, Lucas Gomes, Lucas Felipe e Nicolas.)</p>
 
 [Link](https://lucid.app/lucidchart/4dd6a296-dbea-46b7-8bb7-b515fbc1fb05/edit?invitationId=inv_32177c76-50f9-40b1-95df-7711173e673f&page=HWEp-vi-RSFO#) do diagrama de classes
 ## Diagrama de Pacotes
 
 ![Diagrama de pacotes](img/diagrama-de-pacotes.jpeg)
+<p class="legenda"> Figura 2: Diagrama de Pacotes (Fonte: elaborado por Josué, Luíza, Lucas Felipe e João Pedro.)</p>
+
 [Link](https://lucid.app/lucidchart/9956a0a6-44c2-40f3-a6fe-50e6dd67fb24/edit?page=0_0&invitationId=inv_616ce34d-7d0d-427c-88fc-734e31dcaf7c#) do diagrama de pacotes
 ## 10.1 Visão Geral
 
