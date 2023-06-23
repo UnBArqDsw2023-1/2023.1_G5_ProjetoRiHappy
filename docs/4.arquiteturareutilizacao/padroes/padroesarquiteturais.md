@@ -52,6 +52,14 @@ Esta seção ilustra como o software realmente funciona, fornecendo algumas real
 
 Esta seção descreve as partes significativas do ponto de vista arquitetônico do modelo de design, como sua decomposição em subsistemas e pacotes. E para cada pacote significativo, sua decomposição em classes e utilitários de classe. Você deve introduzir classes arquitetonicamente significativas e descrever suas responsabilidades, bem como alguns relacionamentos, operações e atributos muito importantes.
 
+## Diagrama de classes 
+
+<div style="width: 960px; height: 720px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="1" style="width:960px; height:720px" src="https://lucid.app/documents/embedded/4dd6a296-dbea-46b7-8bb7-b515fbc1fb05" id="T8L9vwRvMBHK"></iframe></div>
+
+## Diagrama de Pacotes
+
+![Diagrama de pacotes](img/diagrama-de-pacotes.jpeg)
+
 ## 10.1 Visão Geral
 
 Esta subseção descreve a decomposição geral do modelo de design em termos de sua hierarquia de pacotes e camadas.
