@@ -1,7 +1,7 @@
 A visão lógica, no contexto da arquitetura de software, corresponde a uma parcela de conjunto que contempla: **Classes, Pacotes** e até mesmo os **Casos de uso**. Com as modelagem do [diagrama de classes](https://unbarqdsw2023-1.github.io/2023.1_G5_ProjetoRiHappy/#/2.modelagem/estatica/diagramadeclasses) e do [diagrama de pacotes](https://unbarqdsw2023-1.github.io/2023.1_G5_ProjetoRiHappy/#/2.modelagem/estatica/diagramadepacotes), é possível passar por grande parte das camadas arquiteturais implementadas até o presente momento com um maior nível de abstração e co-relação entre os mesmos. A seguir veremos como se deu essas visões com as ópticas de tais diagramas.
 
 ### Diagrama de classes
-
+<!--Como é o nosso diagrama de mais detalahemento vai ser o principal, mas usaremos o de pacotes para reforçar o MVC-->
 ![Diagrama de classes](img/Diagrama%20de%20classes%20RiHappy.jpeg)
 
 <p class="legenda">Diagrama de Classes (Fonte: elaborado por Josué, Luíza, Lucas Gomes, Lucas Felipe e Nicolas.)</p>
@@ -39,9 +39,31 @@ As principais responsabilidades da camada model, representada no diagrama de cla
 A modelagem em cima do diagrama de pacotes, também temos uma representação muito forte do que nos diz respeito o padrão arquitetural MVC. Dentro dessa modelagem, temos uma separação mais evidente desses componentes e sobretudo como se da suas responsabilidades e também da comunicação entre as mesmas. De maneira geral, temos: o pacote de Front-End que é responsável pela interfaĉe com o usuário tal qual a camada de visão. O Back-End, representando a camada de controlador, é responsável por receber os dados que o usuário insere no Front-End, trata-los e enviar para o banco de dados. E por último, o banco de dados, que trás de fato como se da essas regras de negócio e armazenamento desses dados para procedimentos adequados, tal qual o camada de Modelo.
 
 ### Pacotes de design arquitetonicamente significativos
-ACREDITO QUE AQUI VAMOS TER DE SUBIR FRAGMENTOS DE IMAGEM COM ESSAS SEPARAÇÕES PARA ILUSTRAR...FEITO ISSO MORREU
-VOU PUXAR AS IMAGENS...tenta puxar elas separadas em camadas aí que agt faz as descrições rapidão...VOU PEGAR A VIEW JUNTO COM SEGURANÇA, OU PEGO SAPARADO MESMO? essas que conversam pode tentar pegar juntos que aí na hora do texto agt trata isso... EU NÃO CONSIGO COLOCAR AS IMAGENS PQ TA NO TEU PC, VOU MANDAR NO TELEGRA AI VC BAIXA E COLOCA bele, vou por ela e commitar prai ir embora, BELEZA
 
-<!--Para cada pacote significativo, inclua uma subseção com seu nome, sua breve descrição e um diagrama com todas as classes e pacotes significativos contidos no pacote.
-Para cada classe significativa no pacote, inclua seu nome, breve descrição e, opcionalmente, uma descrição de algumas de suas principais responsabilidades, operações e atributos.-->
- 
+#### Modelo
+
+A camada de modelo, trás consigo a maneira que as regras de negócio são implementadas em nosso contexto. Basicamente vemos todas as classes que estão relacionadas em certo nível com o fluxo de avaliação de um produto. Um ponto interessante quanto essa camada é a possibilidade de já poder se abstrair em boa parte como as outras camadas irão atuar.
+
+![Representação da camada de modelo](img/model.jpg)
+
+<p class="legenda">Representação da camada Model (Fonte: elaborado por Josué, Luíza, Lucas Gomes, Lucas Felipe e Nicolas.)</p>
+
+#### Visão
+
+A camada de visão, trás consigo a maneira que todos esses dados são apresentados para o usuário e possibilita que de acordo com eventos de interação do usuário mediante a esses dados tenhamos tratamentos adequados em outras camadas. Ademais, visualizamos quem em conjunto com essa camada temos aspectos que envolvem a camada de segurança no que diz repeito, o controle do tipo de usuário responsável por cada ação. Tal aspecto, nos da uma garantia de um determinado evento não possa comprometer de alguma forma com o sistema.
+
+![Representação da camada de visão](img/view.jpg)
+
+<p class="legenda">Representação da camada Model (Fonte: elaborado por Josué, Luíza, Lucas Gomes, Lucas Felipe e Nicolas.)</p>
+
+#### Controlador
+
+Basicamente a camada de Controller em questão trás consigo aspectos envolvendo os serviços relacionados aos produtos presentes na plataforma, as avaliações dos mesmos e os dados relacionados a compra. Tudo isso sendo tratado e armazenado em um banco de dados.
+
+![Representação da camada de controller](img/controller.jpg)
+
+<p class="legenda">Representação da camada  Controller (Fonte: elaborado por Josué, Luíza, Lucas Gomes, Lucas Felipe e Nicolas.)</p>
+
+### Outras modelagens em mais alto nível
+<!--Se quiser podemos fora os links colocar as imagens mas sem entrar muito em detalhes pq é mais um extra-->
+Além do diagrama de classes que está representando com uma maior riqueza de detalhamento e o diagrama de pacotes que reforça uma visão muito ampla para o padrão de arquiteura MVC. Também foram modelados em mais alto nível os diagramas de: [Atividades](https://unbarqdsw2023-1.github.io/2023.1_G5_ProjetoRiHappy/#/2.modelagem/dinamica/diagramadeatividades), que demonstra com certo nível de abstração como se da o fluxo de avaliação dentro do contexto do projeto e também o [diagrama de comunicação](https://unbarqdsw2023-1.github.io/2023.1_G5_ProjetoRiHappy/#/2.modelagem/dinamica/diagramadecomunicacao), que trás uma abstração de como se da a implementação deste fluxo via mensagens sequenciais.
