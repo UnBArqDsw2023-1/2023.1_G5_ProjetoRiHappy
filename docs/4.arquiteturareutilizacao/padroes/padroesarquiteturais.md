@@ -20,10 +20,10 @@ h3:before{
 
 ## Histórico de Versão
 
-| Versão | Data | Descrição | Autor(es) | Revisor(es) |
-|--------|------|-----------|-----------|-------------|
-| `1.0`  | 13/06/2023 | Criação do documento com estrutura padrão.          | Lucas Felipe  | Nicolas            |
-| `1.1`  | 20/06/2023 | Padronização para o Template  | Lucas Felipe  | Nicolas            |
+| Versão | Data       | Descrição                                  | Autor(es)    | Revisor(es) |
+| ------ | ---------- | ------------------------------------------ | ------------ | ----------- |
+| `1.0`  | 13/06/2023 | Criação do documento com estrutura padrão. | Lucas Felipe | Nicolas     |
+| `1.1`  | 20/06/2023 | Padronização para o Template               | Lucas Felipe | Nicolas     |
 
 ## Introdução
 
@@ -37,7 +37,7 @@ Este documento fornece uma visão geral abrangente da arquitetura do sistema, us
 
 Esta seção define a função ou propósito do Documento de Arquitetura de Software, na documentação geral do projeto, e descreve brevemente a estrutura do documento. O público específico para o documento é identificado, com uma indicação de como se espera que eles usem o documento.
 
-## Definições, acronimos e abreviações
+## Definições, acrônimos e abreviações
 
 Esta subseção fornece as definições de todos os termos, acrônimos e abreviações necessários para interpretar adequadamente o Documento de Arquitetura de Software. Esta informação pode ser fornecida por referência ao Glossário do projeto.
 
@@ -101,7 +101,7 @@ Para cada camada, inclua uma subseção com seu nome, uma enumeração dos subsi
 
 ## Visão de dados
 
-Uma descrição da perspectiva de armazenamento de dados persistente do sistema. Esta seção é opcional se houver poucos ou nenhum dado persistente, ou se a tradução entre o Modelo de Design e o Modelo de Dados for trivial.
+A natureza dos dados armazenados e os relacionamentos entre as entidades identificadas justificam a utilização de um banco de dados relacional. Conforme decidido [durante a reunião de definição de tecnologias](0.planejamento/atas/ata_18_05_2023.md), a equipe optou por utilizar o SGBD PostgreSQL.
 
 ## Tamanho e desempenho
 
