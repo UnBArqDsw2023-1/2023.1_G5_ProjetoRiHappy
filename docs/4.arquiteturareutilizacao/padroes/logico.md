@@ -65,5 +65,21 @@ Basicamente a camada de Controller em questão trás consigo aspectos envolvendo
 <p class="legenda">Representação da camada  Controller (Fonte: elaborado por Josué, Luíza, Lucas Gomes, Lucas Felipe e Nicolas.)</p>
 
 ### Outras modelagens em mais alto nível
-<!--Se quiser podemos fora os links colocar as imagens mas sem entrar muito em detalhes pq é mais um extra-->
-Além do diagrama de classes que está representado com uma maior riqueza de detalhamento e o diagrama de pacotes que reforça uma visão muito ampla para o padrão de arquiteura MVC. Também foram modelados em mais alto nível os diagramas de: [Atividades](https://unbarqdsw2023-1.github.io/2023.1_G5_ProjetoRiHappy/#/2.modelagem/dinamica/diagramadeatividades), que demonstra com certo nível de abstração como se da o fluxo de avaliação dentro do contexto do projeto e também o [diagrama de comunicação](https://unbarqdsw2023-1.github.io/2023.1_G5_ProjetoRiHappy/#/2.modelagem/dinamica/diagramadecomunicacao), que trás uma abstração de como se da a implementação deste fluxo via mensagens sequenciais.
+
+Além do diagrama de classes que está representado com uma maior riqueza de detalhamento e o diagrama de pacotes que reforça uma visão muito ampla para o padrão de arquiteura MVC. Também foram modelados em mais alto nível os diagramas de: [Atividades](https://unbarqdsw2023-1.github.io/2023.1_G5_ProjetoRiHappy/#/2.modelagem/dinamica/diagramadeatividades) e também o [diagrama de comunicação](https://unbarqdsw2023-1.github.io/2023.1_G5_ProjetoRiHappy/#/2.modelagem/dinamica/diagramadecomunicacao) que além de estarem modelados com uma maior abstração, o que possibilita uma boa associação à visão lógica, também temos uma representação de **casos de uso**. A seguir veremos um recorte de como se deu a modelagem dos mesmos:
+ 
+#### Diagrama de atividades
+
+A ideia geral por trás do diagrama de atividades é a representação do fluxo de controle ou de objetos dentro da aplicação. Por estar modelado em uma versão mais alto nível, tal recorte pode ser tanto utilizado como uma visão lógica do sistema como uma [visão de processos](/docs/4.arquiteturareutilizacao/padroes/processos.md).
+
+ ![Recorte do diagrama de atividades](/docs/4.arquiteturareutilizacao/padroes/img/2840.png)
+
+ <p class="legenda">Representação da camada  Controller (Fonte: elaborado por Davi Lima e Nicolas.)</p>
+
+#### Diagrama de comunicação
+
+A ideia geral por trás do diagrama de comunicação é a representação da interação entre objetos e/ou partes usando mensagens sequenciais. Por também estar modelado em uma versão mais alto nível tal modelagem também pode ser utilizada para se obter uma visão lógica.
+
+ ![diagrama de comunicação](/docs/4.arquiteturareutilizacao/padroes/img/DiagramaDeComunicacao.png)
+
+ <p class="legenda">Representação da camada  Controller (Fonte: elaborado por Guilherme Vilela, Lucas Gabriel e Lucas Gomes.)</p>
