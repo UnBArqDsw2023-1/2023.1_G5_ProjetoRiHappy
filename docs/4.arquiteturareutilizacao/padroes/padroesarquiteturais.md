@@ -23,10 +23,11 @@ h3:before{
 
 ## Histórico de Versão
 
-| Versão | Data       | Descrição                                  | Autor(es)    | Revisor(es) |
-| ------ | ---------- | ------------------------------------------ | ------------ | ----------- |
-| `1.0`  | 13/06/2023 | Criação do documento com estrutura padrão. | Lucas Felipe | Nicolas     |
-| `1.1`  | 20/06/2023 | Padronização para o Template               | Lucas Felipe | Nicolas     |
+| Versão | Data       | Descrição                                  | Autor(es)            | Revisor(es) |
+|--------|------------|--------------------------------------------|----------------------|-------------|
+| `1.0`  | 13/06/2023 | Criação do documento com estrutura padrão. | Lucas Felipe         | Nicolas     |
+| `1.1`  | 20/06/2023 | Padronização para o Template               | Lucas Felipe         | Nicolas     |
+| `2.0`  | 22/06/2023 | Modelagem da visão lógica                  | Lucas Felipe e Josué | Davi Lima       |
 
 ## Introdução
 
@@ -46,7 +47,15 @@ Esta subseção fornece as definições de todos os termos, acrônimos e abrevia
 
 ## Referências
 
-Esta subseção fornece uma lista completa de todos os documentos mencionados em qualquer outra parte do Documento de Arquitetura de Software. Identifique cada documento por título, número do relatório (se aplicável), data e organização de publicação. Especifique as fontes das quais as referências podem ser obtidas. Essas informações podem ser fornecidas por referência a um apêndice ou a outro documento.
+[1] O que é um diagrama UML ? Disponível em: [Link](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml).
+Acesso em: 22 Jun. 2023. <br/>
+[2] Unified Modeling Language (UML). Disponível em: [Link](http://www.deinf.ufma.br/~acmo/MOO_Intro.pdf) Acesso em: 22
+Jun.2023 </br>
+[3] Serrano, Milene. DSW-Modelagem - Agregacao Composicao. São Paulo: 25 jul, 2020. Disponível
+em: [Link](https://unbbr-my.sharepoint.com/personal/mileneserrano_unb_br/_layouts/15/stream.aspx?id=%2Fpersonal%2Fmileneserrano%5Funb%5Fbr%2FDocuments%2FArqDSW%20%2D%20V%C3%ADdeosOriginais%2F05e%20%2D%20VideoAula%20%2D%20DSW%2DModelagem%20%2D%20Agregacao%20Composicao%2Emp4&ga=1).
+Acesso em: 22 jun. 2023. </br>
+[4] Tudo sobre diagramas de pacotes UML, artigo disponível
+no [link](https://www.lucidchart.com/pages/pt/diagrama-de-pacotes-uml). Acesso em 22/06/2023.
 
 ## Visão Geral
 
@@ -62,7 +71,7 @@ Esta seção descreve os requisitos e objetivos de software que têm algum impac
 
 <!-- ## Visão de caso de uso <!-- - Podemos por no projeto como bonus, mas não conta como entregavel -->
 
-<!-- Esta seção lista casos de uso ou cenários do modelo de casos de uso se eles representarem alguma funcionalidade central significativa do sistema final ou se tiverem uma grande cobertura arquitetônica - eles exercem muitos --> -->
+<!-- Esta seção lista casos de uso ou cenários do modelo de casos de uso se eles representarem alguma funcionalidade central significativa do sistema final ou se tiverem uma grande cobertura arquitetônica - eles exercem muitos -->
 <!--  -->
 
 <!-- ### Realizações de Caso de Uso -->
@@ -73,16 +82,7 @@ Esta seção descreve os requisitos e objetivos de software que têm algum impac
 
 ## Visão lógica
 
-Esta seção descreve as partes significativas do ponto de vista arquitetônico do modelo de design, como sua decomposição em subsistemas e pacotes. E para cada pacote significativo, sua decomposição em classes e utilitários de classe. Você deve introduzir classes arquitetonicamente significativas e descrever suas responsabilidades, bem como alguns relacionamentos, operações e atributos muito importantes.
-
-### Visão Geral
-
-Esta subseção descreve a decomposição geral do modelo de design em termos de sua hierarquia de pacotes e camadas.
-
-### Pacotes de design arquitetonicamente significativos
-
-Para cada pacote significativo, inclua uma subseção com seu nome, sua breve descrição e um diagrama com todas as classes e pacotes significativos contidos no pacote.
-Para cada classe significativa no pacote, inclua seu nome, breve descrição e, opcionalmente, uma descrição de algumas de suas principais responsabilidades, operações e atributos.
+[Visão lógica](./logico.md ':include')
 
 ## Visão de processos
 
