@@ -1,5 +1,21 @@
-Esta seção descreve uma ou mais configurações de rede física (hardware) nas quais o software é implementado e executado. É uma visão do Modelo de Implantação. No mínimo para cada configuração deve indicar os nós físicos (computadores, CPUs) que executam o software e suas interconexões (barramento, LAN, ponto-a-ponto, etc.) Incluir também um mapeamento dos processos do Processo Visualize os nós físicos.
+### Metodologia
 
-## Visão de implementação
+A primeira versão foi elaborada em uma representação de baixa fidelidade, para indentificar os componentes participantes da modelagem e como eles interagem entre si. Posteriormente foi utilizado a plataforma Creaty para que seja possível fazer dessa modelagem com um maior detalhamento
 
-Esta seção descreve a estrutura geral do modelo de implementação, a decomposição do software em camadas e subsistemas no modelo de implementação e quaisquer componentes importantes para a arquitetura.
+<details open>
+<summary> Versão 1 </summary>
+
+![](/docs/4.arquiteturareutilizacao/assets/implantacaoV1.png)
+<p class="legenda"> Diagrama de implementação (versão 1). (Fonte: Elaborado por Lucas Felipe e Nicolas).</p>
+
+</details>
+
+As versões seguintes foram elaboradas no brModelo, dada a facilidade de utilização da ferramenta para inserção de atributos nas entidades e mapeamento das cardinalidades, haja vista que é uma ferramenta própria para elaboração de diagramas de bancos de dados.
+
+<details open>
+<summary> Versão 2</summary>
+
+![](/docs/4.arquiteturareutilizacao/assets/Diagrama%20de%20implanta%C3%A7%C3%A3o.png)
+<p class="legenda"> Diagrama de implementação (versão 2). (Fonte: Elaborado por Lucas Felipe e Nicolas).</p>
+</details>
+
