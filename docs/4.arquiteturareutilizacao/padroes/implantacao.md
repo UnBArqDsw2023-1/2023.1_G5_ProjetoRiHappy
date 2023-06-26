@@ -15,7 +15,7 @@ As versões seguintes foram elaboradas no brModelo, dada a facilidade de utiliza
 <details open>
 <summary> Versão 2</summary>
 
-![](/docs/4.arquiteturareutilizacao/assets/Diagrama%20de%20implanta%C3%A7%C3%A3o.png)
+![](/docs/4.arquiteturareutilizacao/assets/implanta%C3%A7%C3%A3oV2.png)
 <p class="legenda"> Diagrama de implementação (versão 2). (Fonte: Elaborado por Lucas Felipe e Nicolas).</p>
 </details>
 
