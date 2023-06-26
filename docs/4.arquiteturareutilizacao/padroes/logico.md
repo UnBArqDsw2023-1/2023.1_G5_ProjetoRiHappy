@@ -2,7 +2,7 @@ A visão lógica, no contexto da arquitetura de software, corresponde a uma parc
 
 ### Diagrama de classes
 <!--Como é o nosso diagrama de mais detalahemento vai ser o principal, mas usaremos o de pacotes para reforçar o MVC-->
-![Diagrama de classes](img/Diagrama%20de%20classes%20RiHappy.jpeg)
+![Diagrama de classes](../../2.modelagem/estatica/assets/classes-v2.png)
 
 <p class="legenda">Diagrama de Classes (Fonte: elaborado por Josué, Luíza, Lucas Gomes, Lucas Felipe e Nicolas.)</p>
 
@@ -11,7 +11,7 @@ do diagrama de classes
 
 ### Diagrama de Pacotes
 
-![Diagrama de pacotes](img/diagrama-de-pacotes.jpeg)
+![Diagrama de pacotes](../../2.modelagem/estatica/assets/diagPacGeral.png)
 
 <p class="legenda"> Diagrama de Pacotes (Fonte: elaborado por Josué, Luíza, Lucas Felipe e João Pedro.)</p>
 
@@ -44,7 +44,7 @@ A modelagem baseada em diagrama de pacote fornece uma representação extremamen
 
 A camada de modelo, trás consigo a maneira que as regras de negócio são implementadas em nosso contexto, fornecendo uma estrutura base para a aplicação. Basicamente vemos que todas as classes que estão relacionadas em certo nível com o fluxo de avaliação de um produto. Um ponto interessante quanto essa camada é a possibilidade de já poder se abstrair em boa parte como as outras camadas irão atuar.
 
-![Representação da camada de modelo](img/model.jpg)
+![Representação da camada de modelo](../../2.modelagem/estatica/assets/classes-v2-model.png)
 
 <p class="legenda">Representação da camada Model (Fonte: elaborado por Josué, Luíza, Lucas Gomes, Lucas Felipe e Nicolas.)</p>
 
@@ -52,7 +52,7 @@ A camada de modelo, trás consigo a maneira que as regras de negócio são imple
 
 A camada de visão traz consigo a maneira pela qual todos esses dados são apresentados ao usuário e possibilita que, de acordo com eventos de interação do usuário, tenhamos tratamentos adequados em outras camadas. Além disso, observamos que, em conjunto com essa camada, temos aspectos que envolvem a camada de segurança, no que diz respeito ao controle do tipo de usuário responsável por cada ação. Tal aspecto nos dá a garantia de que um determinado evento não possa comprometer o sistema de alguma forma.
 
-![Representação da camada de visão](img/view.jpg)
+![Representação da camada de visão](../../2.modelagem/estatica/assets/classes-v2-view.png)
 
 <p class="legenda">Representação da camada Model (Fonte: elaborado por Josué, Luíza, Lucas Gomes, Lucas Felipe e Nicolas.)</p>
 
@@ -60,19 +60,19 @@ A camada de visão traz consigo a maneira pela qual todos esses dados são apres
 
 Basicamente a camada de Controller em questão trás consigo aspectos envolvendo os serviços relacionados aos produtos presentes na plataforma, as avaliações dos mesmos e os dados relacionados a compra. Tudo isso sendo tratado e armazenado em um banco de dados. Essa camada é responsável por se comunicar com a visão e enviar os dados da aplicação através dos serviços.
 
-![Representação da camada de controller](img/controller.jpg)
+![Representação da camada de controller](../../2.modelagem/estatica/assets/classes-v2-controller.png)
 
 <p class="legenda">Representação da camada  Controller (Fonte: elaborado por Josué, Luíza, Lucas Gomes, Lucas Felipe e Nicolas.)</p>
 
 ### Outras modelagens em mais alto nível
 
 Além do diagrama de classes que está representado com uma maior riqueza de detalhamento e o diagrama de pacotes que reforça uma visão muito ampla para o padrão de arquiteura MVC. Também foram modelados em mais alto nível os diagramas de: [Atividades](https://unbarqdsw2023-1.github.io/2023.1_G5_ProjetoRiHappy/#/2.modelagem/dinamica/diagramadeatividades) e também o [diagrama de comunicação](https://unbarqdsw2023-1.github.io/2023.1_G5_ProjetoRiHappy/#/2.modelagem/dinamica/diagramadecomunicacao) que além de estarem modelados com uma maior abstração, o que possibilita uma boa associação à visão lógica, também temos uma representação de **casos de uso**. A seguir veremos um recorte de como se deu a modelagem dos mesmos:
- 
+
 #### Diagrama de atividades
 
-A ideia geral por trás do diagrama de atividades é a representação do fluxo de controle ou de objetos dentro da aplicação. Por estar modelado em uma versão mais alto nível, tal recorte pode ser tanto utilizado como uma visão lógica do sistema como uma [visão de processos](/docs/4.arquiteturareutilizacao/padroes/processos.md).
+A ideia geral por trás do diagrama de atividades é a representação do fluxo de controle ou de objetos dentro da aplicação. Por estar modelado em uma versão mais alto nível, tal recorte pode ser tanto utilizado como uma visão lógica do sistema como uma [visão de processos](./padroesarquiteturais.md#visão-de-processos).
 
- ![Recorte do diagrama de atividades](/docs/4.arquiteturareutilizacao/padroes/img/2840.png)
+![Recorte do diagrama de atividades](../../2.modelagem/dinamica/assets/2.4.1.DiagramaDeAtividades/2840.png)
 
  <p class="legenda">Representação da camada  Controller (Fonte: elaborado por Davi Lima e Nicolas.)</p>
 
@@ -80,6 +80,6 @@ A ideia geral por trás do diagrama de atividades é a representação do fluxo 
 
 A ideia geral por trás do diagrama de comunicação é a representação da interação entre objetos e/ou partes usando mensagens sequenciais. Por também estar modelado em uma versão mais alto nível tal modelagem também pode ser utilizada para se obter uma visão lógica.
 
- ![diagrama de comunicação](/docs/4.arquiteturareutilizacao/padroes/img/DiagramaDeComunicacao.png)
+ ![diagrama de comunicação](../../2.modelagem/dinamica/assets/DiagramaDeComunicacao.png)
 
  <p class="legenda">Representação da camada  Controller (Fonte: elaborado por Guilherme Vilela, Lucas Gabriel e Lucas Gomes.)</p>
