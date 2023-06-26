@@ -1,6 +1,6 @@
 <style>
 
-body {counter-reset:section figuras;}
+article {counter-reset:section figuras;}
 
 h2 {counter-reset:subsection;}
 
@@ -16,7 +16,7 @@ h3:before{
 
 .legenda:before{
     counter-increment:figuras;
-    content:"Figura " counter(section) ". ";
+    content:"Figura " counter(figuras) ". ";
 }
 
 </style>
