@@ -54,7 +54,7 @@ A camada de visão traz consigo a maneira pela qual todos esses dados são apres
 
 ![Representação da camada de visão](../../2.modelagem/estatica/assets/classes-v2-view.png)
 
-<p class="legenda">Representação da camada Model (Fonte: elaborado por Josué, Luíza, Lucas Gomes, Lucas Felipe e Nicolas.)</p>
+<p class="legenda">Representação da camada View (Fonte: elaborado por Josué, Luíza, Lucas Gomes, Lucas Felipe e Nicolas.)</p>
 
 #### Controlador
 
@@ -74,7 +74,11 @@ A ideia geral por trás do diagrama de atividades é a representação do fluxo 
 
 ![Recorte do diagrama de atividades](../../2.modelagem/dinamica/assets/2.4.1.DiagramaDeAtividades/2840.png)
 
- <p class="legenda">Representação da camada  Controller (Fonte: elaborado por Davi Lima e Nicolas.)</p>
+<p class="legenda">Diagrama de Atividades (Criar avaliação) (Fonte: elaborado por Davi Lima e Nicolas.)</p>
+
+![Recorte do diagrama de atividades](../../2.modelagem/dinamica/assets/2.4.1.DiagramaDeAtividades/diagrama-de-avaliacao.png)
+
+<p class="legenda">Diagrama de Atividades (Visualizar avaliação) (Fonte: elaborado por Davi Lima e Nicolas.)</p>
 
 #### Diagrama de comunicação
 
@@ -82,4 +86,4 @@ A ideia geral por trás do diagrama de comunicação é a representação da int
 
  ![diagrama de comunicação](../../2.modelagem/dinamica/assets/DiagramaDeComunicacao.png)
 
- <p class="legenda">Representação da camada  Controller (Fonte: elaborado por Guilherme Vilela, Lucas Gabriel e Lucas Gomes.)</p>
+<p class="legenda">Diagrama de Comunicação (Fonte: elaborado por Guilherme Vilela, Lucas Gabriel e Lucas Gomes.)</p>
