@@ -1,0 +1,18 @@
+version: '3.3'
+services: 
+  backend: 
+    container_name: rihappy-avaliacao
+    build: 
+       context: .
+       dockerfile: deploy/Dockerfile
+      
+    ports:
+      - "8080:8080"
+    networks:
+      - rihappy
+
+networks:
+  rihappy: 
+    name: rihappy
+    
+
