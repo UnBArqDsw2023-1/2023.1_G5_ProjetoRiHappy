@@ -68,7 +68,16 @@ Usuario -  o usuario entra como a camada de segurança do sistema, na parte de r
 
 BaseService - o BaseService entra principalmente como uma conexão direta entre a camada controladora e as requisições do usuário, este exempre server como forma de reutilização no sentido de que qualquer sistema que necessite este tipo de conexão pode se adequar a maneira modelada pelo grupo, também temos novamente o polimorfismo que representa uma forma de desacoplamento e resultando em uma reutilização de código.
 
-## Reutilização Extrena
+## Reutilização Externa
+
+### Bibliotecas
+
+### Frameworks
+
+### Banco de Dados
+
+### Ferramentas
+
 
 ## Arquitetura
 ## Referências
