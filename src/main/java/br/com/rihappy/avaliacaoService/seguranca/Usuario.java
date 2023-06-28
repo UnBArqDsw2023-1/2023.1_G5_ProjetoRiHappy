@@ -1,9 +1,9 @@
 package br.com.rihappy.avaliacaoService.seguranca;
 
 public abstract class Usuario {
-    private String nome;
-    private String email;
-    private Perfil pefil;
+    protected String nome;
+    protected String email;
+    public Perfil pefil;
     private Long cep = null;
 
     public void setCep(Long cep) {
@@ -18,5 +18,5 @@ public abstract class Usuario {
         return this.pefil;
     }
 
-    abstract Usuario getUsuario();
+    abstract String getUsuario();
 }

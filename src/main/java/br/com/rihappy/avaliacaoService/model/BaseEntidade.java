@@ -3,7 +3,7 @@ package br.com.rihappy.avaliacaoService.model;
 
 public abstract class BaseEntidade {
 
-    private Integer id;
+    protected Integer id;
 
 
     public Integer getId() {

@@ -3,6 +3,7 @@ package br.com.rihappy.avaliacaoService.controller;
 
 import br.com.rihappy.avaliacaoService.model.BaseEntidade;
 import br.com.rihappy.avaliacaoService.service.BaseService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -11,8 +12,11 @@ import java.util.ArrayList;
 
 
 public abstract class BaseController {
+
+
     private BaseService service;
     private BaseEntidade entidade;
+
 
 
     public ResponseEntity<BaseEntidade> get(Integer id) {
