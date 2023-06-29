@@ -44,7 +44,14 @@ O Documento da Arquitetura de Software se aplica ao projeto do "fluxo avaliaçã
 
 ## Definições, acrônimos e abreviações
 
-<!--Esta subseção fornece as definições de todos os termos, acrônimos e abreviações necessários para interpretar adequadamente o Documento de Arquitetura de Software. Esta informação pode ser fornecida por referência ao Glossário do projeto.-->
+| Abreviações/Acronimos                                       | Definição                                                                                           |
+|-------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| MVC                                                         | Padrão de projeto de software baseado no reuso de código e a separação de conceitos em três camadas |
+| GRASP - General Responsibility Assignment Software Patterns | Diretrizes para atribuir responsabilidade a classes e objetos em projeto orientado a objetos        |
+| GOF - Gang of Four                                          | Um tipo de padrão de projeto para auxiliar na criação de um software                                |
+| Docker                                          |Docker é um conjunto de produtos de plataforma como serviço que usam virtualização de nível de sistema operacional para entregar software em pacotes chamados contêineres. | GOF - Gang of Four                                          | Um tipo de padrão de projeto para auxiliar na criação de um software                                | | GOF - Gang of Four                                          | Um tipo de padrão de projeto para auxiliar na criação de um software                                |                                |
+
+
 
 ## Referências
 
@@ -58,11 +65,11 @@ Acesso em: 22 jun. 2023. </br>
 [4] Tudo sobre diagramas de pacotes UML, artigo disponível
 no [link](https://www.lucidchart.com/pages/pt/diagrama-de-pacotes-uml). Acesso em 22/06/2023.
 
-## Visão Geral
+## Visão Geral <!--Acredito que a introdução já trás também-->
 
 <!--Esta subseção descreve o que o restante do Documento de Arquitetura de Software contém e explica como o Documento de Arquitetura de Software é organizado.-->
 
-## Representação Arquitetônica
+## Representação Arquitetônica <!--Pelos projetos antigos tavam documentando muito com as escolhas de back front e ses frameworks...acredito que seja legal puxar dos meninos da reutilização-->
 
 <!--Esta seção descreve qual arquitetura de software é para o sistema atual e como ela é representada. Das Visualizações de Caso de Uso, Lógica, Processo, Implantação e Implementação, ele enumera as visualizações necessárias e, para cada visualização, explica quais tipos de elementos de modelo ela contém.-->
 
