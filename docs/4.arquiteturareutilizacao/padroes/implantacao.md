@@ -1,6 +1,4 @@
-### Metodologia
-
-A primeira versão foi elaborada em uma representação de baixa fidelidade, para indentificar os componentes participantes da modelagem e como eles interagem entre si. Posteriormente foi utilizado a plataforma Creaty para que seja possível fazer dessa modelagem com um maior detalhamento
+A primeira versão foi elaborada em uma representação de baixa fidelidade, para identificar os componentes participantes da modelagem e como eles interagem entre si. Posteriormente foi utilizado a plataforma Creaty para que seja possível fazer dessa modelagem com um maior detalhamento
 
 <details open>
 <summary> Versão 1 </summary>
@@ -15,7 +13,6 @@ As versões seguintes foram elaboradas no brModelo, dada a facilidade de utiliza
 <details open>
 <summary> Versão 2</summary>
 
-![](/docs/4.arquiteturareutilizacao/assets/implanta%C3%A7%C3%A3oV2.png)
+![](./assets/implantacaoV2.png)
 <p class="legenda"> Diagrama de implementação (versão 2). (Fonte: Elaborado por Lucas Felipe e Nicolas).</p>
 </details>
-
