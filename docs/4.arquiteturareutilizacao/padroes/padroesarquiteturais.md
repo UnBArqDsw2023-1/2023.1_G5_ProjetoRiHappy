@@ -54,9 +54,10 @@ Acesso em: 22 Jun. 2023. <br/>
 Jun.2023 </br>
 [3] Serrano, Milene. DSW-Modelagem - Agregacao Composicao. São Paulo: 25 jul, 2020. Disponível
 em: [Link](https://unbbr-my.sharepoint.com/personal/mileneserrano_unb_br/_layouts/15/stream.aspx?id=%2Fpersonal%2Fmileneserrano%5Funb%5Fbr%2FDocuments%2FArqDSW%20%2D%20V%C3%ADdeosOriginais%2F05e%20%2D%20VideoAula%20%2D%20DSW%2DModelagem%20%2D%20Agregacao%20Composicao%2Emp4&ga=1).
-Acesso em: 22 jun. 2023. </br>
+Acesso em: 22 jun. 2023. <br/>
 [4] Tudo sobre diagramas de pacotes UML, artigo disponível
-no [link](https://www.lucidchart.com/pages/pt/diagrama-de-pacotes-uml). Acesso em 22/06/2023.
+no [link](https://www.lucidchart.com/pages/pt/diagrama-de-pacotes-uml). Acesso em 22/06/2023. <br/>
+[5] UML Deployments Diagrams Overview - UML Diagrams, artigo disponível no [link](https://www.uml-diagrams.org/deployment-diagrams-overview.html). Acesso em 26 jun. 2023. <br/>
 
 ## Visão Geral
 
