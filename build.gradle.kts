@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "br.com.rihappy"
-version = "0.0.1-SNAPSHOT"
+version = "0.0.1"
 
 
 java {
@@ -24,13 +24,3 @@ dependencies {
 }
 
 
-
-tasks.named<Jar>("jar") {
-	archiveClassifier.set("")
-}
-
-
-
-tasks.withType<Test> {
-    useJUnitPlatform()
-}

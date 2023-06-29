@@ -1,0 +1,39 @@
+version: '3.3'
+services:
+  backend:
+    container_name: rihappy-back
+    build:
+      context: .
+      dockerfile: deploy/Dockerfile.back
+
+    ports:
+      - "8080:8080"
+    networks:
+      rihappy:
+        ipv4_address: 172.19.0.2
+
+  frontend:
+    container_name: rihappy-front
+    build:
+      context: .
+      dockerfile: deploy/Dockerfile.front
+    ports:
+      - "8081:8080"
+    volumes:
+      - ./front:/app/static
+    networks:
+      rihappy:
+        ipv4_address: 172.19.0.3
+
+# Referência: https://docs.docker.com/compose/compose-file/06-networks/
+networks:
+  rihappy:
+    name: rihappy
+    ipam:
+      driver: default
+      config:
+        - subnet: 172.19.0.0/16
+
+
+    
+
