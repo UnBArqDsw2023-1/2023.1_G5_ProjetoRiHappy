@@ -1,25 +1,50 @@
 package br.com.rihappy.avaliacaoService.controller;
 
-import br.com.rihappy.avaliacaoService.model.BaseEntidade;
+import br.com.rihappy.avaliacaoService.model.Avaliacao;
 import br.com.rihappy.avaliacaoService.service.AvaliacaoService;
-import br.com.rihappy.avaliacaoService.service.BaseService;
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+import java.util.ArrayList;
+import java.util.Map;
 
 
 @RestController
-@RequestMapping("/api/v1/avaliacao")
-public class AvaliacaoController extends BaseController {
+@RequestMapping(value = "/api/v1/avaliacao", produces = "application/json")
+public class AvaliacaoController extends BaseController<Avaliacao> {
 
+    AvaliacaoController() {
+        this.service = new AvaliacaoService();
+    }
+
+    //    @GetMapping({"/{id}"})
+    @ResponseBody
+    public ResponseEntity<Avaliacao> get(@PathVariable Integer id) {
+        System.out.printf("Recebendo requisição por uma Entidade do tipo: %s com id = %d.", Avaliacao.class, id);
+        Avaliacao entidade = this.service.get(id);
+//        HashMap<String, String> content = new HashMap<>();
+//        content.put("id", entidade.getId().toString());
+//        content.put("avaliacao", entidade.toString());
+
+        return new ResponseEntity<>(entidade, HttpStatus.OK);
+    }
 
     @GetMapping({"/{id}"})
+    @ResponseBody
+    public String getString(@PathVariable Integer id) throws JsonProcessingException {
+        System.out.printf("Recebendo requisição por uma Entidade do tipo: %s com id = %d.", Avaliacao.class, id);
+        Avaliacao entidade = this.service.get(id);
+        Map<String, String> serialized = entidade.getSerialized();
+        return new ObjectMapper().writeValueAsString(serialized);
+    }
+
+    @GetMapping({"/list"})
     @Override
-    public ResponseEntity<BaseEntidade> get(@PathVariable Integer id) {
-        System.out.printf("Recebendo requisição por uma Entidade do tipo: %s com id = %d.", BaseEntidade.class, id);
-        return super.get(id);
+    public ResponseEntity<ArrayList<Avaliacao>> listar(@RequestBody Avaliacao filtro) {
+        System.out.printf("Recebendo requisição por uma lista de Entidade do tipo: %s com filtro: %s", Avaliacao.class, filtro.toString());
+        return super.listar(filtro);
     }
 
 

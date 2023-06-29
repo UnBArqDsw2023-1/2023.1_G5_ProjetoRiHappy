@@ -3,8 +3,20 @@ package br.com.rihappy.avaliacaoService.model;
 import br.com.rihappy.avaliacaoService.seguranca.Usuario;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Avaliacao extends BaseEntidade {
+
+    private String texto;
+    private Boolean isRecomendado = true;
+    private Boolean isCompraVerificada = false;
+    private Integer qtdEstrelas;
+    private Usuario autor;
+    private ArrayList<Midia> midias;
+    private Long qtdReacoesPositivas = 0L;
+    private Long qtdReacoesNegativas = 0L;
+    private Produto produto;
 
     public Avaliacao(Integer id, String texto, Integer qtdEstrelas, Usuario autor) {
         if (qtdEstrelas < 0 || qtdEstrelas > 5)
@@ -41,16 +53,21 @@ public class Avaliacao extends BaseEntidade {
     }
 
 
-    private String texto;
-    private Boolean isRecomendado;
-    private Boolean isCompraVerficiada;
-    private Integer qtdEstrelas;
-    private Usuario autor;
-    private ArrayList<Midia> midias;
-    private Long qtdReacoesPositivas;
-    private Long qtdReacoesNegativasL;
-    private Boolean isAprovada;
-    private Produto produto;
+    public Map<String, String> getSerialized() {
+        HashMap<String, String> serialized = new HashMap<>();
+        serialized.put("id", this.id != null ? this.id.toString() : null);
+        serialized.put("texto", this.texto);
+        serialized.put("isRecomendado", this.isRecomendado != null ? this.isRecomendado.toString() : null);
+        serialized.put("isCompraVerificada", this.isCompraVerificada != null ? this.isCompraVerificada.toString() : null);
+        serialized.put("qtdEstrelas", this.qtdEstrelas != null ? this.qtdEstrelas.toString() : null);
+        serialized.put("autor", this.autor != null ? this.autor.getNome() : null);
+        serialized.put("qtdReacoesPositivas", this.qtdReacoesPositivas != null ? this.qtdReacoesPositivas.toString() : null);
+        serialized.put("qtdReacoesNegativas", this.qtdReacoesNegativas != null ? this.qtdReacoesNegativas.toString() : null);
+        serialized.put("produto", this.produto != null ? this.produto.toString() : null);
+
+        return serialized;
+    }
+
 
     @Override
     public String toString() {

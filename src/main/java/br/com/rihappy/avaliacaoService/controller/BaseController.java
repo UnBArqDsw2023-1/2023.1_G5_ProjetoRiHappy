@@ -3,29 +3,25 @@ package br.com.rihappy.avaliacaoService.controller;
 
 import br.com.rihappy.avaliacaoService.model.BaseEntidade;
 import br.com.rihappy.avaliacaoService.service.BaseService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.ArrayList;
 
 
-public abstract class BaseController {
+public abstract class BaseController<T extends BaseEntidade> {
 
 
-    private BaseService service;
-    private BaseEntidade entidade;
+    protected BaseService<T> service;
 
 
+    public abstract ResponseEntity<T> get(Integer id);
 
-    public ResponseEntity<BaseEntidade> get(Integer id) {
-        BaseEntidade entidade = this.service.get(id);
-        return new ResponseEntity<>(entidade, HttpStatus.OK);
-    }
 
-    public ArrayList<BaseEntidade> listar(BaseEntidade filtro) {
-        return this.service.listar(filtro);
+    public ResponseEntity<ArrayList<T>> listar(T filtro) {
+        ArrayList<T> lista = this.service.listar(filtro);
+        return new ResponseEntity<>(lista, HttpStatus.OK);
+
     }
 
     public void criar(Object dados) {

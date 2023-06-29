@@ -1,24 +1,25 @@
 package br.com.rihappy.avaliacaoService.service;
 
 import br.com.rihappy.avaliacaoService.model.Avaliacao;
-import br.com.rihappy.avaliacaoService.model.BaseEntidade;
 import br.com.rihappy.avaliacaoService.seguranca.Usuario;
 import br.com.rihappy.avaliacaoService.seguranca.UsuarioNaoLogado;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 
 @Service
-public class AvaliacaoService extends BaseService {
-
+public class AvaliacaoService extends BaseService<Avaliacao> {
+    private HashMap<Integer, Avaliacao> registros;
 
     public AvaliacaoService() {
         // Simulando registros do banco:
 
+        this.registros = new HashMap<>();
         Usuario[] usuarios = {new UsuarioNaoLogado(),
                 new UsuarioNaoLogado("Maurício Serrano"),
                 new UsuarioNaoLogado("Milene Serrano", "milene@unb.br")};
-        ArrayList<BaseEntidade> avaliacoes = new ArrayList<>();
+        ArrayList<Avaliacao> avaliacoes = new ArrayList<>();
         for (int i = 0; i < 3; i++)
             avaliacoes.add(new Avaliacao(i, String.format("Texto da avaliacao nº %d", i), (i * 2 % 5), usuarios[i]));
 
@@ -26,14 +27,26 @@ public class AvaliacaoService extends BaseService {
     }
 
     @Override
-    public BaseEntidade get(Integer id) {
+    public Avaliacao get(Integer id) {
         if (this.registros.get(id) != null)
             return this.registros.get(id);
         return null;
     }
 
     @Override
-    public ArrayList<BaseEntidade> listar(BaseEntidade filtro) {
+    public void save(ArrayList<Avaliacao> lista) {
+        for (Avaliacao b : lista)
+            this.registros.put(b.getId(), b);
+    }
+
+    @Override
+    public void save(Avaliacao entidade) {
+
+    }
+
+
+    @Override
+    public ArrayList<Avaliacao> listar(Avaliacao filtro) {
         return null;
     }
 

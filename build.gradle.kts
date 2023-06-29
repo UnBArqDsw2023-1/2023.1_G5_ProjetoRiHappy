@@ -23,10 +23,13 @@ dependencies {
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 
-tasks.withType<Jar>{ 
-    enabled = false
 
+
+tasks.named<Jar>("jar") {
+	archiveClassifier.set("")
 }
+
+
 
 tasks.withType<Test> {
     useJUnitPlatform()

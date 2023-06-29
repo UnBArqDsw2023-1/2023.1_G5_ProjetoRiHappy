@@ -18,5 +18,10 @@ public abstract class Usuario {
         return this.pefil;
     }
 
+    public String getNome() {
+        // Verifica autorização.
+        return this.nome;
+    }
+
     abstract String getUsuario();
 }
