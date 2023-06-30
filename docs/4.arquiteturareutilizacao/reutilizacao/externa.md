@@ -6,6 +6,17 @@ Um observer ou observador é um receptor de valores entregues por um componente 
 
 Os observadores podem ser parciais, ou seja, se nao fornecer retorno, a execução ainda acontecerá normalmente.[Observer](https://rxjs.dev/guide/observer) 
  
+#### React JS
+
+O React é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.[ReactJS](https://react.dev/learn)
+
+![](imagens/reactJS-image.png)
+
+#### Jackson ObjectMapper
+O Jackson tem a classe ObjectMapper que é muito utilizada para converter classes Java em JSON, e vice-versa, na comunicação entre APIs RESTful e SPAs.[Jackson](https://www.devmedia.com.br/introducao-ao-jackson-objectmapper/43174) 
+
+![](imagens/jackson-json.png)
+
 ### Frameworks
 
 #### Hibernate com Spring Boot
@@ -25,6 +36,12 @@ O Hibernate é um framework de mapeamento objeto-relacional, também chamado de 
 GitHub é uma plataforma feita para hospedagem de códigos de programação. Os objetivos principais são o controle e a colaboração, permitindo que usuários desenvolvam projetos juntos, estando em qualquer lugar do mundo.[GitHub](https://github.com)
 
 ![](./imagens/git_imagem.png) 
+
+#### ZenHub
+O Zenhub permite que os desenvolvedores fiquem mais próximos ao desenvolvimento do projeto dentro do GitHub, minimizando a troca de contextos. Os dados simultâneos do GitHub sempre mantendo os projetos atualizados e precisos em ambas as ferramentas.
+Usamos ele como forma de organização e de otimizar a rotina de desenvolvimento de cada membro em cada tarefa. [Zenhub](https://www.zenhub.com/)
+
+![](imagens/zenhub-image.png)
 
 #### FlyWay 
 
