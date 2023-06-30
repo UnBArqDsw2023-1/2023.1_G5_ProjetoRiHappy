@@ -6,6 +6,16 @@ A visão de processo em um documento de arquitetura de software descreve os proc
 
 Essa visão pode incluir fluxos de trabalho, que representam a sequência lógica das atividades e as dependências entre elas. Os fluxos de trabalho podem ser representados por meio de diagramas de atividades, fluxogramas ou outras representações gráficas que ilustram como as atividades são executadas e como as informações fluem entre os diferentes participantes do projeto.
 
+Para desenvolver a visão de processo, é necessário considerar os seguintes elementos:
+
+1. Componentes: Identifique os principais componentes do sistema e como eles se relacionam entre si. Considere os serviços que cada componente oferece e as dependências existentes entre eles.
+2. Processos: Determine quais componentes do sistema serão executados em processos ou threads separados. Essa decisão depende de fatores como a carga de trabalho, a escalabilidade e a disponibilidade dos recursos de hardware.
+3. Distribuição: Caso o sistema seja distribuído, defina como os componentes serão alocados em diferentes nós de processamento. Considere questões como latência da rede, balanceamento de carga e tolerância a falhas.
+4. Comunicação: Descreva como os componentes irão se comunicar entre si. Identifique os protocolos de comunicação, os formatos de dados e os mecanismos de troca de mensagens utilizados. Considere também a segurança e a autenticação das comunicações.
+5. Sincronização e concorrência: Caso existam componentes que compartilhem recursos ou que precisem coordenar suas atividades, defina os mecanismos de sincronização e concorrência a serem utilizados. Isso pode envolver o uso de mutexes, semáforos, monitores ou outras estruturas de controle de acesso.
+6. Gerenciamento de processos: Determine como os processos ou threads serão gerenciados, incluindo a inicialização, finalização, escalonamento e monitoramento de atividades. Considere também a gestão de recursos, como memória e processamento.
+7. Escalabilidade e desempenho: Análise dos requisitos de desempenho do sistema e identifique possíveis gargalos. Considere estratégias de escalabilidade, como a distribuição de carga entre diferentes processadores, para garantir um bom desempenho do sistema.
+
 Entender os fluxos de processos facilita a coordenação entre as equipes, ajuda na identificação de pontos de integração, e permite que os stakeholders tenham uma visão clara dos processos envolvidos no desenvolvimento e operação do software.
 
 No geral, a visão de processo em um documento de arquitetura de software fornece uma descrição completa e estruturada dos processos que serão seguidos durante o ciclo de vida do software, auxiliando na compreensão e na implementação eficaz da arquitetura proposta.
@@ -53,3 +63,4 @@ Por fim, dentro da visão de processo, tomando o diagrama de sequeência em ques
 | ------ | ---------- | ---------------------------------------------------------------------------------------------------- | -------------- | --------------------------------- |
 | `1.0`  | 10/05/2023 | Criação da página de diagrama de componentes     | Luíza | N |
 | `1.1`  | 10/05/2023 | Adição da Conclusão     | Lucas Gomes | N |
+| `1.2`  | 10/05/2023 | Adição de desenvolvimento do Processo | Lucas Gomes | N |
