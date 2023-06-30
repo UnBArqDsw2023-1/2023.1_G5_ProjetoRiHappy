@@ -77,4 +77,4 @@ elaboração do mesmo. Essas ferramentas serão melhor detalhadas no documento a
 | ------ | ---------- | -----------------------------------------            | -------------- | ---------- |
 | `1.0`  | 24/04/2023 | Adição das ferramentas do projeto                    | Lucas Felipe   | Josué Teixeira |
 | `1.1`  | 24/04/2023 | Revisão do artefato e correção de imagens            | Josué Teixeira | Lucas Gabriel  |
-| `1.2`  | 13/05/2023 | Inclusão do brModelo e ajuste no tamanho das imagens | Nicolas Souza  |       |
+| `1.2`  | 13/05/2023 | Inclusão do brModelo e ajuste no tamanho das imagens | Nicolas Souza  |  Davi Silva     |
