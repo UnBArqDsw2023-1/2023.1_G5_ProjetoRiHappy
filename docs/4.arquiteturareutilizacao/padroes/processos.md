@@ -30,14 +30,16 @@ Dentro de um documento de arquitetura de software, um diagrama de sequência pod
 
 Dentro do nosso foco, elaboramos esse diagrama com o objetivo de mostrar a ordem das atividades ou etapas em um fluxo de trabalho, ajudando a visualizar como os diferentes elementos do sistema se comunicam e colaboram para alcançar uma determinada tarefa ou objetivo.
 
-Também foi importante para identificar dependências e interações, destacando as interações necessárias para que o sistema funcione corretamente. Assim conseguimos entender os pontos críticos de integração e a compreender como as partes do sistema se relacionam entre si.
-
 A seguir está o diagrama elaborado com o foco em enteder processos dentro do fluxo de avaliação do sistema da RiHappy:
 
 ![](./assets/diagramaSequencia.png)
 
 
 <p class="legenda"> Figura 3. Diagrama de sequência (Fonte: elaborado por Luíza Esteves e Lucas Gomes)</p>
+
+## Conclusão
+
+Por fim, dentro da visão de processo, tomando o diagrama de sequeência em questão, foi possível descrever como o sistema será executado, ou seja, como as tarefas serão distribuídas e executadas em diferentes situações e até mesmo levando para o baixo nível, em que deve se pensar em threads/processos. Além disso, foi importante para identificar dependências e interações, destacando as interações necessárias para que o sistema funcione corretamente. Assim, conseguimos entender os pontos críticos de integração e a compreender como as partes do sistema se relacionam entre si.
 
 ## Bibliografia
 
@@ -49,5 +51,5 @@ A seguir está o diagrama elaborado com o foco em enteder processos dentro do fl
 
 | Versão | Data       | Descrição                                                                                            | Autor(es)      | Revisor(es)                       |
 | ------ | ---------- | ---------------------------------------------------------------------------------------------------- | -------------- | --------------------------------- |
-| `1.0`  | 10/05/2023 | Criação da página de diagrama de componentes     | Luíza | N
-  |
+| `1.0`  | 10/05/2023 | Criação da página de diagrama de componentes     | Luíza | N |
+| `1.1`  | 10/05/2023 | Adição da Conclusão     | Lucas Gomes | N |
