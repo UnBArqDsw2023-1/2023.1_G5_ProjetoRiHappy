@@ -44,8 +44,24 @@ A seguir está o diagrama elaborado com o foco em enteder processos dentro do fl
 
 ![](./assets/diagramaSequencia.png)
 
-
 <p class="legenda"> Figura 3. Diagrama de sequência (Fonte: elaborado por Luíza Esteves e Lucas Gomes)</p>
+
+### Fluxo
+
+**Login:** O usuário realiza login, o sistema verifica no banco de dados se o usuário está cadastrado e retorna a informação para o sistema. Caso o usuário esteja cadastrado, ele é autenticado e pode navegar no sistema, caso contrário, ele é redirecionado `a tela de cadastro.
+
+**Produto:** O usuário seleciona o brinquedo que deseja, o sistema busca as informações do brinquedo no banco de dados e retorna as infromação ao sistema.
+
+**Avaliação:** O usuário seleciona a opção de avaliar produto no sistema, informa a quantidade de estrelas, se recomenda o produto e as fotos do produto ao sistema. Depois, o usuário envia a avaliação completa ao sistema, que verifica e envia ao banco de dados, e esse retorna se o dado foi armazenado com sucesso ao sistema. Por último, o sistema envia ao usuário a mensagem de status da sua avaliação.
+
+### Tabela de símbolos
+
+| Símbolo                                                                                              | Nome                             | Descrição                                                                                                                                                                                             |
+| :--------------------------------------------------------------------------------------------------- | -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Símbolo de mensagens síncronas](./assets/uml-synchronous-message-symbol.svg)    | Símbolo de mensagens síncronas   | Representa uma classe ou objetos em UML. O símbolo do objeto demonstra como um objeto se comportará no contexto do sistema. Atributos de classe não devem ser listados nesta forma.                   |
+| ![Símbolo de mensagens assíncronas](./assets/uml-asynchronous-message-symbol.svg) | Símbolo de mensagens assíncronas | Representado por uma linha sólida com uma ponta de seta em linha. Mensagens assíncronas não necessitam de uma resposta para que o remetente continue. Apenas a chamada deve ser incluída no diagrama. |
+| ![Símbolo de responder à mensagem](./assets/uml-return-message-symbol.svg)        | Símbolo de responder à mensagem  | Representado por uma linha tracejada com uma ponta de seta em linha, estas mensagens são respostas às chamadas.                                                                                       |
+
 
 ## Conclusão
 
@@ -61,6 +77,7 @@ Por fim, dentro da visão de processo, tomando o diagrama de sequeência em ques
 
 | Versão | Data       | Descrição                                                                                            | Autor(es)      | Revisor(es)                       |
 | ------ | ---------- | ---------------------------------------------------------------------------------------------------- | -------------- | --------------------------------- |
-| `1.0`  | 10/05/2023 | Criação da página de diagrama de componentes     | Luíza | N |
-| `1.1`  | 10/05/2023 | Adição da Conclusão     | Lucas Gomes | N |
-| `1.2`  | 10/05/2023 | Adição de desenvolvimento do Processo | Lucas Gomes | N |
+| `1.0`  | 27/06/2023 | Criação da página de diagrama de componentes     | Luíza | N |
+| `1.1`  | 27/06/2023 | Adição da Conclusão     | Lucas Gomes | N |
+| `1.2`  | 29/06/2023 | Adição de desenvolvimento do Processo | Lucas Gomes | N |
+| `1.3`  | 29/06/2023 | Adição de explicações ao diagrama | Lucas Gomes | N |
