@@ -2,7 +2,7 @@ A primeira versão foi elaborada em uma representação de baixa fidelidade, par
 
 ### Elementos Identificados
 
-Três servidores, indicados como HW (hardware) na diagramação, cuja especificação não está detalhada por não se tratar do escopo da disciplina. Cada um destes servidores tem como sistema operacional alguma distribuição de linux, sendo apontada pelos estudantes a possibilidade de utilização do _debian_ ou _centOS_ por serem mais "enxutas".
+Três servidores, indicados como HW (hardware) na diagramação, cuja especificação não está detalhada por não se tratar do escopo da disciplina. Cada um destes servidores tem como sistema operacional alguma distribuição de linux, sendo apontada pelos estudantes a possibilidade de utilização do _debian_ ou _centOS_.
 
 O primeiro servidor, à esquerda na representação da figura a seguir, é a máquina servidora da aplicação, com dois _containers docker_, um deles baseado em uma imagem de _Java_, contendo o _\<\<artifact>>_ `avaliacaoService.jar`. O segundo container é responsável por servir os arquivos estáticos gerados pelo _build_ do frontend: `index.html`, `main.js` e `styles.css`. A comunicação entre esses dois containers deve ser feita de forma interna, por meio da rede do docker (docker network), uma vez que os dois containers estão na mesma rede.
 
