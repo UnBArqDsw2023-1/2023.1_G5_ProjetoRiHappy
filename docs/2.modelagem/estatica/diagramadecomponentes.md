@@ -45,7 +45,7 @@ Versão 3 do diagrama de componentes incluindo a diferenciação para componente
 
 
 ## Conclusão
-
+Em conclusão, o uso do diagrama de componentes disponibiliza uma melhor vizualiação de como os elemento se relacionam entre si. Tornando mais direto o entendimento de como deve ser feita a implantaçao da aplicação uma vez que ela for para produção. Através da colaboração entre Josue e João Pedro, seguindo uma metodologia e utilizando a ferramenta Lucid Chart, conseguimos aprimorar gradualmente o Diagrama de Pacotes. Essa abordagem permitiu uma discussão sobre as alterações necessárias em cada versão do diagrama até chegarmos à versão 3, que é a versão final. Com a criação desse diagrama, a fase de implantação do sistema será facilitada significativamente.
 
 
 ## Referências
@@ -57,8 +57,10 @@ Versão 3 do diagrama de componentes incluindo a diferenciação para componente
 
 | Versão | Data       | Descrição                                               | Autor(es)                 | Revisor(es)          |
 |--------|------------|---------------------------------------------------------|---------------------------|----------------------|
-| `1.0`  | 10/05/2023 | Criação da pasta e dos arquivos do diagrama de componentes  | Joao Pedro | Maria Abritta |
-| `1.1`  | 10/05/2023 | Adiçao dos textos e imagens no documento do diagrama de componentes  | Joao Pedro | Maria Abritta |
+| `1.0`  | 1/07/2023 | Criação da pasta e dos arquivos do diagrama de componentes  | Joao Pedro | Maria Abritta |
+| `1.1`  | 01/07/2023 | Adiçao dos textos e imagens no documento do diagrama de componentes  | Joao Pedro | Maria Abritta |
+| `1.2`  | 01/07/2023 | Adiçao dos textos e imagens no documento do diagrama de componentes  | Joao Pedro | Maria Abritta |
+| `1.3`  | 01/07/2023 | Adiçao das legendas nas imagens e conclusão ao documentos  | Joao Pedro | Maria Abritta |
 
 
 
