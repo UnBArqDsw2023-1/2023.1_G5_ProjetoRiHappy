@@ -57,7 +57,7 @@ Em conclusão, o uso do diagrama de componentes disponibiliza uma melhor vizuali
 
 | Versão | Data       | Descrição                                               | Autor(es)                 | Revisor(es)          |
 |--------|------------|---------------------------------------------------------|---------------------------|----------------------|
-| `1.0`  | 1/07/2023 | Criação da pasta e dos arquivos do diagrama de componentes  | Joao Pedro | Maria Abritta |
+| `1.0`  | 01/07/2023 | Criação da pasta e dos arquivos do diagrama de componentes  | Joao Pedro | Maria Abritta |
 | `1.1`  | 01/07/2023 | Adiçao dos textos e imagens no documento do diagrama de componentes  | Joao Pedro | Maria Abritta |
 | `1.2`  | 01/07/2023 | Adiçao dos textos e imagens no documento do diagrama de componentes  | Joao Pedro | Maria Abritta |
 | `1.3`  | 01/07/2023 | Adiçao das legendas nas imagens e conclusão ao documentos  | Joao Pedro | Maria Abritta |
