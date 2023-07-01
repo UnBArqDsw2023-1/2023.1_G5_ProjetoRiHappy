@@ -70,3 +70,8 @@ O Docker é uma forma de virtualizar aplicações no conceito de “containers�
 Ademais também se contextualizam como containers de ambiente e deploy com Docker e Docker Compose e orquestração de containers com Docker Swarm.[Docker](https://docs.docker.com/)
 
 ![](imagens/docker-image.png)
+
+Exemplo de código que estamos implementando no nosso projeto:
+
+![](imagens/docker-code.png)
+
