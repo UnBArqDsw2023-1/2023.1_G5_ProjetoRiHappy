@@ -19,13 +19,27 @@ O Jackson tem a classe ObjectMapper que é muito utilizada para converter classe
 
 ### Frameworks
 
+Um framework valida-se de funcionalidades em comum a várias aplicações, utilizando das interseções presentes em entre esses domínios para construção de ferramentas que atenda a esses conjuntos de aplicações [4]. Assim, um framework, Orientado a objetos, visa prover soluções para um conjunto de problemas semelhantes, validando-se das classes e interfaces presentes no projeto para decompor os problemas e cumprir as responsabilidades, dessa forma as classes necessitam ser flexiveis e extenssíveis para que possa ser utilizadas em diversas aplicações diferentes[4].
+
+Dentro desse contexto, os frameworks são dividos em Hot-Spots e Frozen-Spots, nos quais os Hot-Spots são as partes mais genéricas e consequentemente flexíveis de um framework pemitindo mudanças de acordo com as necessidades específicas da aplicação e representados por classes abstratas, já os Frozen-Spots são as partes mais concretas e que permanencem fixos, e são "core" do framework, ou seja trazindo para o português é a parte essencial do framework [4].
+
+Além disso, um framework também pode ser classificado como Caixa Branca, Caixa Preta ou Caixa Cinza, um framework Caixa Branca utiliza principalmente de HotSpots, permitindo que esse seja extremamente flexível validando-se principalmente dos conceitos de herança, interfaces e padrões de projeto que contribuam com essa característica, já um framework Caixa Preta é o oposto e utiliza de FrozenSpots, no qual a reutilização acontece apenas em nível de composição, permitindo apenas utilizar de forma diferente algo já concreto. Ademais, um framework Caixa Cinza é um hibrido, o qual é composto por elementos do Caixa Branca e do Caixa Preta, assim utilizando dos HotSpots e dos FrozenSpots [4]. 
+
+Em adiação a classificação dos frameworks, esses também são dividos, em uma macroclassificação, com relação a função exercida, são essas de Infra-estrutura (simplicam o processo de desenvolvimento de infra-estrutura), Integração (simplicficam o processo de integração de aplicações e componentes) e Aplicação empresarial [4].
+
+Diante disso, no contexto do projeto Rihappy, foram selecionados alguns frameworks externos para facilitar o processo de reutilização de código dentro do sistema e construção do projeto com a especificidade necessária ao contexto do fluxo de avaliações de mercadorias, são essas o Spring Boot, o Hibernate e o JUnit.
+
+#### Spring Boot
+
+
 #### Hibernate com Spring Boot
 
-O Hibernate é uma biblioteca de conexão com o banco de dados. 
-
-O Hibernate é um framework de mapeamento objeto-relacional, também chamado de ORM, para Java. Porém, também é utilizado para . NET com o nome de NHibernate. Por ter essa característica de ORM, ele transforma os dados da estrutura lógica de um banco de dados em objetos relacionais. [Hibernate](https://www.baeldung.com/spring-boot-hibernate)
+O [Hibernate](https://www.baeldung.com/spring-boot-hibernate) é um framework de conexão com o banco de dados, o qual lida com o mapeamento objeto-relacional, também chamado de ORM, para Java. Porém, também é utilizado para . NET com o nome de NHibernate. Por ter essa característica de ORM, ele transforma os dados da estrutura lógica de um banco de dados em objetos relacionais, auxiliando na camada de persistência do projeto ao compatibilizar as duas camadas (Domínio e Pesistência) [4]. 
 
 ![](imagens/hibernate-image.png)
+
+#### JUnit
+
 
 ### Banco de Dados
 

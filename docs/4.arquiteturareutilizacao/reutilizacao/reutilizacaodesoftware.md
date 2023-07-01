@@ -24,10 +24,12 @@ h3:before{
 
 ## Histórico de Versão
 
-| Versão | Data       | Descrição                                  | Autor(es)             | Revisor(es) |
-| ------ | ---------- | ------------------------------------------ | --------------------- | ----------- |
-| `1.0`  | 13/06/2023 | Criação do documento com estrutura padrão. | Lucas Felipe          | Nicolas     |
-| `1.1`  | 24/06/2023 | Adição da Padronização, introdução, metodologia e reutilização interna. | Davi Lima e Guilherme | João Pedro e Lucas Felipe     |
+| Versão | Data       | Descrição                                                               | Autor(es)                   | Revisor(es)               |
+| ------ | ---------- | ----------------------------------------------------------------------- | --------------------------- | ------------------------- |
+| `1.0`  | 13/06/2023 | Criação do documento com estrutura padrão.                              | Lucas Felipe                | Nicolas                   |
+| `1.1`  | 24/06/2023 | Adição da Padronização, introdução, metodologia e reutilização interna. | Davi Lima e Guilherme       | João Pedro e Lucas Felipe |
+| `1.2`  | 28/06/2023 | Adição de Bibliotecas e Ferramentas                                     | Davi Matias e Lucas Gabriel |                           |
+| `1.3`  | 30/06/2023 | Adição de Frameworks e Banco de Dados                                   | Lucas Gabriel e Davi Matias |                           |
 
 ## Introdução
 
@@ -111,7 +113,7 @@ Ademais também se contextualizam como containers de ambiente e deploy com Docke
 [1] Arquitetura e Desenho de software - Aula ARQUITETURA & DAS  - Prof. Milene <br/>
 [2] Engenharia de software - Ian Sommerville - 9 edição <br/>
 [3] O que é o GitHub <br/> 
-
+[4] SERRANO, M. AULA - REUTILIZAÇÃO & FRAMEWORK<br/>
 
 
 
