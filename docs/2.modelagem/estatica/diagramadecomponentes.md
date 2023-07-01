@@ -16,6 +16,7 @@ Para a criação do diagrama de componentes foi usado o Lucidchart, uma ferramen
 
 Ao longo do processo foram elaboradas 3 versões do diagrama de componentes, que após cada versão foi analisada a necessidade de novas relações e mudanças como seria representado os seus componentes e suas interações entre eles. Na versão final do diagrama, apresenta dois fluxos para os componentes para usuários logados e não logados. Assim, dando acesso a ações como compra de produtos e criação de avaliação de produtos. Segue abaixo as 3 versões dos diagramas, sendo a 3º versão a mais completa e final.
 
+Versão 1 do diagrama de componentes sem exemplificar tanto as relações e as diferenciações dos componentes:
 
 ![Diagrama detalhado versão 1](./assets/diagrama_componentes_v1.jpg)
 </div>
@@ -24,12 +25,16 @@ Ao longo do processo foram elaboradas 3 versões do diagrama de componentes, que
     <br/><small>Autor: Elaboração Própria (Josue e João Pedro)</small>
 </figcaption>
 
+Versão 2 do diagrama de componentes aplicando a separação entre componentes filhos e componentes pais:
+
 ![Diagrama detalhado versão 2](./assets/diagrama_componentes_v2.jpg)
 </div>
 <figcaption style="text-align: center">
-    <b>Figura 3: Versão 2 do diagrama de componentes</b>
+    <b>Figura 2: Versão 2 do diagrama de componentes</b>
     <br/><small>Autor: Elaboração Própria (Josue e João Pedro)</small>
 </figcaption>
+
+Versão 3 do diagrama de componentes incluindo a diferenciação para componentes filhos de usuários logados e não logados e como isso dá acesso a outros componentes:
 
 ![Diagrama detalhado versão 3](./assets/diagrama_componentes_v3.jpg)
 </div>
