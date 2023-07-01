@@ -45,3 +45,21 @@ BaseService - o BaseService entra principalmente como uma conexão direta entre 
 
 
 ### Padrões de projeto
+
+A correlação entre padrões de projeto e reutilização de software é bastante significativa. Os padrões de projeto são soluções comprovadas para problemas comuns no desenvolvimento de software, enquanto a reutilização de software é a prática de utilizar componentes ou módulos existentes em novos projetos, em vez de desenvolvê-los do zero. A seguir são demonstrados alguns exemplos de padrões de projeto que utilizamos e que podem vir a encaixados dentro da reutilização de software. 
+
+#### GRASP
+
+- Polimorfismo: O padrão de projeto GRASP Polimorfismo foi utilizado para encapsular variações de comportamento com base no tipo, usando de métodos abstratos em níveis generalistas para que uma instância se comporte de acordo com suas especificidade, eliminando a necessidade da lógica condicional (if, else e switch) para especificação do comportamento. O polimorfismo permite a reutilização de software por meio da substituição de objetos, interfaces comuns, extensibilidade e composição de objetos. Ele promove a flexibilidade, modularidade e extensibilidade do código, permitindo que você escreva código que interaja com objetos de diferentes classes sem depender de detalhes específicos da implementação. Isso resulta em um código mais reutilizável, modular e fácil de manter.
+  
+- Alta coesão: O padrão de projeto GRASP Alta Coesão foi utilizado para garantir que as classes da modelagem do software atendessem apenas a questões relacionadas ao seu escopo, facilitando a reutilização de código, a manutenção e a evolução do software como um todo.
+
+- Controlador: O padrão de projeto GRASP Controlador foi utilizado para realização da comunicação do domínio com o banco de dados. Para isso foi criada uma camada de comunicação abstrata chamada Controller focada apenas na persistência dos dados do Back-end no Banco de Dados. Ao seguir o padrão Controlador, você cria uma camada de controle modular e independente da interface do usuário e do modelo de dados. Essa separação facilita a reutilização do código do controlador em diferentes interfaces ou aplicações, desde que a lógica de negócios seja a mesma. Assim, você pode usar o mesmo controlador em diferentes contextos sem a necessidade de reescrever a lógica central
+
+#### GOF
+
+- Proxy: A principal aplicação do padrão dentro do fluxo do projeto, vai se dar no processo de criação de uma avaliação para um determinado produto. O Proxy permite encapsular a lógica adicional em torno de um objeto real sem modificar seu código subjacente. O padrão Proxy pode ser aplicado para reutilizar e adicionar funcionalidades adicionais a objetos existentes, compartilhar recursos, otimizar desempenho e fornecer controle de acesso. Ele promove a reutilização de software, permitindo que você crie Proxies para objetos existentes e adicione comportamentos específicos necessários para diferentes contextos ou requisitos. 
+  
+- Observer: Nas figuras 2 e 4, a classe Listagem atua como um objeto emissor de eventos, representado pelo EventManager, enquanto a classe BaseService atua como um objeto ouvinte de eventos, representado pelo EventListener.
+Através das interfaces EventManager e EventListener, é estabelecida uma relação de dependência flexível e desacoplada entre essas classes, permitindo que o BaseService seja notificado e possa responder aos eventos emitidos pela Listagem de maneira adaptável e flexível. O padrão Observer (ou Observador) é um padrão de projeto comportamental que define uma relação de dependência de um-para-muitos entre objetos, de modo que, quando um objeto (chamado de "sujeito" ou "observável") muda de estado, todos os seus observadores são notificados e atualizados automaticamente. O padrão Observer facilita a reutilização de componentes, interfaces e subsistemas, permitindo a comunicação assíncrona e desacoplada entre eles. Ele promove a flexibilidade e a modularidade do código, tornando mais fácil reutilizar e integrar diferentes partes de um sistema em diferentes contextos.
+
