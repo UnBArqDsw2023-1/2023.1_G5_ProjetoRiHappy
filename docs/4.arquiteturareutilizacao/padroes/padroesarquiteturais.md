@@ -30,6 +30,7 @@ h3:before{
 | `2.0`  | 22/06/2023 | Modelagem da visão lógica                  | Lucas Felipe e Josué   | Davi Lima   |
 | `2.1`  | 26/06/2023 | Inclusão da visão de dados                 | Lucas Felipe e Nicolas | Davi Silva  |
 | `2.2`  | 30/06/2023 | Inclusão da visão de implantação           | Lucas Felipe e Nicolas | Davi Silva  |
+| `2.3`  | 30/06/2023 | Inclusão da visão de implementação          | Josué e João Pedro |  |
 
 ## Introdução
 
