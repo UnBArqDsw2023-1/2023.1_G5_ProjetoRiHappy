@@ -1,0 +1,1 @@
+Com a evolução da computação e a utilização de soluções de software para diversos domínios cognitivos, foi se gerando a necessidade do desenvolvimento de aplicações manuteníveis e escaláveis. Entretanto, a medida que esses sitemas vão se tornando cada vez maiores nota-se como essencial a utilização de uma arquitetura condizente com a demanda do software em questão.

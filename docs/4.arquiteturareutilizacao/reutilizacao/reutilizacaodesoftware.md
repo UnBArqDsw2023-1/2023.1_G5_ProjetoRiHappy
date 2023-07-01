@@ -29,6 +29,8 @@ h3:before{
 | `1.1`  | 24/06/2023 | Adição da Padronização, introdução, metodologia e reutilização interna. | Davi Lima e Guilherme       | João Pedro e Lucas Felipe |
 | `1.2`  | 28/06/2023 | Adição de Bibliotecas e Ferramentas                                     | Davi Matias e Lucas Gabriel |                           |
 | `1.3`  | 30/06/2023 | Adição de Frameworks e Banco de Dados                                   | Lucas Gabriel e Davi Matias |                           |
+| `1.4`  | 01/06/2023 | Ajustes em Bibliotecas, Ferramentas, Frameworks e Banco de Dados        | Lucas Gabriel e Davi Matias |                           |
+| `1.5`  | 01/06/2023 | Adição da seção de Arquitetura                                          | Lucas Gabriel e Davi Matias |                           |
 
 ## Introdução
 
@@ -45,6 +47,7 @@ O artefato está sendo elaborado seguindo os pontos de vista coletados e discuti
 ## Reutilização Externa
 
 [Reutilização externa](./externa.md ':include')
+
 ## Arquitetura
 
 [Reutilização arquitetura](./arquitetura.md ':include')
@@ -54,7 +57,11 @@ O artefato está sendo elaborado seguindo os pontos de vista coletados e discuti
 [2] Engenharia de software - Ian Sommerville - 9 edição <br/>
 [3] O que é o GitHub <br/> 
 [4] SERRANO, M. AULA - REUTILIZAÇÃO & FRAMEWORK<br/>
+[5] O que é o Java Spring Boot? Introdução ao Spring Boot | Microsoft Azure. Microsoft.com. Disponível em: <https://azure.microsoft.com/pt-br/resources/cloud-computing-dictionary/what-is-java-spring-boot/>. Acesso em: 1 jul. 2023.
+[6] SERRANO, M. AULA - ARQUITETURA & DAS<br/>
+‌
 
+‌
 
 
 
