@@ -1,7 +1,7 @@
 ## Histórico de Versão
 
 | Versão | Data       | Descrição                                                  | Autor(es)              | Revisor(es)   |
-|--------|------------|------------------------------------------------------------|------------------------|---------------|
+| ------ | ---------- | ---------------------------------------------------------- | ---------------------- | ------------- |
 | `1.0`  | 13/06/2023 | Criação do documento com estrutura padrão.                 | Lucas Felipe           | Nicolas       |
 | `1.1`  | 20/06/2023 | Padronização para o Template                               | Lucas Felipe           | Nicolas       |
 | `2.0`  | 22/06/2023 | Modelagem da visão lógica                                  | Lucas Felipe e Josué   | Davi Lima     |
@@ -55,6 +55,7 @@ Acesso em: 22 jun. 2023. </br>
 no [link](https://www.lucidchart.com/pages/pt/diagrama-de-pacotes-uml). Acesso em 22/06/2023. <br/>
 [5] Tutorial do Diagrama de Sequência: Guia completo com exemplos. Disponível
 em: [Link](https://creately.com/blog/pt/diagrama/tutorial-do-diagrama-de-sequencia/). Acesso em: 26 jun. 2023. <br/>
+[6] How to Serve Static Files with Nginx and Docker, artigo no site SABE, disponível no [link](https://sabe.io/tutorials/serve-static-files-nginx-docker), acesso em 02/07/2023.
 
 ## Visão Geral <!--Acredito que a introdução já trás também-->
 
@@ -79,10 +80,6 @@ em: [Link](https://creately.com/blog/pt/diagrama/tutorial-do-diagrama-de-sequenc
 ## Visão de Implantação
 
 [Visão de implantação](./implantacao.md ':include')
-
-### Exemplo de Implantação com Docker
-
-[Visão de implantação](../../../codigo/docker-compose.yaml ':include')
 
 ## Visão de Implementação
 

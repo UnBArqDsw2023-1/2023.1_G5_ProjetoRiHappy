@@ -164,7 +164,17 @@ containers com Docker Swarm.[Docker](https://docs.docker.com/)
 ![Figura 11](imagens/docker-image.png)
 <p class="legenda">   Docker (Fonte: Docker). </p>
 
-Exemplo de código que estamos implementando no nosso projeto:
+#### Exemplo de Implantação com Docker
 
-[docker-compose.yaml](https://raw.githubusercontent.com/UnBArqDsw2023-1/2023.1_G5_ProjetoRiHappy/main/codigo/docker-compose.yaml ':include :type=code text')
-<p class="legenda">Trecho de Código 1: Trecho de código Docker Compose.</p>
+Para exemplificar o deploy dos dois serviços da aplicação em uma máquina servidora foram elaborados dois arquivos `Dockerfile`, responsáveis por construir os artefatos de deploy e servi-los em um ambiente controlado, de acordo com a modelagem realizada na [visão de implantação](../padroes/padroesarquiteturais.md#visão-de-implantação).
+
+![Dockerfile - Front](./assets/Dockerfile-front.png)
+<p class="legenda">Exemplo de `Dockerfile` para criar a imagem de execução do frontend. (Fonte: Nicolas)</p>
+
+![Dockerfile - Front](./assets/Dockerfile-back.png)
+<p class="legenda">Exemplo de `Dockerfile` para criar a imagem de execução do backend. (Fonte: Nicolas)</p>
+
+![Docker-Compose](./assets/docker-compose.png)
+<p class="legenda">Exemplo de docker-compose.yaml para orquestrar os serviços. (Fonte: Nicolas)</p>
+
+> Os arquivos originais elaborado para execução local encontram-se disponível nos links: [docker-compose.yaml](https://github.com/UnBArqDsw2023-1/2023.1_G5_ProjetoRiHappy/blob/main/codigo/docker-compose.yaml), [Dockerfile.front](https://github.com/UnBArqDsw2023-1/2023.1_G5_ProjetoRiHappy/blob/main/codigo/deploy/Dockerfile.front) e [Dockerfile.back](https://github.com/UnBArqDsw2023-1/2023.1_G5_ProjetoRiHappy/blob/main/codigo/deploy/Dockerfile.back).
