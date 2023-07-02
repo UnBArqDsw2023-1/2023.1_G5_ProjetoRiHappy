@@ -64,7 +64,3 @@ A seguir está o diagrama elaborado com o foco em entender processos dentro do f
 
 Por fim, dentro da visão de processo, tomando o diagrama de sequência em questão, foi possível descrever como o sistema será executado, ou seja, como as tarefas serão distribuídas e executadas em diferentes situações e até mesmo levando para o baixo nível, em que deve se pensar em threads/processos. Além disso, foi importante para identificar dependências e interações, destacando as interações necessárias para que o sistema funcione corretamente. Assim, conseguimos entender os pontos críticos de integração e compreender como as partes do sistema se relacionam entre si.
 
-### Histórico de versão
-
-| Versão | Data       | Descrição                                                  | Autor(es)   | Revisor(es)   |
-| ------ | ---------- | ---------------------------------------------------------- | ----------- | ------------- |
