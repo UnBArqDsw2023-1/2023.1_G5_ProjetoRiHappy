@@ -80,6 +80,10 @@ em: [Link](https://creately.com/blog/pt/diagrama/tutorial-do-diagrama-de-sequenc
 
 [Visão de implantação](./implantacao.md ':include')
 
+### Exemplo de Implantação com Docker
+
+[Visão de implantação](../../../codigo/docker-compose.yaml ':include')
+
 ## Visão de Implementação
 
 [Visão de Implementação](./implementacao.md ':include')

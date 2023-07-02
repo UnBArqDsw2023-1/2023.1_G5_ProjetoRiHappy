@@ -36,3 +36,5 @@ Porém, como a ferramenta não fornece uma opção gratuita de compartilhamento 
 ![](./assets/implantacaoV3.png)
 <p class="legenda"> Diagrama de implantação (versão 3 - Final). (Fonte: Elaborado por Lucas Felipe e Nicolas).</p>
 </details>
+
+<div src="https://raw.githubusercontent.com/UnBArqDsw2023-1/2023.1_G5_ProjetoRiHappy/main/codigo/docker-compose.yaml"> </div>
