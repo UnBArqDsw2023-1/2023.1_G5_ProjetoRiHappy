@@ -1,0 +1,1 @@
+Esta seção descreve a decomposição do sistema em processos leves (threads únicos de controle) e processos pesados ​​(agrupamentos de processos leves). Organize a seção por grupos de processos que se comunicam ou interagem. Descrever os principais modos de comunicação entre processos, como passagem de mensagens, interrupções e rendezvous.
