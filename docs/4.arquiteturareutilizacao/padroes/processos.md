@@ -22,7 +22,7 @@ No geral, a visão de processo em um documento de arquitetura de software fornec
 
 ## Metodologia
 
-Na [reunião do dia 21/06](https://unbarqdsw2023-1.github.io/2023.1_G5_ProjetoRiHappy/#/0.planejamento/atas/ata_21_06_2023), foram definidos que os integrantes Lucas Gomes, Luíza Esteves e Maria Abritta ficariam responsáveis por elaborar esse documento. A partir disso, foram feitas comunicações dentro da [issue do Github](https://github.com/UnBArqDsw2023-1/2023.1_G5_ProjetoRiHappy/issues/82), para que outros membros pudessem contribuir e verificar o andamento das atividades, que pode ser visto nas Figura 1 e Figura 2abaixo:
+Na [reunião do dia 21/06](https://unbarqdsw2023-1.github.io/2023.1_G5_ProjetoRiHappy/#/0.planejamento/atas/ata_21_06_2023), foram definidos que os integrantes Lucas Gomes, Luíza Esteves e Maria Abritta ficariam responsáveis por elaborar esse documento. A partir disso, foram feitas comunicações dentro da [issue do Github](https://github.com/UnBArqDsw2023-1/2023.1_G5_ProjetoRiHappy/issues/82), para que outros membros pudessem contribuir e verificar o andamento das atividades, que pode ser visto nas Figura 1 e Figura 2 abaixo:
 
 ![](./assets/visProcesso1.png)
 <p class="legenda"> Figura 1. Comunicação feita entre os membros sobre o as visões</p>
@@ -40,7 +40,7 @@ Dentro de um documento de arquitetura de software, um diagrama de sequência pod
 
 Dentro do nosso foco, elaboramos esse diagrama com o objetivo de mostrar a ordem das atividades ou etapas em um fluxo de trabalho, ajudando a visualizar como os diferentes elementos do sistema se comunicam e colaboram para alcançar uma determinada tarefa ou objetivo.
 
-A seguir está o diagrama elaborado com o foco em enteder processos dentro do fluxo de avaliação do sistema da RiHappy:
+A seguir está o diagrama elaborado com o foco em entender processos dentro do fluxo de avaliação do sistema da RiHappy:
 
 ![](./assets/diagramaSequencia.png)
 
@@ -48,9 +48,9 @@ A seguir está o diagrama elaborado com o foco em enteder processos dentro do fl
 
 ### Fluxo
 
-**Login:** O usuário realiza login, o sistema verifica no banco de dados se o usuário está cadastrado e retorna a informação para o sistema. Caso o usuário esteja cadastrado, ele é autenticado e pode navegar no sistema, caso contrário, ele é redirecionado `a tela de cadastro.
+**Login:** O usuário realiza login, o sistema verifica no banco de dados se o usuário está cadastrado e retorna a informação para o sistema. Caso o usuário esteja cadastrado, ele é autenticado e pode navegar no sistema, caso contrário, ele é redirecionado à tela de cadastro.
 
-**Produto:** O usuário seleciona o brinquedo que deseja, o sistema busca as informações do brinquedo no banco de dados e retorna as infromação ao sistema.
+**Produto:** O usuário seleciona o brinquedo que deseja, o sistema busca as informações do brinquedo no banco de dados e retorna as informação ao sistema.
 
 **Avaliação:** O usuário seleciona a opção de avaliar produto no sistema, informa a quantidade de estrelas, se recomenda o produto e as fotos do produto ao sistema. Depois, o usuário envia a avaliação completa ao sistema, que verifica e envia ao banco de dados, e esse retorna se o dado foi armazenado com sucesso ao sistema. Por último, o sistema envia ao usuário a mensagem de status da sua avaliação.
 
@@ -65,7 +65,7 @@ A seguir está o diagrama elaborado com o foco em enteder processos dentro do fl
 
 ## Conclusão
 
-Por fim, dentro da visão de processo, tomando o diagrama de sequeência em questão, foi possível descrever como o sistema será executado, ou seja, como as tarefas serão distribuídas e executadas em diferentes situações e até mesmo levando para o baixo nível, em que deve se pensar em threads/processos. Além disso, foi importante para identificar dependências e interações, destacando as interações necessárias para que o sistema funcione corretamente. Assim, conseguimos entender os pontos críticos de integração e a compreender como as partes do sistema se relacionam entre si.
+Por fim, dentro da visão de processo, tomando o diagrama de sequência em questão, foi possível descrever como o sistema será executado, ou seja, como as tarefas serão distribuídas e executadas em diferentes situações e até mesmo levando para o baixo nível, em que deve se pensar em threads/processos. Além disso, foi importante para identificar dependências e interações, destacando as interações necessárias para que o sistema funcione corretamente. Assim, conseguimos entender os pontos críticos de integração e compreender como as partes do sistema se relacionam entre si.
 
 ## Bibliografia
 
@@ -77,7 +77,7 @@ Por fim, dentro da visão de processo, tomando o diagrama de sequeência em ques
 
 | Versão | Data       | Descrição                                                                                            | Autor(es)      | Revisor(es)                       |
 | ------ | ---------- | ---------------------------------------------------------------------------------------------------- | -------------- | --------------------------------- |
-| `1.0`  | 27/06/2023 | Criação da página de diagrama de componentes     | Luíza | N |
-| `1.1`  | 27/06/2023 | Adição da Conclusão     | Lucas Gomes | N |
-| `1.2`  | 29/06/2023 | Adição de desenvolvimento do Processo | Lucas Gomes | N |
-| `1.3`  | 29/06/2023 | Adição de explicações ao diagrama | Lucas Gomes | N |
+| `1.0`  | 27/06/2023 | Criação da página de diagrama de componentes     | Luíza | Lucas Gabriel |
+| `1.1`  | 27/06/2023 | Adição da Conclusão     | Lucas Gomes | Lucas Gabriel |
+| `1.2`  | 29/06/2023 | Adição de desenvolvimento do Processo | Lucas Gomes | Lucas Gabriel |
+| `1.3`  | 29/06/2023 | Adição de explicações ao diagrama | Lucas Gomes | Lucas Gabriel |
