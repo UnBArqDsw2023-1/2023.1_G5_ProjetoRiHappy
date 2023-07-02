@@ -1,0 +1,10 @@
+# IDE FILES
+
+.idea/
+.vscode/
+
+# NODE FILES
+
+node_modules/
+package-lock.json
+
