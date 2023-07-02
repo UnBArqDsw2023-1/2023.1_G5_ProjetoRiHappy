@@ -1,7 +1,7 @@
 ## Histórico de Versão
 
 | Versão | Data       | Descrição                                                  | Autor(es)              | Revisor(es)   |
-|--------|------------|------------------------------------------------------------|------------------------|---------------|
+| ------ | ---------- | ---------------------------------------------------------- | ---------------------- | ------------- |
 | `1.0`  | 13/06/2023 | Criação do documento com estrutura padrão.                 | Lucas Felipe           | Nicolas       |
 | `1.1`  | 20/06/2023 | Padronização para o Template                               | Lucas Felipe           | Nicolas       |
 | `2.0`  | 22/06/2023 | Modelagem da visão lógica                                  | Lucas Felipe e Josué   | Davi Lima     |
@@ -13,6 +13,7 @@
 | `2.6`  | 29/06/2023 | Adição de desenvolvimento do processo (visão de processos) | Lucas Gomes            | Lucas Gabriel |
 | `2.7`  | 29/06/2023 | Adição de explicações ao diagrama (visão de processos)     | Lucas Gomes            | Lucas Gabriel |
 | `2.8`  | 30/06/2023 | Finalização da visão de processos                          | Luíza e Lucas Gomes    | Lucas Gabriel |
+| `2.9`  | 30/06/2023 | Inclusão dos trechos de código.                            | Nicolas                |               |
 
 ## Introdução
 
@@ -55,6 +56,7 @@ Acesso em: 22 jun. 2023. </br>
 no [link](https://www.lucidchart.com/pages/pt/diagrama-de-pacotes-uml). Acesso em 22/06/2023. <br/>
 [5] Tutorial do Diagrama de Sequência: Guia completo com exemplos. Disponível
 em: [Link](https://creately.com/blog/pt/diagrama/tutorial-do-diagrama-de-sequencia/). Acesso em: 26 jun. 2023. <br/>
+[6] How to Serve Static Files with Nginx and Docker, artigo no site SABE, disponível no [link](https://sabe.io/tutorials/serve-static-files-nginx-docker), acesso em 02/07/2023.
 
 ## Visão Geral <!--Acredito que a introdução já trás também-->
 
@@ -82,7 +84,18 @@ em: [Link](https://creately.com/blog/pt/diagrama/tutorial-do-diagrama-de-sequenc
 
 ### Exemplo de Implantação com Docker
 
-[Visão de implantação](../../../codigo/docker-compose.yaml ':include')
+Para exemplificar o deploy dos dois serviços da aplicação em uma máquina servidora foram elaborados dois arquivos `Dockerfile`, responsáveis por construir os artefatos de deploy e servi-los em um ambiente controlado.
+
+![Dockerfile - Front](./assets/Dockerfile-front.png)
+<p class="legenda">Exemplo de `Dockerfile` para criar a imagem de execução do frontend. (Fonte: Nicolas)</p>
+
+![Dockerfile - Front](./assets/Dockerfile-back.png)
+<p class="legenda">Exemplo de `Dockerfile` para criar a imagem de execução do backend. (Fonte: Nicolas)</p>
+
+![Docker-Compose](./assets/docker-compose.png)
+<p class="legenda">Exemplo de docker-compose.yaml para orquestrar os serviços. (Fonte: Nicolas)</p>
+
+> Os arquivos originais elaborado para execução local encontram-se disponível nos links: [docker-compose.yaml](https://github.com/UnBArqDsw2023-1/2023.1_G5_ProjetoRiHappy/blob/main/codigo/docker-compose.yaml), [Dockerfile.front](https://github.com/UnBArqDsw2023-1/2023.1_G5_ProjetoRiHappy/blob/main/codigo/deploy/Dockerfile.front) e [Dockerfile.back](https://github.com/UnBArqDsw2023-1/2023.1_G5_ProjetoRiHappy/blob/main/codigo/deploy/Dockerfile.back).
 
 ## Visão de Implementação
 
