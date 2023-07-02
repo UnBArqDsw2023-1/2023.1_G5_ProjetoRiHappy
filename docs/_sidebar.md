@@ -48,6 +48,7 @@
   - [**Estáticos**](/2.modelagem/umlestaticos.md)
     - [Diagrama de Classes](/2.modelagem/estatica/diagramadeclasses.md)
     - [Diagrama de Pacotes](/2.modelagem/estatica/diagramadepacotes.md)
+    - [Diagrama de Componentes](/2.modelagem/estatica/diagramadecomponentes.md)
   - [**Dinâmicos**](/2.modelagem/umldinamicos)
     - [Diagrama de Atividades](/2.modelagem/dinamica/diagramadeatividades.md)
     - [Diagrama de Comunicação](/2.modelagem/dinamica/diagramadecomunicacao.md)
@@ -73,7 +74,6 @@
 <summary class="activated-menu"> Arquitetura & Reutilização de Software </summary>
 
 - [Arquitetura & Reutilização de Software](/4.arquiteturareutilizacao/arquiteturareutilizacao.md)
-  - [Visão de Processos](/4.arquiteturareutilizacao/padroes/processos.md)
 - [Estilos e Padrões Arquiteturais](/4.arquiteturareutilizacao/padroes/padroesarquiteturais.md)
 - [Reutilização de Software](/4.arquiteturareutilizacao/reutilizacao/reutilizacaodesoftware.md)
 - [Participações](/4.arquiteturareutilizacao/participacoes.md)
