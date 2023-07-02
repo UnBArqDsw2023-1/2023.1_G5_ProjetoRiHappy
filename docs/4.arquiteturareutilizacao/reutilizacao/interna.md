@@ -2,7 +2,7 @@
 
 #### Requisitos
 
-A elicitação de requisitos por parte do grupo se deu a partir da elaboração de um artefato [Rich Picture](../../1.base/nao-especificos/richpicture.md), através dele foi possivel trazer várias funcionalidades importante dentro do nosso escopo, mas não todas. Tendo em vista esse problema, podemos definir que existem requisitos não funcionais que qualquer software deve seguir, a figura 1 a baixo mostra alguns exemplos que não são excessão para o site da RiHappy.
+A elicitação de requisitos por parte do grupo se deu a partir da elaboração de um artefato [Rich Picture](../../1.base/nao-especificos/richpicture.md), através dele foi possível trazer várias funcionalidades importante dentro do nosso escopo, mas não todas. Tendo em vista esse problema, podemos definir que existem requisitos não funcionais que qualquer software deve seguir, a figura abaixo mostra alguns exemplos que não são exceção para o site da RiHappy.
 
 ![Figura 1](../assets/reutilizacao/reqN-Func.png)
 
@@ -20,33 +20,31 @@ A utilização de metodologias e abordagens são imprescindíveis quanto se trat
 
 ### Modelagem
 
-Dentro do nosso desenvolvimento para a entrega 2 criamos alguns tipos de modelagem e através dos diagramas produzidos conseguimos destacar nos diagramas estáticos exemplos passiveis de reutilização, no [diagrama de pacotes](../../2.modelagem/estatica/diagramadepacotes.md) conseguimos ver uma visão geral de projeto, definido em back end, front end e dados, que é uma visão padrão para projeto que pode ser reutilizada em diversos contextos. Os diagramas dinâmicos entram num nivel de implementação maior da aplicação, resultando assim num uso mais especifico ao nosso contexto, a reutilização deles se dariam apenas em um contexto extremamente similar ao nosso projeto. 
+Dentro do nosso desenvolvimento para a entrega 2 criamos alguns tipos de modelagem e através dos diagramas produzidos conseguimos destacar nos diagramas estáticos exemplos passiveis de reutilização, no [diagrama de pacotes](../../2.modelagem/estatica/diagramadepacotes.md) conseguimos ver uma visão geral de projeto, definido em back end, front end e dados, que é uma visão padrão para projeto que pode ser reutilizada em diversos contextos. Os diagramas dinâmicos entram num nível de implementação maior da aplicação, resultando assim num uso mais especifico ao nosso contexto, a reutilização deles se dariam apenas em um contexto extremamente similar ao nosso projeto.
 
-Revisitando nosso [diagrama de classes](docs/2.modelagem/estatica/diagramadeclasses.md) podemos separar pelo menos três exemplos de possíveis casos de reutilização do nosso projeto, sendo esses, Listagem, Usuario e BaseService.
+Revisitando nosso [diagrama de classes](docs/2.modelagem/estatica/diagramadeclasses.md) podemos separar pelo menos três exemplos de possíveis casos de reutilização do nosso projeto, sendo esses, Listagem, Usuário e BaseService.
 
-Listagem - o exemplo de listagem entra como um tipo de reutilação em dois contextos, um deles é a utilização do padrão de projeto observer e através do polimorfismo, obtivo através da herança transmitida através da classe abstrata para as demais.
+Listagem - o exemplo de listagem entra como um tipo de reutilização em dois contextos, um deles é a utilização do padrão de projeto observer e através do polimorfismo, objetivo através da herança transmitida através da classe abstrata para as demais.
 
 ![listagem](../../2.modelagem/estatica/assets/classes-v2-view.png)
 
-<p class="legenda">Camada view diagrama de classes HiRappy (Fonte: Abritta, Lucas Felipe e Josué.)</p>
+<p class="legenda">Camada view diagrama de classes RiHappy (Fonte: Abritta, Lucas Felipe e Josué.)</p>
 
-
-Usuario -  o usuario entra como a camada de segurança do sistema, na parte de reutilização ele entra como o laço entre perfis para a instanciação entre usuários do sistema no sentido de que sempre que for necessário um novo perfil existe um construtor e só é necessário implementar a lógica própria do novo perfil.
+Usuário -  o usuário entra como a camada de segurança do sistema, na parte de reutilização ele entra como o laço entre perfis para a instanciação entre usuários do sistema no sentido de que sempre que for necessário um novo perfil existe um construtor e só é necessário implementar a lógica própria do novo perfil.
 
 ![Usuário](../../2.modelagem/estatica/assets/classes-v2-seguranca.png)
 
-<p class="legenda">Camada segurança diagrama de classes HiRappy (Fonte: Abritta, Lucas Felipe e Josué.)</p>
+<p class="legenda">Camada segurança diagrama de classes RiHappy (Fonte: Abritta, Lucas Felipe e Josué.)</p>
 
-BaseService - o BaseService entra principalmente como uma conexão direta entre a camada controladora e as requisições do usuário, este exempre server como forma de reutilização no sentido de que qualquer sistema que necessite este tipo de conexão pode se adequar a maneira modelada pelo grupo, também temos novamente o polimorfismo que representa uma forma de desacoplamento e resultando em uma reutilização de código.
+BaseService - o BaseService entra principalmente como uma conexão direta entre a camada controladora e as requisições do usuário, este exemplo serve como forma de reutilização no sentido de que qualquer sistema que necessite este tipo de conexão pode se adequar a maneira modelada pelo grupo, também temos novamente o polimorfismo que representa uma forma de desacoplamento e resultando em uma reutilização de código.
 
 ![BaseService](../../2.modelagem/estatica/assets/classes-v2-controller.png)
 
-<p class="legenda">Camada controller diagrama de classes HiRappy (Fonte: Abritta, Lucas Felipe e Josué.)</p>
-
+<p class="legenda">Camada controller diagrama de classes RiHappy (Fonte: Abritta, Lucas Felipe e Josué.)</p>
 
 ### Padrões de projeto
 
-A correlação entre padrões de projeto e reutilização de software é bastante significativa. Os padrões de projeto são soluções comprovadas para problemas comuns no desenvolvimento de software, enquanto a reutilização de software é a prática de utilizar componentes ou módulos existentes em novos projetos, em vez de desenvolvê-los do zero. A seguir são demonstrados alguns exemplos de padrões de projeto que utilizamos e que podem vir a encaixados dentro da reutilização de software. 
+A correlação entre padrões de projeto e reutilização de software é bastante significativa. Os padrões de projeto são soluções comprovadas para problemas comuns no desenvolvimento de software, enquanto a reutilização de software é a prática de utilizar componentes ou módulos existentes em novos projetos, em vez de desenvolvê-los do zero. A seguir são demonstrados alguns exemplos de padrões de projeto que utilizamos e que podem vir a encaixados dentro da reutilização de software.
 
 #### GRASP
 
@@ -58,8 +56,7 @@ A correlação entre padrões de projeto e reutilização de software é bastant
 
 #### GOF
 
-- Proxy: A principal aplicação do padrão dentro do fluxo do projeto, vai se dar no processo de criação de uma avaliação para um determinado produto. O Proxy permite encapsular a lógica adicional em torno de um objeto real sem modificar seu código subjacente. O padrão Proxy pode ser aplicado para reutilizar e adicionar funcionalidades adicionais a objetos existentes, compartilhar recursos, otimizar desempenho e fornecer controle de acesso. Ele promove a reutilização de software, permitindo que você crie Proxies para objetos existentes e adicione comportamentos específicos necessários para diferentes contextos ou requisitos. 
+- Proxy: A principal aplicação do padrão dentro do fluxo do projeto, vai se dar no processo de criação de uma avaliação para um determinado produto. O Proxy permite encapsular a lógica adicional em torno de um objeto real sem modificar seu código subjacente. O padrão Proxy pode ser aplicado para reutilizar e adicionar funcionalidades adicionais a objetos existentes, compartilhar recursos, otimizar desempenho e fornecer controle de acesso. Ele promove a reutilização de software, permitindo que você crie Proxies para objetos existentes e adicione comportamentos específicos necessários para diferentes contextos ou requisitos.
   
 - Observer: Nas figuras 2 e 4, a classe Listagem atua como um objeto emissor de eventos, representado pelo EventManager, enquanto a classe BaseService atua como um objeto ouvinte de eventos, representado pelo EventListener.
 Através das interfaces EventManager e EventListener, é estabelecida uma relação de dependência flexível e desacoplada entre essas classes, permitindo que o BaseService seja notificado e possa responder aos eventos emitidos pela Listagem de maneira adaptável e flexível. O padrão Observer (ou Observador) é um padrão de projeto comportamental que define uma relação de dependência de um-para-muitos entre objetos, de modo que, quando um objeto (chamado de "sujeito" ou "observável") muda de estado, todos os seus observadores são notificados e atualizados automaticamente. O padrão Observer facilita a reutilização de componentes, interfaces e subsistemas, permitindo a comunicação assíncrona e desacoplada entre eles. Ele promove a flexibilidade e a modularidade do código, tornando mais fácil reutilizar e integrar diferentes partes de um sistema em diferentes contextos.
-

@@ -29,7 +29,6 @@ Na [reunião do dia 21/06](https://unbarqdsw2023-1.github.io/2023.1_G5_ProjetoRi
 
 ![](./assets/visProcesso2.png)
 
-
 <p class="legenda"> Figura 2. Comunicação feita entre os membros sobre o as visões</p>
 
 ## Diagrama de sequência
@@ -62,7 +61,6 @@ A seguir está o diagrama elaborado com o foco em entender processos dentro do f
 | ![Símbolo de mensagens assíncronas](./assets/uml-asynchronous-message-symbol.svg) | Símbolo de mensagens assíncronas | Representado por uma linha sólida com uma ponta de seta em linha. Mensagens assíncronas não necessitam de uma resposta para que o remetente continue. Apenas a chamada deve ser incluída no diagrama. |
 | ![Símbolo de responder à mensagem](./assets/uml-return-message-symbol.svg)        | Símbolo de responder à mensagem  | Representado por uma linha tracejada com uma ponta de seta em linha, estas mensagens são respostas às chamadas.                                                                                       |
 
-
 ## Conclusão
 
 Por fim, dentro da visão de processo, tomando o diagrama de sequência em questão, foi possível descrever como o sistema será executado, ou seja, como as tarefas serão distribuídas e executadas em diferentes situações e até mesmo levando para o baixo nível, em que deve se pensar em threads/processos. Além disso, foi importante para identificar dependências e interações, destacando as interações necessárias para que o sistema funcione corretamente. Assim, conseguimos entender os pontos críticos de integração e compreender como as partes do sistema se relacionam entre si.
@@ -71,7 +69,6 @@ Por fim, dentro da visão de processo, tomando o diagrama de sequência em quest
 
 [1] Tutorial do Diagrama de Sequência: Guia completo com exemplos. Disponível em: [Link](https://creately.com/blog/pt/diagrama/tutorial-do-diagrama-de-sequencia/). Acesso em: 26 jun. 2023. <br/>
 [2] Serrano, Milene. Arquitetura e Desenho de Software. São Paulo: 28 jun. 2020. Disponível em: [Link](https://unbbr-my.sharepoint.com/personal/mileneserrano_unb_br/_layouts/15/stream.aspx?id=%2Fpersonal%2Fmileneserrano%5Funb%5Fbr%2FDocuments%2FArqDSW%20%2D%20V%C3%ADdeosOriginais%2F05e%20%2D%20VideoAula%20%2D%20DSW%2DModelagem%20%2D%20Agregacao%20Composicao%2Emp4&ga=1). Acesso em: 11 mai. 2023. </br>
-
 
 ## Histórico de versão
 

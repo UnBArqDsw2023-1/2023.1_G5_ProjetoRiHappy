@@ -23,7 +23,7 @@ O Documento da Arquitetura de Software se aplica ao projeto do "fluxo avaliaçã
 
 ## Definições, acrônimos e abreviações
 
-| Abreviações/Acronimos                                       | Definição                                                                                           |
+| Abreviações/Acrônimos                                       | Definição                                                                                           |
 |-------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
 | MVC                                                         | Padrão de projeto de software baseado no reuso de código e a separação de conceitos em três camadas |
 | GRASP - General Responsibility Assignment Software Patterns | Diretrizes para atribuir responsabilidade a classes e objetos em projeto orientado a objetos        |
@@ -36,11 +36,10 @@ O Documento da Arquitetura de Software se aplica ao projeto do "fluxo avaliaçã
 Acesso em: 22 Jun. 2023. <br/>
 [2] Unified Modeling Language (UML). Disponível em: [Link](http://www.deinf.ufma.br/~acmo/MOO_Intro.pdf) Acesso em: 22
 Jun.2023 </br>
-[3] Serrano, Milene. DSW-Modelagem - Agregacao Composicao. São Paulo: 25 jul, 2020. Disponível
+[3] Serrano, Milene. DSW-Modelagem - Agregação Composição. São Paulo: 25 jul, 2020. Disponível
 em: [Link](https://unbbr-my.sharepoint.com/personal/mileneserrano_unb_br/_layouts/15/stream.aspx?id=%2Fpersonal%2Fmileneserrano%5Funb%5Fbr%2FDocuments%2FArqDSW%20%2D%20V%C3%ADdeosOriginais%2F05e%20%2D%20VideoAula%20%2D%20DSW%2DModelagem%20%2D%20Agregacao%20Composicao%2Emp4&ga=1).
 Acesso em: 22 jun. 2023. </br>
-[4] Tudo sobre diagramas de pacotes UML, artigo disponível
-no [link](https://www.lucidchart.com/pages/pt/diagrama-de-pacotes-uml). Acesso em 22/06/2023.
+[4] Tudo sobre diagramas de pacotes UML, artigo disponível no [link](https://www.lucidchart.com/pages/pt/diagrama-de-pacotes-uml). Acesso em 22/06/2023. <br/>
 
 ## Visão Geral <!--Acredito que a introdução já trás também-->
 
