@@ -1,25 +1,3 @@
-<style>
-
-article {counter-reset:section figuras;}
-
-h2 {counter-reset:subsection;}
-
-h2:before{
-    counter-increment:section;
-    content:counter(section) ". ";
-}
-
-h3:before{
-    counter-increment:subsection;
-    content:counter(section) "." counter(subsection) " ";
-}
-
-.legenda:before{
-    counter-increment:figuras;
-    content:"Figura " counter(figuras) ". ";
-}
-
-</style>
 
 ## Histórico de Versão
 
@@ -51,8 +29,6 @@ O Documento da Arquitetura de Software se aplica ao projeto do "fluxo avaliaçã
 | GRASP - General Responsibility Assignment Software Patterns | Diretrizes para atribuir responsabilidade a classes e objetos em projeto orientado a objetos        |
 | GOF - Gang of Four                                          | Um tipo de padrão de projeto para auxiliar na criação de um software                                |
 | Docker                                          |Docker é um conjunto de produtos de plataforma como serviço que usam virtualização de nível de sistema operacional para entregar software em pacotes chamados contêineres. | GOF - Gang of Four                                          | Um tipo de padrão de projeto para auxiliar na criação de um software                                | | GOF - Gang of Four                                          | Um tipo de padrão de projeto para auxiliar na criação de um software                                |                                |
-
-
 
 ## Referências
 

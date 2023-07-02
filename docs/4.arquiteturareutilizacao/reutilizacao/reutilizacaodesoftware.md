@@ -1,26 +1,5 @@
 # Reutilização de Software
-<style>
 
-article {counter-reset:section figuras;}
-
-h2 {counter-reset:subsection;}
-
-h2:before{
-    counter-increment:section;
-    content:counter(section) ". ";
-}
-
-h3:before{
-    counter-increment:subsection;
-    content:counter(section) "." counter(subsection) " ";
-}
-
-.legenda:before{
-    counter-increment:figuras;
-    content:"Figura " counter(figuras) ". ";
-}
-
-</style>
 ## Histórico de Versão
 
 | Versão | Data       | Descrição                                                               | Autor(es)                   | Revisor(es)               |
@@ -38,7 +17,7 @@ O presente artefato visa documentar a reutilização de software dentro do proje
 
 ## Metodologia
 
-O artefato está sendo elaborado seguindo os pontos de vista coletados e discutidos pelo grupo e aprovado pela professora. Para elaboração do mesmo. As principais discussões foram trazidas para dentro da issue do repósitorio no [Github]("https://github.com/UnBArqDsw2023-1/2023.1_G5_ProjetoRiHappy/issues/16"). 
+O artefato está sendo elaborado seguindo os pontos de vista coletados e discutidos pelo grupo e aprovado pela professora. Para elaboração do mesmo. As principais discussões foram trazidas para dentro da issue do repósitorio no [Github]("https://github.com/UnBArqDsw2023-1/2023.1_G5_ProjetoRiHappy/issues/16").
 
 ## Reutilização Interna
 
@@ -51,17 +30,15 @@ O artefato está sendo elaborado seguindo os pontos de vista coletados e discuti
 ## Arquitetura
 
 [Reutilização arquitetura](./arquitetura.md ':include')
+
 ## Referências
 
 [1] Arquitetura e Desenho de software - Aula ARQUITETURA & DAS  - Prof. Milene <br/>
 [2] Engenharia de software - Ian Sommerville - 9 edição <br/>
-[3] O que é o GitHub <br/> 
+[3] O que é o GitHub <br/>
 [4] SERRANO, M. AULA - REUTILIZAÇÃO & FRAMEWORK<br/>
 [5] O que é o Java Spring Boot? Introdução ao Spring Boot | Microsoft Azure. Microsoft.com. Disponível em: <https://azure.microsoft.com/pt-br/resources/cloud-computing-dictionary/what-is-java-spring-boot/>. Acesso em: 1 jul. 2023.
 [6] SERRANO, M. AULA - ARQUITETURA & DAS<br/>
 ‌
 
 ‌
-
-
-
