@@ -15,7 +15,7 @@ Diante disso, no contexto do projeto Rihappy, foram selecionados alguns Framewor
 O [JUnit 5](https://junit.org/junit5/) é um Framework de código livre para realização de testes de software. Assim, esse Framework contribui facilitando o processo de teste dentro do projeto.
 
 ![Figura 1](imagens/Junit-image.png)
-<p class="legenda">  Figura 1: JUnit (Fonte: Autor). </p>
+<p class="legenda">  Figura 1: JUnit (Fonte: JUnit). </p>
 
 #### Spring Boot
 
@@ -32,7 +32,7 @@ Dentro do contexto do projeto foi utilizado o [Spring Initializr](https://start.
 O [Hibernate](https://hibernate.org/) é um Framework de conexão com o banco de dados, o qual lida com o mapeamento objeto-relacional, também chamado de ORM, para Java. Porém, também é utilizado para . NET com o nome de NHibernate. Por ter essa característica de ORM, ele transforma os dados da estrutura lógica de um banco de dados em objetos relacionais, auxiliando na camada de persistência do projeto ao compatibilizar as duas camadas (Domínio e Pesistência) [4]. No contexto da aplicação o [Hibernate é utilizado em conjunto com o Spring Boot](https://www.baeldung.com/spring-boot-hibernate).
 
 ![Figura 3](imagens/hibernate-image.png)
-<p class="legenda">  Figura 3: Hibernate (Fonte: Autor). </p>
+<p class="legenda">  Figura 3: Hibernate (Fonte: Hibernate). </p>
 
 ### Bibliotecas
 
@@ -45,20 +45,20 @@ Um observer ou observador é um receptor de valores entregues por um componente 
 Os observadores podem ser parciais, ou seja, se nao fornecer retorno, a execução ainda acontecerá normalmente.[Observer](https://rxjs.dev/guide/observer) 
  
 ![Figura 4](imagens/rxjs-image.png)
-<p class="legenda">  Figura 4: RXJS (Fonte: Autor). </p>
+<p class="legenda">  Figura 4: RXJS (Fonte: RXJS). </p>
 
 #### React JS
 
 O React é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.[ReactJS](https://react.dev/learn)
 
 ![Figura 5](imagens/reactJS-image.png)
-<p class="legenda">  Figura 5: React JS (Fonte: Autor). </p>
+<p class="legenda">  Figura 5: React JS (Fonte: React JS). </p>
 
 #### Jackson ObjectMapper
 O Jackson tem a classe ObjectMapper que é muito utilizada para converter classes Java em JSON, e vice-versa, na comunicação entre APIs RESTful e SPAs.[Jackson](https://www.devmedia.com.br/introducao-ao-jackson-objectmapper/43174) 
 
 ![Figura 6](imagens/jackson-json.png)
-<p class="legenda">  Figura 6: Jackson ObjectManager (Fonte: Autor). </p>
+<p class="legenda">  Figura 6: Jackson ObjectManager (Fonte: Jackson). </p>
 
 ### Banco de Dados
 
@@ -67,7 +67,7 @@ O Jackson tem a classe ObjectMapper que é muito utilizada para converter classe
 Um outro exemplo de reutilização de software externo é o Sistema de Gerenciamento de Banco de Dados do tipo Relacional [PostgreSQL](https://www.postgresql.org/) e ele pode ser reutilizado em diversos projetos para atender ás necessidades de armazenamento de dados de um projeto. Dentro do contexto do projeto é possível ver a conexão do mesmo ao Banco de Dados no diagrama de classes, por meio da camada Controller, a qual facilita tal reutilização desse sistema externo, essa pode ser observada na Figura 4 citada anteriormente.
 
 ![Figura 7](imagens/postgre-sql.jpg)
-<p class="legenda">  Figura 7: PostgreSQL (Fonte: Autor). </p>
+<p class="legenda">  Figura 7: PostgreSQL (Fonte: PostgreSQL). </p>
 
 
 ### Ferramentas
@@ -77,14 +77,14 @@ Um outro exemplo de reutilização de software externo é o Sistema de Gerenciam
 GitHub é uma plataforma feita para hospedagem de códigos de programação. Os objetivos principais são o controle e a colaboração, permitindo que usuários desenvolvam projetos juntos, estando em qualquer lugar do mundo.[GitHub](https://github.com)
 
 ![Figura 8](./imagens/git_imagem.png)
-<p class="legenda">  Figura 8: GitHub (Fonte: Autor). </p> 
+<p class="legenda">  Figura 8: GitHub (Fonte: GitHub). </p> 
 
 #### ZenHub
 O Zenhub permite que os desenvolvedores fiquem mais próximos ao desenvolvimento do projeto dentro do GitHub, minimizando a troca de contextos. Os dados simultâneos do GitHub sempre mantendo os projetos atualizados e precisos em ambas as ferramentas.
 Usamos ele como forma de organização e de otimizar a rotina de desenvolvimento de cada membro em cada tarefa. [Zenhub](https://www.zenhub.com/)
 
 ![Figura 9](imagens/zenhub-image.png)
-<p class="legenda">  Figura 9: ZenHub (Fonte: Autor). </p>
+<p class="legenda">  Figura 9: ZenHub (Fonte: ZenHub). </p>
 
 #### FlyWay 
 
@@ -92,7 +92,7 @@ Flyway é uma ferramenta de migração de banco de dados de código aberto.
 O Flyway é uma dentre as várias ferramentas que se propõem a trazer ordem e organização para os scripts SQL que são executados no banco de dados, funciona como um controle de versão do mesmo. [Flyway](https://www.baeldung.com/database-migrations-with-flyway)
 
 ![Figura 10](imagens/flyway-image.png)
-<p class="legenda">  Figura 10: FlyWay (Fonte: Autor). </p>
+<p class="legenda">  Figura 10: FlyWay (Fonte: FlyWay). </p>
 
 #### Docker
 
@@ -100,7 +100,7 @@ O Docker é uma forma de virtualizar aplicações no conceito de “containers�
 Ademais também se contextualizam como containers de ambiente e deploy com Docker e Docker Compose e orquestração de containers com Docker Swarm.[Docker](https://docs.docker.com/)
 
 ![Figura 11](imagens/docker-image.png)
-<p class="legenda">  Figura 11: Docker (Fonte: Autor). </p>
+<p class="legenda">  Figura 11: Docker (Fonte: Docker). </p>
 
 Exemplo de código que estamos implementando no nosso projeto:
 
