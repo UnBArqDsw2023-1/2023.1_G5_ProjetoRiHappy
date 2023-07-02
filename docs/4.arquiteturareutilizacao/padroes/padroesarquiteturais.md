@@ -29,6 +29,7 @@ h3:before{
 | `1.1`  | 20/06/2023 | Padronização para o Template               | Lucas Felipe         | Nicolas     |
 | `2.0`  | 22/06/2023 | Modelagem da visão lógica                  | Lucas Felipe e Josué | Davi Lima   |
 | `2.1`  | 26/06/2023 | Inclusão da visão de dados                 | Lucas Felipe e Nicolas | Davi Silva   |
+| `2.2`  | 30/06/2023 | Inclusão da visão de processos                 | Luíza Esteves e Lucas Gomes | Lucas Gabriel   |
 
 ## Introdução
 
