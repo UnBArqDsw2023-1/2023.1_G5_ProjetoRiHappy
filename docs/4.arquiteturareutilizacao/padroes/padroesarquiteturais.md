@@ -23,13 +23,19 @@ h3:before{
 
 ## Histórico de Versão
 
-| Versão | Data       | Descrição                                  | Autor(es)            | Revisor(es) |
-|--------|------------|--------------------------------------------|----------------------|-------------|
-| `1.0`  | 13/06/2023 | Criação do documento com estrutura padrão. | Lucas Felipe         | Nicolas     |
-| `1.1`  | 20/06/2023 | Padronização para o Template               | Lucas Felipe         | Nicolas     |
-| `2.0`  | 22/06/2023 | Modelagem da visão lógica                  | Lucas Felipe e Josué | Davi Lima   |
-| `2.1`  | 26/06/2023 | Inclusão da visão de dados                 | Lucas Felipe e Nicolas | Davi Silva   |
-| `2.2`  | 30/06/2023 | Inclusão da visão de processos                 | Luíza Esteves e Lucas Gomes | Lucas Gabriel   |
+| Versão | Data       | Descrição                                                  | Autor(es)              | Revisor(es)   |
+| ------ | ---------- | ---------------------------------------------------------- | ---------------------- | ------------- |
+| `1.0`  | 13/06/2023 | Criação do documento com estrutura padrão.                 | Lucas Felipe           | Nicolas       |
+| `1.1`  | 20/06/2023 | Padronização para o Template                               | Lucas Felipe           | Nicolas       |
+| `2.0`  | 22/06/2023 | Modelagem da visão lógica                                  | Lucas Felipe e Josué   | Davi Lima     |
+| `2.1`  | 26/06/2023 | Inclusão da visão de dados                                 | Lucas Felipe e Nicolas | Davi Silva    |
+| `2.2`  | 30/06/2023 | Inclusão da visão de implantação                           | Lucas Felipe e Nicolas | Davi Silva    |
+| `2.3`  | 30/06/2023 | Inclusão da visão de implementação                         | Josué e João Pedro     | Nicolas       |
+| `2.4`  | 27/06/2023 | Criação da página de diagrama de componentes               | Luíza                  | Lucas Gabriel |
+| `2.5`  | 27/06/2023 | Adição da conclusão (visão de processos)                   | Lucas Gomes            | Lucas Gabriel |
+| `2.6`  | 29/06/2023 | Adição de desenvolvimento do processo (visão de processos) | Lucas Gomes            | Lucas Gabriel |
+| `2.7`  | 29/06/2023 | Adição de explicações ao diagrama (visão de processos)     | Lucas Gomes            | Lucas Gabriel |
+| `2.8`  | 30/06/2023 | Finalização da visão de processos                             | Luíza e Lucas Gomes    | Lucas Gabriel |
 
 ## Introdução
 
@@ -58,6 +64,7 @@ em: [Link](https://unbbr-my.sharepoint.com/personal/mileneserrano_unb_br/_layout
 Acesso em: 22 jun. 2023. </br>
 [4] Tudo sobre diagramas de pacotes UML, artigo disponível
 no [link](https://www.lucidchart.com/pages/pt/diagrama-de-pacotes-uml). Acesso em 22/06/2023.
+[5] Tutorial do Diagrama de Sequência: Guia completo com exemplos. Disponível em: [Link](https://creately.com/blog/pt/diagrama/tutorial-do-diagrama-de-sequencia/). Acesso em: 26 jun. 2023. <br/>
 
 ## Visão Geral
 
