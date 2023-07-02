@@ -1,6 +1,7 @@
 package br.com.rihappy.avaliacaoService.controller;
 
 import br.com.rihappy.avaliacaoService.model.Avaliacao;
+import br.com.rihappy.avaliacaoService.model.filtro.AvaliacaoFilter;
 import br.com.rihappy.avaliacaoService.service.AvaliacaoService;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -14,7 +15,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping(value = "/api/v1/avaliacao", produces = "application/json")
-public class AvaliacaoController extends BaseController<Avaliacao> {
+public class AvaliacaoController extends BaseController<Avaliacao, AvaliacaoFilter> {
 
     AvaliacaoController() {
         this.service = new AvaliacaoService();
@@ -42,9 +43,11 @@ public class AvaliacaoController extends BaseController<Avaliacao> {
         return new ObjectMapper().writeValueAsString(serialized);
     }
 
-    @GetMapping({"/list"})
+    // curl http://localhost:8080/api/v1/avaliacao/list --header "Content-Type: application/json" --request POST -d '{"isRecomendada":true}'
+
+    @PostMapping("/list")
     @Override
-    public ResponseEntity<ArrayList<Avaliacao>> listar(@RequestBody Avaliacao filtro) {
+    public ResponseEntity<ArrayList<Avaliacao>> listar(@RequestBody AvaliacaoFilter filtro) {
         System.out.printf("Recebendo requisição por uma lista de Entidade do tipo: %s com filtro: %s", Avaliacao.class, filtro.toString());
         return super.listar(filtro);
     }

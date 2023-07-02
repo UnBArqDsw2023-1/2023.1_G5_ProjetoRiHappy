@@ -1,6 +1,7 @@
 package br.com.rihappy.avaliacaoService.service;
 
 import br.com.rihappy.avaliacaoService.model.Avaliacao;
+import br.com.rihappy.avaliacaoService.model.filtro.AvaliacaoFilter;
 import br.com.rihappy.avaliacaoService.seguranca.Usuario;
 import br.com.rihappy.avaliacaoService.seguranca.UsuarioNaoLogado;
 import org.springframework.stereotype.Service;
@@ -9,7 +10,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 @Service
-public class AvaliacaoService extends BaseService<Avaliacao> {
+public class AvaliacaoService extends BaseService<Avaliacao, AvaliacaoFilter> {
     private HashMap<Integer, Avaliacao> registros;
 
     public AvaliacaoService() {
@@ -46,8 +47,20 @@ public class AvaliacaoService extends BaseService<Avaliacao> {
 
 
     @Override
-    public ArrayList<Avaliacao> listar(Avaliacao filtro) {
+    public ArrayList<Avaliacao> listar(AvaliacaoFilter filtro) {
+
+        ArrayList<Avaliacao> list = new ArrayList<>();
+        Boolean isFit = true;
+        for (Avaliacao a : this.registros.values()) {
+
+            if (filtro.getCompraVerificada() != null)
+
+        }
+
+
         return null;
+
+
     }
 
     @Override

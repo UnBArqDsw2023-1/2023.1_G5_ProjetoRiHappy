@@ -73,4 +73,18 @@ public class Avaliacao extends BaseEntidade {
     public String toString() {
         return String.format("Avaliação (id=%d): {autor: %s, texto: %s}", this.getId(), this.autor.toString(), this.texto);
     }
+
+    public Boolean getRecomendado() {
+        return isRecomendado;
+    }
+
+    public Boolean getCompraVerificada() {
+        return isCompraVerificada;
+    }
+
+    public Integer getIdProduto() {
+        return produto.getId();
+    }
 }
+
+
