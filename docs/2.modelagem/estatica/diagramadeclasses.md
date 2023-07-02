@@ -166,9 +166,10 @@ Em virtude de todas as discussões que vem sendo elaboradas desde a entrega ante
 
 | Versão | Data       | Descrição                                                                                            | Autor(es)      | Revisor(es)                       |
 | ------ | ---------- | ---------------------------------------------------------------------------------------------------- | -------------- | --------------------------------- |
-| `1.0`  | 10/05/2023 | Criação das pastas e arquivos da 2° entrega                                                          | Lucas Felipe   | Nicolas Souza              |
+| `1.0`  | 10/05/2023 | Criação das pastas e arquivos da 2° entrega                                                          | Lucas Felipe   | Nicolas Souza                     |
 | `1.2`  | 11/05/2023 | Criação da introdução, metodologia, base da conclusão e estruturação base de como se dará o artefato | Lucas Felipe   | Davi Silva, Davi Lima e Guilherme |
 | `1.3`  | 12/05/2023 | Criação da introdução, metodologia, base da conclusão e estruturação base de como se dará o artefato | Josué Teixeira | Davi Silva, Davi Lima e Guilherme |
-| `1.4`  | 12/05/2023 | Criação das explicações do porquê nosso diagrama ficou da forma que ficou no diagrama final          | Maria Abritta  | Davi Lima                                  |
-| `1.5`  | 15/05/2023 | Ajustando a multiplicidade do diagrama e incrementando bibliografia | Josué Teixeira  | Davi Lima |
-| `2.0`  | 03/06/2023 | Atualização do diagrama de classes para a versão 2.0. | Nicolas Souza | |
+| `1.4`  | 12/05/2023 | Criação das explicações do porquê nosso diagrama ficou da forma que ficou no diagrama final          | Maria Abritta  | Davi Lima                         |
+| `1.5`  | 15/05/2023 | Ajustando a multiplicidade do diagrama e incrementando bibliografia                                  | Josué Teixeira | Davi Lima                         |
+| `2.0`  | 03/06/2023 | Atualização do diagrama de classes para a versão 2.0.                                                | Nicolas Souza  | Davi Lima                         |
+| `2.1`  | 24/06/2023 | Ajustes imagens do diagrama de classes                                                               | Davi Lima      | Nicolas Souza                     |
