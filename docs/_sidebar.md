@@ -74,7 +74,6 @@
 <summary class="activated-menu"> Arquitetura & Reutilização de Software </summary>
 
 - [Arquitetura & Reutilização de Software](/4.arquiteturareutilizacao/arquiteturareutilizacao.md)
-  - [Visão de Processos](/4.arquiteturareutilizacao/padroes/processos.md)
 - [Estilos e Padrões Arquiteturais](/4.arquiteturareutilizacao/padroes/padroesarquiteturais.md)
 - [Reutilização de Software](/4.arquiteturareutilizacao/reutilizacao/reutilizacaodesoftware.md)
 - [Participações](/4.arquiteturareutilizacao/participacoes.md)
