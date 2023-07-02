@@ -23,13 +23,13 @@ h3:before{
 
 ## Histórico de Versão
 
-| Versão | Data       | Descrição                                  | Autor(es)            | Revisor(es) |
-|--------|------------|--------------------------------------------|----------------------|-------------|
-| `1.0`  | 13/06/2023 | Criação do documento com estrutura padrão. | Lucas Felipe         | Nicolas     |
-| `1.1`  | 20/06/2023 | Padronização para o Template               | Lucas Felipe         | Nicolas     |
-| `2.0`  | 22/06/2023 | Modelagem da visão lógica                  | Lucas Felipe e Josué | Davi Lima   |
-| `2.1`  | 26/06/2023 | Inclusão da visão de dados                 | Lucas Felipe e Nicolas | Davi Silva   |
-| `2.2`  | 30/06/2023 | Inclusão da visão de processos                 | Luíza Esteves e Lucas Gomes | Lucas Gabriel   |
+| Versão | Data       | Descrição                                  | Autor(es)              | Revisor(es) |
+| ------ | ---------- | ------------------------------------------ | ---------------------- | ----------- |
+| `1.0`  | 13/06/2023 | Criação do documento com estrutura padrão. | Lucas Felipe           | Nicolas     |
+| `1.1`  | 20/06/2023 | Padronização para o Template               | Lucas Felipe           | Nicolas     |
+| `2.0`  | 22/06/2023 | Modelagem da visão lógica                  | Lucas Felipe e Josué   | Davi Lima   |
+| `2.1`  | 26/06/2023 | Inclusão da visão de dados                 | Lucas Felipe e Nicolas | Davi Silva  |
+| `2.2`  | 30/06/2023 | Inclusão da visão de implantação           | Lucas Felipe e Nicolas | Davi Silva  |
 
 ## Introdução
 
@@ -55,9 +55,10 @@ Acesso em: 22 Jun. 2023. <br/>
 Jun.2023 </br>
 [3] Serrano, Milene. DSW-Modelagem - Agregacao Composicao. São Paulo: 25 jul, 2020. Disponível
 em: [Link](https://unbbr-my.sharepoint.com/personal/mileneserrano_unb_br/_layouts/15/stream.aspx?id=%2Fpersonal%2Fmileneserrano%5Funb%5Fbr%2FDocuments%2FArqDSW%20%2D%20V%C3%ADdeosOriginais%2F05e%20%2D%20VideoAula%20%2D%20DSW%2DModelagem%20%2D%20Agregacao%20Composicao%2Emp4&ga=1).
-Acesso em: 22 jun. 2023. </br>
+Acesso em: 22 jun. 2023. <br/>
 [4] Tudo sobre diagramas de pacotes UML, artigo disponível
-no [link](https://www.lucidchart.com/pages/pt/diagrama-de-pacotes-uml). Acesso em 22/06/2023.
+no [link](https://www.lucidchart.com/pages/pt/diagrama-de-pacotes-uml). Acesso em 22/06/2023. <br/>
+[5] UML Deployments Diagrams Overview - UML Diagrams, artigo disponível no [link](https://www.uml-diagrams.org/deployment-diagrams-overview.html). Acesso em 26 jun. 2023. <br/>
 
 ## Visão Geral
 
