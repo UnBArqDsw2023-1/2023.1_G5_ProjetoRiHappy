@@ -18,7 +18,7 @@ O SOLID é uma acrônimo para as a representação dos 5 princípios da Programa
 - I — Interface Segregation Principle (Princípio da Segregação da Interface)
 - D — Dependency Inversion Principle (Princípio da inversão da dependência)
 
-O Princípio da responsabilidade única define que uma classe deve ter apenas um motivo para mudar, ou seja, um classe deve ser especializada em um assunto e ter apenas uma responsabilidade dentro do software. Evitando que exista uma classe que seja responsável por executar diversas tarefas diferentes gerando falta de coesão, alto acoplamento, dificuldade de implementar testes automatizados, dificuldade de reaproveitar o código, assim dificultando alterações no sistema [2].
+O Princípio da responsabilidade única define que uma classe deve ter apenas um motivo para mudar, ou seja, uma classe deve ser especializada em um assunto e ter apenas uma responsabilidade dentro do software. Evitando que exista uma classe que seja responsável por executar diversas tarefas diferentes gerando falta de coesão, alto acoplamento, dificuldade de implementar testes automatizados, dificuldade de reaproveitar o código, assim dificultando alterações no sistema [2].
 
 O Princípio Aberto-Fechado define que objetos ou entidades devem estar abertas para extensão e fechadas para modificação, quando novos comportamentos ou recursos forem necessários de serem adicionados ao software deve-se estender ao invés de realizar alterações no software, evitando inclusão de bugs [2].
 
@@ -30,14 +30,14 @@ O Princípio da inversão da dependência define que se deve depender de abstra�
 
 ### Modelagem SOLID
 
-Diante disso, a incorporação do SOLID ao projeto pode ser visualizada por sua representação no Princípio da Responsabilidade Única, o qual indica que uma classe deve ter apenas um motivo para mudar, ou seja, indica que uma classe deve ser especializada em apenas um assunto e possuir apenas uma responsabilidade [2]. Dentro desse contexto, foi implementado uma herança dentro da camada Controller como pode ser observado a seguir na Figura 1:
+Diante disso, a incorporação do SOLID ao projeto pode ser visualizada por sua representação no Princípio da Responsabilidade Única, o qual indica que uma classe deve ter apenas um motivo para mudar, ou seja, indica que uma classe deve ser especializada em apenas um assunto e possuir apenas uma responsabilidade [2]. Dentro desse contexto, foi implementado uma herança dentro da camada Controller na qual cada uma das classes ProdutoService, CompraService e AvaliacaoService são especializadas em realizar as atividades de persistência no Banco de Dados de um determinado tipo de Objeto, como pode ser observado a seguir na Figura 1:
 
 ![Figura 1](../assets/padroesdeprojeto/controller.png)
-<p class="legenda">   Figura 1. Representação das heranças da superclasse BaseService (Fonte: Diagrama de Classes do projeto). </p>
+<p class="legenda"> Representação das heranças da superclasse BaseService (Fonte: Diagrama de Classes do projeto). </p>
 
 ### Implementação SOLID
 
-A implementação pode ser observada no trecho de código a seguir em Java, demonstrando o Princípio da responsabilidade única do SOLID, no qual a classe BaseService que tem o papel de um serviço de Base para unificar a comunicação do projeto com o Banco de Dados, possuindo apenas uma responsabilidade a de realizar a comunicação do projeto com o Banco de Dados, além disso essa superclasse é herdada pelas subclasses ProdutoService, CompraService e AvaliaçãoService o que permite maior especialização no processo e contribui com o Princípio da responsabilidade única.
+A implementação pode ser observada no trecho de código a seguir em Java, demonstrando o Princípio da responsabilidade única do SOLID, no qual a classe BaseService que tem o papel de um serviço de Base para unificar a comunicação do projeto com o Banco de Dados, possuindo apenas uma responsabilidade a de realizar a comunicação do projeto com o Banco de Dados, além disso essa superclasse é herdada pelas subclasses ProdutoService, CompraService e AvaliacaoService, o que permite maior especialização no processo e contribui com o Princípio da responsabilidade única.
 
 ![BaseService](../../4.arquiteturareutilizacao/reutilizacao/assets/BaseService.jpg)
 <p class="legenda">Trecho de código referente à BaseService. (Fonte: Elaborado por Nicolas)</p>

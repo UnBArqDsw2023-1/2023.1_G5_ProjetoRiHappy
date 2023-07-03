@@ -1,26 +1,26 @@
 ### Frameworks
 
 Um Framework valida-se de funcionalidades em comum a várias aplicações, utilizando das interseções presentes entre esses
-domínios para construção de ferramentas que atenda a esses conjuntos de aplicações [4]. Assim, um Framework, Orientado a
+domínios para construção de ferramentas que atendam a esses conjuntos de aplicações [4]. Assim, um Framework, Orientado a
 objetos, visa prover soluções para um conjunto de problemas semelhantes, usando as classes e interfaces presentes no
 projeto para decompor os problemas e cumprir as responsabilidades, dessa forma as classes necessitam ser flexíveis e
-extensíveis para que possa ser utilizadas em diversas aplicações diferentes [4].
+extensíveis para que possam ser utilizadas em diversas aplicações diferentes [4].
 
-Dentro desse contexto, os Frameworks podem ser divididos em duas classificações **Hot-Spots** e **Frozen-Spots**, nos
+Dentro desse contexto, as partes as quais compõem um Frameworks podem ser divididas em duas classificações **Hot-Spots** e **Frozen-Spots**, nos
 quais os Hot-Spots são as partes mais genéricas e consequentemente flexíveis de um Framework permitindo mudanças de
 acordo com as necessidades específicas da aplicação e representados por classes abstratas, já os Frozen-Spots são as
-partes mais concretas e que permanecem fixos, e são "core" do Framework, ou seja traduzindo para o português é a parte
-essencial [4].
+partes mais concretas e que permanecem fixas e são "core" do Framework, ou seja traduzindo para o português é a parte
+essencial do Framework [4].
 
 Além disso, um Framework também pode ser classificado como Caixa Branca, Caixa Preta ou Caixa Cinza. Um Framework Caixa
 Branca utiliza principalmente de HotSpots, permitindo que esse seja extremamente flexível validando-se principalmente
 dos conceitos de herança, interfaces e alguns padrões de projeto que contribuam com essa característica, já um Framework
 Caixa Preta é o oposto e utiliza de FrozenSpots, no qual a reutilização acontece apenas através da composição,
-permitindo apenas utilizar de forma diferente algo já concreto, diante disso, um Framework Caixa Cinza é um hibrido, o
+permitindo apenas utilizar de forma diferente algo já concreto, diante disso, um Framework Caixa Cinza é um híbrido, o
 qual é composto por elementos do Caixa Branca e do Caixa Preta, assim utilizando dos HotSpots e dos FrozenSpots com
 pontos de flexibilidade e outros mais concretos [4].
 
-Além dessa classificação os Frameworks também são divididos em uma macroclassificação com relação a função exercida, são
+Além dessa classificação os Frameworks também são divididos em uma macro classificação com relação à função exercida, são
 essas de Infra-estrutura (simplificam o processo de desenvolvimento de infra-estrutura), Integração (simplificam o
 processo de integração de aplicações e componentes) e Aplicação empresarial [4].
 
@@ -54,7 +54,7 @@ desenvolvimento de aplicações Web e microsserviços em Java [5].
 
 Dentro do contexto do projeto foi utilizado o [Spring Initializr](https://start.spring.io/) com o intuito de se utilizar
 da facilitação para configuração fornecida por esse Framework. A seguir é possível observar na Figura 5 as seleções de
-configurações selecionas, tendo como opções o Gradle - Kotlin como gerenciador de pacotes, com a linguagem Java na
+configurações selecionadas, tendo como opções o Gradle - Kotlin como gerenciador de pacotes, com a linguagem Java na
 versão 17, o Spring Boot na versão 3.1.1 e como dependências o Spring Web e o PostgresSQL Driver.
 
 ![Figura 2](../assets/reutilizacao/springInitializr.png)
@@ -77,8 +77,7 @@ o [Hibernate é utilizado em conjunto com o Spring Boot](https://www.baeldung.co
 ### Bibliotecas
 
 Semelhantes aos Frameworks as Bibliotecas contribuem com a reutilização de código dentro do sistema, porém possuem
-diferenças relevantes. A Biblioteca não possui a preocupação de realizar chamadas do código, mas o Framework sim (
-Hollywood Principle), pois é empacotado e incorporado ao código. Além de que em uma Biblioteca não há uma interação
+diferenças relevantes. A Biblioteca não possui a preocupação de realizar chamadas do código, mas o Framework sim (Hollywood Principle), pois é empacotado e incorporado ao código. Além de que em uma Biblioteca não há uma interação
 específica entre as classes presentes no código ali especificado, pois não há um comportamento padrão pré-definido,
 diferente do que ocorre no Framework .
 
@@ -87,7 +86,7 @@ diferente do que ocorre no Framework .
 Um observer ou observador é um receptor de valores entregues por um componente observável. São um conjunto de retornos
 de chamada, um para cada tipo de componente.
 
-Os observadores podem ser parciais, ou seja, se nao fornecer retorno, a execução ainda acontecerá
+Os observadores podem ser parciais, ou seja, se não fornecer retorno, a execução ainda acontecerá
 normalmente.[Observer](https://rxjs.dev/guide/observer)
 
 ![Figura 4](imagens/rxjs-image.png)
@@ -123,10 +122,9 @@ Para exemplificar a utilização do Jackson ObjectMapper é possível observar o
 #### PostgreSQL
 
 Um outro exemplo de reutilização de software externo é o Sistema de Gerenciamento de Banco de Dados do tipo
-Relacional [PostgreSQL](https://www.postgresql.org/) e ele pode ser reutilizado em diversos projetos para atender ás
+Relacional [PostgreSQL](https://www.postgresql.org/) e ele pode ser reutilizado em diversos projetos para atender às
 necessidades de armazenamento de dados de um projeto. Dentro do contexto do projeto é possível ver a conexão do mesmo ao
-Banco de Dados no diagrama de classes, por meio da camada Controller, a qual facilita tal reutilização desse sistema
-externo, essa pode ser observada na Figura 4 citada anteriormente.
+Banco de Dados no [Diagrama de Classes](../../2.modelagem/estatica/diagramadeclasses.md#versão-2), por meio da camada Controller, a qual facilita tal reutilização desse sistema externo adaptado ao contexto do projeto de forma simples, essa pode ser observada na Figura 4 citada anteriormente e no [Documento de Arquitetura de Software na seção de visão lógica](../padroes/padroesarquiteturais.md#visão-lógica).
 
 ![Figura 7](imagens/postgre-sql.jpg)
 <p class="legenda">   PostgreSQL (Fonte: PostgreSQL). </p>
@@ -157,8 +155,7 @@ tarefa. [Zenhub](https://www.zenhub.com/)
 
 Flyway é uma ferramenta de migração de banco de dados de código aberto.
 O Flyway é uma dentre as várias ferramentas que se propõem a trazer ordem e organização para os scripts SQL que são
-executados no banco de dados, funciona como um controle de versão do
-mesmo. [Flyway](https://www.baeldung.com/database-migrations-with-flyway)
+executados no banco de dados, funciona como um controle de versão do mesmo. [Flyway](https://www.baeldung.com/database-migrations-with-flyway)
 
 ![Figura 10](imagens/flyway-image.png)
 <p class="legenda">   FlyWay (Fonte: FlyWay). </p>
