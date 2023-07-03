@@ -13,6 +13,7 @@
 | `2.6`  | 29/06/2023 | Adição de desenvolvimento do processo (visão de processos) | Lucas Gomes            | Lucas Gabriel |
 | `2.7`  | 29/06/2023 | Adição de explicações ao diagrama (visão de processos)     | Lucas Gomes            | Lucas Gabriel |
 | `2.8`  | 30/06/2023 | Finalização da visão de processos                          | Luíza e Lucas Gomes    | Lucas Gabriel |
+| `2.9`  | 02/07/2023 | Finalização do documento de DAS com os ajustes finais                          |  Lucas Felipe    | Nicolas |
 
 ## Introdução
 
@@ -22,10 +23,6 @@ visão de implementação, focada mais nos padrões e modelos utilizados durante
 implantação, traz uma ideia de em qual(is) hardwares o software seria implementado; e a visão de dados, com perspectiva
 de armazenamento dos dados no sistema e por último a visão de processos, envolve atividades e fluxos de trabalho
 envolvidos no desenvolvimento, manutenção e evolução do software ao longo de seu ciclo de vida..
-
-## Propósito <!--Acredito que essa seção está comtemplada na própria introdução-->
-
-<!--Este documento fornece uma visão geral abrangente da arquitetura do sistema, usando várias visualizações arquitetônicas diferentes para representar diferentes aspectos do sistema. Destina-se a capturar e transmitir as decisões arquiteturais significativas que foram feitas no sistema.-->
 
 ## Escopo
 
@@ -56,18 +53,6 @@ no [link](https://www.lucidchart.com/pages/pt/diagrama-de-pacotes-uml). Acesso e
 [5] Tutorial do Diagrama de Sequência: Guia completo com exemplos. Disponível
 em: [Link](https://creately.com/blog/pt/diagrama/tutorial-do-diagrama-de-sequencia/). Acesso em: 26 jun. 2023. <br/>
 [6] How to Serve Static Files with Nginx and Docker, artigo no site SABE, disponível no [link](https://sabe.io/tutorials/serve-static-files-nginx-docker), acesso em 02/07/2023.
-
-## Visão Geral <!--Acredito que a introdução já trás também-->
-
-<!--Esta subseção descreve o que o restante do Documento de Arquitetura de Software contém e explica como o Documento de Arquitetura de Software é organizado.-->
-
-## Representação Arquitetônica <!--Pelos projetos antigos tavam documentando muito com as escolhas de back front e ses frameworks...acredito que seja legal puxar dos meninos da reutilização-->
-
-<!--Esta seção descreve qual arquitetura de software é para o sistema atual e como ela é representada. Das Visualizações de Caso de Uso, Lógica, Processo, Implantação e Implementação, ele enumera as visualizações necessárias e, para cada visualização, explica quais tipos de elementos de modelo ela contém.-->
-
-## Objetivos e restrições de arquitetura
-
-<!--Esta seção descreve os requisitos e objetivos de software que têm algum impacto significativo na arquitetura; por exemplo, segurança, proteção, privacidade, uso de um produto pronto para uso, portabilidade, distribuição e reutilização. Ele também captura as restrições especiais que podem ser aplicadas: estratégia de design e implementação, ferramentas de desenvolvimento, estrutura de equipe, cronograma, código legado e assim por diante.-->
 
 ## Visão lógica
 
