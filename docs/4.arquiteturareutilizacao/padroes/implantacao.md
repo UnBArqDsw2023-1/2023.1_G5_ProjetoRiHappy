@@ -1,8 +1,7 @@
-# Implantação
 
 A primeira versão foi elaborada em uma representação de baixa fidelidade, para identificar os componentes participantes da modelagem e como eles interagem entre si. Durante a primeira modelagem foram identificados os seguintes elementos descritos a seguir. A modelagem levou em conta a implantação apenas do módulo de avaliação da plataforma, encarando-o como um microsserviço.
 
-## Elementos Identificados
+### Elementos Identificados
 
 Três servidores, indicados como HW (hardware) na diagramação, cuja especificação não está detalhada por não se tratar do escopo da disciplina. Cada um destes servidores tem como sistema operacional alguma distribuição de linux, sendo apontada pelos estudantes a possibilidade de utilização do _debian_ ou _centOS_.
 

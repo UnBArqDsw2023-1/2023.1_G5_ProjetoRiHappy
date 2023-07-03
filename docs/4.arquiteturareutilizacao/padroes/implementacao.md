@@ -4,15 +4,17 @@ Com os nossos estudos de acordo com os documentps fornecidos pela professora, pe
 
 No geral, a perspectiva do DAS (Diagrama de Arquitetura de Software) parte do diagrama de componentes, que tem como objetivo principal facilitar a visualização dos componentes do projeto. Seu objetivo é descrever as conexões e interdependências entre esses componentes. Além disso, o diagrama procura demonstrar a estrutura dos subsistemas em termos de camadas e hierarquias, melhorando assim a compreensão da arquitetura abrangente do sistema.
 
-## Diagrama de Componentes
+### Diagrama de Componentes
 
 ![versao_final](./img/versao-final.png)
 
 <p class="legenda"> Diagrama de Pacotes (Fonte: elaborado por Josué, João Pedro.)</p>
 
-### **Componentes:**
+#### **Componentes:**
 
-#### **O que são os componentes no DAS (Diagrama de Arquitetura de Software)?**
+##### **O que são os componentes no DAS (Diagrama de Arquitetura de Software)?**
+
+#
 
 Os componentes são unidades lógicas e funcionais que cumprem funções específicas no sistema e fornecem funcionalidades ou serviços. Eles podem ser considerados blocos de construção do sistema, cada um com suas próprias funções e responsabilidades.
 
@@ -23,9 +25,11 @@ Os componentes do diagrama foram criados baseado no diagrama de [classes](../../
 - **Sistema de Pagamentos:** O componente `Método de pagamento` é o componente filho do componente "Sistema de Pagamentos". Essa parte é responsável por fornecer para o sistema as opções de pagamento para os produtos que estão disponíveis. Ele pode funcionar com vários métodos de pagamento, como PIX, cartão de crédito e boleto, etc. Esse componente permite que o sistema controle as transações financeiras relacionadas às compras dos usuários e oferece uma variedade de opções de pagamento.
 - **Banco de dados:** O componente pai `Banco de dados` tem o maior número de componentes filhos.`Vendas`, `Produtos`, `Avaliações`, e `Usuários Cadastrados` formando quatro componentes. O componente `Vendas` armazena informações sobre transações de compra concluídas, o componente `Produtos` armazena dados sobre os produtos que estão disponíveis na plataforma, o componente `Avaliações` armazena avaliações e comentários dos usuários, e o componente `Usuários Cadastrados` armazena informações sobre os usuários que estão registrados no sistema.
 
-### **Relacionamentos e dependências**
+#### **Relacionamentos e dependências**
 
-#### **O que são Relacionamentos e dependências no DAS (Diagrama de Arquitetura de Software)?**
+##### **O que são Relacionamentos e dependências no DAS (Diagrama de Arquitetura de Software)?**
+
+#
 
 Os relacionamentos e dependências mostram como os componentes do sistema interagem uns com os outros. Essas relações ajudam a compreender a comunicação e a dinâmica entre os componentes e são essenciais para entender a arquitetura. Os principais tipos de relacionamentos e dependências encontrados no nosso diagrama são:
 
