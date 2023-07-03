@@ -2,7 +2,7 @@ package br.com.rihappy.avaliacaoService.model.filtro;
 
 public class AvaliacaoFilter extends BaseFilter {
 
-    private Boolean isRecomendado = true;
+    private Boolean isRecomendado;
 
     public AvaliacaoFilter(Boolean isRecomendado) {
         super();

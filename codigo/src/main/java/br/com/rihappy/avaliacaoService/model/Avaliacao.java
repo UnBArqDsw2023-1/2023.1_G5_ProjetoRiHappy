@@ -18,7 +18,7 @@ public class Avaliacao extends BaseEntidade {
     private Long qtdReacoesNegativas = 0L;
     private Produto produto;
 
-    public Avaliacao(Integer id, String texto, Integer qtdEstrelas, Usuario autor) {
+    public Avaliacao(Integer id, String texto, Integer qtdEstrelas, Usuario autor, Produto produto, Long positivas, Long negativas) {
         if (qtdEstrelas < 0 || qtdEstrelas > 5)
             throw new RuntimeException();
 
@@ -26,6 +26,9 @@ public class Avaliacao extends BaseEntidade {
         this.texto = texto;
         this.qtdEstrelas = qtdEstrelas;
         this.autor = autor;
+        this.produto = produto;
+        this.qtdReacoesNegativas = negativas;
+        this.qtdReacoesPositivas = positivas;
     }
 
 
@@ -88,6 +91,70 @@ public class Avaliacao extends BaseEntidade {
 
     public Integer getIdProduto() {
         return produto.getId();
+    }
+
+    public String getTexto() {
+        return texto;
+    }
+
+    public void setTexto(String texto) {
+        this.texto = texto;
+    }
+
+    public void setRecomendado(Boolean recomendado) {
+        isRecomendado = recomendado;
+    }
+
+    public void setCompraVerificada(Boolean compraVerificada) {
+        isCompraVerificada = compraVerificada;
+    }
+
+    public Integer getQtdEstrelas() {
+        return qtdEstrelas;
+    }
+
+    public void setQtdEstrelas(Integer qtdEstrelas) {
+        this.qtdEstrelas = qtdEstrelas;
+    }
+
+    public Usuario getAutor() {
+        return autor;
+    }
+
+    public void setAutor(Usuario autor) {
+        this.autor = autor;
+    }
+
+    public ArrayList<Midia> getMidias() {
+        return midias;
+    }
+
+    public void setMidias(ArrayList<Midia> midias) {
+        this.midias = midias;
+    }
+
+    public Long getQtdReacoesPositivas() {
+        return qtdReacoesPositivas;
+    }
+
+    public void setQtdReacoesPositivas(Long qtdReacoesPositivas) {
+        this.qtdReacoesPositivas = qtdReacoesPositivas;
+    }
+
+    public Long getQtdReacoesNegativas() {
+        return qtdReacoesNegativas;
+    }
+
+    public void setQtdReacoesNegativas(Long qtdReacoesNegativas) {
+        this.qtdReacoesNegativas = qtdReacoesNegativas;
+    }
+
+    public Produto getProduto() {
+        return produto;
+    }
+
+    public void setProduto(Produto produto) {
+        this.produto = produto;
     }
 }
 
