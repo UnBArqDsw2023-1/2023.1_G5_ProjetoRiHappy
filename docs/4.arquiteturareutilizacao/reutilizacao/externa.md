@@ -107,7 +107,16 @@ O Jackson tem a classe ObjectMapper que é muito utilizada para converter classe
 comunicação entre APIs RESTful e SPAs.[Jackson](https://www.devmedia.com.br/introducao-ao-jackson-objectmapper/43174)
 
 ![Figura 6](imagens/jackson-json.png)
-<p class="legenda">   Jackson ObjectManager (Fonte: Jackson). </p>
+<p class="legenda">   Jackson ObjectMapper (Fonte: Jackson ObjectMapper). </p>
+
+#### Exemplo de Implantação do Jackson ObjectMapper
+
+Para exemplificar a utilização do Jackson ObjectMapper é possível observar o trecho de código a seguir, o qual tem a função de selecionar uma entidade que posteriormente será transformada de uma classes POJO (Plain Old Java Objects) para um JSON (JavaScript Object Notation).
+
+![Jackson ObjectMapper](./assets/jacksonObjectMapper.jpg)
+<p class="legenda"> Exemplo de utilização do `Jackson ObjectMapper`. (Fonte: Nicolas)</p>
+
+> O arquivo original elaborado encontra-se disponível no link: [Jackson ObjectMapper](https://github.com/UnBArqDsw2023-1/2023.1_G5_ProjetoRiHappy/blob/main/codigo/src/main/java/br/com/rihappy/avaliacaoService/controller/AvaliacaoController.java).
 
 ### Banco de Dados
 
