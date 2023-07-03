@@ -17,6 +17,23 @@ A equipe iniciou os trabalhos referentes à etapa de Arquitetura e Reutilizaçã
 
 Uma vez que a  [definição da arquitetura](./padroes/padroesarquiteturais.md) e a [reutilização de código](./reutilizacao/reutilizacaodesoftware.md) são atividades intimamente ligadas, foi essencial a comunicação entre os membros de cada módulo da entrega. Exemplos de código foram elaborados de forma a exemplificar essa ligação, e o código completo encontra-se disponível na pasta de [códigos](https://github.com/UnBArqDsw2023-1/2023.1_G5_ProjetoRiHappy/tree/main/codigo), na raiz do projeto.
 
+A reutilização de código foi documentada em duas esferas principais, [reutilização interna](./reutilizacao/reutilizacaodesoftware.md#reutilização-interna), referente à criação e reutilização de padrões durante as etapas [base](../1.base/nao-especificos/abordagemnaoespecifica.md), [modelagem](../2.modelagem/modelagemtradicional.md) e [padrões de projeto](../3.padroesdeprojeto/padroesdeprojeto.md) e [externa](./reutilizacao/reutilizacaodesoftware.md#reutilização-externa), referente à utilização de ferramentas externas da comunidade, adequadas ao contexto da aplicação.
+
+Além disso, a implementação de [código](https://github.com/UnBArqDsw2023-1/2023.1_G5_ProjetoRiHappy/tree/main/codigo) levou em consideração os padrões SOLID, um padrão emergente de projeto, [estudado durante a etapa de padrões de projeto](../3.padroesdeprojeto/extras/padroesextra.md#solid), desta forma agregando à documentação elaborada posteriormente.
+
+## Produções Durante a Etapa
+
+Durante esta etapa do projeto, foram elaborados:
+
+1. [DAS - Visão lógica](./padroes/padroesarquiteturais.md#visão-lógica)
+1. [DAS - Visão de implementação](./padroes/padroesarquiteturais.md#visão-de-implementação)
+1. [DAS - Visão de Processo](./padroes/padroesarquiteturais.md#visão-de-processos)
+1. [DAS - Visão de Implantação](./padroes/padroesarquiteturais.md#visão-de-implantação)
+1. [DAS - Visão de Dados](./padroes/padroesarquiteturais.md#visão-de-dados)
+1. [Reutilização Interna de Código](./reutilizacao/reutilizacaodesoftware.md#reutilização-interna)
+1. [Reutilização Externa de Código](./reutilizacao/reutilizacaodesoftware.md#reutilização-externa)
+1. [Codificação do padrão SOLID](../3.padroesdeprojeto/extras/padroesextra.md#solid)
+
 ## Referências
 
 [1] Arquitetura e Desenho de software - Aula ARQUITETURA & DAS  - Prof. Milene <br/>
@@ -27,3 +44,4 @@ Uma vez que a  [definição da arquitetura](./padroes/padroesarquiteturais.md) e
 | ------ | ---------- | ------------------------------------------ | ------------ | ------------ |
 | `1.0`  | 13/06/2023 | Criação do documento com estrutura padrão. | Lucas Felipe | Nicolas      |
 | `1.1`  | 02/07/2023 | Inclusão da introdução e metodologia.      | Nicolas      | Lucas Felipe |
+| `1.2`  | 03/07/2023 | Inclusão dos artefatos elaborados.         | Nicolas      | Lucas Felipe |
