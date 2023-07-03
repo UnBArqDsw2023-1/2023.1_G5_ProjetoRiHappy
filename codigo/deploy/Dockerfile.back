@@ -1,0 +1,26 @@
+# A imagem gradle alpine é mais leve, contendo apenas as bibliotecas necessárias.
+FROM gradle:7.6-jdk17-alpine as build
+
+WORKDIR /app
+
+# Copia todos os arquivos para dentro do container, para fazer o build do projeto.
+COPY . .
+
+# Executa o comando do gradle responsável por buildar o arquivo .jar
+RUN gradle clean build
+
+# Seguindo padrões da comunidade, o build é feito em multistage, para tornar o processo mais rápido.
+# https://docs.docker.com/build/building/multi-stage/
+FROM openjdk:17-alpine as deploy
+
+WORKDIR /app
+
+# Copia o arquivo .jar buildado no stage anterior para o container responsável pelo deploy.
+# Dessa forma o código fonte não fica disponível no container em execução, evitando
+#   vulnerabilidades que ocorrem ao expor o código fonte.
+COPY --from=build /app/build/libs/avaliacaoService-0.0.1.jar /app/app.jar
+
+# O comando de entrypoint do container é simplesmente executar o aquivo buildado.
+CMD java -jar  app.jar
+
+

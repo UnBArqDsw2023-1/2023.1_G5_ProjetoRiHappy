@@ -6,7 +6,7 @@ O diagrama foi elaborado em três versões, com discussão registrada na [Issue 
 
 A primeira versão foi elaborada no LucidChart, em baixa fidelidade, para investigar as entidades e relacionamentos envolvidos, a partir da modelagem realizada no [diagrama de classes](../../2.modelagem/estatica/diagramadeclasses.md).
 
-<details open>
+<details>
 <summary> Versão 1 </summary>
 
 ![](./assets/derv0.png)
@@ -17,7 +17,7 @@ A primeira versão foi elaborada no LucidChart, em baixa fidelidade, para invest
 
 As versões seguintes foram elaboradas no brModelo, dada a facilidade de utilização da ferramenta para inserção de atributos nas entidades e mapeamento das cardinalidades, haja vista que é uma ferramenta própria para elaboração de diagramas de bancos de dados.
 
-<details open>
+<details>
 <summary> Versão 2</summary>
 
 ![](./assets/derV1.png)

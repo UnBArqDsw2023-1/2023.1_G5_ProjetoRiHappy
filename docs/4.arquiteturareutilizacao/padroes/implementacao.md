@@ -1,5 +1,3 @@
-# Implementação
-
 O Diagrama de Arquitetura de Software (DAS) é uma representação que mostra como os componentes de um sistema de software estão organizados e como eles interagem entre eles. O diagrama de componentes inclui a perspectiva do DAS (Diagrama de Arquitetura de Software), cujo objetivo principal é facilitar a visualização dos componentes que integram projeto.
 
 Com os nossos estudos de acordo com os documentps fornecidos pela professora, percebemos que o objetivo principal do DAS (Diagrama de Arquitetura de Software) é fornecer uma visão geral da arquitetura do sistema, mostrando como os componentes estão ligados. A capacidade de descrever a estrutura dos subsistemas em termos de camadas e hierarquias é um dos maiores benefício do DAS (Diagrama de Arquitetura de Software). O DAS (Diagrama de Arquitetura de Software) ajuda mostrando pontos de entrada e saída, fluxo de dados, interfaces e dependências entre os componentes. Isso torna mais fácil analisar os efeitos das alterações e descobrir problemas de design ou dependências excessivas.
@@ -34,12 +32,3 @@ Os relacionamentos e dependências mostram como os componentes do sistema intera
 - **Usuário - Plataforma:** Os componentes filhos estabelecem as relações entre os componentes pai `Usuário` e pai `Plataforma`. O componente `Usuário não logado` e o serviço `Produto` estão conectados por meio de uma interface, o que permite que eles se comuniquem entre si. O componente `Usuário logado` e o componente `Produto` são conectados da mesma maneira. Além disso, há uma conexão entre o componente `Usuário logado` e os outros dois componentes do subsistema da plataforma: `Compra` e `Avaliação`. Em ambas as situações, an interface do usuário da plataforma é solicitada, mas o componente `Avaliação` e o `Usuário Logado` são muito dependentes um do outro. Isso ocorre porque o serviço de avaliação depende da interface do usuário logado para coletar informações sobre avaliações de produto.
 - **Plataforma - Sistema de pagamentos:** O vínculo entre esses dois elementos permite que o serviço de `Compra` ofereça vários métodos de pagamento. Isso é feito mudando a interface do componente `Compra` para o `Método de pagamento`. Durante o processo de compra na plataforma, o sistema de pagamentos pode acessar e oferecer várias opções de pagamento aos usuários.
 - **Banco de dados - Plataforma:** Os componentes filhos do componente `Banco de Dados` e do componente `Plataforma` formam a conexão entre eles. Os componentes filhos do `Banco de Dados` precisam de uma interface filha da plataforma. O `Banco de Dados` é responsável pelo armazenamento de dados do sistema, incluindo avaliações, usuários cadastrados, vendas e produtos. As interfaces dos componentes fornecem esses dados à `Plataforma`. Então, existe uma relação entre o `Banco de Dados` e a `Plataforma`, pois os dados só podem ser enviados para o banco de dados se houver uma interface que ofereça esse serviço.
-
-## Referências
-
-[1] Artigo da IBM Developer sobre arquitetura de software. Disponível em: [Link](https://developer.ibm.com/technologies/architecture/). <br/>
-[2] Unified Modeling Language (UML). Disponível em: [Link](http://www.deinf.ufma.br/~acmo/MOO_Intro.pdf) Acesso em: </br>
-[3] Serrano, Milene. DSW-Modelagem - Agregacao Composicao. São Paulo: 25 jul, 2020. Disponível
-em: [Link](https://unbbr-my.sharepoint.com/personal/mileneserrano_unb_br/_layouts/15/stream.aspx?id=%2Fpersonal%2Fmileneserrano%5Funb%5Fbr%2FDocuments%2FArqDSW%20%2D%20V%C3%ADdeosOriginais%2F05e%20%2D%20VideoAula%20%2D%20DSW%2DModelagem%20%2D%20Agregacao%20Composicao%2Emp4&ga=1). <br/>
-[4] Livro "Software Architecture in Practice" (Arquitetura de Software na Prática) <br/>
-
