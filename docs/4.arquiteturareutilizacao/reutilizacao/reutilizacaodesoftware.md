@@ -10,7 +10,7 @@
 | `1.3`  | 30/06/2023 | Adição de Frameworks e Banco de Dados                                   | Lucas Gabriel e Davi Matias | Lucas Felipe              |
 | `1.4`  | 01/06/2023 | Ajustes em Bibliotecas, Ferramentas, Frameworks e Banco de Dados        | Lucas Gabriel e Davi Matias | Lucas Felipe              |
 | `1.5`  | 01/06/2023 | Adição da seção de Arquitetura                                          | Lucas Gabriel e Davi Matias | Lucas Felipe              |
-| `1.6`  | 02/07/2023 | Adição dos trechos de código Docker.                                    | Nicolas                     |                           |
+| `1.6`  | 02/07/2023 | Adição dos trechos de código Docker.                                    | Nicolas                     | Lucas Felipe |
 
 ## Introdução
 

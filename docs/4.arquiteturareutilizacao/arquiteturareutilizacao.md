@@ -23,7 +23,7 @@ Uma vez que a  [definição da arquitetura](./padroes/padroesarquiteturais.md) e
 
 ## Histórico de Versão
 
-| Versão | Data       | Descrição                                  | Autor(es)    | Revisor(es) |
-| ------ | ---------- | ------------------------------------------ | ------------ | ----------- |
-| `1.0`  | 13/06/2023 | Criação do documento com estrutura padrão. | Lucas Felipe | Nicolas     |
-| `1.1`  | 02/07/2023 | Inclusão da introdução e metodologia.      | Nicolas      |             |
+| Versão | Data       | Descrição                                  | Autor(es)    | Revisor(es)  |
+| ------ | ---------- | ------------------------------------------ | ------------ | ------------ |
+| `1.0`  | 13/06/2023 | Criação do documento com estrutura padrão. | Lucas Felipe | Nicolas      |
+| `1.1`  | 02/07/2023 | Inclusão da introdução e metodologia.      | Nicolas      | Lucas Felipe |
