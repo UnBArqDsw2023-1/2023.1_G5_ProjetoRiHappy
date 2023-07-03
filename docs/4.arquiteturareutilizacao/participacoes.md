@@ -11,7 +11,7 @@ Breve relato sobre as participações/contribuições de cada membro à entrega.
 | Luiza          | Participação nas discussões e modelagem da visão de processos | [Issue #82](https://github.com/UnBArqDsw2023-1/2023.1_G5_ProjetoRiHappy/issues/82)                                                                                | a definir      |  
 | Josué          | Participação nas discussões e modelagens da visão lógica e de implementação    | [Issue #82](https://github.com/UnBArqDsw2023-1/2023.1_G5_ProjetoRiHappy/issues/82)                                                                              | a definir |  
 | Nicolas        | Participação nas discussões e modelagens da visão de dados e implantação | [Issue #82](https://github.com/UnBArqDsw2023-1/2023.1_G5_ProjetoRiHappy/issues/82)                        | a definir |  
-| Lucas Gomes       | Participação nas discussões e modelagem da visão de processos  | [Issue #82](https://github.com/UnBArqDsw2023-1/2023.1_G5_ProjetoRiHappy/issues/82)                        | a definir |  
+| Lucas Gomes       | Participação nas discussões e modelagem da [visão de processos](https://unbarqdsw2023-1.github.io/2023.1_G5_ProjetoRiHappy/#/4.arquiteturareutilizacao/padroes/processos.md)  | [Issue #82](https://github.com/UnBArqDsw2023-1/2023.1_G5_ProjetoRiHappy/issues/82)                        | Excelente |  
 |Maria Abritta    | Participação nas discussões e modelagem da visão de processos e implementação | [Issue #82](https://github.com/UnBArqDsw2023-1/2023.1_G5_ProjetoRiHappy/issues/82)                        | a definir |  
 
 ## Reutilização de software
@@ -49,9 +49,10 @@ A seguir as estatísticas de participação do projeto como um todo.
 
 ## Histórico de Versão
 
-| Versão | Data       | Descrição                                            | Autor(es)         | Revisor(es) |
-| ------ | ---------- | ---------------------------------------------------- | ----------------- | ----------- |
-| `1.0`  | 26/06/2023 | Criação da estruturação de participações da 4° etapa | Lucas Felipe      | Nicolas     |
-| `1.1`  | 03/07/2023 | Adiciona participação na entrega final               | Lucas Felipe      | Nicolas     |
-| `1.2`  | 03/07/2023 | Adiciona participação na entrega final               | Davi Silva Matias |             |
-| `1.3`  | 03/07/2023 | Adiciona participação na entrega final               | Lucas Gabriel     |             |
+| Versão | Data       | Descrição                                            | Autor(es)         | Revisor(es)  |
+| ------ | ---------- | ---------------------------------------------------- | ----------------- | ------------ |
+| `1.0`  | 26/06/2023 | Criação da estruturação de participações da 4° etapa | Lucas Felipe      | Nicolas      |
+| `1.1`  | 03/07/2023 | Adiciona participação na entrega final               | Lucas Felipe      | Nicolas      |
+| `1.2`  | 03/07/2023 | Adiciona participação na entrega final               | Davi Silva Matias |              |
+| `1.3`  | 03/07/2023 | Adiciona participação na entrega final               | Lucas Gabriel     |              |
+| `1.4`  | 03/07/2023 | Adiciona participação na entrega final               | Lucas Gomes       | Lucas Felipe |
