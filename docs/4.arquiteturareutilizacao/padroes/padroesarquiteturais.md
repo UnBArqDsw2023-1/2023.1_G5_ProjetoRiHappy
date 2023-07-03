@@ -13,7 +13,8 @@
 | `2.6`  | 29/06/2023 | Adição de desenvolvimento do processo (visão de processos) | Lucas Gomes            | Lucas Gabriel |
 | `2.7`  | 29/06/2023 | Adição de explicações ao diagrama (visão de processos)     | Lucas Gomes            | Lucas Gabriel |
 | `2.8`  | 30/06/2023 | Finalização da visão de processos                          | Luíza e Lucas Gomes    | Lucas Gabriel |
-| `2.9`  | 02/07/2023 | Finalização do documento de DAS com os ajustes finais                          |  Lucas Felipe    | Nicolas |
+| `2.9`  | 02/07/2023 | Inclusão das seções qualidade e tamanho e desempenho.      | Maria Abritta          | Nicolas       |
+| `2.10` | 02/07/2023 | Finalização do documento de DAS com os ajustes finais      | Lucas Felipe           | Nicolas       |
 
 ## Introdução
 
