@@ -19,11 +19,17 @@ public class AvaliacaoService extends BaseService<Avaliacao, AvaliacaoFilter> {
         this.registros = new HashMap<>();
         Usuario[] usuarios = {new UsuarioNaoLogado(),
                 new UsuarioNaoLogado("Maurício Serrano"),
-                new UsuarioNaoLogado("Milene Serrano", "milene@unb.br")};
+                new UsuarioNaoLogado("Milene Serrano", "milene@unb.br"),
+                new UsuarioNaoLogado("Usuário Anônimo"),
+                new UsuarioNaoLogado("Nicolas", "nicolas@unb.br"),
+                new UsuarioNaoLogado("Lucas", "lucas@unb.br")
+        };
         ArrayList<Avaliacao> avaliacoes = new ArrayList<>();
-        for (int i = 0; i < 3; i++)
+        for (int i = 0; i < 5; i++)
             avaliacoes.add(new Avaliacao(i, String.format("Texto da avaliacao nº %d", i), (i * 2 % 5), usuarios[i]));
 
+        avaliacoes.get(0).setIsRecomendado(false);
+        avaliacoes.get(3).setIsRecomendado(false);
         this.save(avaliacoes);
     }
 
@@ -50,18 +56,11 @@ public class AvaliacaoService extends BaseService<Avaliacao, AvaliacaoFilter> {
     public ArrayList<Avaliacao> listar(AvaliacaoFilter filtro) {
 
         ArrayList<Avaliacao> list = new ArrayList<>();
-        Boolean isFit = true;
         for (Avaliacao a : this.registros.values()) {
-
-            if (filtro.getCompraVerificada() != null) {
-            }
-
+            if (filtro.getRecomendado() != null && a.getRecomendado() == filtro.getRecomendado())
+                list.add(a);
         }
-
-
-        return null;
-
-
+        return list;
     }
 
     @Override

@@ -4,6 +4,7 @@ package br.com.rihappy.avaliacaoService.controller;
 import br.com.rihappy.avaliacaoService.model.BaseEntidade;
 import br.com.rihappy.avaliacaoService.model.filtro.BaseFilter;
 import br.com.rihappy.avaliacaoService.service.BaseService;
+import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 
@@ -16,14 +17,10 @@ public abstract class BaseController<T extends BaseEntidade, FILTER extends Base
     protected BaseService<T, FILTER> service;
 
 
-    public abstract ResponseEntity<T> get(Integer id);
+    public abstract ResponseEntity<String> get(Integer id);
 
 
-    public ResponseEntity<ArrayList<T>> listar(FILTER filtro) {
-        ArrayList<T> lista = this.service.listar(filtro);
-        return new ResponseEntity<>(lista, HttpStatus.OK);
-
-    }
+    public abstract ResponseEntity<ArrayList<String>> listar(HttpServletRequest request);
 
     public void criar(Object dados) {
         this.service.criar(dados);

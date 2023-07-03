@@ -82,6 +82,10 @@ public class Avaliacao extends BaseEntidade {
         return isCompraVerificada;
     }
 
+    public void setIsRecomendado(Boolean isRecomendado) {
+        this.isRecomendado = isRecomendado;
+    }
+
     public Integer getIdProduto() {
         return produto.getId();
     }
