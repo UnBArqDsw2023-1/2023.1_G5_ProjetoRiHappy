@@ -43,8 +43,3 @@ Os relacionamentos e dependências mostram como os componentes do sistema intera
 em: [Link](https://unbbr-my.sharepoint.com/personal/mileneserrano_unb_br/_layouts/15/stream.aspx?id=%2Fpersonal%2Fmileneserrano%5Funb%5Fbr%2FDocuments%2FArqDSW%20%2D%20V%C3%ADdeosOriginais%2F05e%20%2D%20VideoAula%20%2D%20DSW%2DModelagem%20%2D%20Agregacao%20Composicao%2Emp4&ga=1). <br/>
 [4] Livro "Software Architecture in Practice" (Arquitetura de Software na Prática) <br/>
 
-## Histórico de Versão
-
-| Versão | Data       | Descrição                | Autor(es)     | Revisor(es) |
-| ------ | ---------- | ------------------------ | ------------- | ----------- |
-| `1.0`  | 01/07/2023 | Finalização do Documento | Maria Abritta | Josué       |
