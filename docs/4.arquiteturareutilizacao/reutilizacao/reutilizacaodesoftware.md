@@ -12,7 +12,7 @@
 | `1.5`  | 01/06/2023 | Adição da seção de Arquitetura.                                                                  | Lucas Gabriel e Davi Matias | Lucas Felipe              |
 | `1.6`  | 02/07/2023 | Adição dos trechos de código Docker.                                                             | Nicolas                     | Lucas Felipe              |
 | `1.7`  | 03/07/2023 | Adição dos trechos de código de Sobrescrita, BaseController, BaseService e Jackson ObjectMapper. | Lucas Gabriel               | Nicolas                   |
-| `1.8`  | 04/07/2023 | Ajustes finais                                                                                   | Davi Lima                   |                           |
+| `1.8`  | 04/07/2023 | Ajustes finais                                                                                   | Davi Lima                   |     Nicolas                     |
     
 
 ## Introdução
