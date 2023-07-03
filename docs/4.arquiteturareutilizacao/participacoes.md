@@ -19,7 +19,7 @@ Breve relato sobre as participações/contribuições de cada membro à entrega.
 | Nome do Membro | Contribuição                                 | Rastro                                                                                                                                        | Relevância |
 |----------------|----------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|-----------|
 | Davi Lima | Participação nas discussões e modelagem da reutilização de software | [Issue #16](https://github.com/UnBArqDsw2023-1/2023.1_G5_ProjetoRiHappy/issues/16)                                                            |a definir      |
-| Davi Silva  |  Participação nas discussões e modelagem externa | [Issue #16](https://github.com/UnBArqDsw2023-1/2023.1_G5_ProjetoRiHappy/issues/16)                                                                              | A definir      |
+| Davi Silva  |  Participação nas discussões e modelagem externa, [bibliotecas](https://unbarqdsw2023-1.github.io/2023.1_G5_ProjetoRiHappy/#/4.arquiteturareutilizacao/reutilizacao/reutilizacaodesoftware?id=bibliotecas), [ferramentas](https://unbarqdsw2023-1.github.io/2023.1_G5_ProjetoRiHappy/#/4.arquiteturareutilizacao/reutilizacao/reutilizacaodesoftware?id=ferramentas), e [frameworks](https://unbarqdsw2023-1.github.io/2023.1_G5_ProjetoRiHappy/#/4.arquiteturareutilizacao/reutilizacao/reutilizacaodesoftware?id=frameworks)  | [Issue #16](https://github.com/UnBArqDsw2023-1/2023.1_G5_ProjetoRiHappy/issues/16)                                                                             | Excelente      |
 | Guilherme         | Participação nas discussões e modelagem interna| [Issue #16](https://github.com/UnBArqDsw2023-1/2023.1_G5_ProjetoRiHappy/issues/16)                                                                                              | a definir      |  
 | Lucas Gabriel        | Participação nas discussões e modelagem externa     |  [Issue #16](https://github.com/UnBArqDsw2023-1/2023.1_G5_ProjetoRiHappy/issues/16)                                                                        | a definir |  
 
@@ -42,7 +42,8 @@ A seguir as estatísticas de participação do projeto como um todo.
 
 ## Histórico de Versão
 
-| Versão | Data       | Descrição                                            | Autor(es)     | Revisor(es)   |
-|--------|------------|------------------------------------------------------|---------------|---------------|
-| `1.0`  | 26/06/2023 | Criação da estruturação de participações da 4° etapa | Lucas Felipe  | Nicolas       |
-| `1.1`  | 03/07/2023 | Adiciona participação na entrega final | Lucas Felipe  | Nicolas       |
+| Versão | Data       | Descrição                                            | Autor(es)         | Revisor(es) |
+| ------ | ---------- | ---------------------------------------------------- | ----------------- | ----------- |
+| `1.0`  | 26/06/2023 | Criação da estruturação de participações da 4° etapa | Lucas Felipe      | Nicolas     |
+| `1.1`  | 03/07/2023 | Adiciona participação na entrega final               | Lucas Felipe      | Nicolas     |
+| `1.2`  | 03/07/2023 | Adiciona participação na entrega final               | Davi Silva Matias |             |
