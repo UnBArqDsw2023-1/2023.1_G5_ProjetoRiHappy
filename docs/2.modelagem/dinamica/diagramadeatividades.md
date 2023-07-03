@@ -4,7 +4,11 @@
 
 <div style="text-align:justify">
 
-Um diagrama de atividade representa fluxos de controle (ou de objetos) dentro de uma aplicação. O presente diagrama visa documentar o fluxo de avaliação de produtos e de visualização de avaliações realizado no site [RiHappy](https://rihappy.com.br).
+Um diagrama de atividade é uma representação visual que mostra como os objetos ou controles fluem em uma aplicação. Ele é usado para representar o comportamento dinâmico de um sistema mostrando as atividades, a ordem em que elas ocorrem e as decisões tomadas durante esse processo.
+
+O diagrama tem como objetivo dar aos usuários uma visão clara e organizada do processo de avaliação de produtos e como eles podem visualizá-las no site [RiHappy](https://rihappy.com.br). Ele, o Diagrama de Atividades, facilita a compreensão das etapas e interações entre os componentes do sistema.
+
+O nosso diagrama de atividade visa documentar o fluxo de avaliação de produtos e de visualização de avaliações realizado no site [RiHappy](https://rihappy.com.br).
 
 Dentre os elementos presentes em um diagrama de atividades [1], o grupo utilizou os elementos descritos na <a onclick="document.querySelector('#uml').open = !document.querySelector('#uml').open"><u> seção a seguir</u></a>.
 
@@ -13,23 +17,23 @@ Dentre os elementos presentes em um diagrama de atividades [1], o grupo utilizou
 - **Partição**
   Uma partição agrupa atividades com alguma característica em comum[1], no caso do diagramas elaborados as partições agrupam atividades de acordo com os seus **atores**.
 
-  A notação utilizada  para representar uma partição (Figura 1) assemelha-se à notação de piscina, do diagrama [BPMN](../../1.base/processos/modelagembpmn.md).
+  A notação utilizada para representar uma partição (Figura 1) assemelha-se à notação de piscina, do diagrama [BPMN](../../1.base/processos/modelagembpmn.md).
 
   <center>
 
   ![](./assets/2.4.1.DiagramaDeAtividades/2427.png)
-  
+
   Figura 1. Notação das partições ("Customer" e "Order Dept") no diagrama de atividades. (Fonte: [1]).
   </center>
 
 - **Nó inicial e Nó Final**
   Esses nós, como os próprios nomes sugerem, indicam o início (Figura 2) e o final (Figura 3) de uma atividade. Também é possível indicar o final de um fluxo, utilizando o um nó de fim de fluxo (Figura 4)
 
-    | Nome do nó | Notação UML [1] |
-    | - | - |
-    | Nó Inicial | ![](./assets/2.4.1.DiagramaDeAtividades/3041.png) <br/> Figura 2. Notação do nó inicial. (Fonte: [1]) |
-    | Nó final | ![](./assets/2.4.1.DiagramaDeAtividades/4424.png) <br/> Figura 3. Notação do nó final. (Fonte: [1])
-    | Nó de fim de Fluxo | ![](./assets/2.4.1.DiagramaDeAtividades/4411.png) <br/> Figura 4. Notação do nó de fim de fluxo. (Fonte: [1])
+  | Nome do nó         | Notação UML [1]                                                                                               |
+  | ------------------ | ------------------------------------------------------------------------------------------------------------- |
+  | Nó Inicial         | ![](./assets/2.4.1.DiagramaDeAtividades/3041.png) <br/> Figura 2. Notação do nó inicial. (Fonte: [1])         |
+  | Nó final           | ![](./assets/2.4.1.DiagramaDeAtividades/4424.png) <br/> Figura 3. Notação do nó final. (Fonte: [1])           |
+  | Nó de fim de Fluxo | ![](./assets/2.4.1.DiagramaDeAtividades/4411.png) <br/> Figura 4. Notação do nó de fim de fluxo. (Fonte: [1]) |
 
 - **Nó de decisão**
   É um nó de controle a partir do qual é selecionado apenas **um** fluxo de saída (Figura 5).
@@ -39,7 +43,7 @@ Dentre os elementos presentes em um diagrama de atividades [1], o grupo utilizou
   ![](./assets/2.4.1.DiagramaDeAtividades/4617.png)
 
   Figura 5. Notação para os nós de controle (Fonte: [1]).
-  
+
   </center>
 
 - **Fork node**
@@ -55,9 +59,9 @@ Dentre os elementos presentes em um diagrama de atividades [1], o grupo utilizou
 - **Ações**
   É um elemento nomeado (com verbos) que representa um passo atômico em uma atividade (Figura 7).
   <center>
-  
+
   ![](./assets/2.4.1.DiagramaDeAtividades/0125.png)
-  
+
   Figura 7. Ação para "processar o pedido" (Fonte: [1]).
   </center>
 
@@ -79,7 +83,7 @@ Dentre os elementos presentes em um diagrama de atividades [1], o grupo utilizou
   ![](./assets/2.4.1.DiagramaDeAtividades/0800.png)
 
   Figura 9. Representação dos parâmetros _Login Id_ e _Password_ (Fonte: [1]).
-  
+
   </center>
 
 </details>
@@ -88,22 +92,24 @@ Dentre os elementos presentes em um diagrama de atividades [1], o grupo utilizou
 
 Para a elaboração do diagrama, a equipe de trabalho, composta pelos estudantes Davi Lima, Davi Matias e Nicolas, dividiu as atividades da seguinte maneira:
 
-1. Estudo individual sobre o assunto: Cada estudante fez um estudo sobre o diagrama UML de atividades, para se familiarizar com as particularidades da notação. Durante o período de estudo, foram registrados na [issue do GitHub (#38)](https://github.com/UnBArqDsw2023-1/2023.1_G5_ProjetoRiHappy/issues/38) os materiais utilizados durante a consulta, para posteriormente serem inseridos nas [referências](#referências).
-2. Após os estudos, cada membro elaborou um esboço do diagrama, e registrou suas conclusões e/ou esboço na [issue do GitHub (#38)](https://github.com/UnBArqDsw2023-1/2023.1_G5_ProjetoRiHappy/issues/38).
-3. Após a elaboração dos esboços, os três estudantes se reuniram durante o período da aula de dúvidas para sintetizar os elementos presentes nos esboços em uma versão final do diagrama.
+1. **Estudo individual sobre o assunto**: Para se familiarizar com as especificações da notação, cada aluno realizou um estudo individual do diagrama UML de atividades. Eles usaram vários materiais e recursos de consulta durante a pesquisa. Durante o período de estudo, foram registrados na [issue do GitHub (#38)](https://github.com/UnBArqDsw2023-1/2023.1_G5_ProjetoRiHappy/issues/38) os materiais utilizados durante a consulta, para posteriormente serem inseridos nas [referências](#referências).
+2. **Elaboração de esboços individuais**: Após concluírem soseus estudos, cada membro da equipe elaborou um esboço do diagrama e registrou suas conclusões e/ou esboço na [issue do GitHub (#38)](https://github.com/UnBArqDsw2023-1/2023.1_G5_ProjetoRiHappy/issues/38).
+3. **Reunião para reunir os elementos do diagrama**: Ao longo da aula de dúvidas, os três alunos se reuniram para discutir e sintetizar os conteúdos dos esboços individuais. O encontro teve como objetivo reunir as melhores ideias de toda an equipe para construir uma versão final do diagrama.
 
 As [ferramentas](../../1.base/processos/ferramentasutilizadas.md) utilizadas para a elaboração dos diagramas foram o [LucidChart](https://www.lucidchart.com/) e o [brModelo](http://www.sis4.com/brModelo/).
 
 ## Elaboração do Diagrama
 
+O objetivo principal da análise do problema e da criação dos artefatos RichPicture e Diagrama Causa-Efeito foi encontrar e entender os procedimentos envolvidos no sistema de avaliação de produtos. Os artefatos destacaram atividades específicas que devem ser consideradas ao implementar o sistema, enquanto a análise permitiu elencar elementos essenciais que devem estar presentes no fluxo de avaliação.
+
 Na primeira etapa do projeto, foi realizada uma [análise do problema](../../1.base/nao-especificos/abordagemnaoespecifica.md), durante a qual foi possível elencar alguns elementos que devem estar presentes no fluxo de avaliação de produtos, por meio da produção e análise dos artefatos [RichPicture](../../1.base/nao-especificos/richpicture.md) e [Diagrama Causa-Efeito](../../1.base/nao-especificos/causaefeito.md).
 
 De acordo com as conclusões provenientes do Diagrama Causa-Efeito [5], a aplicação deve:
 
-- Permitir a ordenação de avaliações;
-- Incluir avaliações de especialistas;
-- Apresentar estatísticas;
-- Encorajar avaliações de usuários.
+- **Ordenação de avaliações**: O sistema deve permitir que as avaliações sejam ordenadas por data, classificação ou relevância. Isso tornará mais fácil para os usuários ver e comparar avaliações.;
+- **Incluindo avaliações realizadas por especialistas**: O sistema deve ter a capacidade de realizar avaliações de especialistas além das avaliações de usuários. Essas avaliações podem fornecer aos usuários uma visão mais ampla do produto;
+- **Apresentação de estatísticas**: As avaliações devem permitir que o sistema produza estatísticas. Gráficos de distribuição de avaliações, médias de classificação e percentuais de recomendação podem fazer parte disso. Os usuários terão uma melhor visão geral dos produtos e poderão tomar melhores decisões de compra com a ajuda dessas estatísticas;
+- **Incentivo às avaliações de usuários**: O sistema deve incentivar os clientes a escrever avaliações sobre os produtos que compraram. Para atingir esse objetivo, você pode usar notificações, incentivos ou até mesmo recompensas para aumentar a participação dos usuários e aumentar a base de avaliações.
 
 Além disso, foram identificados as seguintes atividades no RichPicture[6]:
 
@@ -120,9 +126,8 @@ Além disso, foram identificados as seguintes atividades no RichPicture[6]:
 
 Durante a elaboração do RichPicture, a equipe de trabalho identificou que o sistema atual não fornece um _feedback_ ao usuário sobre a avaliação enviada, portando, a equipe de trabalho propõe a inserção das seguintes atividades no fluxo, para suprir essa necessidade:
 
-- O sistema envia um email para o usuário confirmando o recebimento da avaliação.
-- O sistema envia um email para o usuário indicando se a avaliação foi publicada ou não, após a avaliação.
-  - Caso não seja publicada, o email deve conter uma justificativa para a não publicação.
+- **Envio de email de confirmação**: O sistema deve enviar um email para o usuário para confirmar que a avaliação foi recebida. Isso garante ao usuário que sua avaliação foi recebida e tratada.
+- **Publicação da avaliação enviada por email**: O sistema deve enviar um email para o usuário informando se sua avaliação foi publicada ou não após a análise da avaliação pela RiHappy. Caso a avaliação não seja divulgada, o email deve conter uma explicação para a decisão de não ter sido publicada. Esse feedback é crucial para que o usuário entenda por que não foi publicado e possa tomar as medidas necessárias.
 
 A partir dos elementos supracitados, foram definidos dois fluxos principais de atividade a serem modelados na notação UML do diagrama de Atividades:
 
@@ -135,10 +140,10 @@ O usuário inicia essa atividade ao clicar em um botão "Avaliar Produto", em se
 
 1. Ele insere seus dados pessoais (email e nome **OU** efetua login)
 2. Ele insere na avaliação (atividades paralelas):
-    - Texto (obrigatório);
-    - Modelo do produto (obrigatório?) [Ex: cor];
-    - Fotos (0...n);
-    - Data de Compra (0..1);
+   - Texto (obrigatório);
+   - Modelo do produto (obrigatório?) [Ex: cor];
+   - Fotos (0...n);
+   - Data de Compra (0..1);
 3. Ele envia a avaliação
 4. Um email confirmando o recebimento da avaliação é enviado para o email do usuário
 5. A avaliação é revisada pela administração do sistema
@@ -149,11 +154,9 @@ O usuário inicia essa atividade ao clicar em um botão "Avaliar Produto", em se
 O usuário inicia essa atividade ao navegar até a seção de avaliações na página do produto, em seguida:
 
 1. O usuário pode filtrar as avaliações:
-    - Inserindo no filtro os campos opcionais: Contém Fotos?, Modelo do Produto e Data de Compra.
+   - Inserindo no filtro os campos opcionais: Contém Fotos?, Modelo do Produto e Data de Compra.
 2. O usuário pode classificar as avaliações:
-    - Para cada avaliação ele pode classificar como "relevante" ou "irrelevante".
-
-### Versões do Diagrama de Atividades
+   - Para cada avaliação ele pode classificar como "relevante" ou "irrelevante".
 
 #### Atividade - Avaliações de um Produto
 
@@ -165,6 +168,7 @@ O usuário inicia essa atividade ao navegar até a seção de avaliações na p�
 ![](./assets/2.4.1.DiagramaDeAtividades/2727.png)
 
 Figura 10. Diagrama de Atividades: Avaliação de produto, versão 1. (Fonte: elaborado por Davi Silva, 2023).
+
 </center>
 
 </details>
@@ -179,6 +183,7 @@ A segunda versão (Figura 11) contou com a inserção das partições, para sepa
 ![](./assets/2.4.1.DiagramaDeAtividades/2837.png)
 
 Figura 11. Diagrama de Atividades: Avaliação de produto, versão 2. (Fonte: elaborado por Davi Silva, 2023)
+
 </center>
 
 </details>
@@ -192,9 +197,8 @@ A partir dos elementos elencados, e das versões anteriores, a versão final do 
 ![](./assets/2.4.1.DiagramaDeAtividades/2840.png)
 
 Figura 12. Diagrama de Atividades: Avaliação de produto, versão 3. (Fonte: elaborado por Davi Lima e Nicolas Souza, 2023)
-</center>
 
-#### Atividade - Visualização de Avaliações de um Produto
+</center>
 
 #### Primeira Versão (1.0)
 
@@ -205,6 +209,7 @@ A partir dos elementos elencados, a primeira versão (1.0) foi elaborada.
 ![](./assets/2.4.1.DiagramaDeAtividades/diagrama-de-avaliacao.png)
 
 Figura 13. Diagrama de Atividades: Visualização de Avaliação, versão 1. (Fonte: elaborado por Davi Lima e Nicolas Souza, 2023)
+
 </center>
 
 ## Conclusão
@@ -226,10 +231,11 @@ O diagrama de atividades é uma excelente maneira de representar o fluxo de aval
 
 ## Histórico de versão
 
-| Versão | Data       | Descrição                                                                                                                   | Autor(es)    | Revisor(es) |
-| ------ | ---------- | --------------------------------------------------------------------------------------------------------------------------- | ------------ | ----------- |
-| `1.0`  | 10/05/2023 | Criação das pastas e arquivos da 2° entrega                                                                                 | Lucas Felipe | Nicolas     |
-| `1.1`  | 11/05/2023 | Início da Introdução, inclusão da Metodologia e início da seção Elaboração do Diagrama                                      | Nicolas      | Davi Matias |
-| `1.2`  | 13/05/2023 | Finalização da introdução, metodologia e inclusão das primeiras versões do diagrama e versão final do diagrama de avaliação | Nicolas      | Davi Matias |
-| `1.3`  | 13/05/2023 | Adição do diagrama de visualização de avaliações                                                                            | Davi Matias  | Davi Lima   |
-| `1.4`  | 13/05/2023 | Adição da conclusão                                                                                                         | Davi Lima    | Luiza Esteves   |
+| Versão | Data       | Descrição                                                                                                                   | Autor(es)     | Revisor(es)   |
+| ------ | ---------- | --------------------------------------------------------------------------------------------------------------------------- | ------------- | ------------- |
+| `1.0`  | 10/05/2023 | Criação das pastas e arquivos da 2° entrega                                                                                 | Lucas Felipe  | Nicolas       |
+| `1.1`  | 11/05/2023 | Início da Introdução, inclusão da Metodologia e início da seção Elaboração do Diagrama                                      | Nicolas       | Davi Matias   |
+| `1.2`  | 13/05/2023 | Finalização da introdução, metodologia e inclusão das primeiras versões do diagrama e versão final do diagrama de avaliação | Nicolas       | Davi Matias   |
+| `1.3`  | 13/05/2023 | Adição do diagrama de visualização de avaliações                                                                            | Davi Matias   | Davi Lima     |
+| `1.4`  | 13/05/2023 | Adição da conclusão                                                                                                         | Davi Lima     | Luiza Esteves |
+| `1.5`  | 02/07/2023 | Revisão geral                                                                                                               | Maria Abritta | Luiza Esteves |
