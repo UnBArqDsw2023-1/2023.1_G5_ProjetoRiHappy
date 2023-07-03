@@ -13,7 +13,7 @@ elaboração do mesmo. Essas ferramentas serão melhor detalhadas no documento a
     distribuídas e o gerenciamento de projetos.
 
     Essa ferramenta foi utilizada no projeto para a realização do Brainstorm,
-    do [diagrama de causa e efeito](/docs/1.Base/1.1.1.CausaEfeito.md).
+    do [diagrama de causa e efeito](../nao-especificos/causaefeito.md).
 
 - <img style="width:2vw; padding-right:5px" src="https://github.com/favicon.ico"/>[GitHub](https://github.com/)
 
@@ -34,7 +34,7 @@ elaboração do mesmo. Essas ferramentas serão melhor detalhadas no documento a
     LucidChart é uma ferramenta para modelagem de fluxos e diagramas, com uma série de ferramentas e recursos
     prontos com a possibilidade de atualizações em tempo real.
 
-    Foi utilizada no projeto para a modelagem do artefato [BPMN](./1.2.2.ModelagemBPMN.md).
+    Foi utilizada no projeto para a modelagem do artefato [BPMN](../processos/modelagembpmn.md).
 
 - <img style="width:2vw; padding-right:5px" src="https://web.telegram.org/favicon.ico"/>[Telegram](https://web.telegram.org/)
 
@@ -59,13 +59,17 @@ elaboração do mesmo. Essas ferramentas serão melhor detalhadas no documento a
     ferramentas para uma execução de formas dentro do projeto. Apesar de certa similaridade com
     o [LucidChart](https://www.lucidchart.com/pages/) foi de maior preferência pelos membros do artefato.
 
-    Foi utilizado no projeto para a confecção do [Rich picture](/docs/1.Base/1.1.2.RichPicture.md).
+    Foi utilizado no projeto para a confecção do [Rich picture](../nao-especificos/richpicture.md).
 
 - <img style="width:2vw; padding-right:5px" src="http://www.sis4.com/brModelo/favicon.ico"/>[brModelo](http://www.sis4.com/brModelo/)
 
     O [brModelo](http://www.sis4.com/brModelo/) é uma ferramenta de diagramação originalmente utilizada para modelagem de banco de dados, mas também fornece recursos para elaboração de alguns diagramas UML, como o diagrama de atividades.
 
-    Foi utilizada, em conjunto com o Lucidchart, para elaborar o [Diagrama de Atividades](../2.Modelagem/2.4.Dinamica/2.4.1.DiagramaDeAtividades.md).
+    Foi utilizada, em conjunto com o Lucidchart, para elaborar o [Diagrama de Atividades](../../2.modelagem/dinamica/diagramadeatividades.md) e o [DER](../../4.arquiteturareutilizacao/padroes/padroesarquiteturais.md#visão-de-dados)
+
+- <img style="width:2vw; padding-right:5px" src="https://creately.com/static/assets/common/icons/favicons-next/favicon-16x16.png"/>[creately](https://creately.com/favicon.icon)
+
+    É uma ferramenta de diagramação e foi utilizada para elaboração do [Diagrama de Implantação](../../4.arquiteturareutilizacao/padroes/padroesarquiteturais.md#visão-de-implantação)
 
 ### Histórico de Versão
 
@@ -73,4 +77,4 @@ elaboração do mesmo. Essas ferramentas serão melhor detalhadas no documento a
 | ------ | ---------- | -----------------------------------------            | -------------- | ---------- |
 | `1.0`  | 24/04/2023 | Adição das ferramentas do projeto                    | Lucas Felipe   | Josué Teixeira |
 | `1.1`  | 24/04/2023 | Revisão do artefato e correção de imagens            | Josué Teixeira | Lucas Gabriel  |
-| `1.2`  | 13/05/2023 | Inclusão do brModelo e ajuste no tamanho das imagens | Nicolas Souza  |       |
+| `1.2`  | 13/05/2023 | Inclusão do brModelo e ajuste no tamanho das imagens | Nicolas Souza  |  Davi Silva     |
