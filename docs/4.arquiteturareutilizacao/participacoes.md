@@ -57,4 +57,4 @@ A seguir as estatísticas de participação do projeto como um todo.
 | `1.3`  | 03/07/2023 | Adiciona participação na entrega final               | Lucas Gabriel     |              |
 | `1.4`  | 03/07/2023 | Adiciona participação na entrega final               | Lucas Gomes       | Lucas Felipe |
 | `1.5`  | 03/07/2023 | Adiciona participação na entrega final               | Luíza Esteves Gomes       | Josué Teixeira |
-| `1.5`  | 03/07/2023 | Adiciona participação na entrega final               | Josué Teixeira |  |
+| `1.6`  | 03/07/2023 | Adiciona participação na entrega final               | Josué Teixeira |  |
