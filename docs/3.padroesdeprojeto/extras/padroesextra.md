@@ -40,7 +40,7 @@ Diante disso, a incorporação do SOLID ao projeto pode ser visualizada por sua 
 A implementação pode ser observada no trecho de código a seguir em Java, demonstrando o Princípio da responsabilidade única do SOLID, no qual a classe BaseService que tem o papel de um serviço de Base para unificar a comunicação do projeto com o Banco de Dados, possuindo apenas uma responsabilidade a de realizar a comunicação do projeto com o Banco de Dados, além disso essa superclasse é herdada pelas subclasses ProdutoService, CompraService e AvaliaçãoService o que permite maior especialização no processo e contribui com o Princípio da responsabilidade única.
 
 ![BaseService](../../4.arquiteturareutilizacao/reutilizacao/assets/BaseService.jpg)
-<p class="legenda">`Trecho de código referente à BaseService`. (Fonte: Elaborado por Nicolas)</p>
+<p class="legenda">Trecho de código referente à BaseService. (Fonte: Elaborado por Nicolas)</p>
 
 > O arquivo original elaborado referente a BaseService encontra-se disponível no links: [BaseService](https://github.com/UnBArqDsw2023-1/2023.1_G5_ProjetoRiHappy/blob/main/codigo/src/main/java/br/com/rihappy/avaliacaoService/service/BaseService.java).
 
@@ -56,10 +56,10 @@ Dentro desse contexto é possível observar a importância do princípio de Sing
 
 [3] ArticleS.UncleBob.PrinciplesOfOod. Butunclebob.com. Disponível em: <http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod>. Acesso em: 12 jun. 2023.
 ‌
+
 ## Histórico de Versão
 
 | Versão | Data       | Descrição                                                                        | Autor(es)     | Revisor(es)  |
 | ------ | ---------- | -------------------------------------------------------------------------------- | ------------- | ------------ |
 | `1.0`  | 12/06/2023 | Adição da documentação do SOLID                                                  | Lucas Gabriel | Lucas Felipe |
-| `1.1`  | 03/07/2023 | Adição do trecho de código do SOLID referente ao Single Responsibility Principle | Lucas Gabriel |              |
-
+| `1.1`  | 03/07/2023 | Adição do trecho de código do SOLID referente ao Single Responsibility Principle | Lucas Gabriel | Nicolas |
