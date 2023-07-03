@@ -11,7 +11,9 @@
 | `1.4`  | 01/06/2023 | Ajustes em Bibliotecas, Ferramentas, Frameworks e Banco de Dados.                                | Lucas Gabriel e Davi Matias | Lucas Felipe              |
 | `1.5`  | 01/06/2023 | Adição da seção de Arquitetura.                                                                  | Lucas Gabriel e Davi Matias | Lucas Felipe              |
 | `1.6`  | 02/07/2023 | Adição dos trechos de código Docker.                                                             | Nicolas                     | Lucas Felipe              |
-| `1.7`  | 03/07/2023 | Adição dos trechos de código de Sobrescrita, BaseController, BaseService e Jackson ObjectMapper. | Lucas Gabriel               |  Nicolas                         |
+| `1.7`  | 03/07/2023 | Adição dos trechos de código de Sobrescrita, BaseController, BaseService e Jackson ObjectMapper. | Lucas Gabriel               | Nicolas                   |
+| `1.8`  | 04/07/2023 | Ajustes finais                                                                                   | Davi Lima                   |     Nicolas                     |
+    
 
 ## Introdução
 
@@ -22,8 +24,8 @@ sistemas.
 ## Metodologia
 
 O artefato está sendo elaborado seguindo os pontos de vista coletados e discutidos pelo grupo e aprovado pela
-professora. Para elaboração do mesmo. As principais discussões foram trazidas para dentro da issue do repositório
-no [Github]("https://github.com/UnBArqDsw2023-1/2023.1_G5_ProjetoRiHappy/issues/16").
+professora. Para elaboração do mesmo. As principais discussões foram trazidas para dentro da issue 16 que pode ser acessada através do link do repositório
+no [Github](https://github.com/UnBArqDsw2023-1/2023.1_G5_ProjetoRiHappy/issues/16).
 
 ## Reutilização Interna
 
