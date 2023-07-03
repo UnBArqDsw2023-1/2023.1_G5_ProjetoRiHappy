@@ -4,17 +4,19 @@
 
 A elicitação de requisitos por parte do grupo se deu a partir da elaboração de um
 artefato [Rich Picture](../../1.base/nao-especificos/richpicture.md), através dele foi possível trazer várias
-funcionalidades importante dentro do nosso escopo, mas não todas. Tendo em vista esse problema, podemos definir que
-existem requisitos não funcionais que qualquer software deve seguir, a figura abaixo mostra alguns exemplos que não são
+funcionalidades importantes dentro do nosso escopo, mas não todas. Tendo em vista esse problema, podemos definir que
+existem requisitos não funcionais que qualquer software deve seguir, a figura 1 abaixo mostra alguns exemplos que não são
 exceção para o site da RiHappy.
 
 ![Figura 1](../assets/reutilizacao/reqN-Func.png)
 
 <p class="legenda">Requisitos de um sistema (Fonte: Ian Sommerville, 2009.)</p>
 
-Alguns requisitos funcionais que são reutilizáveis para qualquer site de vendas seriam: "cliente não pode realizar
-avaliação sem estar logado", "são necessárias camadas de segurança diferentes para administrador, comprador, visitante e
-vendedor", "a avaliação deve ser enviada para analise antes de ser mostrada no site"
+Alguns requisitos funcionais que são reutilizáveis para qualquer site de vendas seriam: 
+- "cliente não pode realizar avaliação sem estar logado"
+- "são necessárias camadas de segurança diferentes para administrador, comprador, visitante e
+vendedor" 
+- "a avaliação deve ser enviada para analise antes de ser mostrada no site"
 
 #### Plano de Custo, Risco e Tempo
 
@@ -39,15 +41,15 @@ e metodologias, por parte de algum outro grupo que tenham um contexto similar ao
 
 ### Modelagem
 
-Dentro do nosso desenvolvimento para a entrega 2 criamos alguns tipos de modelagem e através dos diagramas produzidos
-conseguimos destacar nos diagramas estáticos exemplos passiveis de reutilização,
-no [diagrama de pacotes](../../2.modelagem/estatica/diagramadepacotes.md) conseguimos ver uma visão geral de projeto,
-definido em back end, front end e dados, que é uma visão padrão para projeto que pode ser reutilizada em diversos
+Dentro do nosso desenvolvimento para a entrega 2 criamos alguns tipos de modelagem, através dos diagramas produzidos
+conseguimos destacar principalmente nos diagramas estáticos exemplos passiveis de reutilização,
+no [diagrama de pacotes](../../2.modelagem/estatica/diagramadepacotes.md) conseguimos ter uma visão geral de projeto,
+definido em back end, front end e dados, que é uma visão padrão para projetos e que pode ser reutilizada em diversos
 contextos. Os diagramas dinâmicos entram num nível de implementação maior da aplicação, resultando assim num uso mais
-especifico ao nosso contexto, a reutilização deles se dariam apenas em um contexto extremamente similar ao nosso
+especifico ao nosso contexto, a reutilização deles se dariam apenas em um contexto extremamente similar ao do nosso
 projeto.
 
-Revisitando nosso [diagrama de classes](docs/2.modelagem/estatica/diagramadeclasses.md) podemos separar pelo menos três
+Revisitando nosso [diagrama de classes](docs/2.modelagem/estatica/diagramadeclasses.md) pudemos separar pelo menos três
 exemplos de possíveis casos de reutilização do nosso projeto, sendo esses, Listagem, Usuário e BaseService.
 
 Listagem - o exemplo de listagem entra como um tipo de reutilização em dois contextos, um deles é a utilização do padrão
