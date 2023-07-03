@@ -1,9 +1,14 @@
 # Referência: https://sabe.io/tutorials/serve-static-files-nginx-docker
 
+# Utiliza a imagem base do nginx para servir os arquivos estáticos.
 FROM nginx:alpine
+
 
 WORKDIR /app/static
 
+# Copia os arquivos estáticos, que estão na pasta front, para o container, na pasta /app/static do container.
 COPY front .
 
+# Sobrescreve o arquivo de configuração do nginx, no container, com as configurações específicas para a aplicação rihappy.
 COPY front/conf/nginx.conf /etc/nginx/nginx.conf
+

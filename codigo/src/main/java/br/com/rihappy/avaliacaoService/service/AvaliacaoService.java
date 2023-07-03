@@ -53,7 +53,8 @@ public class AvaliacaoService extends BaseService<Avaliacao, AvaliacaoFilter> {
         Boolean isFit = true;
         for (Avaliacao a : this.registros.values()) {
 
-            if (filtro.getCompraVerificada() != null)
+            if (filtro.getCompraVerificada() != null) {
+            }
 
         }
 
