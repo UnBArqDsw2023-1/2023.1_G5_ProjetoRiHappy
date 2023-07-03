@@ -2,17 +2,17 @@
 
 ## Histórico de Versão
 
-| Versão | Data       | Descrição                                                                                        | Autor(es)                   | Revisor(es)               |
-| ------ | ---------- | ------------------------------------------------------------------------------------------------ | --------------------------- | ------------------------- |
-| `1.0`  | 13/06/2023 | Criação do documento com estrutura padrão.                                                       | Lucas Felipe                | Nicolas                   |
-| `1.1`  | 24/06/2023 | Adição da Padronização, introdução, metodologia e reutilização interna.                          | Davi Lima e Guilherme       | João Pedro e Lucas Felipe |
-| `1.2`  | 28/06/2023 | Adição de Bibliotecas e Ferramentas.                                                             | Davi Matias e Lucas Gabriel | Lucas Felipe              |
-| `1.3`  | 30/06/2023 | Adição de Frameworks e Banco de Dados.                                                           | Lucas Gabriel e Davi Matias | Lucas Felipe              |
-| `1.4`  | 01/06/2023 | Ajustes em Bibliotecas, Ferramentas, Frameworks e Banco de Dados.                                | Lucas Gabriel e Davi Matias | Lucas Felipe              |
-| `1.5`  | 01/06/2023 | Adição da seção de Arquitetura.                                                                  | Lucas Gabriel e Davi Matias | Lucas Felipe              |
-| `1.6`  | 02/07/2023 | Adição dos trechos de código Docker.                                                             | Nicolas                     | Lucas Felipe              |
-| `1.7`  | 03/07/2023 | Adição dos trechos de código de Sobrescrita, BaseController, BaseService e Jackson ObjectMapper. | Lucas Gabriel               | Nicolas                   |
-| `1.8`  | 04/07/2023 | Ajustes finais                                                                                   | Davi Lima                   |     Nicolas                     |
+| Versão | Data       | Descrição                                                                                              | Autor(es)                   | Revisor(es)               |
+| ------ | ---------- | ------------------------------------------------------------------------------------------------------ | --------------------------- | ------------------------- |
+| `1.0`  | 13/06/2023 | Criação do documento com estrutura padrão.                                                             | Lucas Felipe                | Nicolas                   |
+| `1.1`  | 24/06/2023 | Adição da Padronização, introdução, metodologia e reutilização interna.                                | Davi Lima e Guilherme       | João Pedro e Lucas Felipe |
+| `1.2`  | 28/06/2023 | Adição de Bibliotecas e Ferramentas.                                                                   | Davi Matias e Lucas Gabriel | Lucas Felipe              |
+| `1.3`  | 30/06/2023 | Adição de Frameworks e Banco de Dados.                                                                 | Lucas Gabriel e Davi Matias | Lucas Felipe              |
+| `1.4`  | 01/06/2023 | Ajustes em Bibliotecas, Ferramentas, Frameworks e Banco de Dados.                                      | Lucas Gabriel e Davi Matias | Lucas Felipe              |
+| `1.5`  | 01/06/2023 | Adição da seção de Arquitetura.                                                                        | Lucas Gabriel e Davi Matias | Lucas Felipe              |
+| `1.6`  | 02/07/2023 | Adição dos trechos de código Docker.                                                                   | Nicolas                     | Lucas Felipe              |
+| `1.7`  | 03/07/2023 | Documentação dos trechos de código de Sobrescrita, BaseController, BaseService e Jackson ObjectMapper. | Lucas Gabriel               | Nicolas                   |
+| `1.8`  | 04/07/2023 | Ajustes finais.                                                                                        | Davi Lima                   | Nicolas                   |
     
 
 ## Introdução
