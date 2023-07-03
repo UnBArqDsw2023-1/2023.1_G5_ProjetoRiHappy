@@ -134,12 +134,12 @@ há a ocorrência de uma Sobrescrita do método listar da classe AvaliacaoServic
 
 > O arquivo original elaborado encontra-se disponível no link: [Sobrescrita](https://github.com/UnBArqDsw2023-1/2023.1_G5_ProjetoRiHappy/blob/main/codigo/src/main/java/br/com/rihappy/avaliacaoService/controller/AvaliacaoController.java).
 
-Ademais, foi criada uma BaseService que tem o papel de um serviço de Base para unificar a comunicação do projeto com o Banco de Dados, a qual está em consonância com a modelagem realizada no Documento de Arquitetura de Software na seção de [Visão Lógica](../padroes/padroesarquiteturais.md#visão-lógica) e com o intuito que essa possa ser reutilizada em qualquer projeto com uma API REST foi criada uma BaseController para responder as requisições HTTP.
-
-![BaseController](./assets/BaseController.jpg)
-<p class="legenda">`Trecho de código referente à BaseController`. (Fonte: Nicolas)</p>
+Ademais, foi criada uma BaseService que tem o papel de um serviço de Base para unificar a comunicação do projeto com o Banco de Dados, a qual está em consonância com a modelagem realizada no Documento de Arquitetura de Software na seção de [Visão Lógica](../padroes/padroesarquiteturais.md#visão-lógica) e com o intuito que essa possa ser reutilizada em qualquer projeto com uma API REST foi criada uma BaseController para responder as requisições HTTP. Ambas podem ser observadas nos trechos de código a seguir.
 
 ![BaseService](./assets/BaseService.jpg)
 <p class="legenda">`Trecho de código referente à BaseService`. (Fonte: Nicolas)</p>
 
-> Os arquivos originais elaborado referentes a BaseController e BaseService encontram-se disponível nos links: [BaseController](hhttps://github.com/UnBArqDsw2023-1/2023.1_G5_ProjetoRiHappy/blob/main/codigo/src/main/java/br/com/rihappy/avaliacaoService/controller/BaseController.java) e [BaseService](https://github.com/UnBArqDsw2023-1/2023.1_G5_ProjetoRiHappy/blob/main/codigo/src/main/java/br/com/rihappy/avaliacaoService/service/BaseService.java).
+![BaseController](./assets/BaseController.jpg)
+<p class="legenda">`Trecho de código referente à BaseController`. (Fonte: Nicolas)</p>
+
+> Os arquivos originais elaborado referentes a BaseService e BaseController encontram-se disponível nos links: [BaseService](https://github.com/UnBArqDsw2023-1/2023.1_G5_ProjetoRiHappy/blob/main/codigo/src/main/java/br/com/rihappy/avaliacaoService/service/BaseService.java) e [BaseController](hhttps://github.com/UnBArqDsw2023-1/2023.1_G5_ProjetoRiHappy/blob/main/codigo/src/main/java/br/com/rihappy/avaliacaoService/controller/BaseController.java).
