@@ -18,6 +18,7 @@
 - [Ata de 31/05/2023](/0.planejamento/atas/ata_31_05_2023.md)
 - [Ata de 14/06/2023](/0.planejamento/atas/ata_14_06_2023.md)
 - [Ata de 21/06/2023](/0.planejamento/atas/ata_21_06_2023.md)
+- [Ata de 28/06/2023](/0.planejamento/atas/ata_28_06_2023.md)
 
 </details>
 </details>
@@ -74,8 +75,8 @@
 <summary class="activated-menu"> Arquitetura & Reutilização de Software </summary>
 
 - [Arquitetura & Reutilização de Software](/4.arquiteturareutilizacao/arquiteturareutilizacao.md)
-- [Estilos e Padrões Arquiteturais](/4.arquiteturareutilizacao/padroes/padroesarquiteturais.md)
-- [Reutilização de Software](/4.arquiteturareutilizacao/reutilizacao/reutilizacaodesoftware.md)
+  - [Documento de Arquitetura de Software](/4.arquiteturareutilizacao/padroes/padroesarquiteturais.md)
+  - [Reutilização de Software](/4.arquiteturareutilizacao/reutilizacao/reutilizacaodesoftware.md)
 - [Participações](/4.arquiteturareutilizacao/participacoes.md)
 
 </details>
