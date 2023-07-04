@@ -12,7 +12,7 @@ Breve relato sobre as participações/contribuições de cada membro à entrega.
 | Josué          | Participação nas discussões e modelagens das [visões lógicas](https://unbarqdsw2023-1.github.io/2023.1_G5_ProjetoRiHappy/#/4.arquiteturareutilizacao/padroes/padroesarquiteturais?id=vis%c3%a3o-l%c3%b3gica) e de [implementação](https://unbarqdsw2023-1.github.io/2023.1_G5_ProjetoRiHappy/#/4.arquiteturareutilizacao/padroes/padroesarquiteturais?id=diagrama-de-componentes)    | [Issue #82](https://github.com/UnBArqDsw2023-1/2023.1_G5_ProjetoRiHappy/issues/82)                                                                              | Excelente |  
 | Nicolas        | Participação nas discussões, modelagem das visões [de dados](./padroes/padroesarquiteturais.md#visão-de-dados) e [de implantação](./padroes/padroesarquiteturais.md#visão-de-implantação), e elaboração de um documento de [visão geral da entrega](./arquiteturareutilizacao.md). | [Issue #82](https://github.com/UnBArqDsw2023-1/2023.1_G5_ProjetoRiHappy/issues/82)                        | a definir |  
 | Lucas Gomes       | Participação nas discussões e modelagem da [visão de processos](../4.arquiteturareutilizacao/padroes/processos.md)  | [Issue #82](https://github.com/UnBArqDsw2023-1/2023.1_G5_ProjetoRiHappy/issues/82)                        | Excelente |  
-|Maria Abritta    | Participação nas discussões e modelagem da visão de [implementação](https://unbarqdsw2023-1.github.io/2023.1_G5_ProjetoRiHappy/#/4.arquiteturareutilizacao/padroes/padroesarquiteturais?id=diagrama-de-componentes) | [Issue #82](https://github.com/UnBArqDsw2023-1/2023.1_G5_ProjetoRiHappy/issues/82)                        | Excelente |  
+|Maria Abritta    | Participação nas discussões e modelagem da visão de processos e de [implementação](https://unbarqdsw2023-1.github.io/2023.1_G5_ProjetoRiHappy/#/4.arquiteturareutilizacao/padroes/padroesarquiteturais?id=diagrama-de-componentes) | [Issue #82](https://github.com/UnBArqDsw2023-1/2023.1_G5_ProjetoRiHappy/issues/82)                        | Excelente |   
 
 ## Reutilização de software
 
@@ -30,6 +30,7 @@ Breve relato sobre as participações/contribuições de cada membro à entrega.
 | -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
 | Nicolas        | Implementação de código referente ao [Padrão de Projeto Emergente SOLID](../3.padroesdeprojeto/extras/padroesextra?id=padr%c3%b5es-de-projeto-emergentes)                             | Excelente  |
 | Lucas Gabriel  | Ajuste na modelagem e adição da documentação da implementação do [Padrão de Projeto Emergente SOLID](../3.padroesdeprojeto/extras/padroesextra?id=padr%c3%b5es-de-projeto-emergentes) | Boa        |
+| Maria Abritta  |  Ajuste no diagrama de atividade referente as modificações solicitadas pela professora | Boa        |
 
 ## Estatísticas de Participação (Período de 13/06 a 03/07)
 
@@ -56,7 +57,8 @@ A seguir as estatísticas de participação do projeto como um todo.
 | `1.2`  | 03/07/2023 | Adiciona participação na entrega final               | Davi Silva Matias   |              |
 | `1.3`  | 03/07/2023 | Adiciona participação na entrega final               | Lucas Gabriel       |              |
 | `1.4`  | 03/07/2023 | Adiciona participação na entrega final               | Lucas Gomes         | Lucas Felipe |
-| `1.5`  | 03/07/2023 | Adiciona participação na entrega final               | Luíza Esteves Gomes |              |
+| `1.5`  | 03/07/2023 | Adiciona participação na entrega final               | Luíza Esteves Gomes | Maria Abritta|
 | `1.6`  | 03/07/2023 | Adiciona participação na entrega final               | Nicolas             |              |
-| `1.7`  | 03/07/2023 | Adiciona participação na entrega final               | Josué Teixeira      |              |
+| `1.7`  | 03/07/2023 | Adiciona participação na entrega final               | Josué Teixeira      | Maria Abritta|
 | `1.8`  | 03/07/2023 | Adiciona participação na entrega final               | Guilherme           |              |
+| `1.9`  | 03/07/2023 | Adiciona participação na entrega final               | Maria Abritta       |              |
